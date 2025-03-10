@@ -1,0 +1,333 @@
+Driver script for phase_find_common job phase_pharm_1_find_common
+Current time: Wed Jul 21 13:12:02 2021
+Host name: dreanos
+Number of CPUs requested = 1
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f7f2f1
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+Invoking phase_find_common binary to do initial setup:
+phase_find_common /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -JOBHOST localhost:1 -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -setup
+
+********************************************************************************
+
+Host name: dreanos
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f7f2f1
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Wed Jul 21 13:12:02 2021
+
+Project archive = "/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-JOBHOST localhost:1
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-setup
+-site 1.0
+-sites 4:5
+-vect 1.0
+-vol 1.0
+
+Doing setup for subjobs
+
+Unzipping /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_setup . . .
+
+Number of actives = 2
+Number of active groups = 2
+Maximum allowed misses = 0
+Number of reference ligands = 2
+Number of CPUs requested = 1
+Writing subjob template lists to phase_pharm_1_find_common_templates.csv
+
+Removing directory phase_pharm_1_find_common_setup
+
+CPU time = 0.00 sec
+Elapsed time = 0.00 sec
+
+phase_find_common successfully completed
+Control returned to phase_find_common driver script
+
+Launching phase_find_common subjobs . . .
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  dreanos-0-60f7f2f3 phase_pharm_1_find_common_sub_1 localhost [dreanos]
+1 0 0 | finished  dreanos-0-60f7f2f3 phase_pharm_1_find_common_sub_1 localhost [dreanos]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Invoking phase_find_common binary to combine subjobs:
+phase_find_common /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -JOBHOST localhost:1 -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -cleanup
+
+********************************************************************************
+
+Host name: dreanos
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f7f2f1
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Wed Jul 21 13:12:10 2021
+
+Project archive = "/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-JOBHOST localhost:1
+-cleanup
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-site 1.0
+-sites 4:5
+-vect 1.0
+-vol 1.0
+
+Combining results of completed subjobs . . .
+
+*** Contents of phase_pharm_1_find_common_sub_1.log ***
+
+Driver script for phase_find_common subjob phase_pharm_1_find_common_sub_1
+Current time: Wed Jul 21 13:12:04 2021
+Host name: dreanos
+Number of CPUs requested = 1
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f7f2f3
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+Invoking phase_find_common binary to find and score common pharmacophores:
+phase_find_common /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -subjob phase_pharm_1_find_common_sub_1
+
+********************************************************************************
+
+Host name: dreanos
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f7f2f3
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Wed Jul 21 13:12:04 2021
+
+Project archive = "/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-site 1.0
+-sites 4:5
+-subjob phase_pharm_1_find_common_sub_1
+-vect 1.0
+-vol 1.0
+
+Unzipping /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_sub_1_project . . .
+
+********************************************************************************
+
+Aligning actives to 50 conformers of reference ligand mol_1 (1 of 2) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 2 active groups . . .
+
+Refining matches and alignments . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Surviving common pharmacophore counts for reference ligand mol_1:
+4-point: 10
+5-point: 10
+  Total: 20
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 10
+5-point: 10
+  Total: 20
+
+********************************************************************************
+
+Aligning actives to 48 conformers of reference ligand mol_2 (2 of 2) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 2 active groups . . .
+
+Refining matches and alignments . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Surviving common pharmacophore counts for reference ligand mol_2:
+4-point: 10
+5-point: 10
+  Total: 20
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 20
+5-point: 20
+  Total: 40
+
+********************************************************************************
+
+All reference ligands assigned to this subjob have been processed.
+
+Total number of active --> reference alignments performed = 4800
+
+Final surviving common pharmacophore counts:
+4-point: 20
+5-point: 20
+  Total: 40
+
+Saving common pharmacophores to directory phase_pharm_1_find_common_sub_1_hypotheses . . .
+Zipping phase_pharm_1_find_common_sub_1_hypotheses to phase_pharm_1_find_common_sub_1_hypotheses.zip . . .
+Removing directory phase_pharm_1_find_common_sub_1_hypotheses
+Removing directory phase_pharm_1_find_common_sub_1_project
+
+CPU time = 3.88 sec
+Elapsed time = 4.00 sec
+
+phase_find_common successfully completed
+
+Driver script for phase_find_common subjob phase_pharm_1_find_common_sub_1 finished
+Current time: Wed Jul 21 13:12:08 2021
+Elapsed time = 0:00:04.50
+phase_find_common results for phase_pharm_1_find_common_sub_1 are complete
+
+*** End of phase_pharm_1_find_common_sub_1.log ***
+
+Unzipping /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_cleanup . . .
+
+Processing phase_pharm_1_find_common_sub_1 results . . .
+Unzipping phase_pharm_1_find_common_sub_1_hypotheses.zip . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_0.pharm . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_1.pharm . . .
+Removing directory phase_pharm_1_find_common_sub_1_hypotheses
+
+Merging pharmacophores from all subjobs . . .
+
+Final surviving common pharmacophore counts:
+4-point: 10
+5-point: 10
+  Total: 20
+
+Preparing short virtual screens to compute PhaseHypoScore for 20 surviving common pharmacophore hypotheses . . .
+
+Creating phase_pharm_1_find_common_actives/actives.phprj with default conformers . . .
+/home/dreano/schrodinger2019-4/internal/bin/phase_database
+[running at reduced cpu priority]
+/home/dreano/schrodinger2019-4/internal/bin/phase_database
+[running at reduced cpu priority]
+
+Unzipping decoys archive /home/dreano/schrodinger2019-4/internal/data/phase/pharma_decoys.phzip to directory phase_pharm_1_find_common_decoys . . .
+Writing hypotheses to phase_pharm_1_find_common_bedroc_hypotheses . . .
+Zipping hypotheses to "/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_bedroc_hypotheses.zip" . . . 
+
+Running short virtual screens for PhaseHypoScore:
+"/home/dreano/schrodinger2019-4/phase_screen" "phase_pharm_1_find_common_bedroc_proj.list" "/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_bedroc_hypotheses.zip" phase_pharm_1_find_common_bedroc_screens -d 2.0 -aw 1 -vw 1 -volw 1 -nosort -HOST "localhost:1" -WAIT . . .
+JobId: dreanos-0-60f7f304
+
+Short virtual screens for PhaseHypoScore completed. Processing hits . . .
+
+Computing BEDROC for PhaseHypoScore . . .
+
+Removing directory phase_pharm_1_find_common_actives
+Removing directory phase_pharm_1_find_common_decoys
+
+Elapsed time to perform active/decoy screens = 202.00 sec
+
+Compiling final results and writing to directory phase_pharm_1_find_common_find_common . . .
+20% complete
+40% complete
+60% complete
+80% complete
+100% complete
+
+Zipping phase_pharm_1_find_common_find_common to phase_pharm_1_find_common_find_common.zip . . .
+Removing directory phase_pharm_1_find_common_find_common
+Removing directory phase_pharm_1_find_common_cleanup
+
+CPU time = 12.18 sec
+Elapsed time = 203.00 sec
+
+phase_find_common successfully completed
+
+Driver script for phase_find_common job phase_pharm_1_find_common finished
+Current time: Wed Jul 21 13:15:33 2021
+Elapsed time = 0:03:31.41
+phase_find_common results for phase_pharm_1_find_common are complete
+[running at reduced cpu priority]

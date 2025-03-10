@@ -1,0 +1,198 @@
+Driver script for fast_shape job ShapeScreenTask_2
+Current time: Wed Jul 21 01:07:13 2021
+Number of CPUs requested = 1
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74910
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+Invoking fast_shape binary to do initial setup:
+fast_shape -shape reference_ligand.mae -screen ligands_to_align.mae -JOB ShapeScreenTask_2 -flex -sample thorough -max 1000 -JOBHOST localhost -setup
+
+********************************************************************************
+
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74910
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+fast_shape: Wed Jul 21 01:07:14 2021
+
+Shape query = "reference_ligand.mae"
+Screening source = "ligands_to_align.mae"
+
+Options:
+-JOB ShapeScreenTask_2
+-JOBHOST localhost
+-flex
+-max 1000
+-sample thorough
+-setup
+
+Doing setup for subjobs . . .
+
+Setup for subjobs complete
+
+CPU time = 0.00 sec
+Elapsed time = 0.00 sec
+
+fast_shape successfully completed
+
+Control returned to fast_shape driver script
+
+Launching fast_shape subjobs . . .
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  dreanos-0-60f74912 ShapeScreenTask_2_sub_1 localhost [dreanos]
+1 0 0 | finished  dreanos-0-60f74912 ShapeScreenTask_2_sub_1 localhost [dreanos]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+Invoking fast_shape binary to combine subjobs:
+fast_shape -shape reference_ligand.mae -screen ligands_to_align.mae -JOB ShapeScreenTask_2 -flex -sample thorough -max 1000 -JOBHOST localhost -cleanup
+
+********************************************************************************
+
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74910
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+fast_shape: Wed Jul 21 01:07:17 2021
+
+Shape query = "reference_ligand.mae"
+Screening source = "ligands_to_align.mae"
+
+Options:
+-JOB ShapeScreenTask_2
+-JOBHOST localhost
+-cleanup
+-flex
+-max 1000
+-sample thorough
+
+Combining results of completed subjobs . . .
+
+*** Contents of ShapeScreenTask_2_sub_1_shape.log ***
+
+Driver script for fast_shape subjob ShapeScreenTask_2_sub_1
+Current time: Wed Jul 21 01:07:15 2021
+Number of CPUs requested = 1
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74912
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+Invoking fast_shape binary to screen structures:
+fast_shape -shape reference_ligand.mae -screen ShapeScreenTask_2_sub_1.list -JOB ShapeScreenTask_2 -subjob ShapeScreenTask_2_sub_1 -flex -sample thorough -max 1000 -JOBHOST localhost
+
+********************************************************************************
+
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74912
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+fast_shape: Wed Jul 21 01:07:15 2021
+
+Shape query = "reference_ligand.mae"
+Screening source = "ShapeScreenTask_2_sub_1.list"
+
+Options:
+-JOB ShapeScreenTask_2
+-JOBHOST localhost
+-flex
+-max 1000
+-sample thorough
+-subjob ShapeScreenTask_2_sub_1
+
+Spawning fast_shape subprocess to screen file "ligands_to_align.mae" (1 of 1):
+fast_shape -shape "reference_ligand.mae" -screen "ligands_to_align.mae" -JOB ShapeScreenTask_2 -JOBHOST localhost -flex -max 1000 -sample thorough -subjob ShapeScreenTask_2_sub_1 -subproc
+
+********************************************************************************
+
+SCHRODINGER=/home/dreano/schrodinger2019-4
+SCHRODINGER_JOBID=dreanos-0-60f74912
+MMSHARE_EXEC=/home/dreano/schrodinger2019-4/mmshare-v4.8/bin/Linux-x86_64
+
+********************************************************************************
+
+fast_shape: Wed Jul 21 01:07:15 2021
+
+Shape query = "reference_ligand.mae"
+Screening source = "ligands_to_align.mae"
+
+Options:
+-JOB ShapeScreenTask_2
+-JOBHOST localhost
+-flex
+-max 1000
+-sample thorough
+-subjob ShapeScreenTask_2_sub_1
+-subproc
+
+Screening structures in ligands_to_align.mae . . .
+
+Title,#Confs,#Alignments,#Screened
+"mPP-0293",1000,1,1
+"mPP-0398",48,1,2
+
+Number of molecules screened = 2
+Number of conformers screened = 1048
+
+CPU time = 1.02 sec
+Elapsed time = 1.00 sec
+
+fast_shape successfully completed
+
+********************************************************************************
+
+All structures assigned to subjob ShapeScreenTask_2_sub_1 have been processed
+
+CPU time = 0.01 sec
+Elapsed time = 1.00 sec
+
+fast_shape successfully completed
+
+Driver script for fast_shape subjob ShapeScreenTask_2_sub_1 finished
+Current time: Wed Jul 21 01:07:16 2021
+Elapsed time = 0:00:01.52
+fast_shape results for ShapeScreenTask_2_sub_1 are complete
+
+*** End of ShapeScreenTask_2_sub_1_shape.log ***
+
+Concatenating aligned structures from completed subjobs
+
+Concatenating structures from ShapeScreenTask_2_sub_1_align.maegz to ShapeScreenTask_2_align.maegz . . . 
+Number of aligned structures concatenated so far = 2
+
+CPU time = 0.00 sec
+Elapsed time = 0.00 sec
+
+fast_shape successfully completed
+
+Driver script for fast_shape job ShapeScreenTask_2 finished
+Current time: Wed Jul 21 01:07:17 2021
+Elapsed time = 0:00:03.95
+fast_shape results for ShapeScreenTask_2 are complete
+[running at reduced cpu priority]

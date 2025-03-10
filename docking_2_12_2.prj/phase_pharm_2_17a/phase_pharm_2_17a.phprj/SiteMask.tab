@@ -1,0 +1,30 @@
+################################################################################
+#                                                                              #
+# Site masks for all actives. You may change the mask values in the last       #
+# column, but do not make any other modifications to this file.                #
+#                                                                              #
+################################################################################
+BEGIN_SITE_MASK for mol_1
+0 A 0
+1 A 0
+2 A 0
+3 A 0
+4 H 0
+5 H 0
+6 H 0
+7 R 0
+8 R 0
+9 R 0
+BEGIN_SITE_MASK for mol_2
+0 A 0
+1 A 0
+2 A 0
+3 A 0
+4 H 0
+5 H 0
+6 H 0
+7 H 0
+8 R 0
+9 R 0
+10 R 0
+11 R 0

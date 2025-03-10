@@ -1,0 +1,55 @@
+********************************************************************************
+
+phase_database: Wed Jul 21 13:11:56 2021
+
+Database = /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = import
+Job name = phase_pharm_1_import
+Options:
+-NOJOBID
+-fd phase_pharm_1.def
+-fmt xyz
+-i phase_pharm_1-out.maegz
+-multi
+-new
+-stereo
+-verbose
+
+Adding molecules to database . . .
+
+LIGAND_NAME = block_1/mol_1  # Title = "mPP-0293"  Confs = 50
+LIGAND_NAME = block_1/mol_2  # Title = "mPP-0398"  Confs = 48
+
+A total of 2 records added
+Total number of records stored = 2
+
+********************************************************************************
+
+phase_database: Wed Jul 21 13:11:59 2021
+
+Database = /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = revise
+Job name = phase_pharm_1_sites
+Options:
+-NOJOBID
+-role parent
+-setup
+-sites
+
+Setup for parent job complete
+
+********************************************************************************
+
+phase_database: Wed Jul 21 13:12:00 2021
+
+Database = /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = revise
+Job name = phase_pharm_1_sites
+Options:
+-cleanup
+-role parent
+
+Revision of 2 out of 2 records completed
+Average number of conformers per revised record = 49.00
+Total number of records stored = 2
+

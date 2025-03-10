@@ -1,0 +1,324 @@
+--- This project was created on Wed Jul  7 16:59:13 2021
+
+-----
+Wed Jul  7 16:59:15 2021
+Imported file:
+/home/dreano/.schrodinger/canvas42/cnvetjxdAPNdLFw3.cnv/scratch/tmpMaeFile.mae
+
+-----
+Wed Jul  7 17:04:36 2021
+Imported file:
+/home/dreano/.schrodinger/tmp/tproj50352a917634/6qxa.pdb
+
+-----
+Wed Jul  7 17:06:58 2021
+Starting LigPrep
+Job name: ligprep_1
+Job ID: dreanos-0-60e5b502
+
+-----
+Thu Jul  8 18:57:30 2021
+Starting LigPrep
+Job name: ligprep_2
+Job ID: dreanos-0-60e7206a
+
+-----
+Thu Jul  8 19:06:11 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_1
+Job ID: dreanos-0-60e72273
+
+-----
+Thu Jul  8 21:33:22 2021
+Starting Ligand Docking
+Job name: xp_docking_6QXA_cmpd_2_12
+Job ID: dreanos-0-60e744f0
+
+-----
+Mon Jul 12 17:19:59 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_GCB_A
+Job ID: dreanos-0-60ec4f8e
+
+-----
+Mon Jul 12 17:20:48 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_GCB_A_2
+Job ID: dreanos-0-60ec4fc0
+
+-----
+Mon Jul 12 17:22:42 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_GCB_A_3
+Job ID: dreanos-0-60ec5032
+
+-----
+Tue Jul 13 15:40:24 2021
+Starting Ligand Docking
+Job name: xp_docking_6QXA_cmpd_2_13_GCB_A_3
+Job ID: dreanos-0-60ed89b8
+
+-----
+Tue Jul 13 15:46:26 2021
+Starting Ligand Docking
+Job name: xp_docking_6QXA_cmpd_2_13_2
+Job ID: dreanos-0-60ed8b22
+
+-----
+Thu Jul 15 17:16:44 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_GCB_A_3/xp_docking_6QXA_cmpd_2_13_GCB_A_3.maegz
+
+-----
+Thu Jul 15 17:17:36 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_2/xp_docking_6QXA_cmpd_2_13_2.maegz
+
+-----
+Thu Jul 15 17:17:48 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_GCB_A_3/xp_docking_6QXA_cmpd_2_13_GCB_A_3.maegz
+
+-----
+Thu Jul 15 17:18:29 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_2/xp_docking_6QXA_cmpd_2_13_2.maegz
+
+-----
+Thu Jul 15 17:18:35 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_2/xp_docking_6QXA_cmpd_2_13_2_pv.maegz
+
+-----
+Thu Jul 15 17:18:57 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/xp_docking_6QXA_cmpd_2_13_GCB_A_3/xp_docking_6QXA_cmpd_2_13_GCB_A_3_pv.maegz
+
+-----
+Tue Jul 20 17:06:49 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_PP_site
+Job ID: dreanos-0-60f6d878
+
+-----
+Tue Jul 20 19:01:08 2021
+Starting Ligand Docking
+Job name: glide-dock_XP_PP_sites
+Job ID: dreanos-0-60f6f344
+
+-----
+Tue Jul 20 19:05:21 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_PP_site/glide-grid_PP_site.maegz
+
+-----
+Tue Jul 20 19:06:08 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-dock_XP_PP_sites/glide-dock_XP_PP_sites.maegz
+
+-----
+Tue Jul 20 19:08:57 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_PP_site/glide-grid_PP_site.maegz
+
+-----
+Tue Jul 20 19:13:50 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_PP_site_2
+Job ID: dreanos-0-60f6f63d
+
+-----
+Tue Jul 20 19:27:04 2021
+Starting Ligand Docking
+Job name: glide-dock_XP_PP_sites_2
+Job ID: dreanos-0-60f6f958
+
+-----
+Tue Jul 20 19:29:21 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_PP_site_2/glide-grid_PP_site_2.maegz
+
+-----
+Tue Jul 20 19:29:48 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_PP_site_2/glide-grid_PP_site_2.maegz
+
+-----
+Tue Jul 20 19:33:55 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12.prj/glide-dock_XP_PP_sites_2/glide-dock_XP_PP_sites_2.maegz
+
+-----
+Tue Jul 20 19:58:05 2021
+Imported file:
+Hypothesis_0224.phypo
+
+-----
+Tue Jul 20 19:59:06 2021
+Imported file:
+Hypothesis_0293.phypo
+
+-----
+Tue Jul 20 20:00:44 2021
+Imported file:
+Hypothesis_0293-1.phypo
+
+-----
+Tue Jul 20 20:01:04 2021
+Imported file:
+Hypothesis_0293-2.phypo
+
+-----
+Tue Jul 20 20:01:50 2021
+Imported file:
+Hypothesis_0293-3.phypo
+
+-----
+Tue Jul 20 20:21:53 2021
+Imported file:
+Hypothesis_1.phypo
+
+-----
+Tue Jul 20 20:30:40 2021
+Imported file:
+Hypothesis_2.phypo
+
+-----
+Tue Jul 20 20:43:12 2021
+Imported file:
+Hypothesis_3.phypo
+
+-----
+Tue Jul 20 20:46:30 2021
+Imported file:
+Hypothesis_4.phypo
+
+-----
+Tue Jul 20 20:47:45 2021
+Imported file:
+Hypothesis_5.phypo
+
+-----
+Tue Jul 20 21:58:18 2021
+Starting LigPrep
+Job name: ligprep_3
+Job ID: dreanos-0-60f71cca
+
+-----
+Tue Jul 20 21:58:54 2021
+Imported file:
+Hypothesis_17a.phypo
+
+-----
+Tue Jul 20 22:48:56 2021
+Imported file:
+Hypothesis_17a_12.phypo
+
+-----
+Wed Jul 21 00:40:17 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-grid_GCB_A/glide-grid_GCB_A.maegz
+
+-----
+Wed Jul 21 00:42:14 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-grid_GCB_A_2/glide-grid_GCB_A_2.maegz
+
+-----
+Wed Jul 21 01:00:48 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_17a
+Job ID: dreanos-0-60f74790
+
+-----
+Wed Jul 21 01:22:44 2021
+Starting Ligand Docking
+Job name: glide-dock_SP_1
+Job ID: dreanos-0-60f74cb4
+
+-----
+Wed Jul 21 11:00:13 2021
+Starting Ligand Docking
+Job name: glide-dock_XP_17a
+Job ID: dreanos-0-60f7d40c
+
+-----
+Wed Jul 21 12:46:16 2021
+Starting Induced Fit Docking
+Job name: InducedFit_1
+Job ID: dreanos-0-60f7ece8
+Host:localhost
+
+-----
+Wed Jul 21 12:46:16 2021
+Starting Induced Fit Docking
+Job name: InducedFit_1
+Job ID: dreanos-0-60f7ece8
+
+-----
+Thu Jul 22 12:48:15 2021
+Starting Induced Fit Docking
+Job name: InducedFit_2
+Job ID: dreanos-0-60f93edf
+Host:localhost
+
+-----
+Thu Jul 22 12:48:15 2021
+Starting Induced Fit Docking
+Job name: InducedFit_2
+Job ID: dreanos-0-60f93edf
+
+-----
+Thu Jul 22 13:03:33 2021
+Starting Induced Fit Docking
+Job name: InducedFit_3
+Job ID: dreanos-0-60f94274
+Host:localhost
+
+-----
+Thu Jul 22 13:03:33 2021
+Starting Induced Fit Docking
+Job name: InducedFit_3
+Job ID: dreanos-0-60f94274
+
+-----
+Thu Jul 22 13:07:05 2021
+Imported file:
+Hypothesis_cpd2.phypo
+
+-----
+Thu Jul 22 13:08:11 2021
+Imported file:
+Hypothesis_cpd17a.phypo
+
+-----
+Thu Jul 22 14:16:16 2021
+Imported file:
+Hypothesis_cpd17a_1.phypo
+
+-----
+Thu Jul 22 14:20:08 2021
+Imported file:
+Hypothesis_cpd12.phypo
+
+-----
+Fri Jul 23 15:03:39 2021
+Starting Receptor Grid Generation
+Job name: glide-grid_PP_clean
+Job ID: dreanos-0-60fab01b
+
+-----
+Fri Jul 23 15:24:30 2021
+Starting Ligand Docking
+Job name: glide-dock_XP_PP_clean
+Job ID: dreanos-0-60fab4fd
+
+-----
+Sat Jul 24 13:02:38 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12_2.prj/InducedFit_3/InducedFit_3-out.maegz
+
+-----
+Sat Jul 24 13:07:07 2021
+Imported file:
+/home/dreano/Desktop/mppase/docking_2_12_2.prj/InducedFit_3/InducedFit_3-out.maegz

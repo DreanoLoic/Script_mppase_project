@@ -1,0 +1,43 @@
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60ec4f8e
+Name           : glide-grid_GCB_A
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_GCB_A
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-grid_GCB_A
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide glide-grid_GCB_A.in -OVERWRITE -HOST localhost -PROJ /home/dreano/Desktop/mppase/docking_2_12.prj -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2021-07-12-17:19:59
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Glide: WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: with title: 6QXA - preprocessed
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  20947 20948 
+mmlewis warning: Now attempting to fix the lewis structure.
+Glide: FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  20948
+Glide: FATAL mmlewis_apply(): Unable to handle mol 30
+Glide: WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: with title: 6QXA - preprocessed
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  20954 20956 20957 20958 20959 20960 20962 20965 20966 20967 
+mmlewis warning: Now attempting to fix the lewis structure.
+Glide: FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  20960 20962
+Glide: FATAL mmlewis_apply(): Unable to handle mol 31
+Glide: FATAL mmlewis_apply(): Error in handling of full CT
+run_mmlewis: Failed to generate a valid lewis structure.
+Calling OPLS3e atomtyping ...
+atomtype_parms_w(): warning: Structure does not appear to have a valid lewis structure
+Parameter assignment not performed
+GLIDE WARNING: Molecule unsuitable for current force field.
+GLIDE FATAL ERROR: Failed to atomtype a non-ligand structure; status=2
+[running at reduced cpu priority]

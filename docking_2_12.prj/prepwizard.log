@@ -1,0 +1,98 @@
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(20925, 20912, 2), (20966, 20965, 2), (20914, 20933, 2), (20913, 20917, 2), (20919, 20918, 2), (20924, 20923, 2), (21014, 21017, 2), (20962, 20961, 2), (20993, 20996, 2), (20952, 20971, 2), (21037, 21038, 2), (21036, 21055, 2), (21077, 21080, 2), (20959, 20958, 2), (20915, 20916, 2), (20963, 20950, 2), (20901, 20904, 2), (21050, 21049, 2), (20906, 20909, 2), (21043, 21042, 2), (21009, 21012, 2), (20951, 20955, 2), (21035, 21039, 2), (21046, 21045, 2), (20921, 20920, 2), (21082, 21085, 2), (21048, 21056, 2), (20928, 20927, 2), (20957, 20956, 2), (20998, 21001, 2), (20964, 20972, 2), (20953, 20954, 2), (20926, 20934, 2), (21041, 21040, 2), (21047, 21034, 2)}
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+  NEW HET 1 atoms: [20896]
+  NEW HET 2 atoms: [20897]
+  NEW HET 3 atoms: [20898]
+  NEW HET 4 atoms: [20899]
+  NEW HET 5 atoms: [20900]
+  NEW HET 6 atoms: [20901, 20902, 20903, 20904, 20905, 20906, 20907, 20908, 20909]
+  NEW HET 7 atoms: [20910]
+  NEW HET 8 atoms: [20911]
+  NEW HET 9 atoms: [20912, 20913, 20914, 20915, 20916, 20917, 20918, 20919, 20920, 20921, 20922, 20923, 20924, 20925, 20926, 20927, 20928, 20929, 20930, 20931, 20932, 20933, 20934]
+  NEW HET 10 atoms: [20950, 20951, 20952, 20953, 20954, 20955, 20956, 20957, 20958, 20959, 20960, 20961, 20962, 20963, 20964, 20965, 20966, 20967, 20968, 20969, 20970, 20971, 20972]
+  NEW HET 11 atoms: [20988]
+  NEW HET 12 atoms: [20989]
+  NEW HET 13 atoms: [20990]
+  NEW HET 14 atoms: [20991]
+  NEW HET 15 atoms: [20992]
+  NEW HET 16 atoms: [20993, 20994, 20995, 20996, 20997, 20998, 20999, 21000, 21001]
+  NEW HET 17 atoms: [21002]
+  NEW HET 18 atoms: [21003]
+  NEW HET 19 atoms: [21004]
+  NEW HET 20 atoms: [21005]
+  NEW HET 21 atoms: [21006]
+  NEW HET 22 atoms: [21007]
+  NEW HET 23 atoms: [21008]
+  NEW HET 24 atoms: [21009, 21010, 21011, 21012, 21013, 21014, 21015, 21016, 21017]
+  NEW HET 25 atoms: [21018, 21019, 21020, 21021, 21022, 21023, 21024, 21025]
+  NEW HET 26 atoms: [21034, 21035, 21036, 21037, 21038, 21039, 21040, 21041, 21042, 21043, 21044, 21045, 21046, 21047, 21048, 21049, 21050, 21051, 21052, 21053, 21054, 21055, 21056]
+  NEW HET 27 atoms: [21072]
+  NEW HET 28 atoms: [21073]
+  NEW HET 29 atoms: [21074]
+  NEW HET 30 atoms: [21075]
+  NEW HET 31 atoms: [21076]
+  NEW HET 32 atoms: [21077, 21078, 21079, 21080, 21081, 21082, 21083, 21084, 21085]
+  NEW HET 33 atoms: [21086]
+  NEW HET 34 atoms: [21087]
+
+Found 8 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+The following atoms (4) were overlapping: (20984, 42405), (38289, 42280)
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  Assigned the following bonds (format: atom1, atom2, order): {(20925, 20912, 2), (20966, 20965, 2), (20914, 20933, 2), (20913, 20917, 2), (20919, 20918, 2), (20924, 20923, 2), (21014, 21017, 2), (20962, 20961, 2), (20993, 20996, 2), (20952, 20971, 2), (21037, 21038, 2), (21036, 21055, 2), (21077, 21080, 2), (20959, 20958, 2), (20915, 20916, 2), (20963, 20950, 2), (20901, 20904, 2), (21050, 21049, 2), (20906, 20909, 2), (21043, 21042, 2), (21009, 21012, 2), (20951, 20955, 2), (21035, 21039, 2), (21046, 21045, 2), (20921, 20920, 2), (21082, 21085, 2), (21048, 21056, 2), (20928, 20927, 2), (20957, 20956, 2), (20998, 21001, 2), (20964, 20972, 2), (20953, 20954, 2), (20926, 20934, 2), (21041, 21040, 2), (21047, 21034, 2)}
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+  NEW HET 1 atoms: [20896]
+  NEW HET 2 atoms: [20897]
+  NEW HET 3 atoms: [20898]
+  NEW HET 4 atoms: [20899]
+  NEW HET 5 atoms: [20900]
+  NEW HET 6 atoms: [20901, 20902, 20903, 20904, 20905, 20906, 20907, 20908, 20909]
+  NEW HET 7 atoms: [20910]
+  NEW HET 8 atoms: [20911]
+  NEW HET 9 atoms: [20912, 20913, 20914, 20915, 20916, 20917, 20918, 20919, 20920, 20921, 20922, 20923, 20924, 20925, 20926, 20927, 20928, 20929, 20930, 20931, 20932, 20933, 20934]
+  NEW HET 10 atoms: [20950, 20951, 20952, 20953, 20954, 20955, 20956, 20957, 20958, 20959, 20960, 20961, 20962, 20963, 20964, 20965, 20966, 20967, 20968, 20969, 20970, 20971, 20972]
+  NEW HET 11 atoms: [20988]
+  NEW HET 12 atoms: [20989]
+  NEW HET 13 atoms: [20990]
+  NEW HET 14 atoms: [20991]
+  NEW HET 15 atoms: [20992]
+  NEW HET 16 atoms: [20993, 20994, 20995, 20996, 20997, 20998, 20999, 21000, 21001]
+  NEW HET 17 atoms: [21002]
+  NEW HET 18 atoms: [21003]
+  NEW HET 19 atoms: [21004]
+  NEW HET 20 atoms: [21005]
+  NEW HET 21 atoms: [21006]
+  NEW HET 22 atoms: [21007]
+  NEW HET 23 atoms: [21008]
+  NEW HET 24 atoms: [21009, 21010, 21011, 21012, 21013, 21014, 21015, 21016, 21017]
+  NEW HET 25 atoms: [21018, 21019, 21020, 21021, 21022, 21023, 21024, 21025]
+  NEW HET 26 atoms: [21034, 21035, 21036, 21037, 21038, 21039, 21040, 21041, 21042, 21043, 21044, 21045, 21046, 21047, 21048, 21049, 21050, 21051, 21052, 21053, 21054, 21055, 21056]
+  NEW HET 27 atoms: [21072]
+  NEW HET 28 atoms: [21073]
+  NEW HET 29 atoms: [21074]
+  NEW HET 30 atoms: [21075]
+  NEW HET 31 atoms: [21076]
+  NEW HET 32 atoms: [21077, 21078, 21079, 21080, 21081, 21082, 21083, 21084, 21085]
+  NEW HET 33 atoms: [21086]
+  NEW HET 34 atoms: [21087]
+
+Found 8 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+
+The following atoms (4) were overlapping: (20984, 42405), (38289, 42280)

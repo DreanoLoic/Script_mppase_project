@@ -1,0 +1,5 @@
+GRIDFILE   /home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-grid_17a/glide-grid_17a.zip
+LIGANDFILE   glide-dock_SP_1.maegz
+POSES_PER_LIG   20
+POSTDOCK_NPOSE   30
+PRECISION   SP

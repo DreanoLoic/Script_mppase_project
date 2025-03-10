@@ -1,0 +1,5742 @@
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f7f304
+Name           : phase_pharm_1_find_common_bedroc_screens
+Program        : phase_screen
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/phase_pharm_1
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/phase_pharm_1_find_common_bedroc_screens
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/phase_screen phase_pharm_1_find_common_bedroc_proj.list /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_bedroc_hypotheses.zip phase_pharm_1_find_common_bedroc_screens -d 2.0 -aw 1 -vw 1 -volw 1 -nosort -HOST localhost:1 -WAIT
+StartTime      : 2021-07-21-13:12:20
+--------------------------------------------------------------------------------
+
+phase_screen: Wed Jul 21 13:12:21 2021
+
+Screening structures in:
+/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip
+/home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip
+Hypotheses:
+hypo_13 (feature types = HRRR)
+hypo_1 (feature types = AHRRR)
+hypo_8 (feature types = AHHRR)
+hypo_11 (feature types = HRRR)
+hypo_16 (feature types = AHRR)
+hypo_5 (feature types = AHHRR)
+hypo_18 (feature types = AHRR)
+hypo_2 (feature types = AHRRR)
+hypo_7 (feature types = AHHRR)
+hypo_10 (feature types = HHRRR)
+hypo_19 (feature types = AHRR)
+hypo_3 (feature types = AHRRR)
+hypo_12 (feature types = HRRR)
+hypo_9 (feature types = AHHRR)
+hypo_6 (feature types = AHHRR)
+hypo_20 (feature types = AHRR)
+hypo_15 (feature types = AHRR)
+hypo_14 (feature types = AHRR)
+hypo_17 (feature types = HHRR)
+hypo_4 (feature types = AHRRR)
+Job name: phase_pharm_1_find_common_bedroc_screens
+Options:
+-d 2.0
+-nosort
+-aw 1.0
+-vw 1.0
+-volw 1.0
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: 0
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  dreanos-0-60f7f306 phase_pharm_1_find_common_bedroc_screens_sub_1 localhost [dreanos]
+1 0 0 | finished  dreanos-0-60f7f306 phase_pharm_1_find_common_bedroc_screens_sub_1 localhost [dreanos]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+Combining subjob log files
+
+*** Contents of phase_pharm_1_find_common_bedroc_screens_sub_1.log ***
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f7f306
+Name           : phase_pharm_1_find_common_bedroc_screens_sub_1
+Program        : phase_screen
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/phase_pharm_1_find_common_bedroc_screens
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/phase_pharm_1_find_common_bedroc_screens_sub_1
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/phase_screen phase_pharm_1_find_common_bedroc_proj.list phase_pharm_1_find_common_bedroc_screens_hypo_files/phase_pharm_1_find_common_bedroc_screens_sub_1_hypos.zip phase_pharm_1_find_common_bedroc_screens_sub_1 -subjob -d 2.0 -nosort -aw 1.0 -vw 1.0 -volw 1.0 -HOST localhost
+StartTime      : 2021-07-21-13:12:23
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_13 (1 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+[running at reduced cpu priority]
+
+Finding hits to hypo_13 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,212,1
+mol_2,81,232,2
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 2
+Number of conformers screened = 181
+Number of matches found = 444
+Number of molecules that produced matches = 2
+Number of hits processed = 2
+
+CPU time = 0.22 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_1 (2 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_1 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,149,3
+mol_2,81,462,4
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 4
+Number of conformers screened = 362
+Number of matches found = 1055
+Number of molecules that produced matches = 4
+Number of hits processed = 4
+
+CPU time = 0.24 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_8 (3 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_8 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,38,5
+mol_2,81,143,6
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 6
+Number of conformers screened = 543
+Number of matches found = 1236
+Number of molecules that produced matches = 6
+Number of hits processed = 6
+
+CPU time = 0.20 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_11 (4 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_11 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,272,7
+mol_2,81,103,8
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 8
+Number of conformers screened = 724
+Number of matches found = 1611
+Number of molecules that produced matches = 8
+Number of hits processed = 8
+
+CPU time = 0.19 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_16 (5 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_16 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,557,9
+mol_2,81,376,10
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 10
+Number of conformers screened = 905
+Number of matches found = 2544
+Number of molecules that produced matches = 10
+Number of hits processed = 10
+
+CPU time = 0.28 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_5 (6 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_5 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,51,11
+mol_2,81,156,12
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 12
+Number of conformers screened = 1086
+Number of matches found = 2751
+Number of molecules that produced matches = 12
+Number of hits processed = 12
+
+CPU time = 0.19 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_18 (7 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_18 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,162,13
+mol_2,81,476,14
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 14
+Number of conformers screened = 1267
+Number of matches found = 3389
+Number of molecules that produced matches = 14
+Number of hits processed = 14
+
+CPU time = 0.23 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_2 (8 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_2 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,148,15
+mol_2,81,458,16
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 16
+Number of conformers screened = 1448
+Number of matches found = 3995
+Number of molecules that produced matches = 16
+Number of hits processed = 16
+
+CPU time = 0.24 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_7 (9 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_7 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,46,17
+mol_2,81,125,18
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 18
+Number of conformers screened = 1629
+Number of matches found = 4166
+Number of molecules that produced matches = 18
+Number of hits processed = 18
+
+CPU time = 0.18 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_10 (10 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_10 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,10,19
+mol_2,81,57,20
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 20
+Number of conformers screened = 1810
+Number of matches found = 4233
+Number of molecules that produced matches = 20
+Number of hits processed = 20
+
+CPU time = 0.15 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_19 (11 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_19 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,144,21
+mol_2,81,398,22
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 22
+Number of conformers screened = 1991
+Number of matches found = 4775
+Number of molecules that produced matches = 22
+Number of hits processed = 22
+
+CPU time = 0.20 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_3 (12 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_3 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,127,23
+mol_2,81,186,24
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 24
+Number of conformers screened = 2172
+Number of matches found = 5088
+Number of molecules that produced matches = 24
+Number of hits processed = 24
+
+CPU time = 0.19 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_12 (13 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_12 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,266,25
+mol_2,81,234,26
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 26
+Number of conformers screened = 2353
+Number of matches found = 5588
+Number of molecules that produced matches = 26
+Number of hits processed = 26
+
+CPU time = 0.21 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_9 (14 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_9 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,130,27
+mol_2,81,155,28
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 28
+Number of conformers screened = 2534
+Number of matches found = 5873
+Number of molecules that produced matches = 28
+Number of hits processed = 28
+
+CPU time = 0.19 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_6 (15 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_6 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,46,29
+mol_2,81,120,30
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 30
+Number of conformers screened = 2715
+Number of matches found = 6039
+Number of molecules that produced matches = 30
+Number of hits processed = 30
+
+CPU time = 0.18 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_20 (16 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_20 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,158,31
+mol_2,81,483,32
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 32
+Number of conformers screened = 2896
+Number of matches found = 6680
+Number of molecules that produced matches = 32
+Number of hits processed = 32
+
+CPU time = 0.23 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_15 (17 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_15 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,657,33
+mol_2,81,560,34
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 34
+Number of conformers screened = 3077
+Number of matches found = 7897
+Number of molecules that produced matches = 34
+Number of hits processed = 34
+
+CPU time = 0.30 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_14 (18 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_14 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,642,35
+mol_2,81,721,36
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 36
+Number of conformers screened = 3258
+Number of matches found = 9260
+Number of molecules that produced matches = 36
+Number of hits processed = 36
+
+CPU time = 0.33 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_17 (19 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_17 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,162,37
+mol_2,81,207,38
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 38
+Number of conformers screened = 3439
+Number of matches found = 9629
+Number of molecules that produced matches = 38
+Number of hits processed = 38
+
+CPU time = 0.19 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_actives/actives.phzip (project 1 of 2)
+Hypothesis: hypo_4 (20 of 20)
+
+Pre-screening 2 database records using 2D/3D index . . .
+Number of records matched = 2
+Pre-screen CPU time = 0.00 sec
+
+Finding hits to hypo_4 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_1,100,158,39
+mol_2,81,354,40
+
+Finished screening current batch of 2 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 40
+Number of conformers screened = 3620
+Number of matches found = 10141
+Number of molecules that produced matches = 40
+Number of hits processed = 40
+
+CPU time = 0.24 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_13 (1 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 611
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_13 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_63,8,16,47
+mol_149,8,4,70
+mol_177,16,16,80
+mol_187,12,12,86
+mol_188,60,3,87
+mol_189,30,36,88
+mol_196,27,17,93
+mol_206,50,19,96
+mol_208,12,6,98
+mol_239,18,14,110
+mol_248,40,23,114
+mol_253,8,4,117
+mol_260,12,19,122
+mol_280,41,28,133
+mol_282,80,24,134
+mol_289,16,24,136
+mol_291,50,9,138
+mol_298,50,6,144
+mol_305,50,36,150
+mol_313,30,18,156
+mol_320,12,24,161
+mol_334,80,6,168
+mol_336,40,20,169
+mol_339,8,6,171
+mol_341,47,16,172
+mol_351,60,16,179
+mol_364,24,15,184
+mol_365,40,18,185
+mol_379,50,9,191
+mol_384,48,12,193
+mol_399,70,1,205
+mol_405,80,1,210
+mol_407,40,38,211
+mol_413,90,34,215
+mol_418,32,14,220
+mol_425,70,6,227
+mol_430,36,36,231
+mol_434,50,74,235
+mol_435,70,60,236
+mol_441,70,41,240
+mol_448,80,7,244
+mol_454,90,10,247
+mol_457,70,42,250
+mol_458,50,50,251
+mol_463,70,21,252
+mol_465,4,4,254
+mol_466,12,12,255
+mol_468,16,6,256
+mol_469,80,26,257
+mol_475,60,60,262
+mol_476,50,12,263
+mol_481,70,2,266
+mol_483,60,8,268
+mol_489,70,7,273
+mol_490,60,27,274
+mol_492,60,8,275
+mol_494,18,18,277
+mol_502,35,8,282
+mol_503,30,12,283
+mol_505,70,15,285
+mol_506,6,4,286
+mol_509,50,55,289
+mol_512,60,36,291
+mol_522,90,62,298
+mol_530,70,21,305
+mol_533,12,24,306
+mol_536,90,2,309
+mol_537,16,18,310
+mol_538,56,12,311
+mol_540,16,8,312
+mol_545,32,16,315
+mol_546,80,12,316
+mol_547,70,39,317
+mol_549,60,111,318
+mol_550,60,44,319
+mol_557,6,6,324
+mol_566,50,16,330
+mol_572,60,41,333
+mol_574,50,27,335
+mol_575,100,9,336
+mol_579,60,39,339
+mol_580,70,26,340
+mol_583,50,5,343
+mol_588,50,15,348
+mol_593,30,32,351
+mol_600,70,33,356
+mol_601,60,37,357
+mol_608,13,13,359
+mol_610,60,24,360
+mol_614,33,11,363
+mol_616,50,29,364
+mol_618,90,6,365
+mol_619,60,2,366
+mol_620,100,7,367
+mol_621,70,70,368
+mol_623,60,17,369
+mol_626,24,30,372
+mol_629,100,23,375
+mol_632,80,80,378
+mol_634,70,26,379
+mol_635,60,43,380
+mol_636,80,1,381
+mol_638,90,6,383
+mol_639,80,70,384
+mol_640,60,103,385
+mol_644,80,15,387
+mol_645,90,19,388
+mol_650,16,56,390
+mol_656,32,18,394
+mol_657,60,67,395
+mol_661,100,14,398
+mol_662,70,4,399
+mol_666,80,24,403
+mol_667,50,100,404
+mol_668,50,100,405
+mol_669,80,138,406
+mol_677,70,10,411
+mol_680,40,38,413
+mol_684,50,275,417
+mol_686,70,70,419
+mol_691,42,6,422
+mol_696,70,31,424
+mol_702,80,41,429
+mol_709,80,43,434
+mol_713,70,101,435
+mol_714,60,119,436
+mol_719,100,22,440
+mol_721,70,1,441
+mol_726,70,26,445
+mol_727,50,43,446
+mol_730,70,48,448
+mol_734,100,24,450
+mol_741,98,1,454
+mol_747,60,14,457
+mol_757,80,4,463
+mol_759,70,7,464
+mol_760,90,42,465
+mol_763,70,8,468
+mol_764,69,9,469
+mol_765,9,2,470
+mol_766,90,8,471
+mol_768,100,95,473
+mol_783,100,37,484
+mol_794,60,38,489
+mol_804,90,29,494
+mol_805,90,32,495
+mol_806,100,33,496
+mol_808,70,311,498
+mol_809,80,26,499
+mol_813,90,268,501
+mol_818,98,2,505
+mol_819,90,2,506
+mol_820,90,175,507
+mol_822,90,64,509
+mol_825,100,35,511
+mol_833,36,108,516
+mol_836,90,44,518
+mol_837,80,29,519
+mol_839,36,72,520
+mol_841,40,3,522
+mol_843,70,368,523
+mol_844,90,36,524
+mol_845,60,72,525
+mol_848,80,40,527
+mol_851,80,13,530
+mol_852,100,5,531
+mol_853,90,82,532
+mol_854,100,4,533
+mol_858,60,68,537
+mol_859,100,2,538
+mol_860,80,9,539
+mol_863,100,81,541
+mol_864,100,2,542
+mol_866,80,18,544
+mol_867,100,4,545
+mol_868,70,49,546
+mol_869,80,25,547
+mol_870,70,104,548
+mol_871,40,20,549
+mol_873,80,6,550
+mol_876,60,225,552
+mol_877,80,53,553
+mol_879,100,3,555
+mol_880,100,206,556
+mol_882,100,79,558
+mol_885,48,10,559
+mol_886,100,2,560
+mol_889,100,9,562
+mol_894,100,116,566
+mol_895,100,89,567
+mol_898,36,6,569
+mol_899,90,25,570
+mol_901,100,28,571
+mol_907,90,35,576
+mol_910,60,60,578
+mol_911,60,120,579
+mol_912,100,1,580
+mol_915,100,89,583
+mol_919,80,16,587
+mol_920,100,15,588
+mol_921,100,76,589
+mol_924,100,27,592
+mol_925,100,95,593
+mol_926,90,88,594
+mol_927,80,41,595
+mol_928,70,181,596
+mol_929,100,170,597
+mol_930,70,148,598
+mol_933,90,65,600
+mol_934,80,267,601
+mol_935,100,95,602
+mol_937,100,4,604
+mol_938,100,182,605
+mol_939,100,2,606
+mol_940,100,97,607
+mol_941,28,5,608
+mol_943,87,11,610
+mol_945,100,2,611
+mol_948,100,200,613
+mol_951,16,24,616
+mol_952,100,44,617
+mol_954,80,4,618
+mol_955,100,16,619
+mol_960,60,91,622
+mol_963,100,75,623
+mol_966,100,21,626
+mol_970,100,40,628
+mol_971,100,46,629
+mol_974,100,6,631
+mol_976,100,132,633
+mol_977,100,2,634
+mol_978,100,14,635
+mol_982,80,90,638
+mol_986,100,21,640
+mol_990,10,16,643
+mol_991,100,132,644
+mol_994,100,30,645
+mol_995,100,1,646
+mol_996,90,101,647
+mol_997,100,75,648
+mol_998,100,167,649
+mol_999,80,568,650
+mol_1000,100,45,651
+
+Finished screening current batch of 611 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 651
+Number of conformers screened = 38982
+Number of matches found = 21251
+Number of molecules that produced matches = 283
+Number of hits processed = 283
+
+CPU time = 6.96 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_1 (2 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 526
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_1 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_187,12,12,677
+mol_188,60,1,678
+mol_189,30,7,679
+mol_196,27,17,683
+mol_248,40,19,692
+mol_260,12,1,700
+mol_280,41,7,707
+mol_282,80,1,708
+mol_289,16,24,710
+mol_298,50,4,716
+mol_305,50,36,722
+mol_313,30,14,726
+mol_320,12,18,729
+mol_334,80,2,736
+mol_364,24,18,746
+mol_365,40,17,747
+mol_384,48,12,752
+mol_407,40,20,765
+mol_413,90,4,768
+mol_418,32,14,771
+mol_430,36,36,779
+mol_434,50,22,782
+mol_435,70,92,783
+mol_441,70,41,787
+mol_448,80,2,789
+mol_457,70,10,795
+mol_458,50,48,796
+mol_463,70,10,797
+mol_468,16,3,801
+mol_481,70,6,811
+mol_483,60,3,813
+mol_489,70,11,818
+mol_490,60,26,819
+mol_505,70,11,830
+mol_509,50,36,834
+mol_512,60,25,836
+mol_530,70,5,848
+mol_537,16,36,852
+mol_538,56,2,853
+mol_540,16,8,854
+mol_545,32,8,857
+mol_547,70,18,859
+mol_549,60,118,860
+mol_566,50,6,870
+mol_572,60,41,873
+mol_574,50,27,875
+mol_580,70,6,880
+mol_583,50,10,883
+mol_593,30,16,889
+mol_600,70,17,894
+mol_601,60,39,895
+mol_608,13,10,897
+mol_610,60,3,898
+mol_614,33,4,900
+mol_616,50,29,901
+mol_618,90,7,902
+mol_621,70,70,905
+mol_623,60,1,906
+mol_626,24,18,908
+mol_632,80,75,914
+mol_634,70,8,915
+mol_635,60,26,916
+mol_636,80,1,917
+mol_639,80,17,920
+mol_640,60,103,921
+mol_644,80,10,923
+mol_645,90,6,924
+mol_650,16,12,926
+mol_656,32,16,930
+mol_657,60,79,931
+mol_661,100,4,934
+mol_666,80,11,939
+mol_667,50,100,940
+mol_668,50,100,941
+mol_669,80,218,942
+mol_677,70,7,947
+mol_680,40,25,949
+mol_684,50,27,952
+mol_686,70,35,954
+mol_691,42,4,957
+mol_696,70,15,959
+mol_702,80,7,963
+mol_709,80,6,967
+mol_713,70,75,968
+mol_714,60,36,969
+mol_719,100,10,973
+mol_726,70,12,976
+mol_727,50,31,977
+mol_730,70,7,979
+mol_734,100,3,981
+mol_747,60,8,987
+mol_757,80,1,993
+mol_760,90,1,995
+mol_763,70,4,998
+mol_765,9,2,1000
+mol_768,100,7,1003
+mol_783,100,30,1012
+mol_794,60,26,1017
+mol_804,90,17,1022
+mol_805,90,14,1023
+mol_806,100,10,1024
+mol_808,70,10,1026
+mol_809,80,19,1027
+mol_819,90,2,1034
+mol_820,90,69,1035
+mol_822,90,18,1037
+mol_825,100,26,1039
+mol_833,36,41,1044
+mol_836,90,6,1046
+mol_844,90,7,1052
+mol_845,60,33,1053
+mol_848,80,19,1054
+mol_853,90,81,1058
+mol_854,100,5,1059
+mol_858,60,22,1063
+mol_859,100,1,1064
+mol_865,100,1,1069
+mol_868,70,43,1072
+mol_869,80,17,1073
+mol_870,70,55,1074
+mol_871,40,20,1075
+mol_873,80,4,1076
+mol_876,60,27,1078
+mol_882,100,79,1084
+mol_886,100,1,1086
+mol_889,100,10,1088
+mol_899,90,17,1096
+mol_901,100,1,1097
+mol_907,90,14,1102
+mol_909,100,2,1103
+mol_919,80,13,1113
+mol_920,100,11,1114
+mol_921,100,3,1115
+mol_924,100,27,1118
+mol_925,100,88,1119
+mol_927,80,2,1121
+mol_929,100,15,1123
+mol_930,70,69,1124
+mol_933,90,44,1126
+mol_935,100,104,1128
+mol_938,100,18,1131
+mol_940,100,5,1133
+mol_941,28,4,1134
+mol_943,87,25,1136
+mol_951,16,6,1142
+mol_954,80,4,1144
+mol_955,100,4,1145
+mol_960,60,48,1148
+mol_963,100,13,1149
+mol_966,100,1,1152
+mol_968,90,1,1153
+mol_970,100,6,1154
+mol_971,100,16,1155
+mol_974,100,4,1157
+mol_976,100,54,1159
+mol_982,80,114,1164
+mol_986,100,7,1166
+mol_990,10,5,1169
+mol_991,100,45,1170
+mol_994,100,7,1171
+mol_997,100,19,1174
+mol_998,100,92,1175
+mol_999,80,12,1176
+mol_1000,100,26,1177
+
+Finished screening current batch of 526 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 1177
+Number of conformers screened = 71588
+Number of matches found = 25148
+Number of molecules that produced matches = 447
+Number of hits processed = 447
+
+CPU time = 5.67 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_8 (3 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 392
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_8 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_113,10,23,1184
+mol_153,40,40,1191
+mol_167,48,29,1196
+mol_171,40,2,1197
+mol_179,3,1,1198
+mol_182,70,3,1199
+mol_187,12,2,1202
+mol_221,50,1,1210
+mol_248,40,5,1219
+mol_249,16,11,1220
+mol_275,15,20,1227
+mol_288,100,64,1229
+mol_300,13,6,1233
+mol_313,30,27,1238
+mol_320,12,4,1240
+mol_336,40,39,1243
+mol_346,70,109,1247
+mol_350,40,27,1249
+mol_365,40,6,1252
+mol_389,50,8,1258
+mol_393,7,6,1260
+mol_405,80,3,1263
+mol_415,70,9,1267
+mol_435,70,160,1270
+mol_437,24,72,1271
+mol_456,50,78,1281
+mol_457,70,45,1282
+mol_470,34,8,1287
+mol_481,70,18,1289
+mol_505,70,4,1297
+mol_509,50,25,1299
+mol_512,60,155,1301
+mol_516,70,4,1304
+mol_519,70,360,1307
+mol_526,50,109,1308
+mol_530,70,25,1309
+mol_540,16,8,1313
+mol_551,12,3,1318
+mol_559,70,158,1320
+mol_561,100,25,1322
+mol_575,100,5,1327
+mol_579,60,6,1329
+mol_580,70,1,1330
+mol_587,60,95,1334
+mol_593,30,14,1336
+mol_601,60,1,1341
+mol_614,33,2,1347
+mol_616,50,9,1348
+mol_621,70,19,1350
+mol_624,70,79,1351
+mol_629,100,3,1354
+mol_636,80,8,1357
+mol_637,56,3,1358
+mol_638,90,4,1359
+mol_639,80,42,1360
+mol_640,60,17,1361
+mol_650,16,6,1365
+mol_655,90,22,1368
+mol_656,32,8,1369
+mol_666,80,1,1373
+mol_667,50,19,1374
+mol_668,50,22,1375
+mol_669,80,61,1376
+mol_676,24,41,1377
+mol_679,1,4,1378
+mol_680,40,51,1379
+mol_691,42,8,1386
+mol_702,80,1,1390
+mol_704,70,166,1391
+mol_706,56,140,1392
+mol_707,80,232,1393
+mol_709,80,17,1394
+mol_716,52,68,1397
+mol_720,70,22,1400
+mol_723,70,278,1402
+mol_727,50,74,1404
+mol_730,70,3,1406
+mol_731,36,120,1407
+mol_735,100,10,1409
+mol_738,70,95,1410
+mol_747,60,4,1414
+mol_748,60,64,1415
+mol_765,9,24,1421
+mol_768,100,9,1424
+mol_772,100,8,1426
+mol_794,60,20,1433
+mol_803,100,162,1438
+mol_806,100,31,1441
+mol_808,70,1,1442
+mol_809,80,3,1443
+mol_810,34,1,1444
+mol_812,100,10,1445
+mol_817,100,6,1447
+mol_819,90,20,1448
+mol_820,90,6,1449
+mol_821,80,177,1450
+mol_822,90,24,1451
+mol_825,100,69,1452
+mol_834,60,53,1458
+mol_843,70,2,1461
+mol_847,100,33,1463
+mol_851,80,19,1466
+mol_853,90,29,1467
+mol_854,100,4,1468
+mol_855,80,203,1469
+mol_868,70,7,1479
+mol_877,80,195,1484
+mol_878,80,2,1485
+mol_879,100,19,1486
+mol_888,100,7,1490
+mol_889,100,43,1491
+mol_901,100,9,1498
+mol_907,90,365,1501
+mol_912,100,37,1505
+mol_913,80,462,1506
+mol_920,100,6,1513
+mol_921,100,53,1514
+mol_925,100,2,1516
+mol_926,90,371,1517
+mol_929,100,336,1519
+mol_930,70,51,1520
+mol_933,90,9,1522
+mol_936,100,73,1524
+mol_937,100,1,1525
+mol_938,100,62,1526
+mol_939,100,2,1527
+mol_940,100,166,1528
+mol_942,100,218,1529
+mol_943,87,13,1530
+mol_949,100,45,1534
+mol_950,100,59,1535
+mol_951,16,2,1536
+mol_954,80,36,1538
+mol_955,100,2,1539
+mol_961,100,36,1542
+mol_963,100,3,1543
+mol_966,100,9,1544
+mol_968,90,1,1545
+mol_970,100,55,1546
+mol_971,100,67,1547
+mol_972,40,2,1548
+mol_974,100,48,1549
+mol_975,100,114,1550
+mol_976,100,29,1551
+mol_978,100,222,1552
+mol_979,90,48,1553
+mol_981,100,402,1555
+mol_982,80,108,1556
+mol_983,70,5,1557
+mol_989,90,21,1560
+mol_990,10,19,1561
+mol_991,100,12,1562
+mol_994,100,6,1563
+mol_997,100,40,1566
+mol_998,100,2,1567
+mol_999,80,127,1568
+mol_1000,100,46,1569
+
+Finished screening current batch of 392 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 1569
+Number of conformers screened = 97244
+Number of matches found = 33684
+Number of molecules that produced matches = 604
+Number of hits processed = 604
+
+CPU time = 7.25 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_11 (4 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 611
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_11 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_124,4,4,1590
+mol_187,12,10,1615
+mol_188,60,9,1616
+mol_189,30,35,1617
+mol_208,12,6,1627
+mol_248,40,22,1643
+mol_253,8,6,1646
+mol_260,12,24,1651
+mol_280,41,26,1662
+mol_289,16,16,1665
+mol_291,50,5,1667
+mol_298,50,2,1673
+mol_313,30,14,1685
+mol_320,12,12,1690
+mol_336,40,20,1698
+mol_341,47,4,1701
+mol_364,24,9,1713
+mol_365,40,16,1714
+mol_367,12,12,1716
+mol_384,48,20,1722
+mol_399,70,4,1734
+mol_407,40,36,1740
+mol_430,36,42,1760
+mol_434,50,81,1764
+mol_435,70,97,1765
+mol_441,70,36,1769
+mol_454,90,10,1776
+mol_455,50,1,1777
+mol_457,70,42,1779
+mol_458,50,50,1780
+mol_465,4,4,1783
+mol_466,12,12,1784
+mol_468,16,6,1785
+mol_469,80,32,1786
+mol_471,1,1,1788
+mol_475,60,79,1791
+mol_476,50,6,1792
+mol_481,70,3,1795
+mol_489,70,17,1802
+mol_490,60,30,1803
+mol_492,60,10,1804
+mol_494,18,18,1806
+mol_502,35,8,1811
+mol_503,30,1,1812
+mol_505,70,21,1814
+mol_506,6,4,1815
+mol_509,50,50,1818
+mol_512,60,29,1820
+mol_530,70,21,1834
+mol_533,12,24,1835
+mol_537,16,9,1839
+mol_540,16,16,1841
+mol_546,80,12,1845
+mol_549,60,24,1847
+mol_550,60,22,1848
+mol_557,6,6,1853
+mol_566,50,9,1859
+mol_572,60,33,1862
+mol_574,50,18,1864
+mol_579,60,100,1868
+mol_580,70,55,1869
+mol_581,90,1,1870
+mol_588,50,11,1877
+mol_608,13,15,1888
+mol_614,33,19,1892
+mol_618,90,3,1894
+mol_619,60,11,1895
+mol_620,100,4,1896
+mol_621,70,70,1897
+mol_623,60,4,1898
+mol_626,24,12,1901
+mol_629,100,14,1904
+mol_632,80,80,1907
+mol_634,70,25,1908
+mol_635,60,45,1909
+mol_637,56,6,1911
+mol_638,90,15,1912
+mol_639,80,49,1913
+mol_640,60,143,1914
+mol_644,80,8,1916
+mol_645,90,1,1917
+mol_650,16,16,1919
+mol_656,32,16,1923
+mol_657,60,4,1924
+mol_661,100,4,1927
+mol_666,80,23,1932
+mol_667,50,56,1933
+mol_668,50,53,1934
+mol_669,80,111,1935
+mol_677,70,12,1940
+mol_680,40,61,1942
+mol_684,50,232,1946
+mol_691,42,4,1951
+mol_696,70,6,1953
+mol_702,80,11,1958
+mol_709,80,57,1963
+mol_713,70,129,1964
+mol_714,60,100,1965
+mol_719,100,22,1969
+mol_721,70,4,1970
+mol_726,70,29,1974
+mol_727,50,31,1975
+mol_730,70,76,1977
+mol_734,100,68,1979
+mol_735,100,5,1980
+mol_747,60,12,1986
+mol_752,70,1,1990
+mol_757,80,31,1992
+mol_759,70,44,1993
+mol_760,90,95,1994
+mol_763,70,5,1997
+mol_764,69,7,1998
+mol_765,9,2,1999
+mol_766,90,55,2000
+mol_768,100,17,2002
+mol_773,100,15,2007
+mol_780,58,38,2012
+mol_794,60,29,2018
+mol_804,90,12,2023
+mol_805,90,14,2024
+mol_806,100,29,2025
+mol_808,70,249,2027
+mol_809,80,21,2028
+mol_813,90,223,2030
+mol_818,98,1,2034
+mol_819,90,19,2035
+mol_820,90,19,2036
+mol_822,90,80,2038
+mol_825,100,22,2040
+mol_833,36,78,2045
+mol_835,60,37,2046
+mol_836,90,202,2047
+mol_837,80,39,2048
+mol_839,36,72,2049
+mol_843,70,319,2052
+mol_844,90,18,2053
+mol_845,60,62,2054
+mol_848,80,38,2056
+mol_851,80,162,2059
+mol_853,90,96,2061
+mol_858,60,107,2066
+mol_860,80,1,2068
+mol_863,100,81,2070
+mol_865,100,7,2072
+mol_866,80,1,2073
+mol_868,70,60,2075
+mol_869,80,23,2076
+mol_870,70,154,2077
+mol_871,40,34,2078
+mol_873,80,9,2079
+mol_876,60,211,2081
+mol_877,80,67,2082
+mol_880,100,203,2085
+mol_882,100,158,2087
+mol_885,48,2,2088
+mol_886,100,1,2089
+mol_889,100,19,2091
+mol_894,100,113,2095
+mol_895,100,68,2096
+mol_899,90,49,2099
+mol_901,100,49,2100
+mol_907,90,84,2105
+mol_909,100,6,2106
+mol_912,100,8,2109
+mol_915,100,81,2112
+mol_919,80,11,2116
+mol_920,100,20,2117
+mol_921,100,58,2118
+mol_924,100,9,2121
+mol_925,100,92,2122
+mol_926,90,72,2123
+mol_927,80,35,2124
+mol_928,70,170,2125
+mol_929,100,156,2126
+mol_930,70,120,2127
+mol_933,90,46,2129
+mol_934,80,245,2130
+mol_935,100,63,2131
+mol_937,100,25,2133
+mol_938,100,181,2134
+mol_940,100,97,2136
+mol_943,87,80,2139
+mol_945,100,4,2140
+mol_948,100,200,2142
+mol_951,16,5,2145
+mol_954,80,29,2147
+mol_955,100,1,2148
+mol_960,60,19,2151
+mol_963,100,97,2152
+mol_966,100,52,2155
+mol_968,90,1,2156
+mol_970,100,57,2157
+mol_971,100,40,2158
+mol_974,100,5,2160
+mol_975,100,12,2161
+mol_976,100,58,2162
+mol_977,100,4,2163
+mol_978,100,32,2164
+mol_982,80,94,2167
+mol_983,70,6,2168
+mol_990,10,22,2172
+mol_991,100,77,2173
+mol_994,100,88,2174
+mol_997,100,25,2177
+mol_998,100,115,2178
+mol_999,80,216,2179
+mol_1000,100,37,2180
+
+Finished screening current batch of 611 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 2180
+Number of conformers screened = 132606
+Number of matches found = 43236
+Number of molecules that produced matches = 811
+Number of hits processed = 811
+
+CPU time = 5.87 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_16 (5 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 594
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_16 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_44,4,4,2183
+mol_49,12,16,2184
+mol_68,12,20,2187
+mol_73,24,18,2188
+mol_75,18,24,2189
+mol_84,40,34,2191
+mol_85,70,4,2192
+mol_101,50,24,2194
+mol_103,12,12,2195
+mol_113,10,63,2199
+mol_115,70,40,2201
+mol_124,4,4,2205
+mol_127,50,5,2206
+mol_129,40,12,2207
+mol_130,32,45,2208
+mol_153,40,40,2212
+mol_155,30,43,2213
+mol_157,50,4,2214
+mol_158,16,32,2215
+mol_167,48,56,2219
+mol_171,40,19,2220
+mol_179,3,9,2222
+mol_182,70,10,2223
+mol_186,10,10,2226
+mol_187,12,8,2227
+mol_188,60,13,2228
+mol_189,30,31,2229
+mol_194,2,2,2231
+mol_202,20,25,2233
+mol_205,6,3,2234
+mol_206,50,11,2235
+mol_221,50,2,2238
+mol_233,42,5,2241
+mol_241,20,40,2244
+mol_244,20,27,2246
+mol_248,40,56,2247
+mol_249,16,21,2248
+mol_250,50,8,2249
+mol_251,10,20,2250
+mol_253,8,10,2251
+mol_254,10,14,2252
+mol_257,50,16,2255
+mol_260,12,6,2256
+mol_262,15,66,2257
+mol_266,24,10,2259
+mol_275,15,36,2264
+mol_276,50,50,2265
+mol_279,11,13,2267
+mol_280,41,60,2268
+mol_286,24,26,2270
+mol_288,100,100,2271
+mol_289,16,32,2272
+mol_298,50,33,2278
+mol_300,13,26,2279
+mol_302,80,6,2281
+mol_303,50,23,2282
+mol_309,39,4,2285
+mol_310,100,5,2286
+mol_313,30,60,2288
+mol_314,24,12,2289
+mol_319,20,40,2292
+mol_320,12,12,2293
+mol_321,27,25,2294
+mol_326,50,16,2296
+mol_328,60,84,2297
+mol_332,24,56,2298
+mol_334,80,4,2299
+mol_336,40,366,2300
+mol_340,70,104,2302
+mol_341,47,25,2303
+mol_343,50,1,2305
+mol_344,50,21,2306
+mol_346,70,226,2307
+mol_347,80,3,2308
+mol_349,8,20,2309
+mol_350,40,76,2310
+mol_364,24,12,2313
+mol_365,40,55,2314
+mol_367,12,12,2316
+mol_380,50,50,2320
+mol_384,48,36,2321
+mol_385,60,30,2322
+mol_387,12,36,2324
+mol_388,7,7,2325
+mol_389,50,26,2326
+mol_393,7,7,2329
+mol_396,36,36,2330
+mol_399,70,13,2331
+mol_400,60,13,2332
+mol_405,80,12,2334
+mol_406,20,40,2335
+mol_407,40,40,2336
+mol_410,100,2,2337
+mol_415,70,133,2340
+mol_416,70,2,2341
+mol_418,32,17,2342
+mol_428,60,60,2345
+mol_430,36,36,2347
+mol_434,50,100,2349
+mol_435,70,181,2350
+mol_436,17,2,2351
+mol_437,24,24,2352
+mol_438,50,9,2353
+mol_441,70,27,2355
+mol_453,8,4,2361
+mol_455,50,21,2363
+mol_456,50,159,2364
+mol_457,70,87,2365
+mol_458,50,48,2366
+mol_463,70,10,2369
+mol_465,4,4,2371
+mol_466,12,12,2372
+mol_468,16,16,2373
+mol_470,34,124,2375
+mol_471,1,1,2376
+mol_478,40,10,2379
+mol_480,50,32,2380
+mol_481,70,34,2381
+mol_482,16,15,2382
+mol_486,90,7,2386
+mol_489,70,69,2388
+mol_490,60,74,2389
+mol_493,80,163,2391
+mol_494,18,12,2392
+mol_495,80,60,2393
+mol_498,70,7,2394
+mol_500,54,116,2395
+mol_502,35,23,2396
+mol_503,30,39,2397
+mol_505,70,33,2399
+mol_508,70,2,2400
+mol_509,50,137,2401
+mol_512,60,379,2403
+mol_513,40,7,2404
+mol_514,68,50,2405
+mol_515,100,15,2406
+mol_516,70,80,2407
+mol_517,26,12,2408
+mol_518,34,5,2409
+mol_519,70,263,2410
+mol_523,90,12,2411
+mol_525,76,164,2413
+mol_526,50,120,2414
+mol_528,80,20,2415
+mol_530,70,68,2416
+mol_533,12,12,2418
+mol_537,16,18,2421
+mol_538,56,2,2422
+mol_540,16,40,2424
+mol_543,80,287,2426
+mol_544,60,22,2427
+mol_546,80,3,2429
+mol_547,70,53,2430
+mol_549,60,39,2431
+mol_550,60,35,2432
+mol_551,12,12,2433
+mol_554,80,64,2435
+mol_556,48,14,2436
+mol_557,6,10,2437
+mol_559,70,368,2438
+mol_561,100,44,2440
+mol_566,50,3,2443
+mol_567,80,63,2444
+mol_572,60,40,2448
+mol_574,50,82,2450
+mol_575,100,7,2451
+mol_578,24,42,2453
+mol_579,60,24,2454
+mol_580,70,18,2455
+mol_581,90,1,2456
+mol_587,60,271,2459
+mol_588,50,51,2460
+mol_591,100,100,2462
+mol_593,30,146,2463
+mol_595,30,4,2465
+mol_598,100,7,2467
+mol_599,2,2,2468
+mol_600,70,21,2469
+mol_601,60,25,2470
+mol_603,4,4,2471
+mol_608,13,45,2472
+mol_610,60,2,2473
+mol_612,26,114,2475
+mol_614,33,49,2476
+mol_616,50,9,2477
+mol_618,90,13,2478
+mol_619,60,120,2479
+mol_620,100,1,2480
+mol_621,70,140,2481
+mol_623,60,103,2482
+mol_624,70,160,2483
+mol_626,24,24,2484
+mol_629,100,10,2487
+mol_632,80,75,2490
+mol_634,70,176,2491
+mol_635,60,134,2492
+mol_636,80,42,2493
+mol_637,56,12,2494
+mol_638,90,10,2495
+mol_639,80,50,2496
+mol_640,60,254,2497
+mol_644,80,9,2499
+mol_645,90,1,2500
+mol_650,16,28,2503
+mol_653,80,3,2504
+mol_654,90,90,2505
+mol_655,90,169,2506
+mol_656,32,36,2507
+mol_657,60,12,2508
+mol_658,90,9,2509
+mol_659,100,1,2510
+mol_661,100,6,2512
+mol_662,70,8,2513
+mol_664,60,32,2515
+mol_665,80,13,2516
+mol_666,80,59,2517
+mol_667,50,74,2518
+mol_668,50,75,2519
+mol_669,80,327,2520
+mol_676,24,206,2522
+mol_677,70,17,2523
+mol_679,1,6,2524
+mol_680,40,95,2525
+mol_681,70,13,2526
+mol_684,50,27,2527
+mol_686,70,120,2529
+mol_687,90,3,2530
+mol_691,42,28,2533
+mol_696,70,33,2536
+mol_698,90,90,2538
+mol_702,80,42,2540
+mol_704,70,568,2541
+mol_706,56,140,2542
+mol_707,80,200,2543
+mol_709,80,30,2544
+mol_713,70,286,2546
+mol_714,60,102,2547
+mol_716,52,144,2548
+mol_718,80,4,2550
+mol_719,100,19,2551
+mol_720,70,44,2552
+mol_723,70,861,2553
+mol_725,90,10,2554
+mol_726,70,99,2555
+mol_727,50,153,2556
+mol_729,80,2,2557
+mol_730,70,163,2558
+mol_731,36,78,2559
+mol_734,100,150,2560
+mol_735,100,92,2561
+mol_736,90,20,2562
+mol_738,70,189,2563
+mol_740,90,39,2564
+mol_745,100,62,2567
+mol_747,60,16,2569
+mol_748,60,278,2570
+mol_752,70,1,2573
+mol_757,80,9,2575
+mol_759,70,33,2577
+mol_760,90,102,2578
+mol_762,70,30,2580
+mol_763,70,18,2581
+mol_764,69,50,2582
+mol_765,9,53,2583
+mol_766,90,51,2584
+mol_768,100,65,2586
+mol_769,100,12,2587
+mol_772,100,20,2589
+mol_773,100,126,2590
+mol_775,100,4,2591
+mol_777,90,73,2592
+mol_780,58,34,2595
+mol_783,100,22,2597
+mol_787,100,102,2599
+mol_792,13,35,2602
+mol_794,60,80,2603
+mol_795,100,200,2604
+mol_799,60,72,2607
+mol_801,70,171,2609
+mol_803,100,324,2610
+mol_804,90,6,2611
+mol_805,90,2,2612
+mol_806,100,40,2613
+mol_808,70,10,2615
+mol_809,80,50,2616
+mol_810,34,1,2617
+mol_812,100,79,2619
+mol_817,100,28,2623
+mol_818,98,1,2624
+mol_819,90,98,2625
+mol_820,90,56,2626
+mol_821,80,151,2627
+mol_822,90,165,2628
+mol_825,100,96,2630
+mol_833,36,70,2635
+mol_834,60,58,2636
+mol_835,60,43,2637
+mol_836,90,19,2638
+mol_839,36,36,2640
+mol_843,70,26,2643
+mol_844,90,16,2644
+mol_845,60,36,2645
+mol_847,100,45,2646
+mol_848,80,146,2647
+mol_850,100,546,2649
+mol_851,80,244,2650
+mol_853,90,175,2651
+mol_854,100,16,2652
+mol_855,80,309,2653
+mol_857,100,14,2655
+mol_858,60,185,2656
+mol_859,100,3,2657
+mol_861,1,1,2659
+mol_864,100,6,2662
+mol_865,100,6,2663
+mol_866,80,15,2664
+mol_868,70,112,2666
+mol_870,70,260,2668
+mol_871,40,38,2669
+mol_873,80,38,2670
+mol_874,37,9,2671
+mol_876,60,67,2673
+mol_877,80,91,2674
+mol_878,80,74,2675
+mol_879,100,107,2676
+mol_882,100,284,2679
+mol_886,100,10,2681
+mol_888,100,49,2682
+mol_889,100,51,2683
+mol_892,100,141,2686
+mol_894,100,2,2687
+mol_895,100,5,2688
+mol_896,70,6,2689
+mol_899,90,72,2692
+mol_901,100,114,2693
+mol_905,68,176,2696
+mol_907,90,943,2698
+mol_909,100,9,2699
+mol_912,100,75,2702
+mol_913,80,561,2703
+mol_914,100,229,2704
+mol_916,100,29,2706
+mol_917,49,101,2707
+mol_919,80,80,2709
+mol_920,100,70,2710
+mol_921,100,223,2711
+mol_924,100,42,2712
+mol_925,100,159,2713
+mol_926,90,522,2714
+mol_927,80,15,2715
+mol_929,100,401,2717
+mol_930,70,151,2718
+mol_931,70,110,2719
+mol_933,90,85,2720
+mol_934,80,1,2721
+mol_935,100,91,2722
+mol_936,100,273,2723
+mol_937,100,83,2724
+mol_938,100,327,2725
+mol_939,100,2,2726
+mol_940,100,418,2727
+mol_941,28,52,2728
+mol_942,100,482,2729
+mol_943,87,96,2730
+mol_949,100,263,2734
+mol_950,100,335,2735
+mol_951,16,6,2736
+mol_954,80,297,2738
+mol_955,100,19,2739
+mol_958,100,3,2740
+mol_959,100,127,2741
+mol_960,60,17,2742
+mol_961,100,155,2743
+mol_963,100,156,2744
+mol_966,100,41,2747
+mol_968,90,11,2748
+mol_970,100,143,2749
+mol_971,100,126,2750
+mol_972,40,112,2751
+mol_974,100,100,2752
+mol_975,100,148,2753
+mol_976,100,106,2754
+mol_977,100,74,2755
+mol_978,100,295,2756
+mol_979,90,114,2757
+mol_981,100,1475,2759
+mol_982,80,257,2760
+mol_983,70,6,2761
+mol_989,90,245,2765
+mol_990,10,36,2766
+mol_991,100,88,2767
+mol_994,100,118,2768
+mol_995,100,6,2769
+mol_996,90,112,2770
+mol_997,100,88,2771
+mol_998,100,115,2772
+mol_999,80,223,2773
+mol_1000,100,85,2774
+
+Finished screening current batch of 594 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 2774
+Number of conformers screened = 169555
+Number of matches found = 75456
+Number of molecules that produced matches = 1209
+Number of hits processed = 1209
+
+CPU time = 11.69 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_5 (6 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 403
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_5 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_113,10,18,2782
+mol_179,3,2,2796
+mol_187,12,2,2800
+mol_248,40,3,2817
+mol_249,16,2,2818
+mol_262,15,11,2821
+mol_275,15,11,2825
+mol_288,100,25,2827
+mol_300,13,6,2831
+mol_313,30,32,2836
+mol_336,40,39,2841
+mol_346,70,39,2845
+mol_350,40,15,2847
+mol_387,12,4,2856
+mol_389,50,6,2857
+mol_393,7,3,2859
+mol_405,80,3,2862
+mol_415,70,18,2866
+mol_435,70,130,2870
+mol_437,24,61,2871
+mol_456,50,29,2881
+mol_457,70,28,2882
+mol_463,70,8,2885
+mol_470,34,74,2888
+mol_481,70,13,2890
+mol_505,70,3,2898
+mol_509,50,48,2901
+mol_512,60,30,2903
+mol_516,70,11,2906
+mol_519,70,262,2909
+mol_526,50,67,2910
+mol_530,70,22,2911
+mol_547,70,3,2917
+mol_551,12,1,2919
+mol_559,70,127,2921
+mol_561,100,7,2923
+mol_587,60,32,2935
+mol_593,30,58,2937
+mol_600,70,1,2941
+mol_601,60,1,2942
+mol_614,33,2,2948
+mol_616,50,4,2949
+mol_621,70,45,2951
+mol_624,70,38,2952
+mol_629,100,1,2955
+mol_636,80,9,2958
+mol_638,90,3,2960
+mol_639,80,27,2961
+mol_640,60,27,2962
+mol_656,32,10,2970
+mol_666,80,1,2974
+mol_667,50,21,2975
+mol_668,50,22,2976
+mol_676,24,73,2978
+mol_679,1,1,2979
+mol_680,40,42,2980
+mol_681,70,5,2981
+mol_691,42,12,2989
+mol_704,70,54,2994
+mol_706,56,133,2995
+mol_707,80,198,2996
+mol_709,80,13,2997
+mol_720,70,22,3003
+mol_723,70,181,3005
+mol_726,70,12,3006
+mol_727,50,55,3007
+mol_730,70,9,3009
+mol_731,36,102,3010
+mol_738,70,61,3014
+mol_747,60,5,3019
+mol_765,9,18,3026
+mol_768,100,3,3029
+mol_772,100,4,3031
+mol_794,60,16,3039
+mol_803,100,146,3044
+mol_806,100,27,3047
+mol_808,70,1,3048
+mol_810,34,1,3050
+mol_812,100,7,3051
+mol_817,100,1,3053
+mol_819,90,9,3054
+mol_820,90,1,3055
+mol_821,80,191,3056
+mol_822,90,13,3057
+mol_825,100,86,3058
+mol_843,70,4,3067
+mol_847,100,23,3069
+mol_851,80,14,3072
+mol_853,90,18,3073
+mol_854,100,1,3074
+mol_855,80,169,3075
+mol_865,100,2,3082
+mol_868,70,12,3085
+mol_876,60,4,3089
+mol_877,80,183,3090
+mol_878,80,3,3091
+mol_879,100,10,3092
+mol_888,100,14,3097
+mol_889,100,21,3098
+mol_899,90,4,3104
+mol_901,100,8,3105
+mol_907,90,171,3108
+mol_912,100,9,3112
+mol_913,80,271,3113
+mol_917,49,1,3117
+mol_920,100,4,3120
+mol_921,100,59,3121
+mol_925,100,1,3123
+mol_926,90,342,3124
+mol_929,100,111,3126
+mol_930,70,38,3127
+mol_933,90,16,3129
+mol_936,100,42,3131
+mol_937,100,1,3132
+mol_938,100,64,3133
+mol_939,100,1,3134
+mol_940,100,211,3135
+mol_942,100,213,3136
+mol_943,87,13,3137
+mol_949,100,2,3141
+mol_950,100,31,3142
+mol_951,16,2,3143
+mol_954,80,46,3145
+mol_955,100,4,3146
+mol_961,100,14,3149
+mol_963,100,24,3150
+mol_966,100,18,3151
+mol_968,90,1,3152
+mol_970,100,31,3153
+mol_971,100,27,3154
+mol_972,40,4,3155
+mol_974,100,25,3156
+mol_975,100,20,3157
+mol_976,100,14,3158
+mol_978,100,193,3160
+mol_979,90,59,3161
+mol_981,100,442,3163
+mol_982,80,104,3164
+mol_989,90,10,3168
+mol_990,10,18,3169
+mol_991,100,11,3170
+mol_994,100,3,3171
+mol_997,100,13,3174
+mol_998,100,2,3175
+mol_999,80,92,3176
+mol_1000,100,23,3177
+
+Finished screening current batch of 403 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 3177
+Number of conformers screened = 195950
+Number of matches found = 81714
+Number of molecules that produced matches = 1355
+Number of hits processed = 1355
+
+CPU time = 6.74 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_18 (7 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 442
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_18 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_49,12,4,3178
+mol_63,8,6,3179
+mol_68,12,4,3180
+mol_118,70,10,3183
+mol_127,50,65,3185
+mol_129,40,10,3186
+mol_155,30,1,3188
+mol_157,50,18,3189
+mol_182,70,19,3191
+mol_187,12,22,3192
+mol_188,60,19,3193
+mol_189,30,15,3194
+mol_196,27,14,3195
+mol_206,50,43,3197
+mol_221,50,100,3199
+mol_233,42,14,3200
+mol_241,20,40,3201
+mol_243,80,6,3202
+mol_244,20,11,3203
+mol_248,40,59,3204
+mol_250,50,29,3205
+mol_253,8,2,3206
+mol_257,50,111,3207
+mol_259,50,5,3208
+mol_260,12,3,3209
+mol_278,12,48,3210
+mol_280,41,49,3212
+mol_282,80,1,3213
+mol_289,16,60,3215
+mol_292,32,72,3216
+mol_293,60,13,3217
+mol_298,50,66,3218
+mol_305,50,36,3222
+mol_310,100,93,3223
+mol_313,30,16,3224
+mol_316,80,36,3225
+mol_320,12,58,3226
+mol_321,27,39,3227
+mol_324,68,59,3228
+mol_326,50,121,3230
+mol_334,80,2,3232
+mol_336,40,20,3233
+mol_339,8,8,3234
+mol_341,47,37,3235
+mol_343,50,102,3236
+mol_344,50,16,3237
+mol_364,24,66,3239
+mol_365,40,35,3240
+mol_378,70,6,3243
+mol_384,48,23,3244
+mol_385,60,2,3245
+mol_399,70,12,3248
+mol_400,60,33,3249
+mol_405,80,38,3250
+mol_407,40,20,3251
+mol_410,100,49,3252
+mol_411,50,19,3253
+mol_413,90,74,3254
+mol_416,70,69,3255
+mol_418,32,12,3256
+mol_421,80,29,3258
+mol_425,70,91,3260
+mol_430,36,45,3262
+mol_434,50,21,3263
+mol_435,70,89,3264
+mol_440,50,43,3266
+mol_441,70,41,3267
+mol_448,80,83,3268
+mol_451,75,4,3270
+mol_457,70,10,3273
+mol_458,50,48,3274
+mol_463,70,40,3275
+mol_465,4,8,3277
+mol_466,12,24,3278
+mol_468,16,3,3279
+mol_471,1,3,3281
+mol_481,70,45,3285
+mol_483,60,69,3287
+mol_485,21,104,3289
+mol_488,80,1,3290
+mol_489,70,141,3291
+mol_490,60,26,3292
+mol_492,60,9,3293
+mol_498,70,27,3295
+mol_500,54,36,3296
+mol_502,35,28,3297
+mol_505,70,39,3300
+mol_508,70,181,3302
+mol_509,50,129,3303
+mol_512,60,26,3304
+mol_520,70,30,3307
+mol_521,70,28,3308
+mol_523,90,34,3309
+mol_524,41,104,3310
+mol_530,70,92,3312
+mol_531,90,95,3313
+mol_533,12,24,3314
+mol_536,90,1,3316
+mol_537,16,36,3317
+mol_538,56,50,3318
+mol_540,16,8,3319
+mol_542,90,28,3320
+mol_545,32,8,3322
+mol_547,70,54,3324
+mol_549,60,227,3325
+mol_550,60,19,3326
+mol_556,48,10,3328
+mol_557,6,5,3329
+mol_564,80,180,3332
+mol_565,8,8,3333
+mol_566,50,120,3334
+mol_572,60,75,3336
+mol_573,3,3,3337
+mol_574,50,61,3338
+mol_575,100,13,3339
+mol_576,90,94,3340
+mol_580,70,20,3342
+mol_581,90,9,3343
+mol_582,90,9,3344
+mol_583,50,6,3345
+mol_585,24,48,3346
+mol_588,50,26,3347
+mol_589,100,160,3348
+mol_593,30,16,3349
+mol_594,98,306,3350
+mol_595,30,29,3351
+mol_598,100,87,3353
+mol_600,70,69,3354
+mol_601,60,71,3355
+mol_608,13,32,3356
+mol_610,60,39,3357
+mol_614,33,64,3358
+mol_616,50,56,3359
+mol_618,90,215,3360
+mol_620,100,106,3362
+mol_621,70,70,3363
+mol_623,60,3,3364
+mol_626,24,28,3365
+mol_629,100,137,3368
+mol_630,12,68,3369
+mol_631,60,48,3370
+mol_632,80,75,3371
+mol_634,70,18,3372
+mol_635,60,26,3373
+mol_636,80,1,3374
+mol_638,90,38,3376
+mol_639,80,52,3377
+mol_640,60,134,3378
+mol_641,70,4,3379
+mol_644,80,79,3380
+mol_645,90,152,3381
+mol_646,60,73,3382
+mol_648,100,19,3383
+mol_650,16,32,3384
+mol_653,80,23,3386
+mol_656,32,16,3387
+mol_657,60,75,3388
+mol_658,90,94,3389
+mol_659,100,355,3390
+mol_660,100,151,3391
+mol_661,100,44,3392
+mol_662,70,138,3393
+mol_666,80,45,3397
+mol_667,50,100,3398
+mol_668,50,100,3399
+mol_669,80,261,3400
+mol_671,60,2,3401
+mol_672,90,3,3402
+mol_677,70,22,3404
+mol_679,1,4,3406
+mol_680,40,39,3407
+mol_681,70,9,3408
+mol_684,50,50,3410
+mol_686,70,60,3412
+mol_688,88,67,3413
+mol_691,42,12,3414
+mol_696,70,28,3416
+mol_700,36,24,3418
+mol_702,80,11,3419
+mol_709,80,16,3420
+mol_712,100,382,3421
+mol_713,70,82,3422
+mol_714,60,52,3423
+mol_719,100,109,3425
+mol_726,70,29,3426
+mol_727,50,102,3427
+mol_728,90,320,3428
+mol_730,70,226,3429
+mol_732,40,8,3430
+mol_733,75,51,3431
+mol_734,100,14,3432
+mol_735,100,1,3433
+mol_736,90,231,3434
+mol_741,98,191,3436
+mol_743,60,182,3437
+mol_747,60,39,3439
+mol_750,90,67,3440
+mol_751,100,14,3441
+mol_752,70,175,3442
+mol_754,90,104,3443
+mol_757,80,42,3444
+mol_759,70,93,3445
+mol_760,90,11,3446
+mol_761,60,9,3447
+mol_763,70,30,3448
+mol_764,69,14,3449
+mol_765,9,1,3450
+mol_766,90,115,3451
+mol_768,100,79,3453
+mol_771,100,89,3454
+mol_772,100,258,3455
+mol_773,100,52,3456
+mol_775,100,207,3458
+mol_779,3,5,3460
+mol_780,58,70,3461
+mol_783,100,46,3462
+mol_785,60,58,3463
+mol_791,90,39,3465
+mol_794,60,58,3467
+mol_800,76,45,3469
+mol_804,90,144,3471
+mol_805,90,98,3472
+mol_806,100,49,3473
+mol_808,70,30,3475
+mol_809,80,25,3476
+mol_810,34,6,3477
+mol_813,90,3,3478
+mol_814,16,85,3479
+mol_819,90,42,3483
+mol_820,90,386,3484
+mol_822,90,293,3485
+mol_824,90,2,3486
+mol_825,100,155,3487
+mol_831,80,121,3491
+mol_833,36,50,3492
+mol_835,60,75,3493
+mol_836,90,6,3494
+mol_838,88,20,3496
+mol_839,36,153,3497
+mol_840,50,13,3498
+mol_841,40,47,3499
+mol_843,70,70,3500
+mol_844,90,31,3501
+mol_845,60,43,3502
+mol_848,80,24,3503
+mol_849,100,24,3504
+mol_853,90,224,3507
+mol_854,100,88,3508
+mol_856,15,1,3509
+mol_858,60,91,3511
+mol_859,100,3,3512
+mol_860,80,98,3513
+mol_863,100,2,3515
+mol_864,100,157,3516
+mol_865,100,71,3517
+mol_866,80,9,3518
+mol_867,100,7,3519
+mol_868,70,53,3520
+mol_869,80,112,3521
+mol_870,70,51,3522
+mol_871,40,64,3523
+mol_873,80,231,3525
+mol_876,60,38,3527
+mol_878,80,292,3529
+mol_879,100,39,3530
+mol_882,100,410,3532
+mol_885,48,12,3533
+mol_886,100,120,3534
+mol_887,80,96,3535
+mol_889,100,18,3536
+mol_890,70,191,3537
+mol_893,80,3,3539
+mol_894,100,14,3540
+mol_895,100,15,3541
+mol_898,36,18,3543
+mol_899,90,27,3544
+mol_901,100,98,3545
+mol_902,100,1,3546
+mol_904,100,49,3548
+mol_905,68,164,3549
+mol_907,90,83,3550
+mol_909,100,168,3551
+mol_910,60,20,3552
+mol_911,60,23,3553
+mol_912,100,141,3554
+mol_913,80,81,3555
+mol_915,100,2,3556
+mol_918,100,61,3558
+mol_919,80,19,3559
+mol_920,100,85,3560
+mol_921,100,36,3561
+mol_924,100,48,3564
+mol_925,100,387,3565
+mol_926,90,30,3566
+mol_927,80,288,3567
+mol_929,100,33,3569
+mol_930,70,115,3570
+mol_933,90,365,3572
+mol_934,80,47,3573
+mol_935,100,192,3574
+mol_937,100,4,3575
+mol_938,100,106,3576
+mol_940,100,50,3578
+mol_941,28,6,3579
+mol_943,87,159,3580
+mol_944,100,54,3581
+mol_945,100,65,3582
+mol_946,100,134,3583
+mol_951,16,6,3585
+mol_952,100,734,3586
+mol_953,80,86,3587
+mol_954,80,62,3588
+mol_955,100,158,3589
+mol_958,100,19,3590
+mol_960,60,51,3591
+mol_963,100,231,3592
+mol_964,6,8,3593
+mol_966,100,211,3594
+mol_968,90,307,3595
+mol_969,60,160,3596
+mol_970,100,68,3597
+mol_971,100,47,3598
+mol_972,40,16,3599
+mol_974,100,61,3600
+mol_975,100,10,3601
+mol_976,100,263,3602
+mol_977,100,5,3603
+mol_982,80,127,3606
+mol_983,70,86,3607
+mol_986,100,325,3608
+mol_989,90,1,3610
+mol_990,10,37,3611
+mol_991,100,142,3612
+mol_994,100,105,3613
+mol_995,100,306,3614
+mol_996,90,48,3615
+mol_997,100,304,3616
+mol_998,100,411,3617
+mol_999,80,54,3618
+mol_1000,100,60,3619
+
+Finished screening current batch of 442 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 3619
+Number of conformers screened = 225053
+Number of matches found = 106651
+Number of molecules that produced matches = 1695
+Number of hits processed = 1695
+
+CPU time = 10.01 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_2 (8 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 526
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_2 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_187,12,12,3645
+mol_188,60,2,3646
+mol_189,30,7,3647
+mol_196,27,17,3651
+mol_248,40,20,3660
+mol_260,12,1,3668
+mol_280,41,7,3675
+mol_282,80,1,3676
+mol_289,16,24,3678
+mol_298,50,6,3684
+mol_305,50,31,3690
+mol_313,30,16,3694
+mol_320,12,17,3697
+mol_334,80,2,3704
+mol_364,24,12,3714
+mol_365,40,15,3715
+mol_384,48,12,3720
+mol_407,40,20,3733
+mol_413,90,4,3736
+mol_418,32,14,3739
+mol_430,36,36,3747
+mol_434,50,20,3750
+mol_435,70,92,3751
+mol_441,70,41,3755
+mol_448,80,2,3757
+mol_457,70,10,3763
+mol_458,50,48,3764
+mol_463,70,10,3765
+mol_468,16,3,3769
+mol_481,70,4,3779
+mol_483,60,3,3781
+mol_489,70,5,3786
+mol_490,60,25,3787
+mol_505,70,11,3798
+mol_509,50,43,3802
+mol_512,60,25,3804
+mol_530,70,6,3816
+mol_537,16,36,3820
+mol_538,56,5,3821
+mol_540,16,8,3822
+mol_545,32,8,3825
+mol_547,70,17,3827
+mol_549,60,117,3828
+mol_566,50,6,3838
+mol_572,60,39,3841
+mol_574,50,27,3843
+mol_580,70,9,3848
+mol_583,50,5,3851
+mol_593,30,16,3857
+mol_600,70,17,3862
+mol_601,60,41,3863
+mol_608,13,12,3865
+mol_610,60,2,3866
+mol_614,33,5,3868
+mol_616,50,27,3869
+mol_618,90,5,3870
+mol_621,70,70,3873
+mol_623,60,3,3874
+mol_626,24,18,3876
+mol_632,80,75,3882
+mol_634,70,8,3883
+mol_635,60,30,3884
+mol_636,80,1,3885
+mol_639,80,24,3888
+mol_640,60,108,3889
+mol_644,80,14,3891
+mol_645,90,11,3892
+mol_650,16,12,3894
+mol_656,32,16,3898
+mol_657,60,78,3899
+mol_661,100,4,3902
+mol_666,80,10,3907
+mol_667,50,100,3908
+mol_668,50,100,3909
+mol_669,80,191,3910
+mol_677,70,9,3915
+mol_680,40,25,3917
+mol_684,50,14,3920
+mol_686,70,35,3922
+mol_691,42,8,3925
+mol_696,70,27,3927
+mol_702,80,7,3931
+mol_709,80,8,3935
+mol_713,70,68,3936
+mol_714,60,36,3937
+mol_719,100,10,3941
+mol_726,70,17,3944
+mol_727,50,32,3945
+mol_730,70,8,3947
+mol_734,100,3,3949
+mol_747,60,8,3955
+mol_757,80,1,3961
+mol_759,70,8,3962
+mol_760,90,1,3963
+mol_763,70,4,3966
+mol_765,9,2,3968
+mol_766,90,3,3969
+mol_768,100,5,3971
+mol_780,58,2,3979
+mol_783,100,30,3980
+mol_794,60,27,3985
+mol_804,90,20,3990
+mol_805,90,25,3991
+mol_806,100,10,3992
+mol_808,70,9,3994
+mol_809,80,19,3995
+mol_819,90,2,4002
+mol_820,90,70,4003
+mol_822,90,15,4005
+mol_825,100,26,4007
+mol_833,36,44,4012
+mol_835,60,3,4013
+mol_836,90,6,4014
+mol_844,90,6,4020
+mol_845,60,33,4021
+mol_848,80,19,4022
+mol_853,90,81,4026
+mol_854,100,4,4027
+mol_858,60,19,4031
+mol_859,100,2,4032
+mol_860,80,4,4033
+mol_868,70,43,4040
+mol_869,80,13,4041
+mol_870,70,54,4042
+mol_871,40,20,4043
+mol_873,80,5,4044
+mol_876,60,18,4046
+mol_882,100,77,4052
+mol_886,100,2,4054
+mol_889,100,10,4056
+mol_899,90,10,4064
+mol_901,100,1,4065
+mol_907,90,14,4070
+mol_912,100,1,4074
+mol_919,80,16,4081
+mol_920,100,7,4082
+mol_921,100,3,4083
+mol_924,100,27,4086
+mol_925,100,85,4087
+mol_927,80,3,4089
+mol_929,100,14,4091
+mol_930,70,77,4092
+mol_933,90,44,4094
+mol_935,100,95,4096
+mol_938,100,8,4099
+mol_940,100,13,4101
+mol_943,87,6,4104
+mol_951,16,4,4110
+mol_954,80,4,4112
+mol_955,100,3,4113
+mol_960,60,44,4116
+mol_963,100,20,4117
+mol_970,100,4,4122
+mol_971,100,18,4123
+mol_974,100,3,4125
+mol_976,100,57,4127
+mol_982,80,114,4132
+mol_986,100,7,4134
+mol_990,10,3,4137
+mol_991,100,56,4138
+mol_994,100,4,4139
+mol_995,100,1,4140
+mol_997,100,31,4142
+mol_998,100,90,4143
+mol_999,80,14,4144
+mol_1000,100,26,4145
+
+Finished screening current batch of 526 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 4145
+Number of conformers screened = 257659
+Number of matches found = 110534
+Number of molecules that produced matches = 1861
+Number of hits processed = 1861
+
+CPU time = 5.66 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_7 (9 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 345
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_7 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_187,12,2,4166
+mol_196,27,23,4168
+mol_248,40,12,4178
+mol_249,16,29,4179
+mol_282,80,1,4186
+mol_283,90,41,4187
+mol_288,100,28,4188
+mol_305,50,53,4191
+mol_320,12,5,4196
+mol_336,40,22,4198
+mol_340,70,4,4200
+mol_342,34,2,4201
+mol_365,40,9,4206
+mol_387,12,6,4211
+mol_389,50,4,4212
+mol_393,7,3,4213
+mol_413,90,7,4217
+mol_435,70,127,4220
+mol_437,24,32,4221
+mol_456,50,33,4230
+mol_457,70,14,4231
+mol_470,34,20,4235
+mol_481,70,10,4236
+mol_489,70,2,4239
+mol_505,70,1,4243
+mol_509,50,47,4245
+mol_512,60,53,4247
+mol_515,100,6,4249
+mol_516,70,2,4250
+mol_517,26,2,4251
+mol_519,70,1,4252
+mol_526,50,87,4253
+mol_530,70,2,4254
+mol_538,56,5,4257
+mol_540,16,16,4258
+mol_547,70,2,4260
+mol_549,60,8,4262
+mol_551,12,15,4263
+mol_559,70,116,4264
+mol_561,100,3,4266
+mol_587,60,21,4275
+mol_599,2,1,4281
+mol_601,60,51,4283
+mol_608,13,18,4285
+mol_614,33,1,4288
+mol_616,50,21,4289
+mol_629,100,1,4295
+mol_636,80,1,4298
+mol_639,80,29,4301
+mol_640,60,49,4302
+mol_676,24,24,4315
+mol_680,40,29,4317
+mol_684,50,5,4318
+mol_697,1,1,4324
+mol_702,80,9,4325
+mol_704,70,78,4326
+mol_706,56,78,4327
+mol_707,80,86,4328
+mol_709,80,1,4329
+mol_710,100,1,4330
+mol_723,70,187,4336
+mol_727,50,73,4338
+mol_730,70,8,4339
+mol_731,36,102,4340
+mol_738,70,41,4343
+mol_747,60,4,4347
+mol_750,90,1,4349
+mol_765,9,14,4354
+mol_768,100,4,4356
+mol_794,60,15,4364
+mol_803,100,63,4369
+mol_806,100,19,4372
+mol_808,70,3,4373
+mol_821,80,25,4381
+mol_822,90,3,4382
+mol_825,100,64,4383
+mol_831,80,1,4387
+mol_833,36,6,4388
+mol_843,70,11,4392
+mol_847,100,21,4394
+mol_851,80,5,4397
+mol_853,90,20,4398
+mol_854,100,3,4399
+mol_855,80,63,4400
+mol_858,60,50,4401
+mol_868,70,24,4408
+mol_876,60,7,4412
+mol_877,80,159,4413
+mol_878,80,13,4414
+mol_889,100,18,4419
+mol_901,100,11,4424
+mol_907,90,50,4427
+mol_912,100,1,4431
+mol_913,80,236,4432
+mol_916,100,1,4434
+mol_917,49,5,4435
+mol_920,100,1,4438
+mol_921,100,37,4439
+mol_925,100,14,4441
+mol_926,90,392,4442
+mol_929,100,127,4444
+mol_930,70,23,4445
+mol_933,90,21,4447
+mol_936,100,48,4449
+mol_938,100,56,4451
+mol_940,100,269,4453
+mol_942,100,182,4454
+mol_943,87,27,4455
+mol_949,100,15,4458
+mol_950,100,27,4459
+mol_951,16,1,4460
+mol_954,80,6,4462
+mol_959,100,19,4464
+mol_963,100,6,4466
+mol_966,100,5,4467
+mol_968,90,1,4468
+mol_970,100,21,4469
+mol_971,100,5,4470
+mol_974,100,9,4472
+mol_976,100,5,4474
+mol_978,100,199,4475
+mol_981,100,279,4477
+mol_982,80,76,4478
+mol_989,90,5,4482
+mol_990,10,7,4483
+mol_991,100,7,4484
+mol_994,100,9,4485
+mol_997,100,10,4487
+mol_998,100,1,4488
+mol_1000,100,11,4490
+
+Finished screening current batch of 345 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 4490
+Number of conformers screened = 280979
+Number of matches found = 115146
+Number of molecules that produced matches = 1991
+Number of hits processed = 1991
+
+CPU time = 5.86 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_10 (10 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 319
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_10 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_80,1,1,4491
+mol_187,12,2,4500
+mol_275,15,5,4515
+mol_336,40,10,4527
+mol_350,40,12,4531
+mol_435,70,61,4548
+mol_457,70,28,4556
+mol_509,50,24,4571
+mol_512,60,11,4573
+mol_530,70,4,4579
+mol_579,60,1,4594
+mol_608,13,1,4607
+mol_614,33,2,4610
+mol_638,90,10,4622
+mol_639,80,50,4623
+mol_640,60,13,4624
+mol_667,50,7,4635
+mol_668,50,5,4636
+mol_680,40,19,4640
+mol_681,70,7,4641
+mol_684,50,3,4643
+mol_691,42,4,4646
+mol_702,80,1,4649
+mol_714,60,5,4654
+mol_727,50,17,4662
+mol_730,70,17,4664
+mol_731,36,24,4665
+mol_738,70,8,4668
+mol_747,60,1,4670
+mol_764,69,8,4675
+mol_765,9,6,4676
+mol_768,100,16,4678
+mol_794,60,12,4686
+mol_808,70,1,4693
+mol_820,90,1,4699
+mol_821,80,45,4700
+mol_822,90,8,4701
+mol_825,100,16,4702
+mol_833,36,4,4707
+mol_843,70,1,4710
+mol_848,80,1,4712
+mol_853,90,15,4715
+mol_855,80,24,4717
+mol_866,80,7,4724
+mol_868,70,2,4726
+mol_876,60,39,4729
+mol_877,80,39,4730
+mol_885,48,8,4734
+mol_889,100,10,4736
+mol_901,100,4,4742
+mol_907,90,9,4745
+mol_909,100,4,4746
+mol_912,100,1,4749
+mol_913,80,8,4750
+mol_915,100,98,4752
+mol_920,100,3,4757
+mol_921,100,16,4758
+mol_925,100,1,4760
+mol_926,90,110,4761
+mol_927,80,1,4762
+mol_929,100,36,4763
+mol_930,70,39,4764
+mol_933,90,6,4766
+mol_936,100,2,4768
+mol_938,100,10,4770
+mol_940,100,36,4772
+mol_943,87,4,4774
+mol_966,100,16,4787
+mol_968,90,1,4788
+mol_970,100,12,4789
+mol_971,100,4,4790
+mol_976,100,12,4794
+mol_978,100,70,4795
+mol_990,10,21,4802
+mol_991,100,7,4803
+mol_997,100,9,4806
+mol_999,80,86,4808
+
+Finished screening current batch of 319 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 4809
+Number of conformers screened = 302090
+Number of matches found = 116388
+Number of molecules that produced matches = 2068
+Number of hits processed = 2068
+
+CPU time = 3.00 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_19 (11 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 426
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_19 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_49,12,6,4810
+mol_63,8,15,4811
+mol_68,12,4,4812
+mol_118,70,15,4814
+mol_124,4,4,4815
+mol_127,50,64,4816
+mol_129,40,10,4817
+mol_157,50,26,4820
+mol_182,70,28,4822
+mol_187,12,14,4823
+mol_188,60,14,4824
+mol_189,30,20,4825
+mol_196,27,17,4826
+mol_206,50,10,4828
+mol_220,8,12,4829
+mol_221,50,53,4830
+mol_233,42,11,4831
+mol_243,80,13,4833
+mol_248,40,41,4835
+mol_250,50,31,4836
+mol_253,8,4,4837
+mol_257,50,94,4838
+mol_260,12,2,4839
+mol_278,12,66,4840
+mol_280,41,52,4842
+mol_289,16,24,4845
+mol_292,32,80,4846
+mol_298,50,42,4848
+mol_305,50,38,4852
+mol_310,100,134,4853
+mol_313,30,14,4854
+mol_316,80,45,4855
+mol_320,12,38,4856
+mol_324,68,32,4858
+mol_326,50,92,4860
+mol_336,40,20,4862
+mol_341,47,26,4864
+mol_343,50,64,4865
+mol_364,24,102,4867
+mol_365,40,16,4868
+mol_367,12,12,4869
+mol_384,48,23,4872
+mol_385,60,1,4873
+mol_399,70,13,4876
+mol_400,60,24,4877
+mol_407,40,20,4879
+mol_410,100,56,4880
+mol_411,50,29,4881
+mol_413,90,40,4882
+mol_416,70,98,4883
+mol_418,32,14,4884
+mol_421,80,37,4885
+mol_425,70,43,4887
+mol_430,36,69,4889
+mol_434,50,30,4890
+mol_435,70,149,4891
+mol_440,50,23,4893
+mol_441,70,27,4894
+mol_448,80,60,4895
+mol_450,80,10,4896
+mol_451,75,3,4897
+mol_457,70,42,4900
+mol_458,50,48,4901
+mol_463,70,86,4902
+mol_465,4,16,4904
+mol_466,12,56,4905
+mol_468,16,6,4906
+mol_471,1,2,4908
+mol_481,70,68,4911
+mol_483,60,64,4913
+mol_485,21,145,4915
+mol_489,70,131,4917
+mol_490,60,27,4918
+mol_492,60,12,4919
+mol_498,70,44,4921
+mol_500,54,72,4922
+mol_502,35,24,4923
+mol_505,70,65,4926
+mol_508,70,169,4927
+mol_509,50,92,4928
+mol_512,60,30,4929
+mol_520,70,21,4932
+mol_521,70,21,4933
+mol_524,41,158,4935
+mol_530,70,121,4937
+mol_531,90,126,4938
+mol_533,12,56,4939
+mol_537,16,18,4942
+mol_538,56,28,4943
+mol_540,16,24,4944
+mol_542,90,35,4945
+mol_547,70,34,4949
+mol_549,60,233,4950
+mol_550,60,22,4951
+mol_557,6,10,4954
+mol_564,80,106,4957
+mol_565,8,8,4958
+mol_566,50,73,4959
+mol_572,60,56,4961
+mol_573,3,3,4962
+mol_574,50,56,4963
+mol_575,100,11,4964
+mol_576,90,178,4965
+mol_580,70,13,4967
+mol_581,90,2,4968
+mol_585,24,80,4970
+mol_588,50,25,4971
+mol_589,100,123,4972
+mol_594,98,265,4973
+mol_595,30,60,4974
+mol_598,100,154,4976
+mol_600,70,150,4977
+mol_601,60,100,4978
+mol_608,13,38,4979
+mol_610,60,10,4980
+mol_614,33,65,4981
+mol_616,50,58,4982
+mol_618,90,139,4983
+mol_620,100,127,4985
+mol_621,70,70,4986
+mol_623,60,17,4987
+mol_626,24,48,4988
+mol_629,100,154,4991
+mol_630,12,54,4992
+mol_632,80,75,4994
+mol_634,70,17,4995
+mol_635,60,34,4996
+mol_637,56,11,4998
+mol_638,90,53,4999
+mol_639,80,83,5000
+mol_640,60,225,5001
+mol_641,70,9,5002
+mol_644,80,61,5003
+mol_645,90,201,5004
+mol_646,60,70,5005
+mol_648,100,17,5006
+mol_656,32,20,5009
+mol_657,60,76,5010
+mol_658,90,136,5011
+mol_659,100,325,5012
+mol_660,100,374,5013
+mol_661,100,15,5014
+mol_662,70,285,5015
+mol_666,80,37,5018
+mol_667,50,53,5019
+mol_668,50,52,5020
+mol_669,80,220,5021
+mol_677,70,17,5023
+mol_679,1,3,5025
+mol_680,40,45,5026
+mol_684,50,27,5029
+mol_686,70,59,5031
+mol_688,88,44,5032
+mol_691,42,4,5033
+mol_696,70,19,5035
+mol_702,80,9,5037
+mol_709,80,67,5038
+mol_712,100,338,5039
+mol_713,70,131,5040
+mol_714,60,31,5041
+mol_719,100,148,5043
+mol_726,70,37,5044
+mol_727,50,79,5045
+mol_728,90,321,5046
+mol_730,70,226,5047
+mol_732,40,24,5048
+mol_733,75,42,5049
+mol_734,100,62,5050
+mol_735,100,7,5051
+mol_736,90,302,5052
+mol_741,98,141,5054
+mol_743,60,320,5055
+mol_747,60,44,5057
+mol_750,90,10,5058
+mol_751,100,56,5059
+mol_752,70,176,5060
+mol_754,90,114,5061
+mol_757,80,71,5062
+mol_759,70,102,5063
+mol_760,90,9,5064
+mol_761,60,9,5065
+mol_763,70,36,5066
+mol_764,69,9,5067
+mol_765,9,2,5068
+mol_766,90,168,5069
+mol_768,100,91,5071
+mol_771,100,123,5072
+mol_772,100,343,5073
+mol_773,100,34,5074
+mol_775,100,229,5076
+mol_779,3,6,5078
+mol_780,58,82,5079
+mol_783,100,36,5080
+mol_785,60,43,5081
+mol_791,90,114,5083
+mol_794,60,55,5085
+mol_800,76,80,5087
+mol_804,90,198,5089
+mol_805,90,36,5090
+mol_806,100,45,5091
+mol_808,70,46,5093
+mol_809,80,33,5094
+mol_810,34,32,5095
+mol_813,90,11,5096
+mol_814,16,48,5097
+mol_819,90,88,5101
+mol_820,90,101,5102
+mol_822,90,385,5103
+mol_825,100,153,5105
+mol_827,60,2,5107
+mol_831,80,95,5109
+mol_833,36,59,5110
+mol_835,60,91,5111
+mol_836,90,38,5112
+mol_838,88,65,5114
+mol_839,36,132,5115
+mol_840,50,7,5116
+mol_843,70,47,5118
+mol_844,90,42,5119
+mol_845,60,47,5120
+mol_848,80,36,5121
+mol_849,100,28,5122
+mol_851,80,35,5124
+mol_853,90,254,5125
+mol_854,100,31,5126
+mol_858,60,115,5129
+mol_860,80,67,5131
+mol_863,100,11,5133
+mol_864,100,214,5134
+mol_865,100,100,5135
+mol_866,80,6,5136
+mol_867,100,9,5137
+mol_868,70,53,5138
+mol_869,80,162,5139
+mol_870,70,106,5140
+mol_871,40,50,5141
+mol_873,80,223,5143
+mol_876,60,42,5145
+mol_878,80,261,5147
+mol_879,100,23,5148
+mol_882,100,397,5150
+mol_885,48,6,5151
+mol_886,100,248,5152
+mol_887,80,96,5153
+mol_889,100,20,5154
+mol_890,70,90,5155
+mol_893,80,3,5157
+mol_894,100,1,5158
+mol_895,100,28,5159
+mol_898,36,18,5161
+mol_899,90,50,5162
+mol_901,100,112,5163
+mol_902,100,1,5164
+mol_904,100,87,5166
+mol_905,68,32,5167
+mol_907,90,54,5168
+mol_909,100,155,5169
+mol_910,60,60,5170
+mol_911,60,60,5171
+mol_912,100,141,5172
+mol_918,100,110,5175
+mol_919,80,44,5176
+mol_920,100,44,5177
+mol_921,100,22,5178
+mol_924,100,38,5180
+mol_925,100,541,5181
+mol_927,80,194,5183
+mol_929,100,39,5185
+mol_930,70,61,5186
+mol_933,90,308,5188
+mol_934,80,3,5189
+mol_935,100,171,5190
+mol_937,100,44,5191
+mol_938,100,60,5192
+mol_939,100,9,5193
+mol_940,100,50,5194
+mol_941,28,10,5195
+mol_943,87,155,5196
+mol_944,100,76,5197
+mol_945,100,68,5198
+mol_946,100,67,5199
+mol_951,16,8,5201
+mol_952,100,904,5202
+mol_953,80,80,5203
+mol_954,80,14,5204
+mol_955,100,189,5205
+mol_958,100,3,5206
+mol_960,60,12,5207
+mol_963,100,323,5208
+mol_964,6,12,5209
+mol_966,100,233,5210
+mol_968,90,387,5211
+mol_969,60,240,5212
+mol_970,100,66,5213
+mol_971,100,81,5214
+mol_972,40,20,5215
+mol_974,100,71,5216
+mol_975,100,21,5217
+mol_976,100,164,5218
+mol_977,100,3,5219
+mol_982,80,122,5222
+mol_983,70,86,5223
+mol_986,100,454,5224
+mol_990,10,49,5227
+mol_991,100,111,5228
+mol_994,100,138,5229
+mol_995,100,364,5230
+mol_996,90,170,5231
+mol_997,100,236,5232
+mol_998,100,228,5233
+mol_999,80,10,5234
+mol_1000,100,124,5235
+
+Finished screening current batch of 426 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 5235
+Number of conformers screened = 330427
+Number of matches found = 142228
+Number of molecules that produced matches = 2380
+Number of hits processed = 2380
+
+CPU time = 8.90 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_3 (12 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 501
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_3 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_124,4,4,5245
+mol_187,12,8,5256
+mol_188,60,6,5257
+mol_189,30,19,5258
+mol_248,40,11,5270
+mol_260,12,2,5277
+mol_280,41,6,5284
+mol_289,16,10,5287
+mol_298,50,3,5293
+mol_313,30,14,5302
+mol_320,12,11,5305
+mol_364,24,3,5320
+mol_365,40,9,5321
+mol_367,12,12,5323
+mol_384,48,20,5326
+mol_407,40,20,5339
+mol_430,36,36,5350
+mol_434,50,26,5352
+mol_435,70,133,5353
+mol_441,70,24,5357
+mol_457,70,42,5365
+mol_458,50,48,5366
+mol_468,16,6,5371
+mol_471,1,1,5374
+mol_481,70,6,5379
+mol_489,70,1,5386
+mol_490,60,27,5387
+mol_502,35,4,5394
+mol_505,70,14,5397
+mol_509,50,39,5399
+mol_512,60,24,5401
+mol_530,70,10,5413
+mol_537,16,18,5417
+mol_540,16,16,5419
+mol_549,60,8,5425
+mol_566,50,2,5435
+mol_572,60,29,5438
+mol_574,50,18,5440
+mol_580,70,9,5445
+mol_608,13,12,5461
+mol_614,33,16,5464
+mol_618,90,3,5466
+mol_621,70,70,5469
+mol_626,24,12,5472
+mol_632,80,75,5478
+mol_634,70,8,5479
+mol_635,60,27,5480
+mol_637,56,6,5482
+mol_639,80,38,5484
+mol_640,60,169,5485
+mol_644,80,6,5487
+mol_656,32,14,5493
+mol_657,60,2,5494
+mol_661,100,2,5497
+mol_666,80,4,5502
+mol_667,50,53,5503
+mol_668,50,52,5504
+mol_669,80,210,5505
+mol_677,70,11,5508
+mol_680,40,38,5510
+mol_684,50,13,5513
+mol_691,42,2,5518
+mol_696,70,4,5520
+mol_709,80,22,5527
+mol_713,70,108,5528
+mol_714,60,26,5529
+mol_719,100,3,5533
+mol_726,70,29,5536
+mol_727,50,22,5537
+mol_730,70,56,5539
+mol_734,100,25,5541
+mol_747,60,7,5547
+mol_752,70,1,5551
+mol_759,70,17,5554
+mol_760,90,6,5555
+mol_763,70,3,5558
+mol_765,9,2,5560
+mol_766,90,15,5561
+mol_768,100,5,5563
+mol_773,100,16,5567
+mol_780,58,14,5571
+mol_794,60,22,5577
+mol_804,90,2,5582
+mol_806,100,10,5584
+mol_809,80,21,5587
+mol_819,90,30,5594
+mol_820,90,9,5595
+mol_822,90,29,5597
+mol_825,100,22,5599
+mol_833,36,35,5604
+mol_835,60,12,5605
+mol_836,90,38,5606
+mol_844,90,8,5612
+mol_845,60,33,5613
+mol_848,80,10,5614
+mol_851,80,35,5617
+mol_853,90,89,5618
+mol_858,60,43,5623
+mol_865,100,2,5629
+mol_868,70,43,5632
+mol_870,70,96,5634
+mol_871,40,38,5635
+mol_873,80,8,5636
+mol_876,60,18,5638
+mol_882,100,206,5644
+mol_886,100,1,5646
+mol_889,100,18,5648
+mol_899,90,49,5656
+mol_901,100,8,5657
+mol_907,90,30,5662
+mol_919,80,13,5673
+mol_920,100,14,5674
+mol_921,100,1,5675
+mol_924,100,5,5677
+mol_925,100,89,5678
+mol_927,80,1,5680
+mol_929,100,14,5682
+mol_930,70,54,5683
+mol_933,90,45,5685
+mol_935,100,44,5687
+mol_938,100,11,5690
+mol_940,100,7,5692
+mol_943,87,58,5695
+mol_951,16,3,5701
+mol_954,80,2,5703
+mol_955,100,1,5704
+mol_960,60,4,5707
+mol_963,100,22,5708
+mol_966,100,9,5711
+mol_968,90,1,5712
+mol_970,100,5,5713
+mol_971,100,13,5714
+mol_974,100,1,5716
+mol_975,100,10,5717
+mol_976,100,22,5718
+mol_982,80,108,5723
+mol_983,70,5,5724
+mol_990,10,13,5728
+mol_991,100,46,5729
+mol_994,100,78,5730
+mol_997,100,5,5733
+mol_998,100,48,5734
+mol_1000,100,25,5736
+
+Finished screening current batch of 501 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 5736
+Number of conformers screened = 362021
+Number of matches found = 145893
+Number of molecules that produced matches = 2523
+Number of hits processed = 2523
+
+CPU time = 5.08 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_12 (13 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 611
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_12 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_63,8,16,5743
+mol_149,8,4,5766
+mol_177,16,16,5776
+mol_187,12,12,5782
+mol_188,60,1,5783
+mol_189,30,36,5784
+mol_196,27,17,5789
+mol_206,50,19,5792
+mol_208,12,6,5794
+mol_239,18,14,5806
+mol_248,40,23,5810
+mol_253,8,4,5813
+mol_260,12,20,5818
+mol_280,41,28,5829
+mol_282,80,24,5830
+mol_289,16,27,5832
+mol_291,50,9,5834
+mol_298,50,4,5840
+mol_305,50,36,5846
+mol_313,30,14,5852
+mol_320,12,24,5857
+mol_334,80,6,5864
+mol_336,40,20,5865
+mol_339,8,6,5867
+mol_341,47,10,5868
+mol_351,60,16,5875
+mol_364,24,15,5880
+mol_365,40,20,5881
+mol_379,50,6,5887
+mol_384,48,12,5889
+mol_405,80,1,5906
+mol_407,40,38,5907
+mol_413,90,34,5911
+mol_418,32,14,5916
+mol_425,70,3,5923
+mol_430,36,36,5927
+mol_434,50,74,5931
+mol_435,70,61,5932
+mol_441,70,41,5936
+mol_448,80,7,5940
+mol_454,90,10,5943
+mol_455,50,1,5944
+mol_457,70,42,5946
+mol_458,50,50,5947
+mol_463,70,21,5948
+mol_465,4,4,5950
+mol_466,12,12,5951
+mol_468,16,6,5952
+mol_469,80,28,5953
+mol_475,60,60,5958
+mol_476,50,13,5959
+mol_481,70,2,5962
+mol_483,60,8,5964
+mol_489,70,7,5969
+mol_490,60,27,5970
+mol_492,60,8,5971
+mol_494,18,18,5973
+mol_502,35,12,5978
+mol_503,30,6,5979
+mol_505,70,21,5981
+mol_506,6,4,5982
+mol_509,50,56,5985
+mol_512,60,31,5987
+mol_522,90,62,5994
+mol_530,70,23,6001
+mol_533,12,24,6002
+mol_536,90,2,6005
+mol_537,16,18,6006
+mol_538,56,12,6007
+mol_540,16,8,6008
+mol_545,32,16,6011
+mol_546,80,12,6012
+mol_547,70,39,6013
+mol_549,60,108,6014
+mol_550,60,44,6015
+mol_557,6,6,6020
+mol_566,50,16,6026
+mol_572,60,41,6029
+mol_574,50,27,6031
+mol_575,100,9,6032
+mol_579,60,41,6035
+mol_580,70,20,6036
+mol_581,90,1,6037
+mol_583,50,8,6039
+mol_588,50,15,6044
+mol_593,30,32,6047
+mol_600,70,33,6052
+mol_601,60,38,6053
+mol_608,13,13,6055
+mol_610,60,24,6056
+mol_614,33,10,6059
+mol_616,50,29,6060
+mol_618,90,9,6061
+mol_619,60,2,6062
+mol_620,100,7,6063
+mol_621,70,70,6064
+mol_623,60,17,6065
+mol_626,24,30,6068
+mol_629,100,23,6071
+mol_632,80,80,6074
+mol_634,70,27,6075
+mol_635,60,40,6076
+mol_636,80,1,6077
+mol_638,90,6,6079
+mol_639,80,40,6080
+mol_640,60,103,6081
+mol_644,80,12,6083
+mol_645,90,17,6084
+mol_650,16,56,6086
+mol_656,32,18,6090
+mol_657,60,64,6091
+mol_661,100,16,6094
+mol_662,70,4,6095
+mol_666,80,25,6099
+mol_667,50,100,6100
+mol_668,50,100,6101
+mol_669,80,147,6102
+mol_677,70,5,6107
+mol_680,40,38,6109
+mol_684,50,277,6113
+mol_686,70,70,6115
+mol_691,42,6,6118
+mol_696,70,20,6120
+mol_702,80,41,6125
+mol_709,80,43,6130
+mol_713,70,109,6131
+mol_714,60,127,6132
+mol_719,100,21,6136
+mol_721,70,1,6137
+mol_726,70,17,6141
+mol_727,50,43,6142
+mol_730,70,48,6144
+mol_734,100,24,6146
+mol_741,98,1,6150
+mol_747,60,12,6153
+mol_757,80,4,6159
+mol_759,70,12,6160
+mol_760,90,43,6161
+mol_763,70,7,6164
+mol_764,69,7,6165
+mol_765,9,2,6166
+mol_766,90,10,6167
+mol_768,100,72,6169
+mol_773,100,3,6174
+mol_780,58,10,6179
+mol_783,100,37,6180
+mol_794,60,39,6185
+mol_804,90,21,6190
+mol_805,90,24,6191
+mol_806,100,32,6192
+mol_808,70,309,6194
+mol_809,80,26,6195
+mol_813,90,266,6197
+mol_818,98,2,6201
+mol_819,90,2,6202
+mol_820,90,171,6203
+mol_822,90,65,6205
+mol_824,90,1,6206
+mol_825,100,35,6207
+mol_833,36,108,6212
+mol_835,60,9,6213
+mol_836,90,44,6214
+mol_837,80,22,6215
+mol_839,36,72,6216
+mol_841,40,6,6218
+mol_843,70,395,6219
+mol_844,90,32,6220
+mol_845,60,72,6221
+mol_848,80,40,6223
+mol_851,80,13,6226
+mol_852,100,3,6227
+mol_853,90,73,6228
+mol_854,100,5,6229
+mol_858,60,80,6233
+mol_859,100,1,6234
+mol_860,80,6,6235
+mol_863,100,81,6237
+mol_864,100,1,6238
+mol_865,100,3,6239
+mol_866,80,14,6240
+mol_867,100,4,6241
+mol_868,70,47,6242
+mol_869,80,21,6243
+mol_870,70,121,6244
+mol_871,40,20,6245
+mol_873,80,5,6246
+mol_876,60,242,6248
+mol_877,80,107,6249
+mol_879,100,22,6251
+mol_880,100,206,6252
+mol_882,100,79,6254
+mol_885,48,8,6255
+mol_886,100,1,6256
+mol_889,100,10,6258
+mol_894,100,119,6262
+mol_895,100,100,6263
+mol_898,36,3,6265
+mol_899,90,22,6266
+mol_901,100,28,6267
+mol_907,90,32,6272
+mol_909,100,5,6273
+mol_910,60,60,6274
+mol_911,60,120,6275
+mol_912,100,2,6276
+mol_915,100,89,6279
+mol_919,80,13,6283
+mol_920,100,19,6284
+mol_921,100,75,6285
+mol_924,100,27,6288
+mol_925,100,94,6289
+mol_926,90,140,6290
+mol_927,80,41,6291
+mol_928,70,182,6292
+mol_929,100,177,6293
+mol_930,70,162,6294
+mol_933,90,64,6296
+mol_934,80,317,6297
+mol_935,100,104,6298
+mol_937,100,23,6300
+mol_938,100,212,6301
+mol_939,100,2,6302
+mol_940,100,95,6303
+mol_941,28,5,6304
+mol_943,87,32,6306
+mol_945,100,3,6307
+mol_948,100,200,6309
+mol_951,16,20,6312
+mol_952,100,44,6313
+mol_954,80,4,6314
+mol_955,100,17,6315
+mol_960,60,85,6318
+mol_963,100,47,6319
+mol_966,100,53,6322
+mol_968,90,1,6323
+mol_970,100,48,6324
+mol_971,100,44,6325
+mol_974,100,7,6327
+mol_976,100,128,6329
+mol_977,100,2,6330
+mol_978,100,23,6331
+mol_982,80,107,6334
+mol_986,100,21,6336
+mol_990,10,15,6339
+mol_991,100,107,6340
+mol_994,100,56,6341
+mol_996,90,101,6343
+mol_997,100,61,6344
+mol_998,100,202,6345
+mol_999,80,570,6346
+mol_1000,100,45,6347
+
+Finished screening current batch of 611 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 6347
+Number of conformers screened = 397383
+Number of matches found = 157310
+Number of molecules that produced matches = 2773
+Number of hits processed = 2773
+
+CPU time = 6.80 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_9 (14 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 380
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_9 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_166,23,2,6364
+mol_196,27,5,6373
+mol_206,50,6,6375
+mol_248,40,5,6386
+mol_273,35,2,6392
+mol_274,70,5,6393
+mol_305,50,8,6402
+mol_313,30,2,6405
+mol_314,24,3,6406
+mol_336,40,42,6409
+mol_342,34,1,6412
+mol_365,40,1,6418
+mol_372,80,51,6421
+mol_378,70,42,6422
+mol_387,12,4,6423
+mol_405,80,1,6429
+mol_429,80,43,6434
+mol_470,34,24,6453
+mol_481,70,11,6455
+mol_486,90,70,6457
+mol_509,50,51,6464
+mol_511,90,33,6465
+mol_512,60,23,6466
+mol_516,70,7,6469
+mol_519,70,128,6471
+mol_526,50,107,6472
+mol_538,56,2,6476
+mol_540,16,8,6477
+mol_547,70,7,6479
+mol_559,70,115,6483
+mol_560,90,51,6484
+mol_561,100,1,6485
+mol_587,60,54,6497
+mol_601,60,4,6504
+mol_608,13,5,6506
+mol_614,33,5,6510
+mol_616,50,3,6511
+mol_624,70,6,6514
+mol_629,100,1,6517
+mol_636,80,16,6520
+mol_639,80,6,6523
+mol_644,80,18,6525
+mol_656,32,12,6532
+mol_667,50,64,6537
+mol_668,50,61,6538
+mol_669,80,16,6539
+mol_676,24,42,6540
+mol_679,1,3,6541
+mol_680,40,2,6542
+mol_686,70,11,6545
+mol_687,90,65,6546
+mol_704,70,54,6553
+mol_706,56,92,6554
+mol_707,80,113,6555
+mol_717,90,21,6560
+mol_720,70,10,6562
+mol_723,70,74,6564
+mol_727,50,12,6566
+mol_730,70,13,6568
+mol_731,36,18,6569
+mol_738,70,29,6572
+mol_740,90,20,6573
+mol_747,60,6,6576
+mol_748,60,120,6577
+mol_764,69,15,6582
+mol_765,9,2,6583
+mol_768,100,11,6585
+mol_769,100,17,6586
+mol_772,100,42,6587
+mol_794,60,44,6594
+mol_805,90,10,6601
+mol_806,100,88,6602
+mol_812,100,34,6606
+mol_817,100,17,6608
+mol_819,90,6,6609
+mol_821,80,9,6611
+mol_825,100,111,6613
+mol_833,36,2,6618
+mol_847,100,36,6624
+mol_855,80,32,6630
+mol_856,15,12,6631
+mol_858,60,20,6633
+mol_866,80,5,6638
+mol_868,70,2,6640
+mol_874,37,3,6642
+mol_877,80,55,6645
+mol_878,80,18,6646
+mol_879,100,20,6647
+mol_888,100,5,6650
+mol_901,100,9,6658
+mol_905,68,2,6659
+mol_906,40,72,6660
+mol_907,90,2,6661
+mol_912,100,1,6665
+mol_913,80,55,6666
+mol_916,100,5,6669
+mol_921,100,20,6674
+mol_925,100,7,6676
+mol_926,90,127,6677
+mol_927,80,4,6678
+mol_929,100,10,6679
+mol_930,70,10,6680
+mol_936,100,92,6684
+mol_937,100,16,6685
+mol_938,100,10,6686
+mol_940,100,31,6688
+mol_942,100,232,6689
+mol_943,87,1,6690
+mol_946,100,6,6692
+mol_948,100,4,6693
+mol_949,100,31,6694
+mol_950,100,77,6695
+mol_954,80,35,6698
+mol_955,100,7,6699
+mol_959,100,8,6701
+mol_961,100,15,6702
+mol_963,100,7,6703
+mol_966,100,1,6704
+mol_970,100,107,6706
+mol_971,100,68,6707
+mol_974,100,11,6709
+mol_976,100,45,6711
+mol_978,100,5,6712
+mol_981,100,520,6714
+mol_982,80,113,6715
+mol_989,90,38,6719
+mol_991,100,4,6721
+mol_996,90,1,6723
+mol_997,100,84,6724
+mol_999,80,258,6726
+mol_1000,100,29,6727
+
+Finished screening current batch of 380 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 6727
+Number of conformers screened = 422411
+Number of matches found = 161943
+Number of molecules that produced matches = 2904
+Number of hits processed = 2904
+
+CPU time = 5.61 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_6 (15 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 387
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_6 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_179,3,2,6750
+mol_187,12,2,6754
+mol_196,27,23,6756
+mol_248,40,8,6770
+mol_249,16,22,6771
+mol_275,15,5,6778
+mol_282,80,2,6779
+mol_283,90,47,6780
+mol_288,100,49,6781
+mol_300,13,12,6785
+mol_305,50,62,6787
+mol_312,70,5,6789
+mol_320,12,4,6792
+mol_336,40,53,6794
+mol_340,70,1,6796
+mol_346,70,32,6798
+mol_350,40,4,6800
+mol_365,40,6,6803
+mol_387,12,8,6809
+mol_389,50,8,6810
+mol_393,7,1,6812
+mol_413,90,70,6817
+mol_415,70,22,6818
+mol_435,70,125,6821
+mol_437,24,72,6822
+mol_456,50,37,6832
+mol_457,70,28,6833
+mol_470,34,20,6838
+mol_481,70,12,6840
+mol_489,70,2,6844
+mol_505,70,2,6849
+mol_509,50,39,6851
+mol_512,60,33,6853
+mol_515,100,7,6855
+mol_516,70,10,6856
+mol_519,70,84,6858
+mol_526,50,58,6859
+mol_538,56,6,6863
+mol_540,16,8,6864
+mol_547,70,6,6867
+mol_549,60,3,6869
+mol_551,12,8,6870
+mol_559,70,156,6872
+mol_561,100,1,6874
+mol_579,60,15,6880
+mol_587,60,29,6885
+mol_599,2,1,6891
+mol_600,70,1,6892
+mol_601,60,56,6893
+mol_608,13,11,6895
+mol_614,33,1,6899
+mol_616,50,11,6900
+mol_624,70,22,6903
+mol_629,100,1,6906
+mol_636,80,5,6909
+mol_639,80,27,6912
+mol_640,60,24,6913
+mol_656,32,8,6920
+mol_668,50,2,6925
+mol_676,24,24,6927
+mol_680,40,32,6929
+mol_684,50,3,6931
+mol_691,42,4,6936
+mol_697,1,1,6939
+mol_702,80,58,6940
+mol_704,70,57,6941
+mol_706,56,80,6942
+mol_707,80,115,6943
+mol_709,80,5,6944
+mol_710,100,56,6945
+mol_720,70,18,6950
+mol_723,70,169,6952
+mol_726,70,9,6953
+mol_727,50,75,6954
+mol_730,70,4,6956
+mol_731,36,126,6957
+mol_738,70,60,6960
+mol_747,60,5,6964
+mol_750,90,53,6966
+mol_765,9,18,6971
+mol_768,100,2,6973
+mol_772,100,2,6975
+mol_794,60,13,6981
+mol_803,100,117,6986
+mol_806,100,25,6989
+mol_808,70,2,6990
+mol_812,100,3,6993
+mol_815,100,51,6994
+mol_817,100,1,6995
+mol_819,90,6,6996
+mol_821,80,119,6998
+mol_822,90,1,6999
+mol_825,100,70,7000
+mol_831,80,1,7004
+mol_833,36,6,7005
+mol_843,70,9,7009
+mol_847,100,26,7011
+mol_851,80,7,7014
+mol_853,90,22,7015
+mol_854,100,2,7016
+mol_855,80,115,7017
+mol_858,60,48,7020
+mol_868,70,14,7027
+mol_876,60,5,7031
+mol_877,80,172,7032
+mol_878,80,5,7033
+mol_888,100,7,7038
+mol_889,100,17,7039
+mol_899,90,10,7045
+mol_901,100,7,7046
+mol_907,90,117,7049
+mol_912,100,7,7053
+mol_913,80,247,7054
+mol_916,100,1,7057
+mol_921,100,62,7062
+mol_925,100,2,7064
+mol_926,90,372,7065
+mol_929,100,169,7067
+mol_930,70,33,7068
+mol_933,90,4,7070
+mol_936,100,37,7072
+mol_937,100,1,7073
+mol_938,100,59,7074
+mol_939,100,1,7075
+mol_940,100,237,7076
+mol_942,100,212,7077
+mol_943,87,18,7078
+mol_949,100,5,7082
+mol_950,100,23,7083
+mol_951,16,1,7084
+mol_954,80,60,7086
+mol_955,100,6,7087
+mol_959,100,6,7088
+mol_963,100,16,7090
+mol_966,100,3,7091
+mol_970,100,26,7093
+mol_971,100,18,7094
+mol_972,40,4,7095
+mol_974,100,22,7096
+mol_976,100,4,7098
+mol_978,100,219,7099
+mol_981,100,279,7101
+mol_982,80,84,7102
+mol_989,90,6,7106
+mol_990,10,17,7107
+mol_991,100,9,7108
+mol_994,100,8,7109
+mol_997,100,10,7111
+mol_999,80,28,7113
+mol_1000,100,18,7114
+
+Finished screening current batch of 387 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 7114
+Number of conformers screened = 447745
+Number of matches found = 167630
+Number of molecules that produced matches = 3054
+Number of hits processed = 3054
+
+CPU time = 6.52 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_20 (16 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 442
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_20 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_49,12,4,7115
+mol_63,8,6,7116
+mol_68,12,4,7117
+mol_118,70,10,7120
+mol_127,50,66,7122
+mol_129,40,11,7123
+mol_155,30,1,7125
+mol_157,50,18,7126
+mol_182,70,19,7128
+mol_187,12,22,7129
+mol_188,60,19,7130
+mol_189,30,15,7131
+mol_196,27,17,7132
+mol_206,50,44,7134
+mol_221,50,91,7136
+mol_233,42,13,7137
+mol_241,20,40,7138
+mol_243,80,8,7139
+mol_244,20,13,7140
+mol_248,40,62,7141
+mol_250,50,28,7142
+mol_253,8,2,7143
+mol_257,50,113,7144
+mol_259,50,5,7145
+mol_260,12,3,7146
+mol_278,12,48,7147
+mol_280,41,45,7149
+mol_282,80,1,7150
+mol_289,16,60,7152
+mol_292,32,72,7153
+mol_293,60,13,7154
+mol_298,50,63,7155
+mol_305,50,28,7159
+mol_310,100,93,7160
+mol_313,30,20,7161
+mol_316,80,33,7162
+mol_320,12,60,7163
+mol_321,27,39,7164
+mol_324,68,63,7165
+mol_326,50,121,7167
+mol_334,80,3,7169
+mol_336,40,20,7170
+mol_339,8,8,7171
+mol_341,47,37,7172
+mol_343,50,102,7173
+mol_344,50,14,7174
+mol_364,24,63,7176
+mol_365,40,32,7177
+mol_378,70,6,7180
+mol_384,48,19,7181
+mol_385,60,2,7182
+mol_399,70,12,7185
+mol_400,60,33,7186
+mol_405,80,40,7187
+mol_407,40,20,7188
+mol_410,100,54,7189
+mol_411,50,20,7190
+mol_413,90,74,7191
+mol_416,70,68,7192
+mol_418,32,14,7193
+mol_421,80,36,7195
+mol_425,70,87,7197
+mol_430,36,45,7199
+mol_434,50,20,7200
+mol_435,70,90,7201
+mol_440,50,39,7203
+mol_441,70,41,7204
+mol_448,80,81,7205
+mol_451,75,2,7207
+mol_457,70,10,7210
+mol_458,50,48,7211
+mol_463,70,40,7212
+mol_465,4,8,7214
+mol_466,12,24,7215
+mol_468,16,3,7216
+mol_471,1,2,7218
+mol_481,70,46,7222
+mol_483,60,73,7224
+mol_485,21,104,7226
+mol_488,80,1,7227
+mol_489,70,143,7228
+mol_490,60,25,7229
+mol_492,60,7,7230
+mol_498,70,36,7232
+mol_500,54,36,7233
+mol_502,35,28,7234
+mol_505,70,42,7237
+mol_508,70,180,7239
+mol_509,50,119,7240
+mol_512,60,29,7241
+mol_520,70,30,7244
+mol_521,70,28,7245
+mol_523,90,36,7246
+mol_524,41,108,7247
+mol_530,70,87,7249
+mol_531,90,93,7250
+mol_533,12,24,7251
+mol_536,90,1,7253
+mol_537,16,36,7254
+mol_538,56,52,7255
+mol_540,16,8,7256
+mol_542,90,28,7257
+mol_545,32,16,7259
+mol_547,70,55,7261
+mol_549,60,227,7262
+mol_550,60,2,7263
+mol_556,48,10,7265
+mol_557,6,5,7266
+mol_564,80,180,7269
+mol_565,8,8,7270
+mol_566,50,114,7271
+mol_572,60,77,7273
+mol_573,3,3,7274
+mol_574,50,61,7275
+mol_575,100,13,7276
+mol_576,90,87,7277
+mol_580,70,20,7279
+mol_581,90,9,7280
+mol_582,90,7,7281
+mol_583,50,5,7282
+mol_585,24,48,7283
+mol_588,50,29,7284
+mol_589,100,168,7285
+mol_593,30,16,7286
+mol_594,98,285,7287
+mol_595,30,26,7288
+mol_598,100,93,7290
+mol_600,70,68,7291
+mol_601,60,78,7292
+mol_608,13,34,7293
+mol_610,60,49,7294
+mol_614,33,64,7295
+mol_616,50,58,7296
+mol_618,90,209,7297
+mol_620,100,103,7299
+mol_621,70,70,7300
+mol_623,60,2,7301
+mol_626,24,28,7302
+mol_629,100,129,7305
+mol_630,12,68,7306
+mol_631,60,48,7307
+mol_632,80,75,7308
+mol_634,70,12,7309
+mol_635,60,26,7310
+mol_636,80,1,7311
+mol_638,90,44,7313
+mol_639,80,57,7314
+mol_640,60,127,7315
+mol_641,70,4,7316
+mol_644,80,89,7317
+mol_645,90,146,7318
+mol_646,60,74,7319
+mol_648,100,19,7320
+mol_650,16,36,7321
+mol_653,80,29,7323
+mol_656,32,16,7324
+mol_657,60,75,7325
+mol_658,90,81,7326
+mol_659,100,359,7327
+mol_660,100,168,7328
+mol_661,100,32,7329
+mol_662,70,153,7330
+mol_665,80,1,7333
+mol_666,80,48,7334
+mol_667,50,100,7335
+mol_668,50,100,7336
+mol_669,80,252,7337
+mol_671,60,5,7338
+mol_672,90,3,7339
+mol_677,70,21,7341
+mol_679,1,4,7343
+mol_680,40,39,7344
+mol_681,70,9,7345
+mol_684,50,50,7347
+mol_685,2,2,7348
+mol_686,70,60,7349
+mol_688,88,68,7350
+mol_691,42,10,7351
+mol_696,70,28,7353
+mol_700,36,24,7355
+mol_702,80,14,7356
+mol_709,80,17,7357
+mol_712,100,387,7358
+mol_713,70,79,7359
+mol_714,60,53,7360
+mol_719,100,109,7362
+mol_726,70,25,7363
+mol_727,50,103,7364
+mol_728,90,291,7365
+mol_730,70,225,7366
+mol_732,40,8,7367
+mol_733,75,57,7368
+mol_734,100,16,7369
+mol_735,100,1,7370
+mol_736,90,240,7371
+mol_741,98,186,7373
+mol_743,60,188,7374
+mol_747,60,40,7376
+mol_750,90,63,7377
+mol_751,100,16,7378
+mol_752,70,177,7379
+mol_754,90,104,7380
+mol_757,80,58,7381
+mol_759,70,91,7382
+mol_760,90,13,7383
+mol_761,60,9,7384
+mol_763,70,29,7385
+mol_764,69,14,7386
+mol_765,9,2,7387
+mol_766,90,116,7388
+mol_768,100,87,7390
+mol_771,100,100,7391
+mol_772,100,261,7392
+mol_773,100,43,7393
+mol_775,100,182,7395
+mol_779,3,5,7397
+mol_780,58,68,7398
+mol_783,100,45,7399
+mol_785,60,44,7400
+mol_791,90,36,7402
+mol_794,60,61,7404
+mol_800,76,44,7406
+mol_804,90,148,7408
+mol_805,90,108,7409
+mol_806,100,37,7410
+mol_808,70,30,7412
+mol_809,80,25,7413
+mol_810,34,6,7414
+mol_813,90,1,7415
+mol_814,16,86,7416
+mol_819,90,42,7420
+mol_820,90,341,7421
+mol_822,90,302,7422
+mol_825,100,149,7424
+mol_831,80,90,7428
+mol_833,36,50,7429
+mol_835,60,72,7430
+mol_836,90,6,7431
+mol_838,88,19,7433
+mol_839,36,153,7434
+mol_840,50,10,7435
+mol_841,40,54,7436
+mol_843,70,70,7437
+mol_844,90,30,7438
+mol_845,60,46,7439
+mol_848,80,24,7440
+mol_849,100,23,7441
+mol_853,90,224,7444
+mol_854,100,98,7445
+mol_856,15,1,7446
+mol_858,60,92,7448
+mol_859,100,4,7449
+mol_860,80,103,7450
+mol_864,100,172,7453
+mol_865,100,73,7454
+mol_866,80,9,7455
+mol_867,100,9,7456
+mol_868,70,55,7457
+mol_869,80,119,7458
+mol_870,70,55,7459
+mol_871,40,74,7460
+mol_873,80,224,7462
+mol_876,60,38,7464
+mol_878,80,307,7466
+mol_879,100,36,7467
+mol_882,100,428,7469
+mol_885,48,12,7470
+mol_886,100,107,7471
+mol_887,80,81,7472
+mol_889,100,17,7473
+mol_890,70,176,7474
+mol_893,80,3,7476
+mol_894,100,13,7477
+mol_895,100,14,7478
+mol_898,36,24,7480
+mol_899,90,23,7481
+mol_901,100,96,7482
+mol_902,100,1,7483
+mol_904,100,49,7485
+mol_905,68,152,7486
+mol_907,90,81,7487
+mol_909,100,174,7488
+mol_910,60,19,7489
+mol_911,60,24,7490
+mol_912,100,127,7491
+mol_913,80,65,7492
+mol_915,100,2,7493
+mol_918,100,61,7495
+mol_919,80,22,7496
+mol_920,100,86,7497
+mol_921,100,26,7498
+mol_924,100,56,7501
+mol_925,100,377,7502
+mol_926,90,23,7503
+mol_927,80,283,7504
+mol_929,100,21,7506
+mol_930,70,118,7507
+mol_933,90,382,7509
+mol_934,80,49,7510
+mol_935,100,187,7511
+mol_937,100,4,7512
+mol_938,100,121,7513
+mol_940,100,50,7515
+mol_941,28,6,7516
+mol_943,87,166,7517
+mol_944,100,49,7518
+mol_945,100,68,7519
+mol_946,100,179,7520
+mol_951,16,6,7522
+mol_952,100,688,7523
+mol_953,80,83,7524
+mol_954,80,94,7525
+mol_955,100,152,7526
+mol_958,100,22,7527
+mol_960,60,51,7528
+mol_963,100,254,7529
+mol_964,6,8,7530
+mol_966,100,194,7531
+mol_968,90,300,7532
+mol_969,60,66,7533
+mol_970,100,59,7534
+mol_971,100,54,7535
+mol_972,40,4,7536
+mol_974,100,49,7537
+mol_975,100,10,7538
+mol_976,100,262,7539
+mol_977,100,2,7540
+mol_982,80,128,7543
+mol_983,70,82,7544
+mol_986,100,316,7545
+mol_989,90,1,7547
+mol_990,10,38,7548
+mol_991,100,137,7549
+mol_994,100,107,7550
+mol_995,100,306,7551
+mol_996,90,53,7552
+mol_997,100,293,7553
+mol_998,100,416,7554
+mol_999,80,55,7555
+mol_1000,100,76,7556
+
+Finished screening current batch of 442 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 7556
+Number of conformers screened = 476848
+Number of matches found = 192369
+Number of molecules that produced matches = 3394
+Number of hits processed = 3394
+
+CPU time = 10.13 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_15 (17 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 629
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_15 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_44,4,4,7560
+mol_49,12,16,7561
+mol_68,12,20,7564
+mol_73,24,18,7565
+mol_75,18,24,7566
+mol_84,40,40,7570
+mol_85,70,22,7571
+mol_101,50,8,7573
+mol_103,12,12,7575
+mol_113,10,92,7579
+mol_115,70,40,7581
+mol_124,4,4,7586
+mol_127,50,8,7587
+mol_129,40,11,7588
+mol_130,32,51,7589
+mol_153,40,40,7595
+mol_155,30,46,7596
+mol_157,50,8,7597
+mol_158,16,32,7598
+mol_167,48,68,7604
+mol_171,40,11,7605
+mol_179,3,8,7607
+mol_182,70,10,7608
+mol_186,10,10,7611
+mol_187,12,12,7612
+mol_188,60,11,7613
+mol_189,30,23,7614
+mol_194,2,2,7618
+mol_202,20,30,7620
+mol_205,6,5,7621
+mol_206,50,11,7622
+mol_221,50,5,7625
+mol_232,70,52,7628
+mol_240,44,14,7631
+mol_241,20,17,7632
+mol_244,20,40,7634
+mol_248,40,63,7635
+mol_249,16,33,7636
+mol_250,50,9,7637
+mol_251,10,30,7638
+mol_253,8,10,7639
+mol_254,10,24,7640
+mol_257,50,19,7643
+mol_260,12,12,7645
+mol_262,15,55,7646
+mol_266,24,10,7648
+mol_275,15,44,7654
+mol_276,50,46,7655
+mol_279,11,11,7657
+mol_280,41,62,7658
+mol_286,24,26,7660
+mol_288,100,100,7661
+mol_289,16,38,7662
+mol_298,50,49,7668
+mol_300,13,26,7670
+mol_301,5,3,7671
+mol_302,80,4,7672
+mol_303,50,26,7673
+mol_309,39,8,7676
+mol_310,100,2,7677
+mol_313,30,60,7679
+mol_314,24,12,7680
+mol_319,20,20,7683
+mol_320,12,12,7684
+mol_321,27,39,7685
+mol_326,50,14,7687
+mol_328,60,146,7688
+mol_332,24,76,7690
+mol_334,80,8,7691
+mol_336,40,402,7692
+mol_340,70,117,7694
+mol_341,47,29,7695
+mol_342,34,2,7696
+mol_343,50,1,7697
+mol_344,50,34,7698
+mol_346,70,280,7699
+mol_347,80,3,7700
+mol_349,8,24,7701
+mol_350,40,105,7702
+mol_364,24,12,7706
+mol_365,40,62,7707
+mol_367,12,12,7709
+mol_384,48,36,7715
+mol_385,60,34,7716
+mol_387,12,27,7718
+mol_388,7,7,7719
+mol_389,50,15,7720
+mol_393,7,8,7723
+mol_396,36,72,7724
+mol_399,70,9,7725
+mol_400,60,21,7726
+mol_405,80,17,7729
+mol_406,20,60,7730
+mol_407,40,40,7731
+mol_410,100,2,7733
+mol_415,70,136,7736
+mol_416,70,1,7737
+mol_418,32,25,7738
+mol_428,60,60,7743
+mol_430,36,36,7745
+mol_433,50,161,7747
+mol_434,50,100,7748
+mol_435,70,135,7749
+mol_437,24,24,7751
+mol_438,50,3,7752
+mol_441,70,27,7754
+mol_453,8,16,7760
+mol_455,50,31,7762
+mol_456,50,159,7763
+mol_457,70,26,7764
+mol_458,50,48,7765
+mol_463,70,4,7768
+mol_465,4,2,7770
+mol_466,12,6,7771
+mol_468,16,16,7772
+mol_470,34,158,7774
+mol_471,1,1,7775
+mol_473,30,3,7777
+mol_478,40,10,7780
+mol_480,50,99,7781
+mol_481,70,35,7782
+mol_482,16,8,7783
+mol_489,70,94,7789
+mol_490,60,74,7790
+mol_493,80,195,7792
+mol_494,18,12,7793
+mol_495,80,55,7794
+mol_498,70,7,7796
+mol_500,54,172,7797
+mol_502,35,27,7798
+mol_503,30,42,7799
+mol_505,70,31,7801
+mol_508,70,4,7804
+mol_509,50,178,7805
+mol_512,60,387,7807
+mol_513,40,9,7808
+mol_514,68,89,7809
+mol_515,100,16,7810
+mol_516,70,85,7811
+mol_517,26,16,7812
+mol_518,34,20,7813
+mol_519,70,263,7814
+mol_523,90,8,7815
+mol_525,76,169,7817
+mol_526,50,70,7818
+mol_528,80,22,7819
+mol_530,70,53,7820
+mol_533,12,6,7822
+mol_536,90,1,7824
+mol_537,16,18,7825
+mol_538,56,2,7826
+mol_540,16,40,7828
+mol_543,80,329,7830
+mol_544,60,25,7831
+mol_546,80,2,7833
+mol_547,70,51,7834
+mol_549,60,78,7835
+mol_550,60,79,7836
+mol_551,12,12,7837
+mol_554,80,107,7839
+mol_556,48,3,7840
+mol_557,6,5,7841
+mol_559,70,406,7842
+mol_561,100,37,7844
+mol_567,80,127,7848
+mol_572,60,58,7852
+mol_574,50,82,7854
+mol_575,100,13,7855
+mol_578,24,24,7857
+mol_579,60,60,7858
+mol_580,70,23,7859
+mol_587,60,282,7864
+mol_588,50,51,7865
+mol_591,100,100,7867
+mol_593,30,148,7868
+mol_595,30,2,7870
+mol_598,100,5,7873
+mol_599,2,4,7874
+mol_600,70,26,7875
+mol_601,60,32,7876
+mol_603,4,10,7877
+mol_608,13,52,7878
+mol_610,60,5,7879
+mol_612,26,140,7881
+mol_614,33,53,7882
+mol_616,50,13,7883
+mol_618,90,21,7884
+mol_619,60,120,7885
+mol_620,100,1,7886
+mol_621,70,210,7887
+mol_623,60,66,7888
+mol_624,70,157,7889
+mol_626,24,24,7890
+mol_629,100,9,7893
+mol_632,80,75,7896
+mol_634,70,178,7897
+mol_635,60,127,7898
+mol_636,80,87,7899
+mol_637,56,20,7900
+mol_638,90,3,7901
+mol_639,80,51,7902
+mol_640,60,177,7903
+mol_644,80,8,7905
+mol_645,90,5,7906
+mol_650,16,40,7909
+mol_653,80,4,7911
+mol_654,90,180,7912
+mol_655,90,222,7913
+mol_656,32,60,7914
+mol_657,60,12,7915
+mol_658,90,15,7916
+mol_659,100,1,7917
+mol_661,100,7,7919
+mol_662,70,4,7920
+mol_664,60,55,7922
+mol_665,80,7,7923
+mol_666,80,56,7924
+mol_667,50,77,7925
+mol_668,50,76,7926
+mol_669,80,476,7927
+mol_676,24,185,7931
+mol_677,70,15,7932
+mol_679,1,7,7933
+mol_680,40,69,7934
+mol_681,70,10,7935
+mol_684,50,27,7936
+mol_686,70,110,7938
+mol_687,90,5,7939
+mol_691,42,36,7942
+mol_696,70,33,7945
+mol_698,90,79,7947
+mol_702,80,42,7950
+mol_704,70,532,7951
+mol_706,56,147,7952
+mol_707,80,203,7953
+mol_709,80,38,7954
+mol_713,70,349,7956
+mol_714,60,129,7957
+mol_716,52,146,7958
+mol_718,80,4,7960
+mol_719,100,19,7961
+mol_720,70,57,7962
+mol_723,70,767,7963
+mol_725,90,11,7964
+mol_726,70,94,7965
+mol_727,50,170,7966
+mol_729,80,4,7967
+mol_730,70,169,7968
+mol_731,36,96,7969
+mol_734,100,150,7970
+mol_735,100,116,7971
+mol_736,90,15,7972
+mol_738,70,265,7973
+mol_740,90,39,7974
+mol_745,100,102,7977
+mol_747,60,23,7979
+mol_748,60,292,7980
+mol_752,70,1,7983
+mol_757,80,9,7985
+mol_759,70,26,7987
+mol_760,90,99,7988
+mol_762,70,30,7990
+mol_763,70,92,7991
+mol_764,69,59,7992
+mol_765,9,52,7993
+mol_766,90,51,7994
+mol_768,100,69,7996
+mol_769,100,9,7997
+mol_772,100,20,7999
+mol_773,100,100,8000
+mol_775,100,4,8001
+mol_777,90,61,8002
+mol_780,58,30,8005
+mol_783,100,22,8007
+mol_787,100,135,8009
+mol_792,13,49,8012
+mol_794,60,116,8013
+mol_795,100,200,8014
+mol_799,60,57,8017
+mol_801,70,185,8019
+mol_803,100,382,8020
+mol_804,90,20,8021
+mol_805,90,32,8022
+mol_806,100,42,8023
+mol_808,70,10,8025
+mol_809,80,55,8026
+mol_810,34,2,8027
+mol_812,100,92,8029
+mol_817,100,19,8033
+mol_818,98,2,8034
+mol_819,90,111,8035
+mol_820,90,52,8036
+mol_821,80,225,8037
+mol_822,90,301,8038
+mol_825,100,100,8040
+mol_833,36,56,8045
+mol_834,60,60,8046
+mol_835,60,50,8047
+mol_836,90,2,8048
+mol_839,36,99,8050
+mol_843,70,26,8053
+mol_844,90,24,8054
+mol_845,60,28,8055
+mol_847,100,39,8056
+mol_848,80,168,8057
+mol_850,100,408,8059
+mol_851,80,211,8060
+mol_853,90,152,8061
+mol_854,100,20,8062
+mol_855,80,348,8063
+mol_857,100,13,8065
+mol_858,60,170,8066
+mol_859,100,3,8067
+mol_860,80,3,8068
+mol_864,100,3,8072
+mol_865,100,3,8073
+mol_866,80,21,8074
+mol_868,70,103,8076
+mol_869,80,28,8077
+mol_870,70,324,8078
+mol_871,40,21,8079
+mol_873,80,43,8080
+mol_874,37,9,8081
+mol_875,54,4,8082
+mol_876,60,69,8083
+mol_877,80,157,8084
+mol_878,80,79,8085
+mol_879,100,83,8086
+mol_882,100,242,8089
+mol_885,48,2,8090
+mol_886,100,17,8091
+mol_888,100,49,8092
+mol_889,100,50,8093
+mol_892,100,140,8096
+mol_894,100,6,8097
+mol_895,100,7,8098
+mol_896,70,7,8099
+mol_899,90,53,8102
+mol_901,100,60,8103
+mol_905,68,204,8106
+mol_907,90,959,8108
+mol_909,100,15,8109
+mol_912,100,109,8112
+mol_913,80,631,8113
+mol_914,100,410,8114
+mol_916,100,21,8116
+mol_917,49,166,8117
+mol_919,80,82,8119
+mol_920,100,76,8120
+mol_921,100,337,8121
+mol_924,100,30,8123
+mol_925,100,217,8124
+mol_926,90,515,8125
+mol_927,80,18,8126
+mol_929,100,395,8128
+mol_930,70,244,8129
+mol_931,70,110,8130
+mol_933,90,97,8131
+mol_934,80,2,8132
+mol_935,100,121,8133
+mol_936,100,308,8134
+mol_937,100,79,8135
+mol_938,100,371,8136
+mol_939,100,2,8137
+mol_940,100,425,8138
+mol_941,28,38,8139
+mol_942,100,526,8140
+mol_943,87,76,8141
+mol_945,100,22,8142
+mol_946,100,16,8143
+mol_949,100,312,8145
+mol_950,100,375,8146
+mol_951,16,20,8147
+mol_954,80,365,8149
+mol_955,100,29,8150
+mol_958,100,2,8151
+mol_959,100,89,8152
+mol_960,60,13,8153
+mol_961,100,171,8154
+mol_963,100,158,8155
+mol_966,100,46,8158
+mol_968,90,12,8159
+mol_970,100,203,8160
+mol_971,100,149,8161
+mol_972,40,122,8162
+mol_974,100,142,8163
+mol_975,100,148,8164
+mol_976,100,166,8165
+mol_977,100,88,8166
+mol_978,100,296,8167
+mol_979,90,133,8168
+mol_981,100,1893,8170
+mol_982,80,266,8171
+mol_983,70,9,8172
+mol_986,100,1,8173
+mol_989,90,205,8176
+mol_990,10,27,8177
+mol_991,100,124,8178
+mol_994,100,167,8179
+mol_995,100,10,8180
+mol_996,90,171,8181
+mol_997,100,115,8182
+mol_998,100,216,8183
+mol_999,80,217,8184
+mol_1000,100,95,8185
+
+Finished screening current batch of 629 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 8185
+Number of conformers screened = 514996
+Number of matches found = 228405
+Number of molecules that produced matches = 3799
+Number of hits processed = 3799
+
+CPU time = 12.50 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_14 (18 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 627
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_14 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_12,20,40,8187
+mol_44,4,4,8189
+mol_49,12,8,8190
+mol_68,12,16,8193
+mol_73,24,18,8194
+mol_75,18,24,8195
+mol_84,40,40,8199
+mol_85,70,15,8200
+mol_101,50,8,8202
+mol_103,12,21,8204
+mol_107,6,12,8206
+mol_113,10,93,8209
+mol_115,70,39,8211
+mol_124,4,4,8216
+mol_127,50,6,8217
+mol_129,40,14,8218
+mol_130,32,50,8219
+mol_138,50,100,8222
+mol_153,40,40,8226
+mol_155,30,20,8227
+mol_157,50,1,8228
+mol_158,16,32,8229
+mol_167,48,68,8235
+mol_171,40,14,8236
+mol_179,3,8,8238
+mol_182,70,10,8239
+mol_186,10,10,8242
+mol_187,12,12,8243
+mol_188,60,7,8244
+mol_189,30,25,8245
+mol_194,2,2,8248
+mol_196,27,27,8249
+mol_202,20,20,8250
+mol_205,6,3,8251
+mol_206,50,20,8252
+mol_221,50,3,8256
+mol_228,80,279,8259
+mol_230,1,2,8260
+mol_232,70,104,8261
+mol_233,42,5,8262
+mol_240,44,14,8265
+mol_241,20,21,8266
+mol_244,20,40,8268
+mol_248,40,50,8269
+mol_249,16,57,8270
+mol_250,50,11,8271
+mol_251,10,30,8272
+mol_253,8,8,8273
+mol_254,10,24,8274
+mol_257,50,14,8277
+mol_260,12,12,8279
+mol_262,15,63,8280
+mol_266,24,10,8281
+mol_273,35,2,8284
+mol_275,15,45,8286
+mol_276,50,50,8287
+mol_279,11,13,8289
+mol_280,41,61,8290
+mol_282,80,33,8291
+mol_283,90,165,8292
+mol_286,24,24,8293
+mol_288,100,100,8294
+mol_289,16,30,8295
+mol_297,28,20,8300
+mol_298,50,24,8301
+mol_299,12,12,8302
+mol_300,13,26,8303
+mol_302,80,4,8305
+mol_303,50,23,8306
+mol_305,50,50,8307
+mol_309,39,16,8309
+mol_310,100,3,8310
+mol_312,70,48,8311
+mol_313,30,62,8312
+mol_314,24,24,8313
+mol_319,20,40,8316
+mol_320,12,18,8317
+mol_321,27,32,8318
+mol_326,50,10,8320
+mol_328,60,142,8321
+mol_332,24,76,8323
+mol_334,80,3,8324
+mol_336,40,363,8325
+mol_340,70,117,8327
+mol_341,47,18,8328
+mol_342,34,10,8329
+mol_344,50,32,8331
+mol_346,70,280,8332
+mol_347,80,2,8333
+mol_349,8,32,8334
+mol_350,40,147,8335
+mol_364,24,30,8339
+mol_365,40,61,8340
+mol_366,23,8,8341
+mol_367,12,12,8342
+mol_371,60,120,8345
+mol_384,48,36,8349
+mol_385,60,32,8350
+mol_387,12,24,8352
+mol_388,7,7,8353
+mol_389,50,24,8354
+mol_393,7,6,8357
+mol_396,36,72,8358
+mol_399,70,9,8359
+mol_400,60,38,8360
+mol_405,80,8,8362
+mol_407,40,40,8364
+mol_413,90,182,8367
+mol_415,70,173,8368
+mol_416,70,1,8369
+mol_418,32,50,8370
+mol_423,42,7,8372
+mol_430,36,36,8376
+mol_433,50,149,8378
+mol_434,50,100,8379
+mol_435,70,136,8380
+mol_436,17,6,8381
+mol_437,24,24,8382
+mol_438,50,29,8383
+mol_441,70,41,8385
+mol_448,80,3,8387
+mol_453,8,14,8391
+mol_455,50,22,8393
+mol_456,50,159,8394
+mol_457,70,30,8395
+mol_458,50,48,8396
+mol_463,70,31,8399
+mol_465,4,2,8401
+mol_466,12,6,8402
+mol_468,16,16,8403
+mol_470,34,136,8405
+mol_473,30,10,8408
+mol_478,40,10,8411
+mol_480,50,50,8412
+mol_481,70,37,8413
+mol_482,16,8,8414
+mol_483,60,23,8415
+mol_486,90,112,8418
+mol_489,70,66,8420
+mol_490,60,82,8421
+mol_491,40,80,8422
+mol_493,80,216,8424
+mol_494,18,12,8425
+mol_495,80,48,8426
+mol_498,70,4,8428
+mol_500,54,172,8429
+mol_502,35,24,8430
+mol_503,30,45,8431
+mol_505,70,27,8433
+mol_508,70,5,8436
+mol_509,50,160,8437
+mol_512,60,271,8439
+mol_513,40,8,8440
+mol_514,68,77,8441
+mol_515,100,30,8442
+mol_516,70,245,8443
+mol_517,26,16,8444
+mol_518,34,20,8445
+mol_519,70,225,8446
+mol_523,90,3,8447
+mol_525,76,218,8449
+mol_526,50,100,8450
+mol_528,80,19,8451
+mol_530,70,53,8452
+mol_533,12,6,8454
+mol_537,16,18,8457
+mol_538,56,31,8458
+mol_540,16,40,8460
+mol_543,80,317,8462
+mol_544,60,33,8463
+mol_545,32,40,8464
+mol_546,80,1,8465
+mol_547,70,40,8466
+mol_549,60,252,8468
+mol_550,60,76,8469
+mol_551,12,18,8470
+mol_554,80,71,8472
+mol_556,48,1,8473
+mol_557,6,5,8474
+mol_559,70,408,8475
+mol_561,100,20,8477
+mol_566,50,3,8480
+mol_567,80,131,8481
+mol_570,24,15,8483
+mol_572,60,54,8485
+mol_574,50,82,8486
+mol_575,100,9,8487
+mol_578,24,24,8489
+mol_579,60,60,8490
+mol_580,70,12,8491
+mol_583,50,16,8494
+mol_587,60,282,8496
+mol_588,50,50,8497
+mol_591,100,100,8500
+mol_593,30,118,8501
+mol_594,98,5,8502
+mol_595,30,8,8503
+mol_598,100,3,8506
+mol_599,2,4,8507
+mol_600,70,70,8508
+mol_601,60,103,8509
+mol_603,4,10,8510
+mol_608,13,46,8511
+mol_610,60,3,8512
+mol_612,26,140,8514
+mol_614,33,32,8515
+mol_616,50,63,8516
+mol_618,90,19,8517
+mol_619,60,114,8518
+mol_620,100,1,8519
+mol_621,70,70,8520
+mol_623,60,68,8521
+mol_624,70,141,8522
+mol_626,24,36,8523
+mol_629,100,6,8526
+mol_632,80,75,8529
+mol_634,70,242,8530
+mol_635,60,131,8531
+mol_636,80,88,8532
+mol_637,56,16,8533
+mol_638,90,5,8534
+mol_639,80,53,8535
+mol_640,60,184,8536
+mol_644,80,19,8538
+mol_645,90,15,8539
+mol_650,16,28,8542
+mol_653,80,6,8544
+mol_654,90,180,8545
+mol_656,32,58,8546
+mol_657,60,85,8547
+mol_658,90,5,8548
+mol_661,100,12,8550
+mol_664,60,48,8553
+mol_665,80,18,8554
+mol_666,80,34,8555
+mol_667,50,100,8556
+mol_668,50,100,8557
+mol_669,80,386,8558
+mol_676,24,208,8562
+mol_677,70,12,8563
+mol_679,1,14,8564
+mol_680,40,69,8565
+mol_681,70,9,8566
+mol_684,50,13,8567
+mol_686,70,145,8569
+mol_687,90,5,8570
+mol_690,40,80,8572
+mol_691,42,26,8573
+mol_696,70,34,8576
+mol_697,1,3,8577
+mol_698,90,79,8578
+mol_702,80,80,8580
+mol_704,70,512,8581
+mol_706,56,140,8582
+mol_707,80,196,8583
+mol_709,80,27,8584
+mol_710,100,179,8585
+mol_713,70,323,8586
+mol_714,60,151,8587
+mol_716,52,192,8588
+mol_718,80,13,8590
+mol_719,100,19,8591
+mol_720,70,58,8592
+mol_723,70,809,8593
+mol_725,90,17,8594
+mol_726,70,114,8595
+mol_727,50,135,8596
+mol_729,80,6,8597
+mol_730,70,96,8598
+mol_731,36,96,8599
+mol_734,100,150,8600
+mol_735,100,96,8601
+mol_736,90,4,8602
+mol_738,70,236,8603
+mol_740,90,20,8604
+mol_743,60,22,8607
+mol_745,100,53,8608
+mol_747,60,19,8610
+mol_748,60,523,8611
+mol_750,90,171,8612
+mol_757,80,1,8616
+mol_759,70,6,8618
+mol_760,90,97,8619
+mol_762,70,35,8621
+mol_763,70,74,8622
+mol_764,69,41,8623
+mol_765,9,46,8624
+mol_766,90,15,8625
+mol_768,100,63,8627
+mol_769,100,11,8628
+mol_772,100,19,8629
+mol_773,100,15,8630
+mol_775,100,2,8631
+mol_777,90,49,8632
+mol_780,58,10,8635
+mol_783,100,135,8636
+mol_787,100,101,8638
+mol_791,90,320,8640
+mol_792,13,31,8641
+mol_794,60,93,8642
+mol_795,100,400,8643
+mol_796,20,8,8644
+mol_798,100,2,8645
+mol_799,60,63,8646
+mol_801,70,59,8648
+mol_803,100,389,8649
+mol_804,90,31,8650
+mol_805,90,51,8651
+mol_806,100,50,8652
+mol_808,70,19,8654
+mol_809,80,52,8655
+mol_812,100,93,8658
+mol_815,100,161,8661
+mol_817,100,23,8662
+mol_819,90,36,8664
+mol_820,90,92,8665
+mol_821,80,225,8666
+mol_822,90,275,8667
+mol_825,100,96,8669
+mol_831,80,166,8673
+mol_833,36,138,8674
+mol_834,60,60,8675
+mol_835,60,25,8676
+mol_836,90,6,8677
+mol_839,36,117,8679
+mol_843,70,21,8682
+mol_844,90,19,8683
+mol_845,60,28,8684
+mol_847,100,39,8685
+mol_848,80,154,8686
+mol_850,100,420,8688
+mol_851,80,230,8689
+mol_853,90,159,8690
+mol_854,100,15,8691
+mol_855,80,361,8692
+mol_857,100,24,8694
+mol_858,60,138,8695
+mol_859,100,3,8696
+mol_860,80,5,8697
+mol_864,100,6,8701
+mol_865,100,4,8702
+mol_866,80,21,8703
+mol_867,100,1,8704
+mol_868,70,97,8705
+mol_869,80,36,8706
+mol_870,70,295,8707
+mol_871,40,20,8708
+mol_873,80,24,8709
+mol_874,37,9,8710
+mol_875,54,9,8711
+mol_876,60,59,8712
+mol_877,80,157,8713
+mol_878,80,99,8714
+mol_879,100,37,8715
+mol_882,100,293,8718
+mol_885,48,2,8719
+mol_886,100,14,8720
+mol_888,100,49,8721
+mol_889,100,31,8722
+mol_891,90,184,8724
+mol_892,100,161,8725
+mol_894,100,7,8726
+mol_895,100,2,8727
+mol_896,70,7,8728
+mol_897,80,160,8729
+mol_898,36,36,8730
+mol_899,90,41,8731
+mol_901,100,55,8732
+mol_905,68,220,8735
+mol_906,40,80,8736
+mol_907,90,563,8737
+mol_912,100,68,8741
+mol_913,80,571,8742
+mol_914,100,122,8743
+mol_916,100,18,8745
+mol_917,49,127,8746
+mol_919,80,80,8748
+mol_920,100,54,8749
+mol_921,100,307,8750
+mol_924,100,30,8752
+mol_925,100,231,8753
+mol_926,90,532,8754
+mol_927,80,16,8755
+mol_929,100,342,8757
+mol_930,70,252,8758
+mol_933,90,98,8760
+mol_934,80,2,8761
+mol_935,100,124,8762
+mol_936,100,281,8763
+mol_937,100,89,8764
+mol_938,100,366,8765
+mol_939,100,2,8766
+mol_940,100,396,8767
+mol_941,28,46,8768
+mol_942,100,538,8769
+mol_943,87,75,8770
+mol_945,100,22,8771
+mol_949,100,279,8774
+mol_950,100,313,8775
+mol_951,16,34,8776
+mol_954,80,413,8778
+mol_955,100,30,8779
+mol_959,100,106,8780
+mol_960,60,119,8781
+mol_961,100,65,8782
+mol_963,100,141,8783
+mol_966,100,21,8786
+mol_968,90,8,8787
+mol_970,100,188,8788
+mol_971,100,127,8789
+mol_972,40,110,8790
+mol_974,100,133,8791
+mol_976,100,143,8793
+mol_977,100,59,8794
+mol_978,100,319,8795
+mol_981,100,1889,8797
+mol_982,80,228,8798
+mol_983,70,1,8799
+mol_986,100,8,8800
+mol_989,90,92,8803
+mol_990,10,25,8804
+mol_991,100,119,8805
+mol_994,100,123,8806
+mol_995,100,9,8807
+mol_996,90,158,8808
+mol_997,100,137,8809
+mol_998,100,230,8810
+mol_999,80,664,8811
+mol_1000,100,95,8812
+
+Finished screening current batch of 627 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 8812
+Number of conformers screened = 553103
+Number of matches found = 266232
+Number of molecules that produced matches = 4228
+Number of hits processed = 4228
+
+CPU time = 13.35 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_17 (19 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 403
+Pre-screen CPU time = 0.03 sec
+
+Finding hits to hypo_17 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_61,9,4,8813
+mol_80,1,3,8814
+mol_85,70,21,8815
+mol_108,32,16,8817
+mol_111,12,6,8818
+mol_113,10,12,8819
+mol_115,70,37,8821
+mol_120,20,44,8822
+mol_135,14,14,8825
+mol_153,40,42,8827
+mol_157,50,9,8829
+mol_158,16,26,8830
+mol_160,50,100,8831
+mol_166,23,57,8832
+mol_167,48,39,8833
+mol_171,40,4,8834
+mol_179,3,1,8835
+mol_183,70,164,8837
+mol_184,12,12,8838
+mol_187,12,4,8839
+mol_196,27,17,8842
+mol_206,50,11,8845
+mol_210,6,2,8847
+mol_216,60,24,8848
+mol_221,50,1,8849
+mol_232,70,50,8852
+mol_236,70,247,8854
+mol_240,44,2,8856
+mol_248,40,15,8859
+mol_249,16,30,8860
+mol_257,50,1,8862
+mol_262,15,12,8863
+mol_270,80,180,8864
+mol_273,35,2,8865
+mol_274,70,43,8866
+mol_275,15,32,8867
+mol_288,100,126,8869
+mol_299,12,3,8872
+mol_300,13,6,8873
+mol_301,5,1,8874
+mol_305,50,18,8875
+mol_307,100,49,8876
+mol_313,30,23,8878
+mol_314,24,12,8879
+mol_320,12,5,8880
+mol_336,40,56,8883
+mol_342,34,9,8886
+mol_346,70,82,8887
+mol_348,2,4,8889
+mol_350,40,113,8890
+mol_351,60,8,8891
+mol_365,40,26,8894
+mol_372,80,38,8897
+mol_378,70,26,8898
+mol_387,12,28,8899
+mol_389,50,22,8900
+mol_393,7,10,8902
+mol_405,80,6,8907
+mol_409,70,26,8908
+mol_415,70,22,8911
+mol_429,80,42,8912
+mol_435,70,61,8914
+mol_437,24,72,8915
+mol_438,50,12,8916
+mol_442,80,8,8918
+mol_444,70,66,8919
+mol_452,49,88,8923
+mol_454,90,9,8924
+mol_456,50,35,8925
+mol_457,70,28,8926
+mol_461,100,14,8927
+mol_465,4,4,8929
+mol_466,12,12,8930
+mol_470,34,29,8931
+mol_473,30,15,8932
+mol_481,70,10,8933
+mol_486,90,95,8936
+mol_489,70,32,8937
+mol_492,60,11,8938
+mol_498,70,3,8939
+mol_500,54,104,8940
+mol_505,70,17,8941
+mol_508,70,1,8942
+mol_509,50,74,8943
+mol_511,90,36,8944
+mol_512,60,330,8945
+mol_514,68,95,8946
+mol_516,70,17,8948
+mol_517,26,4,8949
+mol_519,70,857,8951
+mol_526,50,165,8952
+mol_530,70,41,8953
+mol_531,90,22,8954
+mol_533,12,12,8955
+mol_538,56,11,8956
+mol_540,16,8,8957
+mol_543,80,16,8958
+mol_546,80,24,8959
+mol_547,70,35,8960
+mol_551,12,3,8962
+mol_553,20,2,8963
+mol_559,70,155,8964
+mol_560,90,3,8965
+mol_561,100,29,8966
+mol_570,24,4,8968
+mol_575,100,14,8971
+mol_579,60,66,8973
+mol_580,70,51,8974
+mol_584,58,3,8976
+mol_587,60,79,8978
+mol_593,30,56,8980
+mol_599,2,5,8983
+mol_600,70,15,8984
+mol_601,60,14,8985
+mol_603,4,2,8986
+mol_608,13,16,8987
+mol_610,60,8,8988
+mol_612,26,14,8990
+mol_614,33,12,8991
+mol_616,50,20,8992
+mol_620,100,8,8993
+mol_621,70,19,8994
+mol_624,70,120,8995
+mol_629,100,21,8998
+mol_632,80,32,9000
+mol_636,80,46,9001
+mol_637,56,4,9002
+mol_638,90,17,9003
+mol_639,80,45,9004
+mol_640,60,12,9005
+mol_644,80,1,9006
+mol_650,16,40,9009
+mol_653,80,2,9010
+mol_655,90,72,9012
+mol_656,32,22,9013
+mol_664,60,81,9016
+mol_666,80,1,9017
+mol_667,50,64,9018
+mol_668,50,71,9019
+mol_669,80,79,9020
+mol_676,24,139,9021
+mol_679,1,3,9022
+mol_680,40,66,9023
+mol_684,50,23,9025
+mol_686,70,88,9027
+mol_687,90,98,9028
+mol_691,42,20,9030
+mol_695,71,14,9032
+mol_702,80,9,9034
+mol_704,70,114,9035
+mol_706,56,355,9036
+mol_707,80,601,9037
+mol_709,80,12,9038
+mol_714,60,148,9040
+mol_716,52,152,9041
+mol_717,90,24,9042
+mol_720,70,13,9044
+mol_723,70,186,9047
+mol_726,70,49,9048
+mol_727,50,107,9049
+mol_729,80,7,9050
+mol_730,70,18,9051
+mol_731,36,138,9052
+mol_734,100,54,9053
+mol_735,100,17,9054
+mol_738,70,277,9055
+mol_740,90,52,9056
+mol_747,60,13,9059
+mol_748,60,425,9060
+mol_760,90,44,9063
+mol_763,70,36,9064
+mol_764,69,80,9065
+mol_765,9,39,9066
+mol_766,90,9,9067
+mol_768,100,45,9069
+mol_769,100,15,9070
+mol_772,100,8,9072
+mol_775,100,3,9073
+mol_784,88,151,9076
+mol_787,100,68,9077
+mol_794,60,34,9079
+mol_803,100,287,9084
+mol_804,90,2,9085
+mol_805,90,8,9086
+mol_806,100,93,9087
+mol_808,70,14,9088
+mol_809,80,36,9089
+mol_810,34,1,9090
+mol_812,100,26,9091
+mol_817,100,79,9093
+mol_819,90,13,9094
+mol_820,90,6,9095
+mol_821,80,175,9096
+mol_822,90,161,9097
+mol_825,100,96,9098
+mol_829,80,1,9101
+mol_833,36,6,9103
+mol_834,60,60,9104
+mol_837,80,15,9105
+mol_839,36,33,9106
+mol_843,70,30,9107
+mol_847,100,73,9109
+mol_848,80,139,9110
+mol_851,80,204,9112
+mol_853,90,94,9113
+mol_854,100,4,9114
+mol_855,80,289,9115
+mol_858,60,28,9118
+mol_865,100,1,9122
+mol_866,80,21,9123
+mol_868,70,18,9125
+mol_869,80,2,9126
+mol_874,37,24,9127
+mol_875,54,16,9128
+mol_876,60,55,9129
+mol_877,80,340,9130
+mol_878,80,108,9131
+mol_879,100,20,9132
+mol_880,100,1,9133
+mol_885,48,36,9135
+mol_888,100,10,9136
+mol_889,100,33,9137
+mol_894,100,86,9139
+mol_895,100,4,9140
+mol_898,36,3,9142
+mol_899,90,62,9143
+mol_901,100,21,9144
+mol_905,68,2,9145
+mol_906,40,76,9146
+mol_907,90,494,9147
+mol_909,100,3,9148
+mol_912,100,84,9151
+mol_913,80,396,9152
+mol_915,100,157,9154
+mol_916,100,9,9155
+mol_917,49,31,9156
+mol_920,100,18,9159
+mol_921,100,178,9160
+mol_925,100,5,9162
+mol_926,90,526,9163
+mol_927,80,66,9164
+mol_929,100,202,9165
+mol_930,70,148,9166
+mol_933,90,127,9168
+mol_934,80,14,9169
+mol_936,100,326,9170
+mol_937,100,17,9171
+mol_938,100,83,9172
+mol_939,100,1,9173
+mol_940,100,233,9174
+mol_942,100,536,9175
+mol_943,87,21,9176
+mol_945,100,16,9177
+mol_946,100,38,9178
+mol_949,100,104,9180
+mol_950,100,309,9181
+mol_951,16,1,9182
+mol_954,80,78,9184
+mol_955,100,16,9185
+mol_958,100,1,9186
+mol_959,100,107,9187
+mol_961,100,75,9188
+mol_963,100,63,9189
+mol_966,100,105,9190
+mol_968,90,1,9191
+mol_970,100,111,9192
+mol_971,100,85,9193
+mol_972,40,57,9194
+mol_974,100,91,9195
+mol_975,100,57,9196
+mol_976,100,146,9197
+mol_978,100,189,9198
+mol_979,90,188,9199
+mol_981,100,825,9201
+mol_982,80,196,9202
+mol_983,70,16,9203
+mol_986,100,1,9204
+mol_989,90,39,9206
+mol_990,10,24,9207
+mol_991,100,68,9208
+mol_994,100,41,9209
+mol_996,90,1,9211
+mol_997,100,191,9212
+mol_998,100,23,9213
+mol_999,80,387,9214
+mol_1000,100,101,9215
+
+Finished screening current batch of 403 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 9215
+Number of conformers screened = 579029
+Number of matches found = 286170
+Number of molecules that produced matches = 4514
+Number of hits processed = 4514
+
+CPU time = 8.02 sec
+
+--------------------------------------------------------------------------------
+
+Screening: /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1_find_common_decoys/pharma_decoys.phzip (project 2 of 2)
+Hypothesis: hypo_4 (20 of 20)
+
+Pre-screening 1000 database records using 2D/3D index . . .
+Number of records matched = 526
+Pre-screen CPU time = 0.02 sec
+
+Finding hits to hypo_4 . . .
+
+ID,#Confs,#Matches,#Screened
+mol_187,12,12,9241
+mol_196,27,14,9247
+mol_248,40,18,9256
+mol_260,12,6,9264
+mol_280,41,7,9271
+mol_298,50,7,9280
+mol_305,50,28,9286
+mol_309,39,1,9287
+mol_313,30,36,9290
+mol_319,20,20,9292
+mol_320,12,14,9293
+mol_342,34,6,9304
+mol_364,24,12,9310
+mol_365,40,12,9311
+mol_384,48,8,9316
+mol_407,40,10,9329
+mol_413,90,6,9332
+mol_418,32,12,9335
+mol_430,36,36,9343
+mol_434,50,41,9346
+mol_435,70,60,9347
+mol_441,70,41,9351
+mol_448,80,1,9353
+mol_458,50,36,9360
+mol_463,70,9,9361
+mol_468,16,3,9365
+mol_481,70,3,9375
+mol_483,60,4,9377
+mol_489,70,3,9382
+mol_490,60,18,9383
+mol_494,18,9,9386
+mol_502,35,4,9391
+mol_505,70,8,9394
+mol_509,50,30,9398
+mol_512,60,31,9400
+mol_513,40,2,9401
+mol_530,70,6,9412
+mol_537,16,11,9416
+mol_538,56,5,9417
+mol_540,16,8,9418
+mol_545,32,8,9421
+mol_547,70,15,9423
+mol_549,60,147,9424
+mol_566,50,1,9434
+mol_572,60,28,9437
+mol_574,50,29,9439
+mol_583,50,2,9447
+mol_588,50,4,9450
+mol_593,30,16,9453
+mol_600,70,15,9458
+mol_601,60,25,9459
+mol_608,13,22,9461
+mol_614,33,8,9464
+mol_616,50,23,9465
+mol_618,90,4,9466
+mol_621,70,59,9469
+mol_626,24,12,9472
+mol_632,80,57,9478
+mol_634,70,13,9479
+mol_635,60,59,9480
+mol_636,80,1,9481
+mol_639,80,28,9484
+mol_640,60,29,9485
+mol_644,80,3,9487
+mol_645,90,5,9488
+mol_650,16,10,9490
+mol_656,32,12,9494
+mol_657,60,91,9495
+mol_661,100,5,9498
+mol_666,80,15,9503
+mol_667,50,74,9504
+mol_668,50,72,9505
+mol_669,80,79,9506
+mol_677,70,2,9511
+mol_680,40,23,9513
+mol_691,42,4,9521
+mol_696,70,26,9523
+mol_702,80,14,9527
+mol_709,80,4,9531
+mol_713,70,82,9532
+mol_714,60,19,9533
+mol_719,100,7,9537
+mol_726,70,21,9540
+mol_727,50,26,9541
+mol_730,70,16,9543
+mol_747,60,4,9551
+mol_759,70,7,9558
+mol_760,90,1,9559
+mol_763,70,5,9562
+mol_765,9,2,9564
+mol_766,90,4,9565
+mol_768,100,6,9567
+mol_780,58,4,9575
+mol_783,100,14,9576
+mol_794,60,21,9581
+mol_804,90,4,9586
+mol_805,90,15,9587
+mol_806,100,12,9588
+mol_809,80,19,9591
+mol_819,90,2,9598
+mol_820,90,50,9599
+mol_822,90,10,9601
+mol_825,100,31,9603
+mol_833,36,36,9608
+mol_835,60,5,9609
+mol_844,90,3,9616
+mol_845,60,9,9617
+mol_848,80,12,9618
+mol_853,90,75,9622
+mol_854,100,2,9623
+mol_858,60,58,9627
+mol_860,80,2,9629
+mol_868,70,28,9636
+mol_869,80,4,9637
+mol_870,70,42,9638
+mol_871,40,14,9639
+mol_882,100,68,9648
+mol_886,100,3,9650
+mol_888,100,7,9651
+mol_889,100,2,9652
+mol_899,90,21,9660
+mol_901,100,1,9661
+mol_907,90,5,9666
+mol_912,100,2,9670
+mol_919,80,7,9677
+mol_920,100,4,9678
+mol_921,100,14,9679
+mol_924,100,11,9682
+mol_925,100,58,9683
+mol_927,80,2,9685
+mol_929,100,59,9687
+mol_930,70,53,9688
+mol_933,90,56,9690
+mol_935,100,50,9692
+mol_938,100,41,9695
+mol_940,100,58,9697
+mol_941,28,4,9698
+mol_943,87,2,9700
+mol_949,100,1,9704
+mol_951,16,3,9706
+mol_954,80,11,9708
+mol_955,100,1,9709
+mol_960,60,73,9712
+mol_963,100,46,9713
+mol_966,100,2,9716
+mol_970,100,9,9718
+mol_971,100,21,9719
+mol_974,100,6,9721
+mol_976,100,25,9723
+mol_982,80,77,9728
+mol_986,100,3,9730
+mol_990,10,5,9733
+mol_991,100,21,9734
+mol_994,100,4,9735
+mol_995,100,1,9736
+mol_996,90,35,9737
+mol_997,100,31,9738
+mol_998,100,17,9739
+mol_999,80,24,9740
+mol_1000,100,19,9741
+
+Finished screening current batch of 526 molecules
+
+Cumulative totals for phase_pharm_1_find_common_bedroc_screens_sub_1:
+Number of molecules screened = 9741
+Number of conformers screened = 611635
+Number of matches found = 289447
+Number of molecules that produced matches = 4674
+Number of hits processed = 4674
+
+CPU time = 5.98 sec
+
+--------------------------------------------------------------------------------
+
+Current time: Wed Jul 21 13:15:05 2021
+Elapsed time: 0:02:41.04
+phase_screen successfully completed.
+
+
+*** End of phase_pharm_1_find_common_bedroc_screens_sub_1.log ***
+
+Combining hits from successful subjobs
+
+All subjobs completed normally
+
+Current time: Wed Jul 21 13:15:06 2021
+Elapsed time: 0:02:45.54
+phase_screen successfully completed.
+
+[running at reduced cpu priority]

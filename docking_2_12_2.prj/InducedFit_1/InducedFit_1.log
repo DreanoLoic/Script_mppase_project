@@ -1,0 +1,935 @@
+
+===================================
+  Induced Fit Docking Calculation  
+===================================
+
+Started at: Wed Jul 21 12:46:18 2021
+Job ID: dreanos-0-60f7ece8
+
+Output will be written to: /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1-out.maegz
+
+Here are the parameters that will be used:
+
+    General:
+        JobHost: localhost
+        #Prime CPUs: 1
+        #Glide CPUs: 1
+        Working Dir: /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir
+
+    Stage: Glide Docking
+
+    Stage: Determine Residues for Refinement
+        Distance Cutoff: 5.0 A
+        Additional Residues: 
+        Omit Residues: 
+
+    Stage: Prime Active Site Optimization
+        Number of Passes:  1
+        Implicit Membrane: no
+
+    Stage: Sorting and Filtering
+        Pose Filter:     r_psp_Prime_Energy
+            Keep:        30.0
+        Ligand Filter:   <none>
+            Keep:        <none>
+
+    Stage: Sorting and Filtering
+        Pose Filter:     r_psp_Prime_Energy
+            Keep:        20#
+        Ligand Filter:   <none>
+            Keep:        <none>
+
+    Stage: Glide Docking
+
+    Stage: Scoring
+        Score =   + 1.0 r_i_glide_gscore(0)  + 0.05 r_psp_Prime_Energy(1) 
+        Report File: report.csv
+
+Number of initial structures: 1
+
+=================================================
+Stage: Glide Docking
+=================================================
+--------------------------------------------------------------------------------
+    BatchGlide
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f7eced
+Name           : InducedFit_1_rec-1_batchglide
+Program        : BatchGlide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+StartTime      : 2021-07-21-12:46:22
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[0] [local]
+1 0 1 | finished  [none] localjob[0] [local]
+1 1 0 | started   [none] localjob[1] [local]
+2 0 0 | finished  [none] localjob[1] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_1_rec-1_batchglide_00000
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_1_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:02:28 EEST
+	CPU time (s): 951.5 user, 1.8 system, 963.0 real
+	Total elapsed time = 963 seconds (16 minutes, 3 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.25           1   -40.166    33.813    57.370
+	20976      12        1.50           1   -35.527    35.757    55.821
+	20977      12        1.25           1   -39.558    31.354    58.873
+	20978      12        0.00           2   -37.750    32.544    52.777
+	21019      12        0.00           2    -7.779    45.220    54.763
+	21020      12        0.50           1    -2.250    47.243    54.421
+	21021      12        1.50           1    -5.236    50.812    52.626
+	21022      12        1.00           1    -7.555    50.242    55.572
+	21023      12        1.00           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	
+	Penalizing non-planar amide torsions
+	
+	Number of rotatable bonds            7
+	Using templates for ring conformations.
+	
+	GlideScore version SP5.0 will be used
+	
+	
+	Buried polar penalty      0.000
+	Coulomb vdW cutoff      100.000
+	H bond cutoff             0.000
+	Metal-ligand cutoff      10.000
+	Assigning GlideScore SP5.0 parameters
+	NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+	Ligand #      1(mPP-0293)
+	SKIP LIG        1 (mPP-0293): GRID-ENERGY MIN FAILED
+	GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:02:51 EEST
+	CPU time (s): 17.9 user, 0.3 system, 18.9 real
+	Total elapsed time = 19 seconds
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+==========================================================
+End Glide STDOUT For InducedFit_1_rec-1_batchglide_00000
+==========================================================
+==========================================================
+Begin Glide STDERR For InducedFit_1_rec-1_batchglide_00000
+==========================================================
+==========================================================
+End Glide STDERR For InducedFit_1_rec-1_batchglide_00000
+==========================================================
+** FAILED for mPP-0293(1) File does not exist: InducedFit_1_rec-1_batchglide_00000_pv.maegz**
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[2] [local]
+1 0 1 | finished  [none] localjob[2] [local]
+1 1 0 | started   [none] localjob[3] [local]
+2 0 0 | finished  [none] localjob[3] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_1_rec-1_batchglide_00001
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_1_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:18:01 EEST
+	CPU time (s): 864.2 user, 3.9 system, 905.7 real
+	Total elapsed time = 906 seconds (15 minutes, 6 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.25           1   -40.166    33.813    57.370
+	20976      12        1.50           1   -35.527    35.757    55.821
+	20977      12        1.25           1   -39.558    31.354    58.873
+	20978      12        0.00           2   -37.750    32.544    52.777
+	21019      12        0.00           2    -7.779    45.220    54.763
+	21020      12        0.50           1    -2.250    47.243    54.421
+	21021      12        1.50           1    -5.236    50.812    52.626
+	21022      12        1.00           1    -7.555    50.242    55.572
+	21023      12        1.00           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	
+	Penalizing non-planar amide torsions
+	
+	Number of rotatable bonds            7
+	Using templates for ring conformations.
+	
+	GlideScore version SP5.0 will be used
+	
+	
+	Buried polar penalty      0.000
+	Coulomb vdW cutoff      100.000
+	H bond cutoff             0.000
+	Metal-ligand cutoff      10.000
+	Assigning GlideScore SP5.0 parameters
+	NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+	Ligand #      1(mPP-0293)
+	SKIP LIG        1 (mPP-0293): GRID-ENERGY MIN FAILED
+	GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:18:24 EEST
+	CPU time (s): 18.0 user, 0.4 system, 19.3 real
+	Total elapsed time = 19 seconds
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+==========================================================
+End Glide STDOUT For InducedFit_1_rec-1_batchglide_00001
+==========================================================
+==========================================================
+Begin Glide STDERR For InducedFit_1_rec-1_batchglide_00001
+==========================================================
+==========================================================
+End Glide STDERR For InducedFit_1_rec-1_batchglide_00001
+==========================================================
+** FAILED for mPP-0293(2) File does not exist: InducedFit_1_rec-1_batchglide_00001_pv.maegz**
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[4] [local]
+1 0 1 | finished  [none] localjob[4] [local]
+1 1 0 | started   [none] localjob[5] [local]
+2 0 0 | finished  [none] localjob[5] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_1_rec-1_batchglide_00002
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_1_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:33:27 EEST
+	CPU time (s): 867.2 user, 3.4 system, 898.5 real
+	Total elapsed time = 898 seconds (14 minutes, 58 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.25           1   -40.166    33.813    57.370
+	20976      12        1.50           1   -35.527    35.757    55.821
+	20977      12        1.25           1   -39.558    31.354    58.873
+	20978      12        0.00           2   -37.750    32.544    52.777
+	21019      12        0.00           2    -7.779    45.220    54.763
+	21020      12        0.50           1    -2.250    47.243    54.421
+	21021      12        1.50           1    -5.236    50.812    52.626
+	21022      12        1.00           1    -7.555    50.242    55.572
+	21023      12        1.00           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	
+	Penalizing non-planar amide torsions
+	
+	Number of rotatable bonds            7
+	Using templates for ring conformations.
+	
+	GlideScore version SP5.0 will be used
+	
+	
+	Buried polar penalty      0.000
+	Coulomb vdW cutoff      100.000
+	H bond cutoff             0.000
+	Metal-ligand cutoff      10.000
+	Assigning GlideScore SP5.0 parameters
+	NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+	Ligand #      1(mPP-0293)
+	SKIP LIG        1 (mPP-0293): GRID-ENERGY MIN FAILED
+	GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:33:50 EEST
+	CPU time (s): 17.4 user, 0.2 system, 18.4 real
+	Total elapsed time = 18 seconds
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+==========================================================
+End Glide STDOUT For InducedFit_1_rec-1_batchglide_00002
+==========================================================
+==========================================================
+Begin Glide STDERR For InducedFit_1_rec-1_batchglide_00002
+==========================================================
+==========================================================
+End Glide STDERR For InducedFit_1_rec-1_batchglide_00002
+==========================================================
+** FAILED for mPP-0293(3) File does not exist: InducedFit_1_rec-1_batchglide_00002_pv.maegz**
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[6] [local]
+1 0 1 | finished  [none] localjob[6] [local]
+1 1 0 | started   [none] localjob[7] [local]
+2 0 0 | finished  [none] localjob[7] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_1_rec-1_batchglide_00003
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_1_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:50:08 EEST
+	CPU time (s): 936.5 user, 3.8 system, 972.9 real
+	Total elapsed time = 973 seconds (16 minutes, 13 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.25           1   -40.166    33.813    57.370
+	20976      12        1.50           1   -35.527    35.757    55.821
+	20977      12        1.25           1   -39.558    31.354    58.873
+	20978      12        0.00           2   -37.750    32.544    52.777
+	21019      12        0.00           2    -7.779    45.220    54.763
+	21020      12        0.50           1    -2.250    47.243    54.421
+	21021      12        1.50           1    -5.236    50.812    52.626
+	21022      12        1.00           1    -7.555    50.242    55.572
+	21023      12        1.00           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	
+	Penalizing non-planar amide torsions
+	
+	Number of rotatable bonds            7
+	Using templates for ring conformations.
+	
+	GlideScore version SP5.0 will be used
+	
+	
+	Buried polar penalty      0.000
+	Coulomb vdW cutoff      100.000
+	H bond cutoff             0.000
+	Metal-ligand cutoff      10.000
+	Assigning GlideScore SP5.0 parameters
+	NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+	Ligand #      1(mPP-0293)
+	SKIP LIG        1 (mPP-0293): GRID-ENERGY MIN FAILED
+	GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 13:50:30 EEST
+	CPU time (s): 16.8 user, 0.3 system, 18.2 real
+	Total elapsed time = 18 seconds
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+==========================================================
+End Glide STDOUT For InducedFit_1_rec-1_batchglide_00003
+==========================================================
+==========================================================
+Begin Glide STDERR For InducedFit_1_rec-1_batchglide_00003
+==========================================================
+==========================================================
+End Glide STDERR For InducedFit_1_rec-1_batchglide_00003
+==========================================================
+** FAILED for mPP-0293(4) File does not exist: InducedFit_1_rec-1_batchglide_00003_pv.maegz**
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[8] [local]
+1 0 1 | finished  [none] localjob[8] [local]
+1 1 0 | started   [none] localjob[9] [local]
+2 0 0 | finished  [none] localjob[9] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_1_rec-1_batchglide_00004
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_1_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 14:04:29 EEST
+	CPU time (s): 830.2 user, 0.8 system, 835.1 real
+	Total elapsed time = 835 seconds (13 minutes, 55 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f7eced
+	Name           : InducedFit_1_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_1/InducedFit_1_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_1_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_1_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-21-12:46:22
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.25           1   -40.166    33.813    57.370
+	20976      12        1.50           1   -35.527    35.757    55.821
+	20977      12        1.25           1   -39.558    31.354    58.873
+	20978      12        0.00           2   -37.750    32.544    52.777
+	21019      12        0.00           2    -7.779    45.220    54.763
+	21020      12        0.50           1    -2.250    47.243    54.421
+	21021      12        1.50           1    -5.236    50.812    52.626
+	21022      12        1.00           1    -7.555    50.242    55.572
+	21023      12        1.00           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	
+	Penalizing non-planar amide torsions
+	
+	Number of rotatable bonds            4
+	Using templates for ring conformations.
+	
+	GlideScore version SP5.0 will be used
+	
+	
+	Buried polar penalty      0.000
+	Coulomb vdW cutoff      100.000
+	H bond cutoff             0.000
+	Metal-ligand cutoff      10.000
+	Assigning GlideScore SP5.0 parameters
+	NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+	Ligand #      1(mPP-0398)
+	SKIP LIG        1 (mPP-0398): GRID-ENERGY MIN FAILED
+	GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+	
+	Exiting Glide
+	Date: Wednesday, July 21 2021, at 14:04:49 EEST
+	CPU time (s): 15.5 user, 0.1 system, 15.8 real
+	Total elapsed time = 16 seconds
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+==========================================================
+End Glide STDOUT For InducedFit_1_rec-1_batchglide_00004
+==========================================================
+==========================================================
+Begin Glide STDERR For InducedFit_1_rec-1_batchglide_00004
+==========================================================
+==========================================================
+End Glide STDERR For InducedFit_1_rec-1_batchglide_00004
+==========================================================
+** FAILED for mPP-0398(5) File does not exist: InducedFit_1_rec-1_batchglide_00004_pv.maegz**
+
+********************************************************************************
+**** Run Failed for the Following                                           ****
+********************************************************************************
+****      Entry | Title                                                     ****
+****          1 | mPP-0293                                                  ****
+****          2 | mPP-0293                                                  ****
+****          3 | mPP-0293                                                  ****
+****          4 | mPP-0293                                                  ****
+****          5 | mPP-0398                                                  ****
+********************************************************************************
+See InducedFit_1_rec-1_batchglide.err.log for more info.
+[running at reduced cpu priority]
+Traceback (most recent call last):
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/bin/Linux-x86_64/batch_glide.py", line 6, in <module>
+    BatchGlide(sys.argv[0]).launch(sys.argv[1:])
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/lib/Linux-x86_64/python_packages/schrodinger_psp/executeparallel.py", line 421, in launch
+    self.runBackend(opts, istage)
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/lib/Linux-x86_64/python_packages/schrodinger_psp/executeparallel.py", line 919, in runBackend
+    self.reportJobResults(opts, failed_jobs, any_succeeded)
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/lib/Linux-x86_64/python_packages/schrodinger_psp/executeparallel.py", line 1013, in reportJobResults
+    raise RuntimeError("All Entries Failed")
+RuntimeError: All Entries Failed
+Batch glide job failed.
+	JobID: dreanos-0-60f7eced
+	Logfile(s): ['InducedFit_1_rec-1_batchglide.log']
+[running at reduced cpu priority]
+Traceback (most recent call last):
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/bin/Linux-x86_64/ifd_driver.py", line 11921, in <module>
+    workingFiles = stage.run(workingFiles, cleanup=rolling_cleanup)
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/bin/Linux-x86_64/ifd_driver.py", line 3871, in run
+    self._setupJobs()
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/bin/Linux-x86_64/ifd_driver.py", line 5261, in _setupJobs
+    self.SUBJOB_HOST, self.retries, self.IFDX_MODE)
+  File "/home/dreano/schrodinger2019-4/psp-v5.8/bin/Linux-x86_64/ifd_driver.py", line 4704, in execute_batch_glide
+    raise RuntimeError(error)
+RuntimeError: Batch glide job failed.

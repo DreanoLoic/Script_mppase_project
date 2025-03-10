@@ -1,0 +1,199 @@
+
+===================================
+  Induced Fit Docking Calculation  
+===================================
+
+Started at: Thu Jul 22 12:48:17 2021
+Job ID: dreanos-0-60f93edf
+
+Output will be written to: /home/dreano/scratch/dreano/InducedFit_2/InducedFit_2-out.maegz
+
+Here are the parameters that will be used:
+
+    General:
+        JobHost: localhost
+        #Prime CPUs: 1
+        #Glide CPUs: 1
+        Working Dir: /home/dreano/scratch/dreano/InducedFit_2/InducedFit_2_workdir
+
+    Stage: Glide Docking
+
+    Stage: Determine Residues for Refinement
+        Distance Cutoff: 5.0 A
+        Additional Residues: 
+        Omit Residues: 
+
+    Stage: Prime Active Site Optimization
+        Number of Passes:  1
+        Implicit Membrane: no
+
+    Stage: Sorting and Filtering
+        Pose Filter:     r_psp_Prime_Energy
+            Keep:        30.0
+        Ligand Filter:   <none>
+            Keep:        <none>
+
+    Stage: Sorting and Filtering
+        Pose Filter:     r_psp_Prime_Energy
+            Keep:        20#
+        Ligand Filter:   <none>
+            Keep:        <none>
+
+    Stage: Glide Docking
+
+    Stage: Scoring
+        Score =   + 1.0 r_i_glide_gscore(0)  + 0.05 r_psp_Prime_Energy(1) 
+        Report File: report.csv
+
+Number of initial structures: 1
+
+=================================================
+Stage: Glide Docking
+=================================================
+--------------------------------------------------------------------------------
+    BatchGlide
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f93ee5
+Name           : InducedFit_2_rec-1_batchglide
+Program        : BatchGlide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/InducedFit_2/InducedFit_2_workdir/glide_docking_dir
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/InducedFit_2_rec-1_batchglide
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_2_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+StartTime      : 2021-07-22-12:48:21
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  2
+Max allowed failures: 0
+Run with -LOCAL:      True
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | started   [none] localjob[0] [local]
+1 0 1 | finished  [none] localjob[0] [local]
+1 1 0 | started   [none] localjob[1] [local]
+2 0 0 | finished  [none] localjob[1] [local]
+
+All jobs have completed.
+
+2 of 2 job(s) succeeded; 0 job(s) failed.
+
+==========================================================
+Begin Glide STDOUT For InducedFit_2_rec-1_batchglide_00000
+==========================================================
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f93ee5
+	Name           : InducedFit_2_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_2/InducedFit_2_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_2_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_2_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-22-12:48:21
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment
+	VdW radii of protein atoms scaled by   0.500000000000000
+	Charge cutoff for polarity  0.250000000000000
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	Creating output grid archive 'InducedFit_2_rec-1-gridgen.zip'
+	
+	Exiting Glide
+	Date: Thursday, July 22 2021, at 13:01:33 EEST
+	CPU time (s): 786.6 user, 0.9 system, 788.6 real
+	Total elapsed time = 789 seconds (13 minutes, 9 seconds)
+	[running at reduced cpu priority]
+	[running at reduced cpu priority]
+	Removing previous job files...
+	Glide version 85012 (mmshare version 48012)
+	Copyright (c) Schrodinger, LLC.
+	All Rights Reserved.
+	
+	--------------------------------------------------------------------------------
+	JobId          : dreanos-0-60f93ee5
+	Name           : InducedFit_2_rec-1_batchglide
+	Program        : BatchGlide
+	Host           : dreanos
+	Dir            : /home/dreano/scratch/dreano/InducedFit_2/InducedFit_2_workdir/glide_docking_dir
+	HostEntry      : localhost
+	JobHost        : dreanos
+	JobDir         : /home/dreano/scratch/dreano/InducedFit_2_rec-1_batchglide
+	JobSchrodinger : /home/dreano/schrodinger2019-4
+	Commandline    : /home/dreano/schrodinger2019-4/run -FROM psp batch_glide.py InducedFit_2_rec-1_batchglide.bginp -SUBHOST localhost:1 -RETRIES 2
+	StartTime      : 2021-07-22-12:48:21
+	--------------------------------------------------------------------------------
+	
+	[running at reduced cpu priority]
+	VdW radii of ligand atoms scaled by   0.500000000000000
+	Charge cutoff for polarity   0.150000000000000
+	After readscreen, (nx, ny, nz) = (          30 ,           30 ,           30 ).
+	Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 ,
+	30 ,           30 ,    1.00000000000000      ).
+	Screening setup finished.
+	DOCKMAIN: getting receptor.
+	DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 ,
+	80 ).
+	
+	Metal   At. Num.  Eff. Charge  Category    x         y         z
+	20896      12        0.50           1   -34.672   -34.378    35.883
+	20897      12       -0.25          -1   -38.834   -36.986    35.864
+	20898      12       -0.17          -1   -35.105   -31.906    33.945
+	20899      12        0.08           1   -39.539   -33.361    35.423
+	20900      12        1.00           1   -37.415   -34.241    29.767
+	20910      11        0.00           2   -46.178   -17.052    23.198
+	20911      19        0.33           1   -40.636   -31.496    29.757
+	20958      12       -0.17          -1    -9.264   -19.245    33.264
+	20959      12        2.50           1    -2.674   -18.909    35.245
+	20960      12        1.50           1    -4.059   -17.817    33.010
+	20961      12        0.67           1    -7.104   -15.337    35.821
+	20962      12        0.50           1    -7.796   -21.438    34.748
+	20972      11       -2.00          -1   -12.979    -3.870    19.535
+	20973      19        0.67           1    -6.644   -13.114    31.664
+	20974      12        2.50           1   -34.581    34.061    57.789
+	20975      12        0.50           1   -40.166    33.813    57.370
+	20976      12        2.50           1   -35.527    35.757    55.821
+	20977      12        1.50           1   -39.558    31.354    58.873
+	20978      12        1.00           1   -37.750    32.544    52.777
+	21010      12       -1.33          -1    -7.779    45.220    54.763
+	21011      12        0.50           1    -2.250    47.243    54.421
+	21012      12        1.50           1    -5.236    50.812    52.626
+	21013      12        0.67           1    -7.555    50.242    55.572
+	21014      12        0.33           1    -9.936    48.684    53.030
+	21024      11        2.00           1   -13.440    60.914    37.924
+	21025      19        1.00           1    -7.494    51.992    50.884
+	
+	DOCKMAIN: Grid setup finished
+	Calling OPLS3e atomtyping ...
+	Finished parameter assignment

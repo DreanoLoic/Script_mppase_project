@@ -1,0 +1,9081 @@
+ZINC04166636
+  SciTegic02151913103D
+
+ 41 43  0  0  0  0            999 V2000
+   -0.9929   -0.4395    1.0651 C   0  0
+   -0.0108   -0.0783    0.0398 N   0  0
+    0.7980    0.9838    0.2259 C   0  0
+    1.5646    1.3264   -0.6549 O   0  0
+    0.7541    1.7264    1.4898 C   0  0
+    1.5783    2.7556    1.8446 C   0  0
+    1.1823    3.1657    3.1273 C   0  0
+    0.1470    2.3787    3.4945 C   0  0
+   -0.1114    1.5161    2.5032 O   0  0
+    0.0922   -0.8713   -1.1877 C   0  0  2  0  0  0
+   -0.0219    0.0500   -2.4068 C   0  0
+   -1.4193    0.6707   -2.4455 C   0  0
+   -2.4688   -0.4259   -2.6340 C   0  0
+   -2.4467   -1.3652   -1.4236 C   0  0
+   -1.0357   -1.8779   -1.2384 C   0  0
+   -0.8154   -3.0606   -1.1340 O   0  0
+    1.4154   -1.5919   -1.2151 C   0  0
+    2.3055   -1.4432   -0.1679 C   0  0
+    3.5191   -2.1042   -0.1929 C   0  0
+    3.8438   -2.9145   -1.2651 C   0  0
+    2.9549   -3.0639   -2.3125 C   0  0
+    1.7372   -2.4069   -2.2855 C   0  0
+    0.6173   -2.5994   -3.5979 Cl  0  0
+   -1.6599    0.4041    1.2427 H   0  0
+   -1.5740   -1.2969    0.7254 H   0  0
+   -0.4755   -0.6947    1.9899 H   0  0
+    2.3794    3.1732    1.2531 H   0  0
+    1.6226    3.9605    3.7111 H   0  0
+   -0.3865    2.4379    4.4317 H   0  0
+    0.7252    0.8406   -2.3362 H   0  0
+    0.1447   -0.5276   -3.3159 H   0  0
+   -1.6085    1.1962   -1.5094 H   0  0
+   -1.4796    1.3761   -3.2743 H   0  0
+   -3.4560    0.0273   -2.7246 H   0  0
+   -2.2443   -0.9924   -3.5378 H   0  0
+   -2.7585   -0.8208   -0.5321 H   0  0
+   -3.1210   -2.2035   -1.5984 H   0  0
+    2.0526   -0.8102    0.6698 H   0  0
+    4.2143   -1.9874    0.6254 H   0  0
+    4.7924   -3.4304   -1.2842 H   0  0
+    3.2087   -3.6966   -3.1503 H   0  0
+  1  2  1  0
+  1 24  1  0
+  1 25  1  0
+  1 26  1  0
+  2  3  1  0
+  2 10  1  0
+  3  4  2  0
+  3  5  1  0
+  5  9  1  0
+  5  6  2  0
+  6  7  1  0
+  6 27  1  0
+  7  8  2  0
+  7 28  1  0
+  8  9  1  0
+  8 29  1  0
+ 10 15  1  0
+ 10 11  1  0
+ 10 17  1  0
+ 11 12  1  0
+ 11 30  1  0
+ 11 31  1  0
+ 12 13  1  0
+ 12 32  1  0
+ 12 33  1  0
+ 13 14  1  0
+ 13 34  1  0
+ 13 35  1  0
+ 14 15  1  0
+ 14 36  1  0
+ 14 37  1  0
+ 15 16  2  0
+ 17 22  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 18 38  1  0
+ 19 20  1  0
+ 19 39  1  0
+ 20 21  2  0
+ 20 40  1  0
+ 21 22  1  0
+ 21 41  1  0
+ 22 23  1  0
+M  END
+> <Name>
+ZINC04166636
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+2
+
+> <Overlay Label>
+ZINC04166636
+
+> <Overlay Similarity/ZINC72309067>
+0.467845
+
+> <Overlay Similarity/ZINC72309068>
+0.52891
+
+> <Overlay Similarity/ZINC78778138>
+0.485427
+
+> <Overlay Similarity/ZINC78778141>
+0.549553
+
+> <Overlay Similarity/ZINC78778144>
+0.508159
+
+> <Overlay Similarity/ZINC78778147>
+0.448415
+
+> <Overlay Similarity/ZINC78778151>
+0.502343
+
+> <Overlay Similarity/ZINC78778155>
+0.556514
+
+> <Overlay Similarity/ZINC78778158>
+0.436918
+
+> <Overlay Similarity/ZINC78778163>
+0.548625
+
+> <Overlay Similarity/ZINC78778166>
+0.505406
+
+> <Overlay Similarity/ZINC78778173>
+0.59086
+
+> <Overlay Similarity/ZINC78778176>
+0.441443
+
+> <Overlay Similarity/ZINC78778180>
+0.449369
+
+> <Overlay Similarity/ZINC78778183>
+0.529623
+
+> <Overlay Similarity/ZINC78778188>
+0.542009
+
+> <Overlay Similarity/ZINC12778748>
+0.407046
+
+> <Overlay Similarity/ZINC67946083>
+0.462616
+
+> <Overlay Similarity/ZINC67946084>
+0.588001
+
+> <Overlay Similarity/ZINC12778744>
+0.527893
+
+> <Overlay Similarity/ZINC12680197>
+0.515055
+
+> <Overlay Similarity/ZINC78384964>
+0.473445
+
+> <Overlay Similarity/ZINC78384965>
+0.506023
+
+> <Overlay Similarity/ZINC12680206>
+0.401515
+
+> <Overlay Similarity/ZINC09580372>
+0.365872
+
+> <Overlay Similarity/ZINC09580374>
+0.304657
+
+> <Overlay Similarity/ZINC09580463>
+0.316577
+
+> <Overlay Similarity/ZINC09580464>
+0.231512
+
+> <Overlay Similarity/ZINC04948912>
+0.445978
+
+> <Overlay Similarity/ZINC36294079>
+0.484232
+
+> <Overlay Similarity/ZINC78637034>
+0.415861
+
+> <Overlay Similarity/ZINC78637038>
+0.537239
+
+> <Overlay Similarity/ZINC12798308>
+0.205204
+
+> <Overlay Similarity/ZINC12798311>
+0.292074
+
+> <Overlay Similarity/ZINC12584969>
+0.36984
+
+> <Overlay Similarity/ZINC12584974>
+0.249158
+
+> <Overlay Similarity/ZINC09634536>
+0.344976
+
+> <Overlay Similarity/ZINC09634537>
+0.243571
+
+> <Overlay Similarity/ZINC13128612>
+0.291629
+
+> <Overlay Similarity/ZINC13128613>
+0.393023
+
+> <Overlay Similarity/ZINC72309088>
+0.492125
+
+> <Overlay Similarity/ZINC72309089>
+0.505909
+
+> <Overlay Similarity/ZINC72309094>
+0.463204
+
+> <Overlay Similarity/ZINC72309095>
+0.451017
+
+> <Overlay Similarity/ZINC09871162>
+0.337641
+
+> <Overlay Similarity/ZINC09871169>
+0.220001
+
+> <Overlay Similarity/ZINC21761901>
+0.340672
+
+> <Overlay Similarity/ZINC21761904>
+0.42896
+
+> <Overlay Similarity/ZINC74433878>
+0.441213
+
+> <Overlay Similarity/ZINC74433882>
+0.544659
+
+> <Overlay Similarity/ZINC09634852>
+0.284657
+
+> <Overlay Similarity/ZINC13063163>
+0.408964
+
+> <Overlay Similarity/ZINC21738925>
+0.5386
+
+> <Overlay Similarity/ZINC21738928>
+0.42078
+
+> <Overlay Similarity/ZINC24971729>
+0.28221
+
+> <Overlay Similarity/ZINC24971735>
+0.391615
+
+> <Overlay Similarity/ZINC12917397>
+0.309085
+
+> <Overlay Similarity/ZINC12917403>
+0.377114
+
+> <Overlay Similarity/ZINC70040689>
+0.500084
+
+> <Overlay Similarity/ZINC70040690>
+0.603015
+
+> <Overlay Similarity/ZINC12593237>
+0.183307
+
+> <Overlay Similarity/ZINC12593241>
+0.284308
+
+> <Overlay Similarity/ZINC10109519>
+0.366932
+
+> <Overlay Similarity/ZINC10109520>
+0.284289
+
+> <Overlay Similarity/ZINC12749206>
+0.416699
+
+> <Overlay Similarity/ZINC12749202>
+0.495083
+
+> <Overlay Similarity/ZINC09481125>
+0.408862
+
+> <Overlay Similarity/ZINC09481127>
+0.307032
+
+> <Overlay Similarity/ZINC12749194>
+0.244736
+
+> <Overlay Similarity/ZINC12749198>
+0.404941
+
+> <Overlay Similarity/ZINC12749221>
+0.212277
+
+> <Overlay Similarity/ZINC12749226>
+0.416102
+
+> <Overlay Similarity/ZINC12749313>
+0.439601
+
+> <Overlay Similarity/ZINC12749320>
+0.269567
+
+> <Overlay Similarity/ZINC12749327>
+0.145706
+
+> <Overlay Similarity/ZINC12749332>
+0.265638
+
+> <Overlay Similarity/ZINC12749347>
+0.533824
+
+> <Overlay Similarity/ZINC12749353>
+0.35255
+
+> <Overlay Similarity/ZINC09547328>
+0.465891
+
+> <Overlay Similarity/ZINC09547331>
+0.341886
+
+> <Overlay Similarity/ZINC35999642>
+0.487805
+
+> <Overlay Similarity/ZINC08312163>
+0.368842
+
+> <Overlay Similarity/ZINC08312165>
+0.217753
+
+> <Overlay Similarity/ZINC78077980>
+0.438285
+
+> <Overlay Similarity/ZINC78077982>
+0.54756
+
+> <Overlay Similarity/ZINC06509041>
+0.481218
+
+> <Overlay Similarity/ZINC07253715>
+0.426319
+
+> <Overlay Similarity/ZINC07253718>
+0.301767
+
+> <Overlay Similarity/ZINC07253739>
+0.36131
+
+> <Overlay Similarity/ZINC03229857>
+0.514108
+
+> <Overlay Similarity/ZINC21577516>
+0.296537
+
+> <Overlay Similarity/ZINC21577520>
+0.416254
+
+> <Overlay Similarity/ZINC74805895>
+0.485983
+
+> <Overlay Similarity/ZINC74805896>
+0.531763
+
+> <Overlay Similarity/ZINC21577603>
+0.355255
+
+> <Overlay Similarity/ZINC21577607>
+0.419253
+
+> <Overlay Similarity/ZINC21577611>
+0.457615
+
+> <Overlay Similarity/ZINC21577615>
+0.373809
+
+> <Overlay Similarity/ZINC21577734>
+0.225921
+
+> <Overlay Similarity/ZINC21577738>
+0.321424
+
+> <Overlay Similarity/ZINC21577750>
+0.299197
+
+> <Overlay Similarity/ZINC21577754>
+0.406105
+
+> <Overlay Similarity/ZINC12750193>
+0.264455
+
+> <Overlay Similarity/ZINC12750199>
+0.33532
+
+> <Overlay Similarity/ZINC12600205>
+0.508082
+
+> <Overlay Similarity/ZINC12792241>
+0.223351
+
+> <Overlay Similarity/ZINC12792244>
+0.315468
+
+> <Overlay Similarity/ZINC75560270>
+0.439702
+
+> <Overlay Similarity/ZINC75560273>
+0.548819
+
+> <Overlay Similarity/ZINC09440363>
+0.376494
+
+> <Overlay Similarity/ZINC75560317>
+0.516268
+
+> <Overlay Similarity/ZINC75560323>
+0.57675
+
+> <Overlay Similarity/ZINC03280133>
+0.45417
+
+> <Overlay Similarity/ZINC03280131>
+0.393865
+
+> <Overlay Similarity/ZINC03280143>
+0.445264
+
+> <Overlay Similarity/ZINC03280141>
+0.559316
+
+> <Overlay Similarity/ZINC06509042>
+0.574398
+
+> <Overlay Similarity/ZINC09499349>
+0.373752
+
+> <Overlay Similarity/ZINC09499353>
+0.230894
+
+> <Overlay Similarity/ZINC09949673>
+0.399087
+
+> <Overlay Similarity/ZINC09949677>
+0.269959
+
+> <Overlay Similarity/ZINC04948896>
+0.432487
+
+> <Overlay Similarity/ZINC04948899>
+0.544413
+
+> <Overlay Similarity/ZINC70769326>
+0.499826
+
+> <Overlay Similarity/ZINC70769329>
+0.350629
+
+> <Overlay Similarity/ZINC58120686>
+0.554747
+
+> <Overlay Similarity/ZINC04166636>
+1
+
+> <Overlay Similarity/ZINC04166637>
+0.698016
+
+> <Overlay Similarity/ZINC10029289>
+0.370039
+
+> <Overlay Similarity/ZINC10029291>
+0.298714
+
+> <Overlay Similarity/ZINC21735174>
+0.284178
+
+> <Overlay Similarity/ZINC21735177>
+0.398406
+
+> <Overlay Similarity/ZINC64388462>
+0.396543
+
+> <Overlay Similarity/ZINC89310214>
+0.523714
+
+> <Overlay Similarity/ZINC12594804>
+0.394858
+
+> <Overlay Similarity/ZINC12594800>
+0.495628
+
+> <Overlay Similarity/ZINC03243400>
+0.378392
+
+> <Overlay Similarity/ZINC03243399>
+0.567046
+
+> <Overlay Similarity/ZINC74393475>
+0.521708
+
+> <Overlay Similarity/ZINC74393478>
+0.493931
+
+> <Overlay Similarity/ZINC74393480>
+0.592824
+
+> <Overlay Similarity/ZINC74393484>
+0.598293
+
+> <Overlay Similarity/ZINC12749343>
+0.443498
+
+> <Overlay Similarity/ZINC12750221>
+0.494255
+
+> <Overlay Similarity/ZINC12750265>
+0.546948
+
+> <Overlay Similarity/ZINC21735375>
+0.285901
+
+> <Overlay Similarity/ZINC21735379>
+0.378507
+
+> <Overlay Similarity/ZINC09512927>
+0.365964
+
+> <Overlay Similarity/ZINC09512928>
+0.52548
+
+> <Overlay Similarity/ZINC09512929>
+0.363461
+
+> <Overlay Similarity/ZINC09512931>
+0.322208
+
+> <Overlay Similarity/ZINC04948914>
+0.558129
+
+> <Overlay Similarity/ZINC32788417>
+0.254262
+
+> <Overlay Similarity/ZINC32788422>
+0.518335
+
+> <Overlay Similarity/ZINC32788427>
+0.446868
+
+> <Overlay Similarity/ZINC32788432>
+0.359852
+
+> <Overlay Similarity/ZINC32788436>
+0.397121
+
+> <Overlay Similarity/ZINC32788441>
+0.465591
+
+> <Overlay Similarity/ZINC06087125>
+0.224781
+
+> <Overlay Similarity/ZINC06087128>
+0.187443
+
+> <Overlay Similarity/ZINC12768937>
+0.265555
+
+> <Overlay Similarity/ZINC12768943>
+0.350068
+
+> <Overlay Similarity/ZINC03235907>
+0.574432
+
+> <Overlay Similarity/ZINC03235906>
+0.428274
+
+> <Overlay Similarity/ZINC12749337>
+0.534806
+
+> <Overlay Similarity/ZINC12750216>
+0.579019
+
+> <Overlay Similarity/ZINC12750270>
+0.463311
+
+> <Overlay Similarity/ZINC08263368>
+0.269202
+
+> <Overlay Similarity/ZINC08263372>
+0.07723
+
+> <Overlay Similarity/ZINC12983868>
+0.188004
+
+> <Overlay Similarity/ZINC12983871>
+0.329679
+
+> <Overlay Similarity/ZINC03229856>
+0.450121
+
+> <Overlay Similarity/ZINC60860378>
+0.501941
+
+> <Overlay Similarity/ZINC04965927>
+0.466648
+
+> <Overlay Similarity/ZINC04965929>
+0.367459
+
+> <Overlay Similarity/ZINC03236260>
+0.443151
+
+> <Overlay Similarity/ZINC03236262>
+0.391203
+
+> <Overlay Similarity/ZINC03236261>
+0.29354
+
+> <Overlay Similarity/ZINC37123872>
+0.441958
+
+> <Overlay Similarity/ZINC37123873>
+0.438525
+
+> <Overlay Similarity/ZINC37123874>
+0.433233
+
+> <Overlay Similarity/ZINC37123875>
+0.440869
+
+> <Overlay Similarity/ZINC92309601>
+0.524731
+
+> <Overlay Similarity/ZINC92309602>
+0.461239
+
+> <Overlay Similarity/ZINC92309603>
+0.463738
+
+> <Overlay Similarity/ZINC92309604>
+0.490038
+
+> <Overlay Similarity/ZINC91848448>
+0.451835
+
+> <Overlay Similarity/ZINC91848449>
+0.447551
+
+> <Overlay Similarity/ZINC91848450>
+0.459531
+
+> <Overlay Similarity/ZINC21736106>
+0.411955
+
+> <Overlay Similarity/ZINC21736109>
+0.343682
+
+> <Overlay Similarity/ZINC09513705>
+0.37089
+
+> <Overlay Similarity/ZINC09513706>
+0.504877
+
+> <Overlay Similarity/ZINC03236259>
+0.291956
+
+> <Overlay Similarity/ZINC12810878>
+0.467427
+
+> <Overlay Similarity/ZINC12810884>
+0.415548
+
+> <Overlay Similarity/ZINC09378919>
+0.319495
+
+> <Overlay Similarity/ZINC09378920>
+0.179234
+
+> <Overlay Similarity/ZINC21736243>
+0.211035
+
+> <Overlay Similarity/ZINC21736246>
+0.293809
+
+> <Overlay Similarity/ZINC32811055>
+0.331264
+
+> <Overlay Similarity/ZINC32811057>
+0.347624
+
+> <Overlay Similarity/ZINC10021983>
+0.277964
+
+> <Overlay Similarity/ZINC10021990>
+0.150861
+
+> <Overlay Similarity/ZINC21736411>
+0.343844
+
+> <Overlay Similarity/ZINC21736415>
+0.296708
+
+> <Overlay Similarity/ZINC21736419>
+0.301705
+
+> <Overlay Similarity/ZINC21736423>
+0.425637
+
+> <Overlay Similarity/ZINC76788252>
+0.423816
+
+> <Overlay Similarity/ZINC76788256>
+0.563463
+
+> <Overlay Similarity/ZINC03241551>
+0.47521
+
+> <Overlay Similarity/ZINC03241550>
+0.554548
+
+> <Overlay Similarity/ZINC00002278>
+0.208937
+
+> <Overlay Similarity/ZINC58680102>
+0.497138
+
+> <Overlay Similarity/ZINC58680103>
+0.532579
+
+> <Overlay Similarity/ZINC58680132>
+0.40893
+
+> <Overlay Similarity/ZINC58680133>
+0.489924
+
+> <Overlay Similarity/ZINC58147051>
+0.460019
+
+> <Overlay Similarity/ZINC58147057>
+0.515469
+
+> <Overlay Similarity/ZINC09206744>
+0.388981
+
+> <Overlay Similarity/ZINC09206748>
+0.247685
+
+> <Overlay Similarity/ZINC09200220>
+0.49415
+
+> <Overlay Similarity/ZINC09200225>
+0.428993
+
+> <Overlay Similarity/ZINC09594500>
+0.398336
+
+> <Overlay Similarity/ZINC09594501>
+0.234505
+
+> <Overlay Similarity/ZINC07253743>
+0.244355
+
+> <Overlay Similarity/ZINC39932869>
+0.232577
+
+> <Overlay Similarity/ZINC78826319>
+0.520183
+
+> <Overlay Similarity/ZINC78826329>
+0.579465
+
+> <Overlay Similarity/ZINC25427067>
+0.38001
+
+> <Overlay Similarity/ZINC25427070>
+0.484409
+
+> <Overlay Similarity/ZINC78826356>
+0.517468
+
+> <Overlay Similarity/ZINC78826362>
+0.51574
+
+> <Overlay Similarity/ZINC78826369>
+0.579058
+
+> <Overlay Similarity/ZINC78826379>
+0.569585
+
+> <Overlay Similarity/ZINC67970113>
+0.525482
+
+> <Overlay Similarity/ZINC67970114>
+0.571188
+
+> <Overlay Similarity/ZINC00000409>
+0.251412
+
+> <Overlay Similarity/ZINC09619820>
+0.367151
+
+> <Overlay Similarity/ZINC09594505>
+0.325846
+
+> <Overlay Similarity/ZINC09619824>
+0.502803
+
+> <Overlay Similarity/ZINC09594508>
+0.201422
+
+> <Overlay Similarity/ZINC79812663>
+0.459074
+
+> <Overlay Similarity/ZINC79812665>
+0.605429
+
+> <Overlay Similarity/ZINC12750265_1>
+0.195775
+
+> <Overlay Similarity/ZINC12750270_1>
+0.198113
+
+> <Overlay Similarity/ZINC78637034_1>
+0.267856
+
+> <Overlay Similarity/ZINC78637038_1>
+0.271137
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0962174
+
+> <Overlay Similarity/ZINC09200225_1>
+0.280607
+
+> <ADMET_Solubility>
+-5.015
+
+> <ADMET_Solubility_Level>
+2
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.201
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+0.551853
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -836603894: [*]C[C@@](N([*])[*])(C(=[*])[*])[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.0419
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.00269253
+
+> <ADMET_EXT_Hepatotoxic>
+-9.91855
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+17.0632
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.1761e-17
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.05036
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+11.5213
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.239682
+
+> <ADMET_AlogP98>
+3.735
+
+> <ADMET_PSA_2D>
+50.508
+
+$$$$
+ZINC04166637
+  SciTegic02151913103D
+
+ 41 43  0  0  0  0            999 V2000
+   -0.2370    1.4513   -0.0049 C   0  0
+   -0.0723   -0.0031    0.0553 N   0  0
+    0.0333   -0.6205    1.2486 C   0  0
+    0.2599   -1.8152    1.2977 O   0  0
+   -0.1248    0.1473    2.4881 C   0  0
+   -0.1336   -0.3650    3.7537 C   0  0
+   -0.3082    0.7199    4.6271 C   0  0
+   -0.3974    1.8328    3.8659 C   0  0
+   -0.2813    1.4843    2.5778 O   0  0
+   -0.0224   -0.7864   -1.1817 C   0  0  1  0  0  0
+    0.1142    0.1557   -2.3824 C   0  0
+    1.4602    0.8790   -2.3103 C   0  0
+    2.6001   -0.1344   -2.4253 C   0  0
+    2.5571   -1.0874   -1.2262 C   0  0
+    1.1785   -1.7058   -1.1527 C   0  0
+    1.0401   -2.9028   -1.0726 O   0  0
+   -1.2820   -1.6030   -1.3148 C   0  0
+   -2.2623   -1.5250   -0.3434 C   0  0
+   -3.4177   -2.2738   -0.4654 C   0  0
+   -3.5935   -3.1014   -1.5590 C   0  0
+   -2.6142   -3.1803   -2.5308 C   0  0
+   -1.4598   -2.4264   -2.4121 C   0  0
+   -0.2320   -2.5199   -3.6358 Cl  0  0
+    0.5861    1.9324    0.5235 H   0  0
+   -0.2384    1.7741   -1.0460 H   0  0
+   -1.1813    1.7298    0.4631 H   0  0
+   -0.0268   -1.4038    4.0295 H   0  0
+   -0.3617    0.6738    5.7048 H   0  0
+   -0.5358    2.8382    4.2354 H   0  0
+    0.0608   -0.4216   -3.3054 H   0  0
+   -0.6932    0.8877   -2.3638 H   0  0
+    1.5298    1.5970   -3.1274 H   0  0
+    1.5381    1.4054   -1.3590 H   0  0
+    2.4877   -0.7048   -3.3473 H   0  0
+    3.5545    0.3920   -2.4372 H   0  0
+    3.3035   -1.8713   -1.3546 H   0  0
+    2.7587   -0.5325   -0.3100 H   0  0
+   -2.1254   -0.8791    0.5113 H   0  0
+   -4.1832   -2.2128    0.2940 H   0  0
+   -4.4963   -3.6865   -1.6536 H   0  0
+   -2.7515   -3.8269   -3.3848 H   0  0
+  1  2  1  0
+  1 24  1  0
+  1 25  1  0
+  1 26  1  0
+  2  3  1  0
+  2 10  1  0
+  3  4  2  0
+  3  5  1  0
+  5  9  1  0
+  5  6  2  0
+  6  7  1  0
+  6 27  1  0
+  7  8  2  0
+  7 28  1  0
+  8  9  1  0
+  8 29  1  0
+ 10 15  1  0
+ 10 11  1  0
+ 10 17  1  0
+ 11 12  1  0
+ 11 30  1  0
+ 11 31  1  0
+ 12 13  1  0
+ 12 32  1  0
+ 12 33  1  0
+ 13 14  1  0
+ 13 34  1  0
+ 13 35  1  0
+ 14 15  1  0
+ 14 36  1  0
+ 14 37  1  0
+ 15 16  2  0
+ 17 22  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 18 38  1  0
+ 19 20  1  0
+ 19 39  1  0
+ 20 21  2  0
+ 20 40  1  0
+ 21 22  1  0
+ 21 41  1  0
+ 22 23  1  0
+M  END
+> <Name>
+ZINC04166637
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+2
+
+> <Overlay Label>
+ZINC04166637
+
+> <Overlay Similarity/ZINC72309067>
+0.615222
+
+> <Overlay Similarity/ZINC72309068>
+0.713022
+
+> <Overlay Similarity/ZINC78778138>
+0.577584
+
+> <Overlay Similarity/ZINC78778141>
+0.742264
+
+> <Overlay Similarity/ZINC78778144>
+0.634593
+
+> <Overlay Similarity/ZINC78778147>
+0.627257
+
+> <Overlay Similarity/ZINC78778151>
+0.667603
+
+> <Overlay Similarity/ZINC78778155>
+0.724711
+
+> <Overlay Similarity/ZINC78778158>
+0.598157
+
+> <Overlay Similarity/ZINC78778163>
+0.765632
+
+> <Overlay Similarity/ZINC78778166>
+0.63415
+
+> <Overlay Similarity/ZINC78778173>
+0.769386
+
+> <Overlay Similarity/ZINC78778176>
+0.579256
+
+> <Overlay Similarity/ZINC78778180>
+0.540725
+
+> <Overlay Similarity/ZINC78778183>
+0.711538
+
+> <Overlay Similarity/ZINC78778188>
+0.741481
+
+> <Overlay Similarity/ZINC12778748>
+0.548182
+
+> <Overlay Similarity/ZINC67946083>
+0.556688
+
+> <Overlay Similarity/ZINC67946084>
+0.750274
+
+> <Overlay Similarity/ZINC12778744>
+0.68388
+
+> <Overlay Similarity/ZINC12680197>
+0.601167
+
+> <Overlay Similarity/ZINC78384964>
+0.560204
+
+> <Overlay Similarity/ZINC78384965>
+0.548864
+
+> <Overlay Similarity/ZINC12680206>
+0.487606
+
+> <Overlay Similarity/ZINC09580372>
+0.436903
+
+> <Overlay Similarity/ZINC09580374>
+0.323719
+
+> <Overlay Similarity/ZINC09580463>
+0.372762
+
+> <Overlay Similarity/ZINC09580464>
+0.257222
+
+> <Overlay Similarity/ZINC04948912>
+0.556162
+
+> <Overlay Similarity/ZINC36294079>
+0.569805
+
+> <Overlay Similarity/ZINC78637034>
+0.570244
+
+> <Overlay Similarity/ZINC78637038>
+0.723573
+
+> <Overlay Similarity/ZINC12798308>
+0.230531
+
+> <Overlay Similarity/ZINC12798311>
+0.347268
+
+> <Overlay Similarity/ZINC12584969>
+0.502025
+
+> <Overlay Similarity/ZINC12584974>
+0.306504
+
+> <Overlay Similarity/ZINC09634536>
+0.430194
+
+> <Overlay Similarity/ZINC09634537>
+0.264568
+
+> <Overlay Similarity/ZINC13128612>
+0.310657
+
+> <Overlay Similarity/ZINC13128613>
+0.46038
+
+> <Overlay Similarity/ZINC72309088>
+0.577283
+
+> <Overlay Similarity/ZINC72309089>
+0.630373
+
+> <Overlay Similarity/ZINC72309094>
+0.602336
+
+> <Overlay Similarity/ZINC72309095>
+0.582687
+
+> <Overlay Similarity/ZINC09871162>
+0.42668
+
+> <Overlay Similarity/ZINC09871169>
+0.26079
+
+> <Overlay Similarity/ZINC21761901>
+0.379153
+
+> <Overlay Similarity/ZINC21761904>
+0.517464
+
+> <Overlay Similarity/ZINC74433878>
+0.549633
+
+> <Overlay Similarity/ZINC74433882>
+0.720495
+
+> <Overlay Similarity/ZINC09634852>
+0.291282
+
+> <Overlay Similarity/ZINC13063163>
+0.472896
+
+> <Overlay Similarity/ZINC21738925>
+0.69592
+
+> <Overlay Similarity/ZINC21738928>
+0.499138
+
+> <Overlay Similarity/ZINC24971729>
+0.289907
+
+> <Overlay Similarity/ZINC24971735>
+0.459971
+
+> <Overlay Similarity/ZINC12917397>
+0.33678
+
+> <Overlay Similarity/ZINC12917403>
+0.461865
+
+> <Overlay Similarity/ZINC70040689>
+0.618699
+
+> <Overlay Similarity/ZINC70040690>
+0.784059
+
+> <Overlay Similarity/ZINC12593237>
+0.208388
+
+> <Overlay Similarity/ZINC12593241>
+0.325387
+
+> <Overlay Similarity/ZINC10109519>
+0.43441
+
+> <Overlay Similarity/ZINC10109520>
+0.298607
+
+> <Overlay Similarity/ZINC12749206>
+0.543162
+
+> <Overlay Similarity/ZINC12749202>
+0.643886
+
+> <Overlay Similarity/ZINC09481125>
+0.522259
+
+> <Overlay Similarity/ZINC09481127>
+0.359006
+
+> <Overlay Similarity/ZINC12749194>
+0.239773
+
+> <Overlay Similarity/ZINC12749198>
+0.452484
+
+> <Overlay Similarity/ZINC12749221>
+0.23734
+
+> <Overlay Similarity/ZINC12749226>
+0.56838
+
+> <Overlay Similarity/ZINC12749313>
+0.520218
+
+> <Overlay Similarity/ZINC12749320>
+0.327614
+
+> <Overlay Similarity/ZINC12749327>
+0.170904
+
+> <Overlay Similarity/ZINC12749332>
+0.320919
+
+> <Overlay Similarity/ZINC12749347>
+0.728532
+
+> <Overlay Similarity/ZINC12749353>
+0.432166
+
+> <Overlay Similarity/ZINC09547328>
+0.560598
+
+> <Overlay Similarity/ZINC09547331>
+0.392031
+
+> <Overlay Similarity/ZINC35999642>
+0.651858
+
+> <Overlay Similarity/ZINC08312163>
+0.432592
+
+> <Overlay Similarity/ZINC08312165>
+0.227427
+
+> <Overlay Similarity/ZINC78077980>
+0.600035
+
+> <Overlay Similarity/ZINC78077982>
+0.728718
+
+> <Overlay Similarity/ZINC06509041>
+0.631749
+
+> <Overlay Similarity/ZINC07253715>
+0.491032
+
+> <Overlay Similarity/ZINC07253718>
+0.319091
+
+> <Overlay Similarity/ZINC07253739>
+0.432307
+
+> <Overlay Similarity/ZINC03229857>
+0.631444
+
+> <Overlay Similarity/ZINC21577516>
+0.304318
+
+> <Overlay Similarity/ZINC21577520>
+0.476542
+
+> <Overlay Similarity/ZINC74805895>
+0.587235
+
+> <Overlay Similarity/ZINC74805896>
+0.732459
+
+> <Overlay Similarity/ZINC21577603>
+0.409253
+
+> <Overlay Similarity/ZINC21577607>
+0.520897
+
+> <Overlay Similarity/ZINC21577611>
+0.623538
+
+> <Overlay Similarity/ZINC21577615>
+0.427565
+
+> <Overlay Similarity/ZINC21577734>
+0.21853
+
+> <Overlay Similarity/ZINC21577738>
+0.456766
+
+> <Overlay Similarity/ZINC21577750>
+0.335808
+
+> <Overlay Similarity/ZINC21577754>
+0.483302
+
+> <Overlay Similarity/ZINC12750193>
+0.269752
+
+> <Overlay Similarity/ZINC12750199>
+0.3831
+
+> <Overlay Similarity/ZINC12600205>
+0.696879
+
+> <Overlay Similarity/ZINC12792241>
+0.246978
+
+> <Overlay Similarity/ZINC12792244>
+0.362297
+
+> <Overlay Similarity/ZINC75560270>
+0.574993
+
+> <Overlay Similarity/ZINC75560273>
+0.719876
+
+> <Overlay Similarity/ZINC09440363>
+0.411641
+
+> <Overlay Similarity/ZINC75560317>
+0.656367
+
+> <Overlay Similarity/ZINC75560323>
+0.758625
+
+> <Overlay Similarity/ZINC03280133>
+0.529305
+
+> <Overlay Similarity/ZINC03280131>
+0.447563
+
+> <Overlay Similarity/ZINC03280143>
+0.550084
+
+> <Overlay Similarity/ZINC03280141>
+0.738706
+
+> <Overlay Similarity/ZINC06509042>
+0.7822
+
+> <Overlay Similarity/ZINC09499349>
+0.435498
+
+> <Overlay Similarity/ZINC09499353>
+0.256526
+
+> <Overlay Similarity/ZINC09949673>
+0.457784
+
+> <Overlay Similarity/ZINC09949677>
+0.285257
+
+> <Overlay Similarity/ZINC04948896>
+0.513883
+
+> <Overlay Similarity/ZINC04948899>
+0.733448
+
+> <Overlay Similarity/ZINC70769326>
+0.664215
+
+> <Overlay Similarity/ZINC70769329>
+0.436725
+
+> <Overlay Similarity/ZINC58120686>
+0.748735
+
+> <Overlay Similarity/ZINC04166636>
+0.698016
+
+> <Overlay Similarity/ZINC04166637>
+1
+
+> <Overlay Similarity/ZINC10029289>
+0.442245
+
+> <Overlay Similarity/ZINC10029291>
+0.334339
+
+> <Overlay Similarity/ZINC21735174>
+0.301986
+
+> <Overlay Similarity/ZINC21735177>
+0.479738
+
+> <Overlay Similarity/ZINC64388462>
+0.525033
+
+> <Overlay Similarity/ZINC89310214>
+0.717726
+
+> <Overlay Similarity/ZINC12594804>
+0.538426
+
+> <Overlay Similarity/ZINC12594800>
+0.686309
+
+> <Overlay Similarity/ZINC03243400>
+0.466116
+
+> <Overlay Similarity/ZINC03243399>
+0.750892
+
+> <Overlay Similarity/ZINC74393475>
+0.618512
+
+> <Overlay Similarity/ZINC74393478>
+0.669248
+
+> <Overlay Similarity/ZINC74393480>
+0.784009
+
+> <Overlay Similarity/ZINC74393484>
+0.792444
+
+> <Overlay Similarity/ZINC12749343>
+0.574001
+
+> <Overlay Similarity/ZINC12750221>
+0.658256
+
+> <Overlay Similarity/ZINC12750265>
+0.741681
+
+> <Overlay Similarity/ZINC21735375>
+0.338816
+
+> <Overlay Similarity/ZINC21735379>
+0.459139
+
+> <Overlay Similarity/ZINC09512927>
+0.445269
+
+> <Overlay Similarity/ZINC09512928>
+0.722089
+
+> <Overlay Similarity/ZINC09512929>
+0.451969
+
+> <Overlay Similarity/ZINC09512931>
+0.373866
+
+> <Overlay Similarity/ZINC04948914>
+0.731357
+
+> <Overlay Similarity/ZINC32788417>
+0.286317
+
+> <Overlay Similarity/ZINC32788422>
+0.464224
+
+> <Overlay Similarity/ZINC32788427>
+0.593697
+
+> <Overlay Similarity/ZINC32788432>
+0.427424
+
+> <Overlay Similarity/ZINC32788436>
+0.406527
+
+> <Overlay Similarity/ZINC32788441>
+0.537131
+
+> <Overlay Similarity/ZINC06087125>
+0.216798
+
+> <Overlay Similarity/ZINC06087128>
+0.246664
+
+> <Overlay Similarity/ZINC12768937>
+0.303977
+
+> <Overlay Similarity/ZINC12768943>
+0.433092
+
+> <Overlay Similarity/ZINC03235907>
+0.693993
+
+> <Overlay Similarity/ZINC03235906>
+0.504485
+
+> <Overlay Similarity/ZINC12749337>
+0.695746
+
+> <Overlay Similarity/ZINC12750216>
+0.78067
+
+> <Overlay Similarity/ZINC12750270>
+0.588413
+
+> <Overlay Similarity/ZINC08263368>
+0.357177
+
+> <Overlay Similarity/ZINC08263372>
+0.0781732
+
+> <Overlay Similarity/ZINC12983868>
+0.210844
+
+> <Overlay Similarity/ZINC12983871>
+0.386885
+
+> <Overlay Similarity/ZINC03229856>
+0.561517
+
+> <Overlay Similarity/ZINC60860378>
+0.595761
+
+> <Overlay Similarity/ZINC04965927>
+0.575682
+
+> <Overlay Similarity/ZINC04965929>
+0.418787
+
+> <Overlay Similarity/ZINC03236260>
+0.531018
+
+> <Overlay Similarity/ZINC03236262>
+0.481674
+
+> <Overlay Similarity/ZINC03236261>
+0.339053
+
+> <Overlay Similarity/ZINC37123872>
+0.609613
+
+> <Overlay Similarity/ZINC37123873>
+0.606106
+
+> <Overlay Similarity/ZINC37123874>
+0.603421
+
+> <Overlay Similarity/ZINC37123875>
+0.606738
+
+> <Overlay Similarity/ZINC92309601>
+0.657139
+
+> <Overlay Similarity/ZINC92309602>
+0.573672
+
+> <Overlay Similarity/ZINC92309603>
+0.589756
+
+> <Overlay Similarity/ZINC92309604>
+0.619691
+
+> <Overlay Similarity/ZINC91848448>
+0.586924
+
+> <Overlay Similarity/ZINC91848449>
+0.579998
+
+> <Overlay Similarity/ZINC91848450>
+0.539311
+
+> <Overlay Similarity/ZINC21736106>
+0.544789
+
+> <Overlay Similarity/ZINC21736109>
+0.448464
+
+> <Overlay Similarity/ZINC09513705>
+0.446125
+
+> <Overlay Similarity/ZINC09513706>
+0.657815
+
+> <Overlay Similarity/ZINC03236259>
+0.38249
+
+> <Overlay Similarity/ZINC12810878>
+0.602092
+
+> <Overlay Similarity/ZINC12810884>
+0.532044
+
+> <Overlay Similarity/ZINC09378919>
+0.412323
+
+> <Overlay Similarity/ZINC09378920>
+0.224635
+
+> <Overlay Similarity/ZINC21736243>
+0.267472
+
+> <Overlay Similarity/ZINC21736246>
+0.366052
+
+> <Overlay Similarity/ZINC32811055>
+0.389181
+
+> <Overlay Similarity/ZINC32811057>
+0.44864
+
+> <Overlay Similarity/ZINC10021983>
+0.327226
+
+> <Overlay Similarity/ZINC10021990>
+0.166352
+
+> <Overlay Similarity/ZINC21736411>
+0.388976
+
+> <Overlay Similarity/ZINC21736415>
+0.346662
+
+> <Overlay Similarity/ZINC21736419>
+0.321164
+
+> <Overlay Similarity/ZINC21736423>
+0.502088
+
+> <Overlay Similarity/ZINC76788252>
+0.552442
+
+> <Overlay Similarity/ZINC76788256>
+0.74897
+
+> <Overlay Similarity/ZINC03241551>
+0.651375
+
+> <Overlay Similarity/ZINC03241550>
+0.773132
+
+> <Overlay Similarity/ZINC00002278>
+0.186475
+
+> <Overlay Similarity/ZINC58680102>
+0.601797
+
+> <Overlay Similarity/ZINC58680103>
+0.698864
+
+> <Overlay Similarity/ZINC58680132>
+0.605985
+
+> <Overlay Similarity/ZINC58680133>
+0.6864
+
+> <Overlay Similarity/ZINC58147051>
+0.605181
+
+> <Overlay Similarity/ZINC58147057>
+0.67586
+
+> <Overlay Similarity/ZINC09206744>
+0.454252
+
+> <Overlay Similarity/ZINC09206748>
+0.267612
+
+> <Overlay Similarity/ZINC09200220>
+0.580582
+
+> <Overlay Similarity/ZINC09200225>
+0.469735
+
+> <Overlay Similarity/ZINC09594500>
+0.519915
+
+> <Overlay Similarity/ZINC09594501>
+0.260614
+
+> <Overlay Similarity/ZINC07253743>
+0.273901
+
+> <Overlay Similarity/ZINC39932869>
+0.306725
+
+> <Overlay Similarity/ZINC78826319>
+0.697072
+
+> <Overlay Similarity/ZINC78826329>
+0.770509
+
+> <Overlay Similarity/ZINC25427067>
+0.393597
+
+> <Overlay Similarity/ZINC25427070>
+0.555553
+
+> <Overlay Similarity/ZINC78826356>
+0.69411
+
+> <Overlay Similarity/ZINC78826362>
+0.669063
+
+> <Overlay Similarity/ZINC78826369>
+0.799811
+
+> <Overlay Similarity/ZINC78826379>
+0.781472
+
+> <Overlay Similarity/ZINC67970113>
+0.638892
+
+> <Overlay Similarity/ZINC67970114>
+0.755361
+
+> <Overlay Similarity/ZINC00000409>
+0.298619
+
+> <Overlay Similarity/ZINC09619820>
+0.463405
+
+> <Overlay Similarity/ZINC09594505>
+0.397003
+
+> <Overlay Similarity/ZINC09619824>
+0.67692
+
+> <Overlay Similarity/ZINC09594508>
+0.231472
+
+> <Overlay Similarity/ZINC79812663>
+0.570974
+
+> <Overlay Similarity/ZINC79812665>
+0.789789
+
+> <Overlay Similarity/ZINC12750265_1>
+0.242356
+
+> <Overlay Similarity/ZINC12750270_1>
+0.256239
+
+> <Overlay Similarity/ZINC78637034_1>
+0.403504
+
+> <Overlay Similarity/ZINC78637038_1>
+0.412587
+
+> <Overlay Similarity/ZINC09200220_1>
+0.084706
+
+> <Overlay Similarity/ZINC09200225_1>
+0.357845
+
+> <ADMET_Solubility>
+-5.015
+
+> <ADMET_Solubility_Level>
+2
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.201
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+0.551853
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -836603894: [*]C[C@@](N([*])[*])(C(=[*])[*])[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+12.0419
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.00269253
+
+> <ADMET_EXT_Hepatotoxic>
+-9.91855
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+17.0632
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.1761e-17
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-4.05036
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+11.5213
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.239682
+
+> <ADMET_AlogP98>
+3.735
+
+> <ADMET_PSA_2D>
+50.508
+
+$$$$
+ZINC04948912
+  SciTegic02151913103D
+
+ 43 45  0  0  0  0            999 V2000
+   -0.7569    0.8706    1.6054 C   0  0
+   -0.2193   -0.4599    1.3107 N   0  0
+    0.1043   -1.2943    2.3186 C   0  0
+    0.6083   -2.3736    2.0761 O   0  0
+   -0.1536   -0.8970    3.7185 C   0  0
+    0.0218    0.4320    4.1252 C   0  0
+   -0.2332    0.7525    5.4456 C   0  0
+   -0.6499   -0.2415    6.3162 C   0  0
+   -0.8065   -1.4860    5.9041 N   0  0
+   -0.5811   -1.8383    4.6554 C   0  0
+   -0.9708    0.1557    7.9755 Cl  0  0
+   -0.0334   -0.8836   -0.0793 C   0  0  2  0  0  0
+    1.4107   -1.3527   -0.2855 C   0  0
+    2.3614   -0.1697   -0.0956 C   0  0
+    2.0941    0.8877   -1.1680 C   0  0
+    0.6759    1.4412   -0.9949 C   0  0
+   -0.2970    0.2829   -1.0055 C   0  0
+   -1.2593    0.2891   -1.7351 O   0  0
+   -0.9853   -2.0077   -0.3974 C   0  0
+   -1.8569   -2.4705    0.5707 C   0  0
+   -2.7300   -3.5015    0.2791 C   0  0
+   -2.7323   -4.0706   -0.9809 C   0  0
+   -1.8616   -3.6089   -1.9496 C   0  0
+   -0.9911   -2.5730   -1.6600 C   0  0
+    0.0985   -1.9880   -2.8782 Cl  0  0
+    0.0656    1.5652    1.7761 H   0  0
+   -1.3548    1.2158    0.7619 H   0  0
+   -1.3814    0.8208    2.4973 H   0  0
+    0.3481    1.1869    3.4251 H   0  0
+   -0.1084    1.7669    5.7949 H   0  0
+   -0.7248   -2.8657    4.3547 H   0  0
+    1.6477   -2.1300    0.4410 H   0  0
+    1.5229   -1.7511   -1.2939 H   0  0
+    2.2041    0.2667    0.8908 H   0  0
+    3.3917   -0.5161   -0.1772 H   0  0
+    2.8157    1.6985   -1.0669 H   0  0
+    2.1902    0.4365   -2.1556 H   0  0
+    0.6032    1.9716   -0.0454 H   0  0
+    0.4452    2.1206   -1.8155 H   0  0
+   -1.8552   -2.0265    1.5553 H   0  0
+   -3.4105   -3.8629    1.0359 H   0  0
+   -3.4146   -4.8764   -1.2081 H   0  0
+   -1.8633   -4.0537   -2.9337 H   0  0
+  1  2  1  0
+  1 26  1  0
+  1 27  1  0
+  1 28  1  0
+  2  3  1  0
+  2 12  1  0
+  3  4  2  0
+  3  5  1  0
+  5 10  2  0
+  5  6  1  0
+  6  7  2  0
+  6 29  1  0
+  7  8  1  0
+  7 30  1  0
+  8  9  2  0
+  8 11  1  0
+  9 10  1  0
+ 10 31  1  0
+ 12 17  1  0
+ 12 13  1  0
+ 12 19  1  0
+ 13 14  1  0
+ 13 32  1  0
+ 13 33  1  0
+ 14 15  1  0
+ 14 34  1  0
+ 14 35  1  0
+ 15 16  1  0
+ 15 36  1  0
+ 15 37  1  0
+ 16 17  1  0
+ 16 38  1  0
+ 16 39  1  0
+ 17 18  2  0
+ 19 24  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 20 40  1  0
+ 21 22  1  0
+ 21 41  1  0
+ 22 23  2  0
+ 22 42  1  0
+ 23 24  1  0
+ 23 43  1  0
+ 24 25  1  0
+M  END
+> <Name>
+ZINC04948912
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+2
+
+> <Overlay Label>
+ZINC04948912
+
+> <Overlay Similarity/ZINC72309067>
+0.679291
+
+> <Overlay Similarity/ZINC72309068>
+0.581961
+
+> <Overlay Similarity/ZINC78778138>
+0.860558
+
+> <Overlay Similarity/ZINC78778141>
+0.627662
+
+> <Overlay Similarity/ZINC78778144>
+0.614276
+
+> <Overlay Similarity/ZINC78778147>
+0.571256
+
+> <Overlay Similarity/ZINC78778151>
+0.676112
+
+> <Overlay Similarity/ZINC78778155>
+0.572475
+
+> <Overlay Similarity/ZINC78778158>
+0.847602
+
+> <Overlay Similarity/ZINC78778163>
+0.709328
+
+> <Overlay Similarity/ZINC78778166>
+0.885365
+
+> <Overlay Similarity/ZINC78778173>
+0.71795
+
+> <Overlay Similarity/ZINC78778176>
+0.763118
+
+> <Overlay Similarity/ZINC78778180>
+0.503472
+
+> <Overlay Similarity/ZINC78778183>
+0.640883
+
+> <Overlay Similarity/ZINC78778188>
+0.667243
+
+> <Overlay Similarity/ZINC12778748>
+0.693675
+
+> <Overlay Similarity/ZINC67946083>
+0.849813
+
+> <Overlay Similarity/ZINC67946084>
+0.724986
+
+> <Overlay Similarity/ZINC12778744>
+0.618105
+
+> <Overlay Similarity/ZINC12680197>
+0.623598
+
+> <Overlay Similarity/ZINC78384964>
+0.601985
+
+> <Overlay Similarity/ZINC78384965>
+0.555424
+
+> <Overlay Similarity/ZINC12680206>
+0.688538
+
+> <Overlay Similarity/ZINC09580372>
+0.458274
+
+> <Overlay Similarity/ZINC09580374>
+0.495041
+
+> <Overlay Similarity/ZINC09580463>
+0.443923
+
+> <Overlay Similarity/ZINC09580464>
+0.461885
+
+> <Overlay Similarity/ZINC04948912>
+1
+
+> <Overlay Similarity/ZINC36294079>
+0.524897
+
+> <Overlay Similarity/ZINC78637034>
+0.771255
+
+> <Overlay Similarity/ZINC78637038>
+0.649267
+
+> <Overlay Similarity/ZINC12798308>
+0.417686
+
+> <Overlay Similarity/ZINC12798311>
+0.436056
+
+> <Overlay Similarity/ZINC12584969>
+0.416532
+
+> <Overlay Similarity/ZINC12584974>
+0.352948
+
+> <Overlay Similarity/ZINC09634536>
+0.480584
+
+> <Overlay Similarity/ZINC09634537>
+0.372844
+
+> <Overlay Similarity/ZINC13128612>
+0.488929
+
+> <Overlay Similarity/ZINC13128613>
+0.493666
+
+> <Overlay Similarity/ZINC72309088>
+0.612322
+
+> <Overlay Similarity/ZINC72309089>
+0.514934
+
+> <Overlay Similarity/ZINC72309094>
+0.817708
+
+> <Overlay Similarity/ZINC72309095>
+0.751766
+
+> <Overlay Similarity/ZINC09871162>
+0.456555
+
+> <Overlay Similarity/ZINC09871169>
+0.443588
+
+> <Overlay Similarity/ZINC21761901>
+0.506956
+
+> <Overlay Similarity/ZINC21761904>
+0.500843
+
+> <Overlay Similarity/ZINC74433878>
+0.871679
+
+> <Overlay Similarity/ZINC74433882>
+0.717011
+
+> <Overlay Similarity/ZINC09634852>
+0.505212
+
+> <Overlay Similarity/ZINC13063163>
+0.516975
+
+> <Overlay Similarity/ZINC21738925>
+0.534312
+
+> <Overlay Similarity/ZINC21738928>
+0.474642
+
+> <Overlay Similarity/ZINC24971729>
+0.501836
+
+> <Overlay Similarity/ZINC24971735>
+0.516361
+
+> <Overlay Similarity/ZINC12917397>
+0.489845
+
+> <Overlay Similarity/ZINC12917403>
+0.467674
+
+> <Overlay Similarity/ZINC70040689>
+0.898588
+
+> <Overlay Similarity/ZINC70040690>
+0.749323
+
+> <Overlay Similarity/ZINC12593237>
+0.414474
+
+> <Overlay Similarity/ZINC12593241>
+0.426042
+
+> <Overlay Similarity/ZINC10109519>
+0.434443
+
+> <Overlay Similarity/ZINC10109520>
+0.4341
+
+> <Overlay Similarity/ZINC12749206>
+0.687956
+
+> <Overlay Similarity/ZINC12749202>
+0.54624
+
+> <Overlay Similarity/ZINC09481125>
+0.49381
+
+> <Overlay Similarity/ZINC09481127>
+0.451743
+
+> <Overlay Similarity/ZINC12749194>
+0.490853
+
+> <Overlay Similarity/ZINC12749198>
+0.509353
+
+> <Overlay Similarity/ZINC12749221>
+0.409803
+
+> <Overlay Similarity/ZINC12749226>
+0.526482
+
+> <Overlay Similarity/ZINC12749313>
+0.345726
+
+> <Overlay Similarity/ZINC12749320>
+0.365291
+
+> <Overlay Similarity/ZINC12749327>
+0.407164
+
+> <Overlay Similarity/ZINC12749332>
+0.432519
+
+> <Overlay Similarity/ZINC12749347>
+0.538029
+
+> <Overlay Similarity/ZINC12749353>
+0.447012
+
+> <Overlay Similarity/ZINC09547328>
+0.487853
+
+> <Overlay Similarity/ZINC09547331>
+0.496485
+
+> <Overlay Similarity/ZINC35999642>
+0.597491
+
+> <Overlay Similarity/ZINC08312163>
+0.507845
+
+> <Overlay Similarity/ZINC08312165>
+0.468309
+
+> <Overlay Similarity/ZINC78077980>
+0.843674
+
+> <Overlay Similarity/ZINC78077982>
+0.752773
+
+> <Overlay Similarity/ZINC06509041>
+0.837642
+
+> <Overlay Similarity/ZINC07253715>
+0.49079
+
+> <Overlay Similarity/ZINC07253718>
+0.471657
+
+> <Overlay Similarity/ZINC07253739>
+0.487022
+
+> <Overlay Similarity/ZINC03229857>
+0.785161
+
+> <Overlay Similarity/ZINC21577516>
+0.49783
+
+> <Overlay Similarity/ZINC21577520>
+0.505489
+
+> <Overlay Similarity/ZINC74805895>
+0.807062
+
+> <Overlay Similarity/ZINC74805896>
+0.616044
+
+> <Overlay Similarity/ZINC21577603>
+0.464662
+
+> <Overlay Similarity/ZINC21577607>
+0.454787
+
+> <Overlay Similarity/ZINC21577611>
+0.501869
+
+> <Overlay Similarity/ZINC21577615>
+0.484032
+
+> <Overlay Similarity/ZINC21577734>
+0.447882
+
+> <Overlay Similarity/ZINC21577738>
+0.651172
+
+> <Overlay Similarity/ZINC21577750>
+0.475572
+
+> <Overlay Similarity/ZINC21577754>
+0.458526
+
+> <Overlay Similarity/ZINC12750193>
+0.427443
+
+> <Overlay Similarity/ZINC12750199>
+0.413012
+
+> <Overlay Similarity/ZINC12600205>
+0.519562
+
+> <Overlay Similarity/ZINC12792241>
+0.462982
+
+> <Overlay Similarity/ZINC12792244>
+0.443529
+
+> <Overlay Similarity/ZINC75560270>
+0.848768
+
+> <Overlay Similarity/ZINC75560273>
+0.711436
+
+> <Overlay Similarity/ZINC09440363>
+0.444726
+
+> <Overlay Similarity/ZINC75560317>
+0.822369
+
+> <Overlay Similarity/ZINC75560323>
+0.663722
+
+> <Overlay Similarity/ZINC03280133>
+0.496318
+
+> <Overlay Similarity/ZINC03280131>
+0.569366
+
+> <Overlay Similarity/ZINC03280143>
+0.579238
+
+> <Overlay Similarity/ZINC03280141>
+0.779193
+
+> <Overlay Similarity/ZINC06509042>
+0.679092
+
+> <Overlay Similarity/ZINC09499349>
+0.429529
+
+> <Overlay Similarity/ZINC09499353>
+0.39993
+
+> <Overlay Similarity/ZINC09949673>
+0.495579
+
+> <Overlay Similarity/ZINC09949677>
+0.50308
+
+> <Overlay Similarity/ZINC04948896>
+0.543356
+
+> <Overlay Similarity/ZINC04948899>
+0.692643
+
+> <Overlay Similarity/ZINC70769326>
+0.800838
+
+> <Overlay Similarity/ZINC70769329>
+0.775619
+
+> <Overlay Similarity/ZINC58120686>
+0.590145
+
+> <Overlay Similarity/ZINC04166636>
+0.445978
+
+> <Overlay Similarity/ZINC04166637>
+0.556162
+
+> <Overlay Similarity/ZINC10029289>
+0.465136
+
+> <Overlay Similarity/ZINC10029291>
+0.511017
+
+> <Overlay Similarity/ZINC21735174>
+0.488097
+
+> <Overlay Similarity/ZINC21735177>
+0.508558
+
+> <Overlay Similarity/ZINC64388462>
+0.785507
+
+> <Overlay Similarity/ZINC89310214>
+0.670571
+
+> <Overlay Similarity/ZINC12594804>
+0.62602
+
+> <Overlay Similarity/ZINC12594800>
+0.518503
+
+> <Overlay Similarity/ZINC03243400>
+0.510656
+
+> <Overlay Similarity/ZINC03243399>
+0.750066
+
+> <Overlay Similarity/ZINC74393475>
+0.849742
+
+> <Overlay Similarity/ZINC74393478>
+0.800724
+
+> <Overlay Similarity/ZINC74393480>
+0.613064
+
+> <Overlay Similarity/ZINC74393484>
+0.594419
+
+> <Overlay Similarity/ZINC12749343>
+0.715139
+
+> <Overlay Similarity/ZINC12750221>
+0.83341
+
+> <Overlay Similarity/ZINC12750265>
+0.587579
+
+> <Overlay Similarity/ZINC21735375>
+0.446886
+
+> <Overlay Similarity/ZINC21735379>
+0.429126
+
+> <Overlay Similarity/ZINC09512927>
+0.470351
+
+> <Overlay Similarity/ZINC09512928>
+0.573699
+
+> <Overlay Similarity/ZINC09512929>
+0.431526
+
+> <Overlay Similarity/ZINC09512931>
+0.476934
+
+> <Overlay Similarity/ZINC04948914>
+0.793807
+
+> <Overlay Similarity/ZINC32788417>
+0.410574
+
+> <Overlay Similarity/ZINC32788422>
+0.589326
+
+> <Overlay Similarity/ZINC32788427>
+0.486618
+
+> <Overlay Similarity/ZINC32788432>
+0.408098
+
+> <Overlay Similarity/ZINC32788436>
+0.576418
+
+> <Overlay Similarity/ZINC32788441>
+0.546096
+
+> <Overlay Similarity/ZINC06087125>
+0.247823
+
+> <Overlay Similarity/ZINC06087128>
+0.299718
+
+> <Overlay Similarity/ZINC12768937>
+0.448714
+
+> <Overlay Similarity/ZINC12768943>
+0.430486
+
+> <Overlay Similarity/ZINC03235907>
+0.58317
+
+> <Overlay Similarity/ZINC03235906>
+0.520121
+
+> <Overlay Similarity/ZINC12749337>
+0.586906
+
+> <Overlay Similarity/ZINC12750216>
+0.670011
+
+> <Overlay Similarity/ZINC12750270>
+0.69176
+
+> <Overlay Similarity/ZINC08263368>
+0.395479
+
+> <Overlay Similarity/ZINC08263372>
+0.097314
+
+> <Overlay Similarity/ZINC12983868>
+0.427056
+
+> <Overlay Similarity/ZINC12983871>
+0.44469
+
+> <Overlay Similarity/ZINC03229856>
+0.585045
+
+> <Overlay Similarity/ZINC60860378>
+0.854843
+
+> <Overlay Similarity/ZINC04965927>
+0.564096
+
+> <Overlay Similarity/ZINC04965929>
+0.557256
+
+> <Overlay Similarity/ZINC03236260>
+0.527386
+
+> <Overlay Similarity/ZINC03236262>
+0.446007
+
+> <Overlay Similarity/ZINC03236261>
+0.431508
+
+> <Overlay Similarity/ZINC37123872>
+0.714274
+
+> <Overlay Similarity/ZINC37123873>
+0.689348
+
+> <Overlay Similarity/ZINC37123874>
+0.687364
+
+> <Overlay Similarity/ZINC37123875>
+0.711504
+
+> <Overlay Similarity/ZINC92309601>
+0.638315
+
+> <Overlay Similarity/ZINC92309602>
+0.927743
+
+> <Overlay Similarity/ZINC92309603>
+0.8863
+
+> <Overlay Similarity/ZINC92309604>
+0.787604
+
+> <Overlay Similarity/ZINC91848448>
+0.780607
+
+> <Overlay Similarity/ZINC91848449>
+0.797145
+
+> <Overlay Similarity/ZINC91848450>
+0.547718
+
+> <Overlay Similarity/ZINC21736106>
+0.40762
+
+> <Overlay Similarity/ZINC21736109>
+0.463435
+
+> <Overlay Similarity/ZINC09513705>
+0.42619
+
+> <Overlay Similarity/ZINC09513706>
+0.497212
+
+> <Overlay Similarity/ZINC03236259>
+0.44115
+
+> <Overlay Similarity/ZINC12810878>
+0.415688
+
+> <Overlay Similarity/ZINC12810884>
+0.452917
+
+> <Overlay Similarity/ZINC09378919>
+0.444775
+
+> <Overlay Similarity/ZINC09378920>
+0.419222
+
+> <Overlay Similarity/ZINC21736243>
+0.416942
+
+> <Overlay Similarity/ZINC21736246>
+0.418874
+
+> <Overlay Similarity/ZINC32811055>
+0.459841
+
+> <Overlay Similarity/ZINC32811057>
+0.442612
+
+> <Overlay Similarity/ZINC10021983>
+0.398002
+
+> <Overlay Similarity/ZINC10021990>
+0.379467
+
+> <Overlay Similarity/ZINC21736411>
+0.371254
+
+> <Overlay Similarity/ZINC21736415>
+0.392248
+
+> <Overlay Similarity/ZINC21736419>
+0.48731
+
+> <Overlay Similarity/ZINC21736423>
+0.501027
+
+> <Overlay Similarity/ZINC76788252>
+0.782376
+
+> <Overlay Similarity/ZINC76788256>
+0.668925
+
+> <Overlay Similarity/ZINC03241551>
+0.801249
+
+> <Overlay Similarity/ZINC03241550>
+0.677232
+
+> <Overlay Similarity/ZINC00002278>
+0.219714
+
+> <Overlay Similarity/ZINC58680102>
+0.744201
+
+> <Overlay Similarity/ZINC58680103>
+0.627224
+
+> <Overlay Similarity/ZINC58680132>
+0.665418
+
+> <Overlay Similarity/ZINC58680133>
+0.532755
+
+> <Overlay Similarity/ZINC58147051>
+0.663072
+
+> <Overlay Similarity/ZINC58147057>
+0.576825
+
+> <Overlay Similarity/ZINC09206744>
+0.462614
+
+> <Overlay Similarity/ZINC09206748>
+0.450389
+
+> <Overlay Similarity/ZINC09200220>
+0.574035
+
+> <Overlay Similarity/ZINC09200225>
+0.596136
+
+> <Overlay Similarity/ZINC09594500>
+0.490387
+
+> <Overlay Similarity/ZINC09594501>
+0.440518
+
+> <Overlay Similarity/ZINC07253743>
+0.481017
+
+> <Overlay Similarity/ZINC39932869>
+0.36403
+
+> <Overlay Similarity/ZINC78826319>
+0.790493
+
+> <Overlay Similarity/ZINC78826329>
+0.629172
+
+> <Overlay Similarity/ZINC25427067>
+0.550111
+
+> <Overlay Similarity/ZINC25427070>
+0.548589
+
+> <Overlay Similarity/ZINC78826356>
+0.749181
+
+> <Overlay Similarity/ZINC78826362>
+0.786256
+
+> <Overlay Similarity/ZINC78826369>
+0.600528
+
+> <Overlay Similarity/ZINC78826379>
+0.659871
+
+> <Overlay Similarity/ZINC67970113>
+0.775985
+
+> <Overlay Similarity/ZINC67970114>
+0.658778
+
+> <Overlay Similarity/ZINC00000409>
+0.38087
+
+> <Overlay Similarity/ZINC09619820>
+0.438793
+
+> <Overlay Similarity/ZINC09594505>
+0.427357
+
+> <Overlay Similarity/ZINC09619824>
+0.527769
+
+> <Overlay Similarity/ZINC09594508>
+0.419432
+
+> <Overlay Similarity/ZINC79812663>
+0.829338
+
+> <Overlay Similarity/ZINC79812665>
+0.724106
+
+> <Overlay Similarity/ZINC12750265_1>
+0.266671
+
+> <Overlay Similarity/ZINC12750270_1>
+0.268477
+
+> <Overlay Similarity/ZINC78637034_1>
+0.451508
+
+> <Overlay Similarity/ZINC78637038_1>
+0.441539
+
+> <Overlay Similarity/ZINC09200220_1>
+0.105727
+
+> <Overlay Similarity/ZINC09200225_1>
+0.415633
+
+> <ADMET_Solubility>
+-5.373
+
+> <ADMET_Solubility_Level>
+2
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.323
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+2.92447
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1374812327: [*]:n:[c](Cl):c:[*]
+Unknown FCFP_2 feature: -836603894: [*]C[C@@](N([*])[*])(C(=[*])[*])[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.795
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+4.40581e-05
+
+> <ADMET_EXT_Hepatotoxic>
+-5.48758
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+18.4048
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+2.96345e-21
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+2.48552
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+13.1371
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.00347226
+
+> <ADMET_AlogP98>
+4.063
+
+> <ADMET_PSA_2D>
+49.215
+
+$$$$
+ZINC04948914
+  SciTegic02151913103D
+
+ 43 45  0  0  0  0            999 V2000
+   -0.4182    0.7489    1.8874 C   0  0
+   -0.1371   -0.6056    1.4052 N   0  0
+    0.0864   -1.6015    2.2854 C   0  0
+    0.3948   -2.7076    1.8863 O   0  0
+   -0.0432   -1.3488    3.7356 C   0  0
+    0.3913   -0.1373    4.2888 C   0  0
+    0.2473    0.0504    5.6510 C   0  0
+   -0.3165   -0.9562    6.4182 C   0  0
+   -0.7170   -2.0881    5.8686 N   0  0
+   -0.6056   -2.3106    4.5754 C   0  0
+   -0.4989   -0.7259    8.1292 Cl  0  0
+   -0.0991   -0.8776   -0.0339 C   0  0  1  0  0  0
+   -0.0839    0.4450   -0.8074 C   0  0
+    1.2145    1.1952   -0.5059 C   0  0
+    2.4102    0.3862   -1.0114 C   0  0
+    2.4889   -0.9387   -0.2456 C   0  0
+    1.1584   -1.6472   -0.3724 C   0  0
+    1.1017   -2.7979   -0.7343 O   0  0
+   -1.3085   -1.6854   -0.4284 C   0  0
+   -2.2418   -2.0439    0.5262 C   0  0
+   -3.3512   -2.7848    0.1645 C   0  0
+   -3.5281   -3.1678   -1.1522 C   0  0
+   -2.5958   -2.8100   -2.1074 C   0  0
+   -1.4879   -2.0634   -1.7469 C   0  0
+   -0.3196   -1.6079   -2.9475 Cl  0  0
+    0.5207    1.2680    2.0804 H   0  0
+   -0.9856    1.2929    1.1324 H   0  0
+   -0.9986    0.6935    2.8084 H   0  0
+    0.8278    0.6303    3.6672 H   0  0
+    0.5714    0.9716    6.1123 H   0  0
+   -0.9489   -3.2473    4.1620 H   0  0
+   -0.1464    0.2417   -1.8765 H   0  0
+   -0.9348    1.0542   -0.5027 H   0  0
+    1.1968    2.1648   -1.0035 H   0  0
+    1.3061    1.3431    0.5701 H   0  0
+    2.2887    0.1842   -2.0756 H   0  0
+    3.3270    0.9536   -0.8512 H   0  0
+    3.2769   -1.5608   -0.6700 H   0  0
+    2.7002   -0.7420    0.8056 H   0  0
+   -2.1040   -1.7454    1.5550 H   0  0
+   -4.0800   -3.0650    0.9107 H   0  0
+   -4.3950   -3.7470   -1.4341 H   0  0
+   -2.7340   -3.1095   -3.1358 H   0  0
+  1  2  1  0
+  1 26  1  0
+  1 27  1  0
+  1 28  1  0
+  2  3  1  0
+  2 12  1  0
+  3  4  2  0
+  3  5  1  0
+  5 10  2  0
+  5  6  1  0
+  6  7  2  0
+  6 29  1  0
+  7  8  1  0
+  7 30  1  0
+  8  9  2  0
+  8 11  1  0
+  9 10  1  0
+ 10 31  1  0
+ 12 17  1  0
+ 12 13  1  0
+ 12 19  1  0
+ 13 14  1  0
+ 13 32  1  0
+ 13 33  1  0
+ 14 15  1  0
+ 14 34  1  0
+ 14 35  1  0
+ 15 16  1  0
+ 15 36  1  0
+ 15 37  1  0
+ 16 17  1  0
+ 16 38  1  0
+ 16 39  1  0
+ 17 18  2  0
+ 19 24  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 20 40  1  0
+ 21 22  1  0
+ 21 41  1  0
+ 22 23  2  0
+ 22 42  1  0
+ 23 24  1  0
+ 23 43  1  0
+ 24 25  1  0
+M  END
+> <Name>
+ZINC04948914
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+2
+
+> <Overlay Label>
+ZINC04948914
+
+> <Overlay Similarity/ZINC72309067>
+0.688488
+
+> <Overlay Similarity/ZINC72309068>
+0.800308
+
+> <Overlay Similarity/ZINC78778138>
+0.814476
+
+> <Overlay Similarity/ZINC78778141>
+0.840601
+
+> <Overlay Similarity/ZINC78778144>
+0.69691
+
+> <Overlay Similarity/ZINC78778147>
+0.714308
+
+> <Overlay Similarity/ZINC78778151>
+0.705086
+
+> <Overlay Similarity/ZINC78778155>
+0.778563
+
+> <Overlay Similarity/ZINC78778158>
+0.700401
+
+> <Overlay Similarity/ZINC78778163>
+0.911217
+
+> <Overlay Similarity/ZINC78778166>
+0.737748
+
+> <Overlay Similarity/ZINC78778173>
+0.928041
+
+> <Overlay Similarity/ZINC78778176>
+0.679857
+
+> <Overlay Similarity/ZINC78778180>
+0.68045
+
+> <Overlay Similarity/ZINC78778183>
+0.852182
+
+> <Overlay Similarity/ZINC78778188>
+0.87219
+
+> <Overlay Similarity/ZINC12778748>
+0.612257
+
+> <Overlay Similarity/ZINC67946083>
+0.61716
+
+> <Overlay Similarity/ZINC67946084>
+0.89851
+
+> <Overlay Similarity/ZINC12778744>
+0.784524
+
+> <Overlay Similarity/ZINC12680197>
+0.743028
+
+> <Overlay Similarity/ZINC78384964>
+0.624931
+
+> <Overlay Similarity/ZINC78384965>
+0.727564
+
+> <Overlay Similarity/ZINC12680206>
+0.615533
+
+> <Overlay Similarity/ZINC09580372>
+0.618517
+
+> <Overlay Similarity/ZINC09580374>
+0.583279
+
+> <Overlay Similarity/ZINC09580463>
+0.568056
+
+> <Overlay Similarity/ZINC09580464>
+0.515609
+
+> <Overlay Similarity/ZINC04948912>
+0.793807
+
+> <Overlay Similarity/ZINC36294079>
+0.636083
+
+> <Overlay Similarity/ZINC78637034>
+0.70353
+
+> <Overlay Similarity/ZINC78637038>
+0.865996
+
+> <Overlay Similarity/ZINC12798308>
+0.426513
+
+> <Overlay Similarity/ZINC12798311>
+0.505694
+
+> <Overlay Similarity/ZINC12584969>
+0.55231
+
+> <Overlay Similarity/ZINC12584974>
+0.466335
+
+> <Overlay Similarity/ZINC09634536>
+0.566444
+
+> <Overlay Similarity/ZINC09634537>
+0.478204
+
+> <Overlay Similarity/ZINC13128612>
+0.540752
+
+> <Overlay Similarity/ZINC13128613>
+0.615469
+
+> <Overlay Similarity/ZINC72309088>
+0.677552
+
+> <Overlay Similarity/ZINC72309089>
+0.72328
+
+> <Overlay Similarity/ZINC72309094>
+0.771436
+
+> <Overlay Similarity/ZINC72309095>
+0.7168
+
+> <Overlay Similarity/ZINC09871162>
+0.515752
+
+> <Overlay Similarity/ZINC09871169>
+0.439108
+
+> <Overlay Similarity/ZINC21761901>
+0.571665
+
+> <Overlay Similarity/ZINC21761904>
+0.641665
+
+> <Overlay Similarity/ZINC74433878>
+0.720442
+
+> <Overlay Similarity/ZINC74433882>
+0.909507
+
+> <Overlay Similarity/ZINC09634852>
+0.530809
+
+> <Overlay Similarity/ZINC13063163>
+0.621669
+
+> <Overlay Similarity/ZINC21738925>
+0.713588
+
+> <Overlay Similarity/ZINC21738928>
+0.594433
+
+> <Overlay Similarity/ZINC24971729>
+0.540761
+
+> <Overlay Similarity/ZINC24971735>
+0.640779
+
+> <Overlay Similarity/ZINC12917397>
+0.590933
+
+> <Overlay Similarity/ZINC12917403>
+0.637924
+
+> <Overlay Similarity/ZINC70040689>
+0.692424
+
+> <Overlay Similarity/ZINC70040690>
+0.936846
+
+> <Overlay Similarity/ZINC12593237>
+0.402885
+
+> <Overlay Similarity/ZINC12593241>
+0.482836
+
+> <Overlay Similarity/ZINC10109519>
+0.574457
+
+> <Overlay Similarity/ZINC10109520>
+0.508326
+
+> <Overlay Similarity/ZINC12749206>
+0.650788
+
+> <Overlay Similarity/ZINC12749202>
+0.726815
+
+> <Overlay Similarity/ZINC09481125>
+0.678257
+
+> <Overlay Similarity/ZINC09481127>
+0.560683
+
+> <Overlay Similarity/ZINC12749194>
+0.473035
+
+> <Overlay Similarity/ZINC12749198>
+0.580685
+
+> <Overlay Similarity/ZINC12749221>
+0.444934
+
+> <Overlay Similarity/ZINC12749226>
+0.494719
+
+> <Overlay Similarity/ZINC12749313>
+0.479293
+
+> <Overlay Similarity/ZINC12749320>
+0.437723
+
+> <Overlay Similarity/ZINC12749327>
+0.380419
+
+> <Overlay Similarity/ZINC12749332>
+0.471321
+
+> <Overlay Similarity/ZINC12749347>
+0.748756
+
+> <Overlay Similarity/ZINC12749353>
+0.597364
+
+> <Overlay Similarity/ZINC09547328>
+0.643281
+
+> <Overlay Similarity/ZINC09547331>
+0.586963
+
+> <Overlay Similarity/ZINC35999642>
+0.646482
+
+> <Overlay Similarity/ZINC08312163>
+0.599884
+
+> <Overlay Similarity/ZINC08312165>
+0.469665
+
+> <Overlay Similarity/ZINC78077980>
+0.752992
+
+> <Overlay Similarity/ZINC78077982>
+0.93643
+
+> <Overlay Similarity/ZINC06509041>
+0.717027
+
+> <Overlay Similarity/ZINC07253715>
+0.609143
+
+> <Overlay Similarity/ZINC07253718>
+0.523848
+
+> <Overlay Similarity/ZINC07253739>
+0.602906
+
+> <Overlay Similarity/ZINC03229857>
+0.648691
+
+> <Overlay Similarity/ZINC21577516>
+0.523973
+
+> <Overlay Similarity/ZINC21577520>
+0.608086
+
+> <Overlay Similarity/ZINC74805895>
+0.787645
+
+> <Overlay Similarity/ZINC74805896>
+0.811271
+
+> <Overlay Similarity/ZINC21577603>
+0.591778
+
+> <Overlay Similarity/ZINC21577607>
+0.633268
+
+> <Overlay Similarity/ZINC21577611>
+0.685786
+
+> <Overlay Similarity/ZINC21577615>
+0.553042
+
+> <Overlay Similarity/ZINC21577734>
+0.423277
+
+> <Overlay Similarity/ZINC21577738>
+0.541559
+
+> <Overlay Similarity/ZINC21577750>
+0.522114
+
+> <Overlay Similarity/ZINC21577754>
+0.570535
+
+> <Overlay Similarity/ZINC12750193>
+0.508765
+
+> <Overlay Similarity/ZINC12750199>
+0.55761
+
+> <Overlay Similarity/ZINC12600205>
+0.687361
+
+> <Overlay Similarity/ZINC12792241>
+0.491552
+
+> <Overlay Similarity/ZINC12792244>
+0.550195
+
+> <Overlay Similarity/ZINC75560270>
+0.741387
+
+> <Overlay Similarity/ZINC75560273>
+0.919097
+
+> <Overlay Similarity/ZINC09440363>
+0.540689
+
+> <Overlay Similarity/ZINC75560317>
+0.784306
+
+> <Overlay Similarity/ZINC75560323>
+0.887811
+
+> <Overlay Similarity/ZINC03280133>
+0.670422
+
+> <Overlay Similarity/ZINC03280131>
+0.657679
+
+> <Overlay Similarity/ZINC03280143>
+0.714835
+
+> <Overlay Similarity/ZINC03280141>
+0.953824
+
+> <Overlay Similarity/ZINC06509042>
+0.89328
+
+> <Overlay Similarity/ZINC09499349>
+0.518434
+
+> <Overlay Similarity/ZINC09499353>
+0.434005
+
+> <Overlay Similarity/ZINC09949673>
+0.583935
+
+> <Overlay Similarity/ZINC09949677>
+0.514325
+
+> <Overlay Similarity/ZINC04948896>
+0.661871
+
+> <Overlay Similarity/ZINC04948899>
+0.893292
+
+> <Overlay Similarity/ZINC70769326>
+0.793434
+
+> <Overlay Similarity/ZINC70769329>
+0.604677
+
+> <Overlay Similarity/ZINC58120686>
+0.798952
+
+> <Overlay Similarity/ZINC04166636>
+0.558129
+
+> <Overlay Similarity/ZINC04166637>
+0.731357
+
+> <Overlay Similarity/ZINC10029289>
+0.613281
+
+> <Overlay Similarity/ZINC10029291>
+0.580245
+
+> <Overlay Similarity/ZINC21735174>
+0.538092
+
+> <Overlay Similarity/ZINC21735177>
+0.636503
+
+> <Overlay Similarity/ZINC64388462>
+0.607527
+
+> <Overlay Similarity/ZINC89310214>
+0.85124
+
+> <Overlay Similarity/ZINC12594804>
+0.555514
+
+> <Overlay Similarity/ZINC12594800>
+0.697048
+
+> <Overlay Similarity/ZINC03243400>
+0.635463
+
+> <Overlay Similarity/ZINC03243399>
+0.932563
+
+> <Overlay Similarity/ZINC74393475>
+0.763771
+
+> <Overlay Similarity/ZINC74393478>
+0.764441
+
+> <Overlay Similarity/ZINC74393480>
+0.813269
+
+> <Overlay Similarity/ZINC74393484>
+0.783078
+
+> <Overlay Similarity/ZINC12749343>
+0.639162
+
+> <Overlay Similarity/ZINC12750221>
+0.753162
+
+> <Overlay Similarity/ZINC12750265>
+0.768355
+
+> <Overlay Similarity/ZINC21735375>
+0.515535
+
+> <Overlay Similarity/ZINC21735379>
+0.549291
+
+> <Overlay Similarity/ZINC09512927>
+0.584523
+
+> <Overlay Similarity/ZINC09512928>
+0.75832
+
+> <Overlay Similarity/ZINC09512929>
+0.597343
+
+> <Overlay Similarity/ZINC09512931>
+0.589154
+
+> <Overlay Similarity/ZINC04948914>
+1
+
+> <Overlay Similarity/ZINC32788417>
+0.4134
+
+> <Overlay Similarity/ZINC32788422>
+0.532924
+
+> <Overlay Similarity/ZINC32788427>
+0.637962
+
+> <Overlay Similarity/ZINC32788432>
+0.550838
+
+> <Overlay Similarity/ZINC32788436>
+0.641791
+
+> <Overlay Similarity/ZINC32788441>
+0.685366
+
+> <Overlay Similarity/ZINC06087125>
+0.253667
+
+> <Overlay Similarity/ZINC06087128>
+0.310127
+
+> <Overlay Similarity/ZINC12768937>
+0.531742
+
+> <Overlay Similarity/ZINC12768943>
+0.581892
+
+> <Overlay Similarity/ZINC03235907>
+0.770712
+
+> <Overlay Similarity/ZINC03235906>
+0.648005
+
+> <Overlay Similarity/ZINC12749337>
+0.756104
+
+> <Overlay Similarity/ZINC12750216>
+0.892149
+
+> <Overlay Similarity/ZINC12750270>
+0.631913
+
+> <Overlay Similarity/ZINC08263368>
+0.402344
+
+> <Overlay Similarity/ZINC08263372>
+0.113828
+
+> <Overlay Similarity/ZINC12983868>
+0.420162
+
+> <Overlay Similarity/ZINC12983871>
+0.511745
+
+> <Overlay Similarity/ZINC03229856>
+0.559969
+
+> <Overlay Similarity/ZINC60860378>
+0.698173
+
+> <Overlay Similarity/ZINC04965927>
+0.719482
+
+> <Overlay Similarity/ZINC04965929>
+0.619661
+
+> <Overlay Similarity/ZINC03236260>
+0.6856
+
+> <Overlay Similarity/ZINC03236262>
+0.623829
+
+> <Overlay Similarity/ZINC03236261>
+0.546149
+
+> <Overlay Similarity/ZINC37123872>
+0.634324
+
+> <Overlay Similarity/ZINC37123873>
+0.618147
+
+> <Overlay Similarity/ZINC37123874>
+0.614363
+
+> <Overlay Similarity/ZINC37123875>
+0.630431
+
+> <Overlay Similarity/ZINC92309601>
+0.825275
+
+> <Overlay Similarity/ZINC92309602>
+0.796402
+
+> <Overlay Similarity/ZINC92309603>
+0.788462
+
+> <Overlay Similarity/ZINC92309604>
+0.772224
+
+> <Overlay Similarity/ZINC91848448>
+0.710333
+
+> <Overlay Similarity/ZINC91848449>
+0.722018
+
+> <Overlay Similarity/ZINC91848450>
+0.708346
+
+> <Overlay Similarity/ZINC21736106>
+0.585715
+
+> <Overlay Similarity/ZINC21736109>
+0.474586
+
+> <Overlay Similarity/ZINC09513705>
+0.562606
+
+> <Overlay Similarity/ZINC09513706>
+0.67856
+
+> <Overlay Similarity/ZINC03236259>
+0.453563
+
+> <Overlay Similarity/ZINC12810878>
+0.603365
+
+> <Overlay Similarity/ZINC12810884>
+0.507182
+
+> <Overlay Similarity/ZINC09378919>
+0.480293
+
+> <Overlay Similarity/ZINC09378920>
+0.37435
+
+> <Overlay Similarity/ZINC21736243>
+0.42341
+
+> <Overlay Similarity/ZINC21736246>
+0.470555
+
+> <Overlay Similarity/ZINC32811055>
+0.451763
+
+> <Overlay Similarity/ZINC32811057>
+0.484913
+
+> <Overlay Similarity/ZINC10021983>
+0.458348
+
+> <Overlay Similarity/ZINC10021990>
+0.362822
+
+> <Overlay Similarity/ZINC21736411>
+0.494822
+
+> <Overlay Similarity/ZINC21736415>
+0.445356
+
+> <Overlay Similarity/ZINC21736419>
+0.533598
+
+> <Overlay Similarity/ZINC21736423>
+0.625106
+
+> <Overlay Similarity/ZINC76788252>
+0.619983
+
+> <Overlay Similarity/ZINC76788256>
+0.850339
+
+> <Overlay Similarity/ZINC03241551>
+0.680609
+
+> <Overlay Similarity/ZINC03241550>
+0.863171
+
+> <Overlay Similarity/ZINC00002278>
+0.236371
+
+> <Overlay Similarity/ZINC58680102>
+0.716737
+
+> <Overlay Similarity/ZINC58680103>
+0.814097
+
+> <Overlay Similarity/ZINC58680132>
+0.680624
+
+> <Overlay Similarity/ZINC58680133>
+0.753321
+
+> <Overlay Similarity/ZINC58147051>
+0.718796
+
+> <Overlay Similarity/ZINC58147057>
+0.783885
+
+> <Overlay Similarity/ZINC09206744>
+0.56113
+
+> <Overlay Similarity/ZINC09206748>
+0.475375
+
+> <Overlay Similarity/ZINC09200220>
+0.680998
+
+> <Overlay Similarity/ZINC09200225>
+0.637318
+
+> <Overlay Similarity/ZINC09594500>
+0.490595
+
+> <Overlay Similarity/ZINC09594501>
+0.458584
+
+> <Overlay Similarity/ZINC07253743>
+0.495186
+
+> <Overlay Similarity/ZINC39932869>
+0.364045
+
+> <Overlay Similarity/ZINC78826319>
+0.779224
+
+> <Overlay Similarity/ZINC78826329>
+0.845467
+
+> <Overlay Similarity/ZINC25427067>
+0.595838
+
+> <Overlay Similarity/ZINC25427070>
+0.682199
+
+> <Overlay Similarity/ZINC78826356>
+0.739542
+
+> <Overlay Similarity/ZINC78826362>
+0.723273
+
+> <Overlay Similarity/ZINC78826369>
+0.804369
+
+> <Overlay Similarity/ZINC78826379>
+0.855107
+
+> <Overlay Similarity/ZINC67970113>
+0.704523
+
+> <Overlay Similarity/ZINC67970114>
+0.841221
+
+> <Overlay Similarity/ZINC00000409>
+0.384755
+
+> <Overlay Similarity/ZINC09619820>
+0.605054
+
+> <Overlay Similarity/ZINC09594505>
+0.522602
+
+> <Overlay Similarity/ZINC09619824>
+0.743065
+
+> <Overlay Similarity/ZINC09594508>
+0.440016
+
+> <Overlay Similarity/ZINC79812663>
+0.599922
+
+> <Overlay Similarity/ZINC79812665>
+0.892004
+
+> <Overlay Similarity/ZINC12750265_1>
+0.272593
+
+> <Overlay Similarity/ZINC12750270_1>
+0.267472
+
+> <Overlay Similarity/ZINC78637034_1>
+0.46375
+
+> <Overlay Similarity/ZINC78637038_1>
+0.47703
+
+> <Overlay Similarity/ZINC09200220_1>
+0.125985
+
+> <Overlay Similarity/ZINC09200225_1>
+0.415595
+
+> <ADMET_Solubility>
+-5.373
+
+> <ADMET_Solubility_Level>
+2
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.323
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+2.92447
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+Unknown FCFP_2 feature: -1374812327: [*]:n:[c](Cl):c:[*]
+Unknown FCFP_2 feature: -836603894: [*]C[C@@](N([*])[*])(C(=[*])[*])[c](:[*]):[*]
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+13.795
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+4.40581e-05
+
+> <ADMET_EXT_Hepatotoxic>
+-5.48758
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+18.4048
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+2.96345e-21
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+2.48552
+
+> <ADMET_EXT_PPB#Prediction>
+true
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+13.1371
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.00347226
+
+> <ADMET_AlogP98>
+4.063
+
+> <ADMET_PSA_2D>
+49.215
+
+$$$$
+ZINC35999642
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    1.9446    0.4469    0.9635 C   0  0
+    0.5646    0.7108    1.3927 N   0  0
+   -0.2472   -0.5122    1.3365 C   0  0  2  0  0  0
+   -1.6205   -0.2476    1.9626 C   0  0
+   -1.4503    0.0535    3.4525 C   0  0
+   -0.8794   -1.1724    4.1674 C   0  0
+    0.5217   -1.4718    3.6242 C   0  0
+    0.4350   -1.6113    2.1206 C   0  0
+    0.8981   -2.5757    1.5604 O   0  0
+   -0.4149   -0.9428   -0.0979 C   0  0
+    0.0671   -0.1464   -1.1197 C   0  0
+   -0.0866   -0.5412   -2.4354 C   0  0
+   -0.7225   -1.7330   -2.7302 C   0  0
+   -1.2048   -2.5300   -1.7096 C   0  0
+   -1.0462   -2.1380   -0.3920 C   0  0
+   -1.6459   -3.1421    0.8909 Cl  0  0
+    1.9345   -0.0510   -0.0061 H   0  0
+    2.4864    1.3892    0.8825 H   0  0
+    2.4366   -0.1934    1.6957 H   0  0
+    0.5446    1.1160    2.3166 H   0  0
+   -2.0861    0.6061    1.4700 H   0  0
+   -2.2519   -1.1275    1.8392 H   0  0
+   -0.7688    0.8952    3.5766 H   0  0
+   -2.4188    0.3062    3.8840 H   0  0
+   -0.8199   -0.9743    5.2376 H   0  0
+   -1.5284   -2.0305    3.9919 H   0  0
+    1.1953   -0.6532    3.8777 H   0  0
+    0.8913   -2.4013    4.0575 H   0  0
+    0.5636    0.7849   -0.8900 H   0  0
+    0.2899    0.0815   -3.2334 H   0  0
+   -0.8427   -2.0409   -3.7585 H   0  0
+   -1.7019   -3.4608   -1.9401 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC35999642
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC35999642
+
+> <Overlay Similarity/ZINC72309067>
+0.485217
+
+> <Overlay Similarity/ZINC72309068>
+0.52346
+
+> <Overlay Similarity/ZINC78778138>
+0.577504
+
+> <Overlay Similarity/ZINC78778141>
+0.57323
+
+> <Overlay Similarity/ZINC78778144>
+0.51754
+
+> <Overlay Similarity/ZINC78778147>
+0.59025
+
+> <Overlay Similarity/ZINC78778151>
+0.526522
+
+> <Overlay Similarity/ZINC78778155>
+0.549059
+
+> <Overlay Similarity/ZINC78778158>
+0.587539
+
+> <Overlay Similarity/ZINC78778163>
+0.659178
+
+> <Overlay Similarity/ZINC78778166>
+0.623872
+
+> <Overlay Similarity/ZINC78778173>
+0.692502
+
+> <Overlay Similarity/ZINC78778176>
+0.601489
+
+> <Overlay Similarity/ZINC78778180>
+0.608227
+
+> <Overlay Similarity/ZINC78778183>
+0.644572
+
+> <Overlay Similarity/ZINC78778188>
+0.647381
+
+> <Overlay Similarity/ZINC12778748>
+0.433314
+
+> <Overlay Similarity/ZINC67946083>
+0.623219
+
+> <Overlay Similarity/ZINC67946084>
+0.728934
+
+> <Overlay Similarity/ZINC12778744>
+0.516183
+
+> <Overlay Similarity/ZINC12680197>
+0.442644
+
+> <Overlay Similarity/ZINC78384964>
+0.596526
+
+> <Overlay Similarity/ZINC78384965>
+0.686336
+
+> <Overlay Similarity/ZINC12680206>
+0.389588
+
+> <Overlay Similarity/ZINC09580372>
+0.465164
+
+> <Overlay Similarity/ZINC09580374>
+0.397946
+
+> <Overlay Similarity/ZINC09580463>
+0.430038
+
+> <Overlay Similarity/ZINC09580464>
+0.352786
+
+> <Overlay Similarity/ZINC04948912>
+0.597491
+
+> <Overlay Similarity/ZINC36294079>
+0.801459
+
+> <Overlay Similarity/ZINC78637034>
+0.507652
+
+> <Overlay Similarity/ZINC78637038>
+0.585459
+
+> <Overlay Similarity/ZINC12798308>
+0.349446
+
+> <Overlay Similarity/ZINC12798311>
+0.422359
+
+> <Overlay Similarity/ZINC12584969>
+0.366058
+
+> <Overlay Similarity/ZINC12584974>
+0.346326
+
+> <Overlay Similarity/ZINC09634536>
+0.511497
+
+> <Overlay Similarity/ZINC09634537>
+0.409822
+
+> <Overlay Similarity/ZINC13128612>
+0.436006
+
+> <Overlay Similarity/ZINC13128613>
+0.531932
+
+> <Overlay Similarity/ZINC72309088>
+0.458883
+
+> <Overlay Similarity/ZINC72309089>
+0.478621
+
+> <Overlay Similarity/ZINC72309094>
+0.509624
+
+> <Overlay Similarity/ZINC72309095>
+0.531002
+
+> <Overlay Similarity/ZINC09871162>
+0.481407
+
+> <Overlay Similarity/ZINC09871169>
+0.374196
+
+> <Overlay Similarity/ZINC21761901>
+0.42866
+
+> <Overlay Similarity/ZINC21761904>
+0.507029
+
+> <Overlay Similarity/ZINC74433878>
+0.547937
+
+> <Overlay Similarity/ZINC74433882>
+0.576402
+
+> <Overlay Similarity/ZINC09634852>
+0.402235
+
+> <Overlay Similarity/ZINC13063163>
+0.527043
+
+> <Overlay Similarity/ZINC21738925>
+0.46354
+
+> <Overlay Similarity/ZINC21738928>
+0.499485
+
+> <Overlay Similarity/ZINC24971729>
+0.425202
+
+> <Overlay Similarity/ZINC24971735>
+0.547082
+
+> <Overlay Similarity/ZINC12917397>
+0.429891
+
+> <Overlay Similarity/ZINC12917403>
+0.505553
+
+> <Overlay Similarity/ZINC70040689>
+0.616691
+
+> <Overlay Similarity/ZINC70040690>
+0.680448
+
+> <Overlay Similarity/ZINC12593237>
+0.324784
+
+> <Overlay Similarity/ZINC12593241>
+0.437362
+
+> <Overlay Similarity/ZINC10109519>
+0.479647
+
+> <Overlay Similarity/ZINC10109520>
+0.400064
+
+> <Overlay Similarity/ZINC12749206>
+0.452032
+
+> <Overlay Similarity/ZINC12749202>
+0.46762
+
+> <Overlay Similarity/ZINC09481125>
+0.589251
+
+> <Overlay Similarity/ZINC09481127>
+0.474671
+
+> <Overlay Similarity/ZINC12749194>
+0.336269
+
+> <Overlay Similarity/ZINC12749198>
+0.482957
+
+> <Overlay Similarity/ZINC12749221>
+0.385559
+
+> <Overlay Similarity/ZINC12749226>
+0.435229
+
+> <Overlay Similarity/ZINC12749313>
+0.375758
+
+> <Overlay Similarity/ZINC12749320>
+0.418795
+
+> <Overlay Similarity/ZINC12749327>
+0.299476
+
+> <Overlay Similarity/ZINC12749332>
+0.404002
+
+> <Overlay Similarity/ZINC12749347>
+0.537242
+
+> <Overlay Similarity/ZINC12749353>
+0.515811
+
+> <Overlay Similarity/ZINC09547328>
+0.530927
+
+> <Overlay Similarity/ZINC09547331>
+0.428025
+
+> <Overlay Similarity/ZINC35999642>
+1
+
+> <Overlay Similarity/ZINC08312163>
+0.512179
+
+> <Overlay Similarity/ZINC08312165>
+0.358203
+
+> <Overlay Similarity/ZINC78077980>
+0.632964
+
+> <Overlay Similarity/ZINC78077982>
+0.656585
+
+> <Overlay Similarity/ZINC06509041>
+0.583352
+
+> <Overlay Similarity/ZINC07253715>
+0.517794
+
+> <Overlay Similarity/ZINC07253718>
+0.422642
+
+> <Overlay Similarity/ZINC07253739>
+0.534298
+
+> <Overlay Similarity/ZINC03229857>
+0.524723
+
+> <Overlay Similarity/ZINC21577516>
+0.403341
+
+> <Overlay Similarity/ZINC21577520>
+0.516918
+
+> <Overlay Similarity/ZINC74805895>
+0.554871
+
+> <Overlay Similarity/ZINC74805896>
+0.554548
+
+> <Overlay Similarity/ZINC21577603>
+0.467089
+
+> <Overlay Similarity/ZINC21577607>
+0.532314
+
+> <Overlay Similarity/ZINC21577611>
+0.451938
+
+> <Overlay Similarity/ZINC21577615>
+0.452607
+
+> <Overlay Similarity/ZINC21577734>
+0.350633
+
+> <Overlay Similarity/ZINC21577738>
+0.405396
+
+> <Overlay Similarity/ZINC21577750>
+0.420629
+
+> <Overlay Similarity/ZINC21577754>
+0.49644
+
+> <Overlay Similarity/ZINC12750193>
+0.392392
+
+> <Overlay Similarity/ZINC12750199>
+0.453619
+
+> <Overlay Similarity/ZINC12600205>
+0.473631
+
+> <Overlay Similarity/ZINC12792241>
+0.348944
+
+> <Overlay Similarity/ZINC12792244>
+0.404457
+
+> <Overlay Similarity/ZINC75560270>
+0.560403
+
+> <Overlay Similarity/ZINC75560273>
+0.613533
+
+> <Overlay Similarity/ZINC09440363>
+0.444879
+
+> <Overlay Similarity/ZINC75560317>
+0.598381
+
+> <Overlay Similarity/ZINC75560323>
+0.6205
+
+> <Overlay Similarity/ZINC03280133>
+0.533971
+
+> <Overlay Similarity/ZINC03280131>
+0.50842
+
+> <Overlay Similarity/ZINC03280143>
+0.632801
+
+> <Overlay Similarity/ZINC03280141>
+0.661809
+
+> <Overlay Similarity/ZINC06509042>
+0.616567
+
+> <Overlay Similarity/ZINC09499349>
+0.47865
+
+> <Overlay Similarity/ZINC09499353>
+0.356124
+
+> <Overlay Similarity/ZINC09949673>
+0.467137
+
+> <Overlay Similarity/ZINC09949677>
+0.352107
+
+> <Overlay Similarity/ZINC04948896>
+0.623888
+
+> <Overlay Similarity/ZINC04948899>
+0.67826
+
+> <Overlay Similarity/ZINC70769326>
+0.580036
+
+> <Overlay Similarity/ZINC70769329>
+0.50795
+
+> <Overlay Similarity/ZINC58120686>
+0.562007
+
+> <Overlay Similarity/ZINC04166636>
+0.487805
+
+> <Overlay Similarity/ZINC04166637>
+0.651858
+
+> <Overlay Similarity/ZINC10029289>
+0.479436
+
+> <Overlay Similarity/ZINC10029291>
+0.422022
+
+> <Overlay Similarity/ZINC21735174>
+0.457989
+
+> <Overlay Similarity/ZINC21735177>
+0.572555
+
+> <Overlay Similarity/ZINC64388462>
+0.505768
+
+> <Overlay Similarity/ZINC89310214>
+0.579245
+
+> <Overlay Similarity/ZINC12594804>
+0.438936
+
+> <Overlay Similarity/ZINC12594800>
+0.483913
+
+> <Overlay Similarity/ZINC03243400>
+0.586399
+
+> <Overlay Similarity/ZINC03243399>
+0.595818
+
+> <Overlay Similarity/ZINC74393475>
+0.631023
+
+> <Overlay Similarity/ZINC74393478>
+0.630473
+
+> <Overlay Similarity/ZINC74393480>
+0.599499
+
+> <Overlay Similarity/ZINC74393484>
+0.606565
+
+> <Overlay Similarity/ZINC12749343>
+0.480773
+
+> <Overlay Similarity/ZINC12750221>
+0.594476
+
+> <Overlay Similarity/ZINC12750265>
+0.541177
+
+> <Overlay Similarity/ZINC21735375>
+0.393151
+
+> <Overlay Similarity/ZINC21735379>
+0.450691
+
+> <Overlay Similarity/ZINC09512927>
+0.526266
+
+> <Overlay Similarity/ZINC09512928>
+0.543522
+
+> <Overlay Similarity/ZINC09512929>
+0.453378
+
+> <Overlay Similarity/ZINC09512931>
+0.410475
+
+> <Overlay Similarity/ZINC04948914>
+0.646482
+
+> <Overlay Similarity/ZINC32788417>
+0.363503
+
+> <Overlay Similarity/ZINC32788422>
+0.381709
+
+> <Overlay Similarity/ZINC32788427>
+0.436623
+
+> <Overlay Similarity/ZINC32788432>
+0.372905
+
+> <Overlay Similarity/ZINC32788436>
+0.427529
+
+> <Overlay Similarity/ZINC32788441>
+0.504795
+
+> <Overlay Similarity/ZINC06087125>
+0.131726
+
+> <Overlay Similarity/ZINC06087128>
+0.284122
+
+> <Overlay Similarity/ZINC12768937>
+0.427459
+
+> <Overlay Similarity/ZINC12768943>
+0.504763
+
+> <Overlay Similarity/ZINC03235907>
+0.561279
+
+> <Overlay Similarity/ZINC03235906>
+0.53196
+
+> <Overlay Similarity/ZINC12749337>
+0.507096
+
+> <Overlay Similarity/ZINC12750216>
+0.606631
+
+> <Overlay Similarity/ZINC12750270>
+0.508754
+
+> <Overlay Similarity/ZINC08263368>
+0.340893
+
+> <Overlay Similarity/ZINC08263372>
+0.0524137
+
+> <Overlay Similarity/ZINC12983868>
+0.350612
+
+> <Overlay Similarity/ZINC12983871>
+0.471285
+
+> <Overlay Similarity/ZINC03229856>
+0.466508
+
+> <Overlay Similarity/ZINC60860378>
+0.652194
+
+> <Overlay Similarity/ZINC04965927>
+0.619157
+
+> <Overlay Similarity/ZINC04965929>
+0.513919
+
+> <Overlay Similarity/ZINC03236260>
+0.555008
+
+> <Overlay Similarity/ZINC03236262>
+0.540503
+
+> <Overlay Similarity/ZINC03236261>
+0.440466
+
+> <Overlay Similarity/ZINC37123872>
+0.534769
+
+> <Overlay Similarity/ZINC37123873>
+0.524121
+
+> <Overlay Similarity/ZINC37123874>
+0.523143
+
+> <Overlay Similarity/ZINC37123875>
+0.536574
+
+> <Overlay Similarity/ZINC92309601>
+0.628295
+
+> <Overlay Similarity/ZINC92309602>
+0.575661
+
+> <Overlay Similarity/ZINC92309603>
+0.615347
+
+> <Overlay Similarity/ZINC92309604>
+0.60338
+
+> <Overlay Similarity/ZINC91848448>
+0.515411
+
+> <Overlay Similarity/ZINC91848449>
+0.528035
+
+> <Overlay Similarity/ZINC91848450>
+0.574135
+
+> <Overlay Similarity/ZINC21736106>
+0.405145
+
+> <Overlay Similarity/ZINC21736109>
+0.347846
+
+> <Overlay Similarity/ZINC09513705>
+0.473222
+
+> <Overlay Similarity/ZINC09513706>
+0.466003
+
+> <Overlay Similarity/ZINC03236259>
+0.449192
+
+> <Overlay Similarity/ZINC12810878>
+0.439004
+
+> <Overlay Similarity/ZINC12810884>
+0.405107
+
+> <Overlay Similarity/ZINC09378919>
+0.44792
+
+> <Overlay Similarity/ZINC09378920>
+0.326969
+
+> <Overlay Similarity/ZINC21736243>
+0.308366
+
+> <Overlay Similarity/ZINC21736246>
+0.373272
+
+> <Overlay Similarity/ZINC32811055>
+0.386985
+
+> <Overlay Similarity/ZINC32811057>
+0.376253
+
+> <Overlay Similarity/ZINC10021983>
+0.454209
+
+> <Overlay Similarity/ZINC10021990>
+0.348474
+
+> <Overlay Similarity/ZINC21736411>
+0.373342
+
+> <Overlay Similarity/ZINC21736415>
+0.379669
+
+> <Overlay Similarity/ZINC21736419>
+0.436889
+
+> <Overlay Similarity/ZINC21736423>
+0.5451
+
+> <Overlay Similarity/ZINC76788252>
+0.537156
+
+> <Overlay Similarity/ZINC76788256>
+0.626126
+
+> <Overlay Similarity/ZINC03241551>
+0.619365
+
+> <Overlay Similarity/ZINC03241550>
+0.658166
+
+> <Overlay Similarity/ZINC00002278>
+0.142127
+
+> <Overlay Similarity/ZINC58680102>
+0.524704
+
+> <Overlay Similarity/ZINC58680103>
+0.552757
+
+> <Overlay Similarity/ZINC58680132>
+0.503429
+
+> <Overlay Similarity/ZINC58680133>
+0.515679
+
+> <Overlay Similarity/ZINC58147051>
+0.4542
+
+> <Overlay Similarity/ZINC58147057>
+0.478639
+
+> <Overlay Similarity/ZINC09206744>
+0.495194
+
+> <Overlay Similarity/ZINC09206748>
+0.36926
+
+> <Overlay Similarity/ZINC09200220>
+0.533536
+
+> <Overlay Similarity/ZINC09200225>
+0.461026
+
+> <Overlay Similarity/ZINC09594500>
+0.364199
+
+> <Overlay Similarity/ZINC09594501>
+0.383274
+
+> <Overlay Similarity/ZINC07253743>
+0.417623
+
+> <Overlay Similarity/ZINC39932869>
+0.460553
+
+> <Overlay Similarity/ZINC78826319>
+0.567355
+
+> <Overlay Similarity/ZINC78826329>
+0.574429
+
+> <Overlay Similarity/ZINC25427067>
+0.460131
+
+> <Overlay Similarity/ZINC25427070>
+0.574197
+
+> <Overlay Similarity/ZINC78826356>
+0.577919
+
+> <Overlay Similarity/ZINC78826362>
+0.589145
+
+> <Overlay Similarity/ZINC78826369>
+0.586119
+
+> <Overlay Similarity/ZINC78826379>
+0.616791
+
+> <Overlay Similarity/ZINC67970113>
+0.558599
+
+> <Overlay Similarity/ZINC67970114>
+0.582197
+
+> <Overlay Similarity/ZINC00000409>
+0.485388
+
+> <Overlay Similarity/ZINC09619820>
+0.456272
+
+> <Overlay Similarity/ZINC09594505>
+0.48259
+
+> <Overlay Similarity/ZINC09619824>
+0.481865
+
+> <Overlay Similarity/ZINC09594508>
+0.37358
+
+> <Overlay Similarity/ZINC79812663>
+0.572749
+
+> <Overlay Similarity/ZINC79812665>
+0.654434
+
+> <Overlay Similarity/ZINC12750265_1>
+0.29359
+
+> <Overlay Similarity/ZINC12750270_1>
+0.290939
+
+> <Overlay Similarity/ZINC78637034_1>
+0.345467
+
+> <Overlay Similarity/ZINC78637038_1>
+0.343964
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0526391
+
+> <Overlay Similarity/ZINC09200225_1>
+0.298996
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+ZINC35999642
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    1.9446    0.4469    0.9635 C   0  0
+    0.5646    0.7108    1.3927 N   0  0
+   -0.2472   -0.5122    1.3365 C   0  0  2  0  0  0
+   -1.6205   -0.2476    1.9626 C   0  0
+   -1.4503    0.0535    3.4525 C   0  0
+   -0.8794   -1.1724    4.1674 C   0  0
+    0.5217   -1.4718    3.6242 C   0  0
+    0.4350   -1.6113    2.1206 C   0  0
+    0.8981   -2.5757    1.5604 O   0  0
+   -0.4149   -0.9428   -0.0979 C   0  0
+    0.0671   -0.1464   -1.1197 C   0  0
+   -0.0866   -0.5412   -2.4354 C   0  0
+   -0.7225   -1.7330   -2.7302 C   0  0
+   -1.2048   -2.5300   -1.7096 C   0  0
+   -1.0462   -2.1380   -0.3920 C   0  0
+   -1.6459   -3.1421    0.8909 Cl  0  0
+    1.9345   -0.0510   -0.0061 H   0  0
+    2.4864    1.3892    0.8825 H   0  0
+    2.4366   -0.1934    1.6957 H   0  0
+    0.5446    1.1160    2.3166 H   0  0
+   -2.0861    0.6061    1.4700 H   0  0
+   -2.2519   -1.1275    1.8392 H   0  0
+   -0.7688    0.8952    3.5766 H   0  0
+   -2.4188    0.3062    3.8840 H   0  0
+   -0.8199   -0.9743    5.2376 H   0  0
+   -1.5284   -2.0305    3.9919 H   0  0
+    1.1953   -0.6532    3.8777 H   0  0
+    0.8913   -2.4013    4.0575 H   0  0
+    0.5636    0.7849   -0.8900 H   0  0
+    0.2899    0.0815   -3.2334 H   0  0
+   -0.8427   -2.0409   -3.7585 H   0  0
+   -1.7019   -3.4608   -1.9401 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC35999642
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC35999642
+
+> <Overlay Similarity/ZINC72309067>
+0.485217
+
+> <Overlay Similarity/ZINC72309068>
+0.52346
+
+> <Overlay Similarity/ZINC78778138>
+0.577504
+
+> <Overlay Similarity/ZINC78778141>
+0.57323
+
+> <Overlay Similarity/ZINC78778144>
+0.51754
+
+> <Overlay Similarity/ZINC78778147>
+0.59025
+
+> <Overlay Similarity/ZINC78778151>
+0.526522
+
+> <Overlay Similarity/ZINC78778155>
+0.549059
+
+> <Overlay Similarity/ZINC78778158>
+0.587539
+
+> <Overlay Similarity/ZINC78778163>
+0.659178
+
+> <Overlay Similarity/ZINC78778166>
+0.623872
+
+> <Overlay Similarity/ZINC78778173>
+0.692502
+
+> <Overlay Similarity/ZINC78778176>
+0.601489
+
+> <Overlay Similarity/ZINC78778180>
+0.608227
+
+> <Overlay Similarity/ZINC78778183>
+0.644572
+
+> <Overlay Similarity/ZINC78778188>
+0.647381
+
+> <Overlay Similarity/ZINC12778748>
+0.433314
+
+> <Overlay Similarity/ZINC67946083>
+0.623219
+
+> <Overlay Similarity/ZINC67946084>
+0.728934
+
+> <Overlay Similarity/ZINC12778744>
+0.516183
+
+> <Overlay Similarity/ZINC12680197>
+0.442644
+
+> <Overlay Similarity/ZINC78384964>
+0.596526
+
+> <Overlay Similarity/ZINC78384965>
+0.686336
+
+> <Overlay Similarity/ZINC12680206>
+0.389588
+
+> <Overlay Similarity/ZINC09580372>
+0.465164
+
+> <Overlay Similarity/ZINC09580374>
+0.397946
+
+> <Overlay Similarity/ZINC09580463>
+0.430038
+
+> <Overlay Similarity/ZINC09580464>
+0.352786
+
+> <Overlay Similarity/ZINC04948912>
+0.597491
+
+> <Overlay Similarity/ZINC36294079>
+0.801459
+
+> <Overlay Similarity/ZINC78637034>
+0.507652
+
+> <Overlay Similarity/ZINC78637038>
+0.585459
+
+> <Overlay Similarity/ZINC12798308>
+0.349446
+
+> <Overlay Similarity/ZINC12798311>
+0.422359
+
+> <Overlay Similarity/ZINC12584969>
+0.366058
+
+> <Overlay Similarity/ZINC12584974>
+0.346326
+
+> <Overlay Similarity/ZINC09634536>
+0.511497
+
+> <Overlay Similarity/ZINC09634537>
+0.409822
+
+> <Overlay Similarity/ZINC13128612>
+0.436006
+
+> <Overlay Similarity/ZINC13128613>
+0.531932
+
+> <Overlay Similarity/ZINC72309088>
+0.458883
+
+> <Overlay Similarity/ZINC72309089>
+0.478621
+
+> <Overlay Similarity/ZINC72309094>
+0.509624
+
+> <Overlay Similarity/ZINC72309095>
+0.531002
+
+> <Overlay Similarity/ZINC09871162>
+0.481407
+
+> <Overlay Similarity/ZINC09871169>
+0.374196
+
+> <Overlay Similarity/ZINC21761901>
+0.42866
+
+> <Overlay Similarity/ZINC21761904>
+0.507029
+
+> <Overlay Similarity/ZINC74433878>
+0.547937
+
+> <Overlay Similarity/ZINC74433882>
+0.576402
+
+> <Overlay Similarity/ZINC09634852>
+0.402235
+
+> <Overlay Similarity/ZINC13063163>
+0.527043
+
+> <Overlay Similarity/ZINC21738925>
+0.46354
+
+> <Overlay Similarity/ZINC21738928>
+0.499485
+
+> <Overlay Similarity/ZINC24971729>
+0.425202
+
+> <Overlay Similarity/ZINC24971735>
+0.547082
+
+> <Overlay Similarity/ZINC12917397>
+0.429891
+
+> <Overlay Similarity/ZINC12917403>
+0.505553
+
+> <Overlay Similarity/ZINC70040689>
+0.616691
+
+> <Overlay Similarity/ZINC70040690>
+0.680448
+
+> <Overlay Similarity/ZINC12593237>
+0.324784
+
+> <Overlay Similarity/ZINC12593241>
+0.437362
+
+> <Overlay Similarity/ZINC10109519>
+0.479647
+
+> <Overlay Similarity/ZINC10109520>
+0.400064
+
+> <Overlay Similarity/ZINC12749206>
+0.452032
+
+> <Overlay Similarity/ZINC12749202>
+0.46762
+
+> <Overlay Similarity/ZINC09481125>
+0.589251
+
+> <Overlay Similarity/ZINC09481127>
+0.474671
+
+> <Overlay Similarity/ZINC12749194>
+0.336269
+
+> <Overlay Similarity/ZINC12749198>
+0.482957
+
+> <Overlay Similarity/ZINC12749221>
+0.385559
+
+> <Overlay Similarity/ZINC12749226>
+0.435229
+
+> <Overlay Similarity/ZINC12749313>
+0.375758
+
+> <Overlay Similarity/ZINC12749320>
+0.418795
+
+> <Overlay Similarity/ZINC12749327>
+0.299476
+
+> <Overlay Similarity/ZINC12749332>
+0.404002
+
+> <Overlay Similarity/ZINC12749347>
+0.537242
+
+> <Overlay Similarity/ZINC12749353>
+0.515811
+
+> <Overlay Similarity/ZINC09547328>
+0.530927
+
+> <Overlay Similarity/ZINC09547331>
+0.428025
+
+> <Overlay Similarity/ZINC35999642>
+1
+
+> <Overlay Similarity/ZINC08312163>
+0.512179
+
+> <Overlay Similarity/ZINC08312165>
+0.358203
+
+> <Overlay Similarity/ZINC78077980>
+0.632964
+
+> <Overlay Similarity/ZINC78077982>
+0.656585
+
+> <Overlay Similarity/ZINC06509041>
+0.583352
+
+> <Overlay Similarity/ZINC07253715>
+0.517794
+
+> <Overlay Similarity/ZINC07253718>
+0.422642
+
+> <Overlay Similarity/ZINC07253739>
+0.534298
+
+> <Overlay Similarity/ZINC03229857>
+0.524723
+
+> <Overlay Similarity/ZINC21577516>
+0.403341
+
+> <Overlay Similarity/ZINC21577520>
+0.516918
+
+> <Overlay Similarity/ZINC74805895>
+0.554871
+
+> <Overlay Similarity/ZINC74805896>
+0.554548
+
+> <Overlay Similarity/ZINC21577603>
+0.467089
+
+> <Overlay Similarity/ZINC21577607>
+0.532314
+
+> <Overlay Similarity/ZINC21577611>
+0.451938
+
+> <Overlay Similarity/ZINC21577615>
+0.452607
+
+> <Overlay Similarity/ZINC21577734>
+0.350633
+
+> <Overlay Similarity/ZINC21577738>
+0.405396
+
+> <Overlay Similarity/ZINC21577750>
+0.420629
+
+> <Overlay Similarity/ZINC21577754>
+0.49644
+
+> <Overlay Similarity/ZINC12750193>
+0.392392
+
+> <Overlay Similarity/ZINC12750199>
+0.453619
+
+> <Overlay Similarity/ZINC12600205>
+0.473631
+
+> <Overlay Similarity/ZINC12792241>
+0.348944
+
+> <Overlay Similarity/ZINC12792244>
+0.404457
+
+> <Overlay Similarity/ZINC75560270>
+0.560403
+
+> <Overlay Similarity/ZINC75560273>
+0.613533
+
+> <Overlay Similarity/ZINC09440363>
+0.444879
+
+> <Overlay Similarity/ZINC75560317>
+0.598381
+
+> <Overlay Similarity/ZINC75560323>
+0.6205
+
+> <Overlay Similarity/ZINC03280133>
+0.533971
+
+> <Overlay Similarity/ZINC03280131>
+0.50842
+
+> <Overlay Similarity/ZINC03280143>
+0.632801
+
+> <Overlay Similarity/ZINC03280141>
+0.661809
+
+> <Overlay Similarity/ZINC06509042>
+0.616567
+
+> <Overlay Similarity/ZINC09499349>
+0.47865
+
+> <Overlay Similarity/ZINC09499353>
+0.356124
+
+> <Overlay Similarity/ZINC09949673>
+0.467137
+
+> <Overlay Similarity/ZINC09949677>
+0.352107
+
+> <Overlay Similarity/ZINC04948896>
+0.623888
+
+> <Overlay Similarity/ZINC04948899>
+0.67826
+
+> <Overlay Similarity/ZINC70769326>
+0.580036
+
+> <Overlay Similarity/ZINC70769329>
+0.50795
+
+> <Overlay Similarity/ZINC58120686>
+0.562007
+
+> <Overlay Similarity/ZINC04166636>
+0.487805
+
+> <Overlay Similarity/ZINC04166637>
+0.651858
+
+> <Overlay Similarity/ZINC10029289>
+0.479436
+
+> <Overlay Similarity/ZINC10029291>
+0.422022
+
+> <Overlay Similarity/ZINC21735174>
+0.457989
+
+> <Overlay Similarity/ZINC21735177>
+0.572555
+
+> <Overlay Similarity/ZINC64388462>
+0.505768
+
+> <Overlay Similarity/ZINC89310214>
+0.579245
+
+> <Overlay Similarity/ZINC12594804>
+0.438936
+
+> <Overlay Similarity/ZINC12594800>
+0.483913
+
+> <Overlay Similarity/ZINC03243400>
+0.586399
+
+> <Overlay Similarity/ZINC03243399>
+0.595818
+
+> <Overlay Similarity/ZINC74393475>
+0.631023
+
+> <Overlay Similarity/ZINC74393478>
+0.630473
+
+> <Overlay Similarity/ZINC74393480>
+0.599499
+
+> <Overlay Similarity/ZINC74393484>
+0.606565
+
+> <Overlay Similarity/ZINC12749343>
+0.480773
+
+> <Overlay Similarity/ZINC12750221>
+0.594476
+
+> <Overlay Similarity/ZINC12750265>
+0.541177
+
+> <Overlay Similarity/ZINC21735375>
+0.393151
+
+> <Overlay Similarity/ZINC21735379>
+0.450691
+
+> <Overlay Similarity/ZINC09512927>
+0.526266
+
+> <Overlay Similarity/ZINC09512928>
+0.543522
+
+> <Overlay Similarity/ZINC09512929>
+0.453378
+
+> <Overlay Similarity/ZINC09512931>
+0.410475
+
+> <Overlay Similarity/ZINC04948914>
+0.646482
+
+> <Overlay Similarity/ZINC32788417>
+0.363503
+
+> <Overlay Similarity/ZINC32788422>
+0.381709
+
+> <Overlay Similarity/ZINC32788427>
+0.436623
+
+> <Overlay Similarity/ZINC32788432>
+0.372905
+
+> <Overlay Similarity/ZINC32788436>
+0.427529
+
+> <Overlay Similarity/ZINC32788441>
+0.504795
+
+> <Overlay Similarity/ZINC06087125>
+0.131726
+
+> <Overlay Similarity/ZINC06087128>
+0.284122
+
+> <Overlay Similarity/ZINC12768937>
+0.427459
+
+> <Overlay Similarity/ZINC12768943>
+0.504763
+
+> <Overlay Similarity/ZINC03235907>
+0.561279
+
+> <Overlay Similarity/ZINC03235906>
+0.53196
+
+> <Overlay Similarity/ZINC12749337>
+0.507096
+
+> <Overlay Similarity/ZINC12750216>
+0.606631
+
+> <Overlay Similarity/ZINC12750270>
+0.508754
+
+> <Overlay Similarity/ZINC08263368>
+0.340893
+
+> <Overlay Similarity/ZINC08263372>
+0.0524137
+
+> <Overlay Similarity/ZINC12983868>
+0.350612
+
+> <Overlay Similarity/ZINC12983871>
+0.471285
+
+> <Overlay Similarity/ZINC03229856>
+0.466508
+
+> <Overlay Similarity/ZINC60860378>
+0.652194
+
+> <Overlay Similarity/ZINC04965927>
+0.619157
+
+> <Overlay Similarity/ZINC04965929>
+0.513919
+
+> <Overlay Similarity/ZINC03236260>
+0.555008
+
+> <Overlay Similarity/ZINC03236262>
+0.540503
+
+> <Overlay Similarity/ZINC03236261>
+0.440466
+
+> <Overlay Similarity/ZINC37123872>
+0.534769
+
+> <Overlay Similarity/ZINC37123873>
+0.524121
+
+> <Overlay Similarity/ZINC37123874>
+0.523143
+
+> <Overlay Similarity/ZINC37123875>
+0.536574
+
+> <Overlay Similarity/ZINC92309601>
+0.628295
+
+> <Overlay Similarity/ZINC92309602>
+0.575661
+
+> <Overlay Similarity/ZINC92309603>
+0.615347
+
+> <Overlay Similarity/ZINC92309604>
+0.60338
+
+> <Overlay Similarity/ZINC91848448>
+0.515411
+
+> <Overlay Similarity/ZINC91848449>
+0.528035
+
+> <Overlay Similarity/ZINC91848450>
+0.574135
+
+> <Overlay Similarity/ZINC21736106>
+0.405145
+
+> <Overlay Similarity/ZINC21736109>
+0.347846
+
+> <Overlay Similarity/ZINC09513705>
+0.473222
+
+> <Overlay Similarity/ZINC09513706>
+0.466003
+
+> <Overlay Similarity/ZINC03236259>
+0.449192
+
+> <Overlay Similarity/ZINC12810878>
+0.439004
+
+> <Overlay Similarity/ZINC12810884>
+0.405107
+
+> <Overlay Similarity/ZINC09378919>
+0.44792
+
+> <Overlay Similarity/ZINC09378920>
+0.326969
+
+> <Overlay Similarity/ZINC21736243>
+0.308366
+
+> <Overlay Similarity/ZINC21736246>
+0.373272
+
+> <Overlay Similarity/ZINC32811055>
+0.386985
+
+> <Overlay Similarity/ZINC32811057>
+0.376253
+
+> <Overlay Similarity/ZINC10021983>
+0.454209
+
+> <Overlay Similarity/ZINC10021990>
+0.348474
+
+> <Overlay Similarity/ZINC21736411>
+0.373342
+
+> <Overlay Similarity/ZINC21736415>
+0.379669
+
+> <Overlay Similarity/ZINC21736419>
+0.436889
+
+> <Overlay Similarity/ZINC21736423>
+0.5451
+
+> <Overlay Similarity/ZINC76788252>
+0.537156
+
+> <Overlay Similarity/ZINC76788256>
+0.626126
+
+> <Overlay Similarity/ZINC03241551>
+0.619365
+
+> <Overlay Similarity/ZINC03241550>
+0.658166
+
+> <Overlay Similarity/ZINC00002278>
+0.142127
+
+> <Overlay Similarity/ZINC58680102>
+0.524704
+
+> <Overlay Similarity/ZINC58680103>
+0.552757
+
+> <Overlay Similarity/ZINC58680132>
+0.503429
+
+> <Overlay Similarity/ZINC58680133>
+0.515679
+
+> <Overlay Similarity/ZINC58147051>
+0.4542
+
+> <Overlay Similarity/ZINC58147057>
+0.478639
+
+> <Overlay Similarity/ZINC09206744>
+0.495194
+
+> <Overlay Similarity/ZINC09206748>
+0.36926
+
+> <Overlay Similarity/ZINC09200220>
+0.533536
+
+> <Overlay Similarity/ZINC09200225>
+0.461026
+
+> <Overlay Similarity/ZINC09594500>
+0.364199
+
+> <Overlay Similarity/ZINC09594501>
+0.383274
+
+> <Overlay Similarity/ZINC07253743>
+0.417623
+
+> <Overlay Similarity/ZINC39932869>
+0.460553
+
+> <Overlay Similarity/ZINC78826319>
+0.567355
+
+> <Overlay Similarity/ZINC78826329>
+0.574429
+
+> <Overlay Similarity/ZINC25427067>
+0.460131
+
+> <Overlay Similarity/ZINC25427070>
+0.574197
+
+> <Overlay Similarity/ZINC78826356>
+0.577919
+
+> <Overlay Similarity/ZINC78826362>
+0.589145
+
+> <Overlay Similarity/ZINC78826369>
+0.586119
+
+> <Overlay Similarity/ZINC78826379>
+0.616791
+
+> <Overlay Similarity/ZINC67970113>
+0.558599
+
+> <Overlay Similarity/ZINC67970114>
+0.582197
+
+> <Overlay Similarity/ZINC00000409>
+0.485388
+
+> <Overlay Similarity/ZINC09619820>
+0.456272
+
+> <Overlay Similarity/ZINC09594505>
+0.48259
+
+> <Overlay Similarity/ZINC09619824>
+0.481865
+
+> <Overlay Similarity/ZINC09594508>
+0.37358
+
+> <Overlay Similarity/ZINC79812663>
+0.572749
+
+> <Overlay Similarity/ZINC79812665>
+0.654434
+
+> <Overlay Similarity/ZINC12750265_1>
+0.29359
+
+> <Overlay Similarity/ZINC12750270_1>
+0.290939
+
+> <Overlay Similarity/ZINC78637034_1>
+0.345467
+
+> <Overlay Similarity/ZINC78637038_1>
+0.343964
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0526391
+
+> <Overlay Similarity/ZINC09200225_1>
+0.298996
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+ZINC35999642
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    1.9446    0.4469    0.9635 C   0  0
+    0.5646    0.7108    1.3927 N   0  0
+   -0.2472   -0.5122    1.3365 C   0  0  2  0  0  0
+   -1.6205   -0.2476    1.9626 C   0  0
+   -1.4503    0.0535    3.4525 C   0  0
+   -0.8794   -1.1724    4.1674 C   0  0
+    0.5217   -1.4718    3.6242 C   0  0
+    0.4350   -1.6113    2.1206 C   0  0
+    0.8981   -2.5757    1.5604 O   0  0
+   -0.4149   -0.9428   -0.0979 C   0  0
+    0.0671   -0.1464   -1.1197 C   0  0
+   -0.0866   -0.5412   -2.4354 C   0  0
+   -0.7225   -1.7330   -2.7302 C   0  0
+   -1.2048   -2.5300   -1.7096 C   0  0
+   -1.0462   -2.1380   -0.3920 C   0  0
+   -1.6459   -3.1421    0.8909 Cl  0  0
+    1.9345   -0.0510   -0.0061 H   0  0
+    2.4864    1.3892    0.8825 H   0  0
+    2.4366   -0.1934    1.6957 H   0  0
+    0.5446    1.1160    2.3166 H   0  0
+   -2.0861    0.6061    1.4700 H   0  0
+   -2.2519   -1.1275    1.8392 H   0  0
+   -0.7688    0.8952    3.5766 H   0  0
+   -2.4188    0.3062    3.8840 H   0  0
+   -0.8199   -0.9743    5.2376 H   0  0
+   -1.5284   -2.0305    3.9919 H   0  0
+    1.1953   -0.6532    3.8777 H   0  0
+    0.8913   -2.4013    4.0575 H   0  0
+    0.5636    0.7849   -0.8900 H   0  0
+    0.2899    0.0815   -3.2334 H   0  0
+   -0.8427   -2.0409   -3.7585 H   0  0
+   -1.7019   -3.4608   -1.9401 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC35999642
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC35999642
+
+> <Overlay Similarity/ZINC72309067>
+0.485217
+
+> <Overlay Similarity/ZINC72309068>
+0.52346
+
+> <Overlay Similarity/ZINC78778138>
+0.577504
+
+> <Overlay Similarity/ZINC78778141>
+0.57323
+
+> <Overlay Similarity/ZINC78778144>
+0.51754
+
+> <Overlay Similarity/ZINC78778147>
+0.59025
+
+> <Overlay Similarity/ZINC78778151>
+0.526522
+
+> <Overlay Similarity/ZINC78778155>
+0.549059
+
+> <Overlay Similarity/ZINC78778158>
+0.587539
+
+> <Overlay Similarity/ZINC78778163>
+0.659178
+
+> <Overlay Similarity/ZINC78778166>
+0.623872
+
+> <Overlay Similarity/ZINC78778173>
+0.692502
+
+> <Overlay Similarity/ZINC78778176>
+0.601489
+
+> <Overlay Similarity/ZINC78778180>
+0.608227
+
+> <Overlay Similarity/ZINC78778183>
+0.644572
+
+> <Overlay Similarity/ZINC78778188>
+0.647381
+
+> <Overlay Similarity/ZINC12778748>
+0.433314
+
+> <Overlay Similarity/ZINC67946083>
+0.623219
+
+> <Overlay Similarity/ZINC67946084>
+0.728934
+
+> <Overlay Similarity/ZINC12778744>
+0.516183
+
+> <Overlay Similarity/ZINC12680197>
+0.442644
+
+> <Overlay Similarity/ZINC78384964>
+0.596526
+
+> <Overlay Similarity/ZINC78384965>
+0.686336
+
+> <Overlay Similarity/ZINC12680206>
+0.389588
+
+> <Overlay Similarity/ZINC09580372>
+0.465164
+
+> <Overlay Similarity/ZINC09580374>
+0.397946
+
+> <Overlay Similarity/ZINC09580463>
+0.430038
+
+> <Overlay Similarity/ZINC09580464>
+0.352786
+
+> <Overlay Similarity/ZINC04948912>
+0.597491
+
+> <Overlay Similarity/ZINC36294079>
+0.801459
+
+> <Overlay Similarity/ZINC78637034>
+0.507652
+
+> <Overlay Similarity/ZINC78637038>
+0.585459
+
+> <Overlay Similarity/ZINC12798308>
+0.349446
+
+> <Overlay Similarity/ZINC12798311>
+0.422359
+
+> <Overlay Similarity/ZINC12584969>
+0.366058
+
+> <Overlay Similarity/ZINC12584974>
+0.346326
+
+> <Overlay Similarity/ZINC09634536>
+0.511497
+
+> <Overlay Similarity/ZINC09634537>
+0.409822
+
+> <Overlay Similarity/ZINC13128612>
+0.436006
+
+> <Overlay Similarity/ZINC13128613>
+0.531932
+
+> <Overlay Similarity/ZINC72309088>
+0.458883
+
+> <Overlay Similarity/ZINC72309089>
+0.478621
+
+> <Overlay Similarity/ZINC72309094>
+0.509624
+
+> <Overlay Similarity/ZINC72309095>
+0.531002
+
+> <Overlay Similarity/ZINC09871162>
+0.481407
+
+> <Overlay Similarity/ZINC09871169>
+0.374196
+
+> <Overlay Similarity/ZINC21761901>
+0.42866
+
+> <Overlay Similarity/ZINC21761904>
+0.507029
+
+> <Overlay Similarity/ZINC74433878>
+0.547937
+
+> <Overlay Similarity/ZINC74433882>
+0.576402
+
+> <Overlay Similarity/ZINC09634852>
+0.402235
+
+> <Overlay Similarity/ZINC13063163>
+0.527043
+
+> <Overlay Similarity/ZINC21738925>
+0.46354
+
+> <Overlay Similarity/ZINC21738928>
+0.499485
+
+> <Overlay Similarity/ZINC24971729>
+0.425202
+
+> <Overlay Similarity/ZINC24971735>
+0.547082
+
+> <Overlay Similarity/ZINC12917397>
+0.429891
+
+> <Overlay Similarity/ZINC12917403>
+0.505553
+
+> <Overlay Similarity/ZINC70040689>
+0.616691
+
+> <Overlay Similarity/ZINC70040690>
+0.680448
+
+> <Overlay Similarity/ZINC12593237>
+0.324784
+
+> <Overlay Similarity/ZINC12593241>
+0.437362
+
+> <Overlay Similarity/ZINC10109519>
+0.479647
+
+> <Overlay Similarity/ZINC10109520>
+0.400064
+
+> <Overlay Similarity/ZINC12749206>
+0.452032
+
+> <Overlay Similarity/ZINC12749202>
+0.46762
+
+> <Overlay Similarity/ZINC09481125>
+0.589251
+
+> <Overlay Similarity/ZINC09481127>
+0.474671
+
+> <Overlay Similarity/ZINC12749194>
+0.336269
+
+> <Overlay Similarity/ZINC12749198>
+0.482957
+
+> <Overlay Similarity/ZINC12749221>
+0.385559
+
+> <Overlay Similarity/ZINC12749226>
+0.435229
+
+> <Overlay Similarity/ZINC12749313>
+0.375758
+
+> <Overlay Similarity/ZINC12749320>
+0.418795
+
+> <Overlay Similarity/ZINC12749327>
+0.299476
+
+> <Overlay Similarity/ZINC12749332>
+0.404002
+
+> <Overlay Similarity/ZINC12749347>
+0.537242
+
+> <Overlay Similarity/ZINC12749353>
+0.515811
+
+> <Overlay Similarity/ZINC09547328>
+0.530927
+
+> <Overlay Similarity/ZINC09547331>
+0.428025
+
+> <Overlay Similarity/ZINC35999642>
+1
+
+> <Overlay Similarity/ZINC08312163>
+0.512179
+
+> <Overlay Similarity/ZINC08312165>
+0.358203
+
+> <Overlay Similarity/ZINC78077980>
+0.632964
+
+> <Overlay Similarity/ZINC78077982>
+0.656585
+
+> <Overlay Similarity/ZINC06509041>
+0.583352
+
+> <Overlay Similarity/ZINC07253715>
+0.517794
+
+> <Overlay Similarity/ZINC07253718>
+0.422642
+
+> <Overlay Similarity/ZINC07253739>
+0.534298
+
+> <Overlay Similarity/ZINC03229857>
+0.524723
+
+> <Overlay Similarity/ZINC21577516>
+0.403341
+
+> <Overlay Similarity/ZINC21577520>
+0.516918
+
+> <Overlay Similarity/ZINC74805895>
+0.554871
+
+> <Overlay Similarity/ZINC74805896>
+0.554548
+
+> <Overlay Similarity/ZINC21577603>
+0.467089
+
+> <Overlay Similarity/ZINC21577607>
+0.532314
+
+> <Overlay Similarity/ZINC21577611>
+0.451938
+
+> <Overlay Similarity/ZINC21577615>
+0.452607
+
+> <Overlay Similarity/ZINC21577734>
+0.350633
+
+> <Overlay Similarity/ZINC21577738>
+0.405396
+
+> <Overlay Similarity/ZINC21577750>
+0.420629
+
+> <Overlay Similarity/ZINC21577754>
+0.49644
+
+> <Overlay Similarity/ZINC12750193>
+0.392392
+
+> <Overlay Similarity/ZINC12750199>
+0.453619
+
+> <Overlay Similarity/ZINC12600205>
+0.473631
+
+> <Overlay Similarity/ZINC12792241>
+0.348944
+
+> <Overlay Similarity/ZINC12792244>
+0.404457
+
+> <Overlay Similarity/ZINC75560270>
+0.560403
+
+> <Overlay Similarity/ZINC75560273>
+0.613533
+
+> <Overlay Similarity/ZINC09440363>
+0.444879
+
+> <Overlay Similarity/ZINC75560317>
+0.598381
+
+> <Overlay Similarity/ZINC75560323>
+0.6205
+
+> <Overlay Similarity/ZINC03280133>
+0.533971
+
+> <Overlay Similarity/ZINC03280131>
+0.50842
+
+> <Overlay Similarity/ZINC03280143>
+0.632801
+
+> <Overlay Similarity/ZINC03280141>
+0.661809
+
+> <Overlay Similarity/ZINC06509042>
+0.616567
+
+> <Overlay Similarity/ZINC09499349>
+0.47865
+
+> <Overlay Similarity/ZINC09499353>
+0.356124
+
+> <Overlay Similarity/ZINC09949673>
+0.467137
+
+> <Overlay Similarity/ZINC09949677>
+0.352107
+
+> <Overlay Similarity/ZINC04948896>
+0.623888
+
+> <Overlay Similarity/ZINC04948899>
+0.67826
+
+> <Overlay Similarity/ZINC70769326>
+0.580036
+
+> <Overlay Similarity/ZINC70769329>
+0.50795
+
+> <Overlay Similarity/ZINC58120686>
+0.562007
+
+> <Overlay Similarity/ZINC04166636>
+0.487805
+
+> <Overlay Similarity/ZINC04166637>
+0.651858
+
+> <Overlay Similarity/ZINC10029289>
+0.479436
+
+> <Overlay Similarity/ZINC10029291>
+0.422022
+
+> <Overlay Similarity/ZINC21735174>
+0.457989
+
+> <Overlay Similarity/ZINC21735177>
+0.572555
+
+> <Overlay Similarity/ZINC64388462>
+0.505768
+
+> <Overlay Similarity/ZINC89310214>
+0.579245
+
+> <Overlay Similarity/ZINC12594804>
+0.438936
+
+> <Overlay Similarity/ZINC12594800>
+0.483913
+
+> <Overlay Similarity/ZINC03243400>
+0.586399
+
+> <Overlay Similarity/ZINC03243399>
+0.595818
+
+> <Overlay Similarity/ZINC74393475>
+0.631023
+
+> <Overlay Similarity/ZINC74393478>
+0.630473
+
+> <Overlay Similarity/ZINC74393480>
+0.599499
+
+> <Overlay Similarity/ZINC74393484>
+0.606565
+
+> <Overlay Similarity/ZINC12749343>
+0.480773
+
+> <Overlay Similarity/ZINC12750221>
+0.594476
+
+> <Overlay Similarity/ZINC12750265>
+0.541177
+
+> <Overlay Similarity/ZINC21735375>
+0.393151
+
+> <Overlay Similarity/ZINC21735379>
+0.450691
+
+> <Overlay Similarity/ZINC09512927>
+0.526266
+
+> <Overlay Similarity/ZINC09512928>
+0.543522
+
+> <Overlay Similarity/ZINC09512929>
+0.453378
+
+> <Overlay Similarity/ZINC09512931>
+0.410475
+
+> <Overlay Similarity/ZINC04948914>
+0.646482
+
+> <Overlay Similarity/ZINC32788417>
+0.363503
+
+> <Overlay Similarity/ZINC32788422>
+0.381709
+
+> <Overlay Similarity/ZINC32788427>
+0.436623
+
+> <Overlay Similarity/ZINC32788432>
+0.372905
+
+> <Overlay Similarity/ZINC32788436>
+0.427529
+
+> <Overlay Similarity/ZINC32788441>
+0.504795
+
+> <Overlay Similarity/ZINC06087125>
+0.131726
+
+> <Overlay Similarity/ZINC06087128>
+0.284122
+
+> <Overlay Similarity/ZINC12768937>
+0.427459
+
+> <Overlay Similarity/ZINC12768943>
+0.504763
+
+> <Overlay Similarity/ZINC03235907>
+0.561279
+
+> <Overlay Similarity/ZINC03235906>
+0.53196
+
+> <Overlay Similarity/ZINC12749337>
+0.507096
+
+> <Overlay Similarity/ZINC12750216>
+0.606631
+
+> <Overlay Similarity/ZINC12750270>
+0.508754
+
+> <Overlay Similarity/ZINC08263368>
+0.340893
+
+> <Overlay Similarity/ZINC08263372>
+0.0524137
+
+> <Overlay Similarity/ZINC12983868>
+0.350612
+
+> <Overlay Similarity/ZINC12983871>
+0.471285
+
+> <Overlay Similarity/ZINC03229856>
+0.466508
+
+> <Overlay Similarity/ZINC60860378>
+0.652194
+
+> <Overlay Similarity/ZINC04965927>
+0.619157
+
+> <Overlay Similarity/ZINC04965929>
+0.513919
+
+> <Overlay Similarity/ZINC03236260>
+0.555008
+
+> <Overlay Similarity/ZINC03236262>
+0.540503
+
+> <Overlay Similarity/ZINC03236261>
+0.440466
+
+> <Overlay Similarity/ZINC37123872>
+0.534769
+
+> <Overlay Similarity/ZINC37123873>
+0.524121
+
+> <Overlay Similarity/ZINC37123874>
+0.523143
+
+> <Overlay Similarity/ZINC37123875>
+0.536574
+
+> <Overlay Similarity/ZINC92309601>
+0.628295
+
+> <Overlay Similarity/ZINC92309602>
+0.575661
+
+> <Overlay Similarity/ZINC92309603>
+0.615347
+
+> <Overlay Similarity/ZINC92309604>
+0.60338
+
+> <Overlay Similarity/ZINC91848448>
+0.515411
+
+> <Overlay Similarity/ZINC91848449>
+0.528035
+
+> <Overlay Similarity/ZINC91848450>
+0.574135
+
+> <Overlay Similarity/ZINC21736106>
+0.405145
+
+> <Overlay Similarity/ZINC21736109>
+0.347846
+
+> <Overlay Similarity/ZINC09513705>
+0.473222
+
+> <Overlay Similarity/ZINC09513706>
+0.466003
+
+> <Overlay Similarity/ZINC03236259>
+0.449192
+
+> <Overlay Similarity/ZINC12810878>
+0.439004
+
+> <Overlay Similarity/ZINC12810884>
+0.405107
+
+> <Overlay Similarity/ZINC09378919>
+0.44792
+
+> <Overlay Similarity/ZINC09378920>
+0.326969
+
+> <Overlay Similarity/ZINC21736243>
+0.308366
+
+> <Overlay Similarity/ZINC21736246>
+0.373272
+
+> <Overlay Similarity/ZINC32811055>
+0.386985
+
+> <Overlay Similarity/ZINC32811057>
+0.376253
+
+> <Overlay Similarity/ZINC10021983>
+0.454209
+
+> <Overlay Similarity/ZINC10021990>
+0.348474
+
+> <Overlay Similarity/ZINC21736411>
+0.373342
+
+> <Overlay Similarity/ZINC21736415>
+0.379669
+
+> <Overlay Similarity/ZINC21736419>
+0.436889
+
+> <Overlay Similarity/ZINC21736423>
+0.5451
+
+> <Overlay Similarity/ZINC76788252>
+0.537156
+
+> <Overlay Similarity/ZINC76788256>
+0.626126
+
+> <Overlay Similarity/ZINC03241551>
+0.619365
+
+> <Overlay Similarity/ZINC03241550>
+0.658166
+
+> <Overlay Similarity/ZINC00002278>
+0.142127
+
+> <Overlay Similarity/ZINC58680102>
+0.524704
+
+> <Overlay Similarity/ZINC58680103>
+0.552757
+
+> <Overlay Similarity/ZINC58680132>
+0.503429
+
+> <Overlay Similarity/ZINC58680133>
+0.515679
+
+> <Overlay Similarity/ZINC58147051>
+0.4542
+
+> <Overlay Similarity/ZINC58147057>
+0.478639
+
+> <Overlay Similarity/ZINC09206744>
+0.495194
+
+> <Overlay Similarity/ZINC09206748>
+0.36926
+
+> <Overlay Similarity/ZINC09200220>
+0.533536
+
+> <Overlay Similarity/ZINC09200225>
+0.461026
+
+> <Overlay Similarity/ZINC09594500>
+0.364199
+
+> <Overlay Similarity/ZINC09594501>
+0.383274
+
+> <Overlay Similarity/ZINC07253743>
+0.417623
+
+> <Overlay Similarity/ZINC39932869>
+0.460553
+
+> <Overlay Similarity/ZINC78826319>
+0.567355
+
+> <Overlay Similarity/ZINC78826329>
+0.574429
+
+> <Overlay Similarity/ZINC25427067>
+0.460131
+
+> <Overlay Similarity/ZINC25427070>
+0.574197
+
+> <Overlay Similarity/ZINC78826356>
+0.577919
+
+> <Overlay Similarity/ZINC78826362>
+0.589145
+
+> <Overlay Similarity/ZINC78826369>
+0.586119
+
+> <Overlay Similarity/ZINC78826379>
+0.616791
+
+> <Overlay Similarity/ZINC67970113>
+0.558599
+
+> <Overlay Similarity/ZINC67970114>
+0.582197
+
+> <Overlay Similarity/ZINC00000409>
+0.485388
+
+> <Overlay Similarity/ZINC09619820>
+0.456272
+
+> <Overlay Similarity/ZINC09594505>
+0.48259
+
+> <Overlay Similarity/ZINC09619824>
+0.481865
+
+> <Overlay Similarity/ZINC09594508>
+0.37358
+
+> <Overlay Similarity/ZINC79812663>
+0.572749
+
+> <Overlay Similarity/ZINC79812665>
+0.654434
+
+> <Overlay Similarity/ZINC12750265_1>
+0.29359
+
+> <Overlay Similarity/ZINC12750270_1>
+0.290939
+
+> <Overlay Similarity/ZINC78637034_1>
+0.345467
+
+> <Overlay Similarity/ZINC78637038_1>
+0.343964
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0526391
+
+> <Overlay Similarity/ZINC09200225_1>
+0.298996
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+ZINC36294079
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    2.1080   -0.1441    1.4251 C   0  0
+    0.8190    0.3662    0.9394 N   0  0
+   -0.1728   -0.7134    0.8452 C   0  0  1  0  0  0
+   -1.4395   -0.1902    0.1600 C   0  0
+   -1.1162    0.1856   -1.2871 C   0  0
+   -0.6893   -1.0611   -2.0636 C   0  0
+    0.6056   -1.6171   -1.4620 C   0  0
+    0.3883   -1.8480    0.0171 C   0  0
+    0.6563   -2.9109    0.5238 O   0  0
+   -0.5096   -1.2133    2.2265 C   0  0
+    0.0074   -0.5743    3.3380 C   0  0
+   -0.3013   -1.0326    4.6049 C   0  0
+   -1.1273   -2.1303    4.7613 C   0  0
+   -1.6448   -2.7699    3.6509 C   0  0
+   -1.3406   -2.3080    2.3825 C   0  0
+   -1.9955   -3.1068    0.9873 Cl  0  0
+    2.4401   -0.9609    0.7843 H   0  0
+    2.8468    0.6570    1.4049 H   0  0
+    1.9936   -0.5070    2.4465 H   0  0
+    0.4829    1.1159    1.5253 H   0  0
+   -2.2058   -0.9653    0.1717 H   0  0
+   -1.8036    0.6893    0.6913 H   0  0
+   -2.0000    0.6190   -1.7551 H   0  0
+   -0.3064    0.9151   -1.2996 H   0  0
+   -1.4733   -1.8156   -1.9993 H   0  0
+   -0.5216   -0.7990   -3.1083 H   0  0
+    0.8590   -2.5600   -1.9465 H   0  0
+    1.4136   -0.8997   -1.6057 H   0  0
+    0.6529    0.2830    3.2164 H   0  0
+    0.1031   -0.5333    5.4730 H   0  0
+   -1.3679   -2.4882    5.7515 H   0  0
+   -2.2897   -3.6275    3.7732 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC36294079
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC36294079
+
+> <Overlay Similarity/ZINC72309067>
+0.5137
+
+> <Overlay Similarity/ZINC72309068>
+0.569437
+
+> <Overlay Similarity/ZINC78778138>
+0.559616
+
+> <Overlay Similarity/ZINC78778141>
+0.591866
+
+> <Overlay Similarity/ZINC78778144>
+0.466179
+
+> <Overlay Similarity/ZINC78778147>
+0.538611
+
+> <Overlay Similarity/ZINC78778151>
+0.535041
+
+> <Overlay Similarity/ZINC78778155>
+0.576419
+
+> <Overlay Similarity/ZINC78778158>
+0.46573
+
+> <Overlay Similarity/ZINC78778163>
+0.620202
+
+> <Overlay Similarity/ZINC78778166>
+0.57233
+
+> <Overlay Similarity/ZINC78778173>
+0.698245
+
+> <Overlay Similarity/ZINC78778176>
+0.56003
+
+> <Overlay Similarity/ZINC78778180>
+0.640104
+
+> <Overlay Similarity/ZINC78778183>
+0.645678
+
+> <Overlay Similarity/ZINC78778188>
+0.632631
+
+> <Overlay Similarity/ZINC12778748>
+0.409232
+
+> <Overlay Similarity/ZINC67946083>
+0.491731
+
+> <Overlay Similarity/ZINC67946084>
+0.69761
+
+> <Overlay Similarity/ZINC12778744>
+0.511355
+
+> <Overlay Similarity/ZINC12680197>
+0.47039
+
+> <Overlay Similarity/ZINC78384964>
+0.592854
+
+> <Overlay Similarity/ZINC78384965>
+0.813537
+
+> <Overlay Similarity/ZINC12680206>
+0.392398
+
+> <Overlay Similarity/ZINC09580372>
+0.50615
+
+> <Overlay Similarity/ZINC09580374>
+0.45637
+
+> <Overlay Similarity/ZINC09580463>
+0.4683
+
+> <Overlay Similarity/ZINC09580464>
+0.395029
+
+> <Overlay Similarity/ZINC04948912>
+0.524897
+
+> <Overlay Similarity/ZINC36294079>
+1
+
+> <Overlay Similarity/ZINC78637034>
+0.51029
+
+> <Overlay Similarity/ZINC78637038>
+0.626507
+
+> <Overlay Similarity/ZINC12798308>
+0.36315
+
+> <Overlay Similarity/ZINC12798311>
+0.435647
+
+> <Overlay Similarity/ZINC12584969>
+0.34734
+
+> <Overlay Similarity/ZINC12584974>
+0.381147
+
+> <Overlay Similarity/ZINC09634536>
+0.551497
+
+> <Overlay Similarity/ZINC09634537>
+0.464324
+
+> <Overlay Similarity/ZINC13128612>
+0.49101
+
+> <Overlay Similarity/ZINC13128613>
+0.566444
+
+> <Overlay Similarity/ZINC72309088>
+0.48233
+
+> <Overlay Similarity/ZINC72309089>
+0.515249
+
+> <Overlay Similarity/ZINC72309094>
+0.530177
+
+> <Overlay Similarity/ZINC72309095>
+0.507526
+
+> <Overlay Similarity/ZINC09871162>
+0.49292
+
+> <Overlay Similarity/ZINC09871169>
+0.413376
+
+> <Overlay Similarity/ZINC21761901>
+0.479391
+
+> <Overlay Similarity/ZINC21761904>
+0.53134
+
+> <Overlay Similarity/ZINC74433878>
+0.496338
+
+> <Overlay Similarity/ZINC74433882>
+0.585496
+
+> <Overlay Similarity/ZINC09634852>
+0.448061
+
+> <Overlay Similarity/ZINC13063163>
+0.54765
+
+> <Overlay Similarity/ZINC21738925>
+0.499943
+
+> <Overlay Similarity/ZINC21738928>
+0.485658
+
+> <Overlay Similarity/ZINC24971729>
+0.482759
+
+> <Overlay Similarity/ZINC24971735>
+0.58131
+
+> <Overlay Similarity/ZINC12917397>
+0.508075
+
+> <Overlay Similarity/ZINC12917403>
+0.555578
+
+> <Overlay Similarity/ZINC70040689>
+0.49862
+
+> <Overlay Similarity/ZINC70040690>
+0.660729
+
+> <Overlay Similarity/ZINC12593237>
+0.354739
+
+> <Overlay Similarity/ZINC12593241>
+0.45117
+
+> <Overlay Similarity/ZINC10109519>
+0.508842
+
+> <Overlay Similarity/ZINC10109520>
+0.449429
+
+> <Overlay Similarity/ZINC12749206>
+0.403289
+
+> <Overlay Similarity/ZINC12749202>
+0.455614
+
+> <Overlay Similarity/ZINC09481125>
+0.648002
+
+> <Overlay Similarity/ZINC09481127>
+0.560187
+
+> <Overlay Similarity/ZINC12749194>
+0.398918
+
+> <Overlay Similarity/ZINC12749198>
+0.511452
+
+> <Overlay Similarity/ZINC12749221>
+0.426041
+
+> <Overlay Similarity/ZINC12749226>
+0.411972
+
+> <Overlay Similarity/ZINC12749313>
+0.395172
+
+> <Overlay Similarity/ZINC12749320>
+0.428544
+
+> <Overlay Similarity/ZINC12749327>
+0.322432
+
+> <Overlay Similarity/ZINC12749332>
+0.420353
+
+> <Overlay Similarity/ZINC12749347>
+0.534642
+
+> <Overlay Similarity/ZINC12749353>
+0.565902
+
+> <Overlay Similarity/ZINC09547328>
+0.577849
+
+> <Overlay Similarity/ZINC09547331>
+0.502561
+
+> <Overlay Similarity/ZINC35999642>
+0.801459
+
+> <Overlay Similarity/ZINC08312163>
+0.55083
+
+> <Overlay Similarity/ZINC08312165>
+0.426382
+
+> <Overlay Similarity/ZINC78077980>
+0.515996
+
+> <Overlay Similarity/ZINC78077982>
+0.639573
+
+> <Overlay Similarity/ZINC06509041>
+0.509867
+
+> <Overlay Similarity/ZINC07253715>
+0.522001
+
+> <Overlay Similarity/ZINC07253718>
+0.448124
+
+> <Overlay Similarity/ZINC07253739>
+0.559623
+
+> <Overlay Similarity/ZINC03229857>
+0.415227
+
+> <Overlay Similarity/ZINC21577516>
+0.449142
+
+> <Overlay Similarity/ZINC21577520>
+0.534768
+
+> <Overlay Similarity/ZINC74805895>
+0.528602
+
+> <Overlay Similarity/ZINC74805896>
+0.557901
+
+> <Overlay Similarity/ZINC21577603>
+0.492403
+
+> <Overlay Similarity/ZINC21577607>
+0.535941
+
+> <Overlay Similarity/ZINC21577611>
+0.457433
+
+> <Overlay Similarity/ZINC21577615>
+0.474526
+
+> <Overlay Similarity/ZINC21577734>
+0.391926
+
+> <Overlay Similarity/ZINC21577738>
+0.371799
+
+> <Overlay Similarity/ZINC21577750>
+0.43288
+
+> <Overlay Similarity/ZINC21577754>
+0.48603
+
+> <Overlay Similarity/ZINC12750193>
+0.43889
+
+> <Overlay Similarity/ZINC12750199>
+0.482947
+
+> <Overlay Similarity/ZINC12600205>
+0.44346
+
+> <Overlay Similarity/ZINC12792241>
+0.370504
+
+> <Overlay Similarity/ZINC12792244>
+0.429565
+
+> <Overlay Similarity/ZINC75560270>
+0.504704
+
+> <Overlay Similarity/ZINC75560273>
+0.626202
+
+> <Overlay Similarity/ZINC09440363>
+0.375881
+
+> <Overlay Similarity/ZINC75560317>
+0.58222
+
+> <Overlay Similarity/ZINC75560323>
+0.62724
+
+> <Overlay Similarity/ZINC03280133>
+0.581395
+
+> <Overlay Similarity/ZINC03280131>
+0.533811
+
+> <Overlay Similarity/ZINC03280143>
+0.676843
+
+> <Overlay Similarity/ZINC03280141>
+0.656911
+
+> <Overlay Similarity/ZINC06509042>
+0.60635
+
+> <Overlay Similarity/ZINC09499349>
+0.498797
+
+> <Overlay Similarity/ZINC09499353>
+0.396234
+
+> <Overlay Similarity/ZINC09949673>
+0.501038
+
+> <Overlay Similarity/ZINC09949677>
+0.417015
+
+> <Overlay Similarity/ZINC04948896>
+0.702757
+
+> <Overlay Similarity/ZINC04948899>
+0.677503
+
+> <Overlay Similarity/ZINC70769326>
+0.563268
+
+> <Overlay Similarity/ZINC70769329>
+0.438152
+
+> <Overlay Similarity/ZINC58120686>
+0.581914
+
+> <Overlay Similarity/ZINC04166636>
+0.484232
+
+> <Overlay Similarity/ZINC04166637>
+0.569805
+
+> <Overlay Similarity/ZINC10029289>
+0.515816
+
+> <Overlay Similarity/ZINC10029291>
+0.465025
+
+> <Overlay Similarity/ZINC21735174>
+0.513177
+
+> <Overlay Similarity/ZINC21735177>
+0.594594
+
+> <Overlay Similarity/ZINC64388462>
+0.459077
+
+> <Overlay Similarity/ZINC89310214>
+0.598356
+
+> <Overlay Similarity/ZINC12594804>
+0.379194
+
+> <Overlay Similarity/ZINC12594800>
+0.475184
+
+> <Overlay Similarity/ZINC03243400>
+0.616859
+
+> <Overlay Similarity/ZINC03243399>
+0.610247
+
+> <Overlay Similarity/ZINC74393475>
+0.592789
+
+> <Overlay Similarity/ZINC74393478>
+0.58766
+
+> <Overlay Similarity/ZINC74393480>
+0.585114
+
+> <Overlay Similarity/ZINC74393484>
+0.593829
+
+> <Overlay Similarity/ZINC12749343>
+0.426267
+
+> <Overlay Similarity/ZINC12750221>
+0.520881
+
+> <Overlay Similarity/ZINC12750265>
+0.523889
+
+> <Overlay Similarity/ZINC21735375>
+0.422521
+
+> <Overlay Similarity/ZINC21735379>
+0.467561
+
+> <Overlay Similarity/ZINC09512927>
+0.555311
+
+> <Overlay Similarity/ZINC09512928>
+0.525171
+
+> <Overlay Similarity/ZINC09512929>
+0.484892
+
+> <Overlay Similarity/ZINC09512931>
+0.452308
+
+> <Overlay Similarity/ZINC04948914>
+0.636083
+
+> <Overlay Similarity/ZINC32788417>
+0.320423
+
+> <Overlay Similarity/ZINC32788422>
+0.432209
+
+> <Overlay Similarity/ZINC32788427>
+0.403545
+
+> <Overlay Similarity/ZINC32788432>
+0.444436
+
+> <Overlay Similarity/ZINC32788436>
+0.447311
+
+> <Overlay Similarity/ZINC32788441>
+0.504733
+
+> <Overlay Similarity/ZINC06087125>
+0.124913
+
+> <Overlay Similarity/ZINC06087128>
+0.31657
+
+> <Overlay Similarity/ZINC12768937>
+0.481027
+
+> <Overlay Similarity/ZINC12768943>
+0.552539
+
+> <Overlay Similarity/ZINC03235907>
+0.55087
+
+> <Overlay Similarity/ZINC03235906>
+0.539514
+
+> <Overlay Similarity/ZINC12749337>
+0.493803
+
+> <Overlay Similarity/ZINC12750216>
+0.585766
+
+> <Overlay Similarity/ZINC12750270>
+0.470351
+
+> <Overlay Similarity/ZINC08263368>
+0.313239
+
+> <Overlay Similarity/ZINC08263372>
+0.0623534
+
+> <Overlay Similarity/ZINC12983868>
+0.37583
+
+> <Overlay Similarity/ZINC12983871>
+0.486586
+
+> <Overlay Similarity/ZINC03229856>
+0.385236
+
+> <Overlay Similarity/ZINC60860378>
+0.569037
+
+> <Overlay Similarity/ZINC04965927>
+0.674672
+
+> <Overlay Similarity/ZINC04965929>
+0.603114
+
+> <Overlay Similarity/ZINC03236260>
+0.614614
+
+> <Overlay Similarity/ZINC03236262>
+0.579036
+
+> <Overlay Similarity/ZINC03236261>
+0.511529
+
+> <Overlay Similarity/ZINC37123872>
+0.505613
+
+> <Overlay Similarity/ZINC37123873>
+0.492381
+
+> <Overlay Similarity/ZINC37123874>
+0.491279
+
+> <Overlay Similarity/ZINC37123875>
+0.502223
+
+> <Overlay Similarity/ZINC92309601>
+0.623712
+
+> <Overlay Similarity/ZINC92309602>
+0.532517
+
+> <Overlay Similarity/ZINC92309603>
+0.538354
+
+> <Overlay Similarity/ZINC92309604>
+0.570099
+
+> <Overlay Similarity/ZINC91848448>
+0.498573
+
+> <Overlay Similarity/ZINC91848449>
+0.503007
+
+> <Overlay Similarity/ZINC91848450>
+0.593238
+
+> <Overlay Similarity/ZINC21736106>
+0.380173
+
+> <Overlay Similarity/ZINC21736109>
+0.309137
+
+> <Overlay Similarity/ZINC09513705>
+0.493357
+
+> <Overlay Similarity/ZINC09513706>
+0.464357
+
+> <Overlay Similarity/ZINC03236259>
+0.494542
+
+> <Overlay Similarity/ZINC12810878>
+0.439712
+
+> <Overlay Similarity/ZINC12810884>
+0.395148
+
+> <Overlay Similarity/ZINC09378919>
+0.432587
+
+> <Overlay Similarity/ZINC09378920>
+0.33364
+
+> <Overlay Similarity/ZINC21736243>
+0.342617
+
+> <Overlay Similarity/ZINC21736246>
+0.39502
+
+> <Overlay Similarity/ZINC32811055>
+0.407045
+
+> <Overlay Similarity/ZINC32811057>
+0.34489
+
+> <Overlay Similarity/ZINC10021983>
+0.47366
+
+> <Overlay Similarity/ZINC10021990>
+0.382114
+
+> <Overlay Similarity/ZINC21736411>
+0.371554
+
+> <Overlay Similarity/ZINC21736415>
+0.399326
+
+> <Overlay Similarity/ZINC21736419>
+0.460226
+
+> <Overlay Similarity/ZINC21736423>
+0.544821
+
+> <Overlay Similarity/ZINC76788252>
+0.458511
+
+> <Overlay Similarity/ZINC76788256>
+0.612082
+
+> <Overlay Similarity/ZINC03241551>
+0.515675
+
+> <Overlay Similarity/ZINC03241550>
+0.602092
+
+> <Overlay Similarity/ZINC00002278>
+0.172386
+
+> <Overlay Similarity/ZINC58680102>
+0.527093
+
+> <Overlay Similarity/ZINC58680103>
+0.574386
+
+> <Overlay Similarity/ZINC58680132>
+0.48212
+
+> <Overlay Similarity/ZINC58680133>
+0.540261
+
+> <Overlay Similarity/ZINC58147051>
+0.447186
+
+> <Overlay Similarity/ZINC58147057>
+0.474991
+
+> <Overlay Similarity/ZINC09206744>
+0.519971
+
+> <Overlay Similarity/ZINC09206748>
+0.424771
+
+> <Overlay Similarity/ZINC09200220>
+0.549
+
+> <Overlay Similarity/ZINC09200225>
+0.500893
+
+> <Overlay Similarity/ZINC09594500>
+0.365047
+
+> <Overlay Similarity/ZINC09594501>
+0.404773
+
+> <Overlay Similarity/ZINC07253743>
+0.460651
+
+> <Overlay Similarity/ZINC39932869>
+0.388535
+
+> <Overlay Similarity/ZINC78826319>
+0.520442
+
+> <Overlay Similarity/ZINC78826329>
+0.564895
+
+> <Overlay Similarity/ZINC25427067>
+0.508985
+
+> <Overlay Similarity/ZINC25427070>
+0.586929
+
+> <Overlay Similarity/ZINC78826356>
+0.546676
+
+> <Overlay Similarity/ZINC78826362>
+0.572067
+
+> <Overlay Similarity/ZINC78826369>
+0.579484
+
+> <Overlay Similarity/ZINC78826379>
+0.626207
+
+> <Overlay Similarity/ZINC67970113>
+0.525902
+
+> <Overlay Similarity/ZINC67970114>
+0.576704
+
+> <Overlay Similarity/ZINC00000409>
+0.406518
+
+> <Overlay Similarity/ZINC09619820>
+0.487644
+
+> <Overlay Similarity/ZINC09594505>
+0.512288
+
+> <Overlay Similarity/ZINC09619824>
+0.472966
+
+> <Overlay Similarity/ZINC09594508>
+0.421777
+
+> <Overlay Similarity/ZINC79812663>
+0.45365
+
+> <Overlay Similarity/ZINC79812665>
+0.639153
+
+> <Overlay Similarity/ZINC12750265_1>
+0.287942
+
+> <Overlay Similarity/ZINC12750270_1>
+0.29958
+
+> <Overlay Similarity/ZINC78637034_1>
+0.32704
+
+> <Overlay Similarity/ZINC78637038_1>
+0.329976
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0581243
+
+> <Overlay Similarity/ZINC09200225_1>
+0.307565
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+ZINC36294079
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    2.1080   -0.1441    1.4251 C   0  0
+    0.8190    0.3662    0.9394 N   0  0
+   -0.1728   -0.7134    0.8452 C   0  0  1  0  0  0
+   -1.4395   -0.1902    0.1600 C   0  0
+   -1.1162    0.1856   -1.2871 C   0  0
+   -0.6893   -1.0611   -2.0636 C   0  0
+    0.6056   -1.6171   -1.4620 C   0  0
+    0.3883   -1.8480    0.0171 C   0  0
+    0.6563   -2.9109    0.5238 O   0  0
+   -0.5096   -1.2133    2.2265 C   0  0
+    0.0074   -0.5743    3.3380 C   0  0
+   -0.3013   -1.0326    4.6049 C   0  0
+   -1.1273   -2.1303    4.7613 C   0  0
+   -1.6448   -2.7699    3.6509 C   0  0
+   -1.3406   -2.3080    2.3825 C   0  0
+   -1.9955   -3.1068    0.9873 Cl  0  0
+    2.4401   -0.9609    0.7843 H   0  0
+    2.8468    0.6570    1.4049 H   0  0
+    1.9936   -0.5070    2.4465 H   0  0
+    0.4829    1.1159    1.5253 H   0  0
+   -2.2058   -0.9653    0.1717 H   0  0
+   -1.8036    0.6893    0.6913 H   0  0
+   -2.0000    0.6190   -1.7551 H   0  0
+   -0.3064    0.9151   -1.2996 H   0  0
+   -1.4733   -1.8156   -1.9993 H   0  0
+   -0.5216   -0.7990   -3.1083 H   0  0
+    0.8590   -2.5600   -1.9465 H   0  0
+    1.4136   -0.8997   -1.6057 H   0  0
+    0.6529    0.2830    3.2164 H   0  0
+    0.1031   -0.5333    5.4730 H   0  0
+   -1.3679   -2.4882    5.7515 H   0  0
+   -2.2897   -3.6275    3.7732 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC36294079
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC36294079
+
+> <Overlay Similarity/ZINC72309067>
+0.5137
+
+> <Overlay Similarity/ZINC72309068>
+0.569437
+
+> <Overlay Similarity/ZINC78778138>
+0.559616
+
+> <Overlay Similarity/ZINC78778141>
+0.591866
+
+> <Overlay Similarity/ZINC78778144>
+0.466179
+
+> <Overlay Similarity/ZINC78778147>
+0.538611
+
+> <Overlay Similarity/ZINC78778151>
+0.535041
+
+> <Overlay Similarity/ZINC78778155>
+0.576419
+
+> <Overlay Similarity/ZINC78778158>
+0.46573
+
+> <Overlay Similarity/ZINC78778163>
+0.620202
+
+> <Overlay Similarity/ZINC78778166>
+0.57233
+
+> <Overlay Similarity/ZINC78778173>
+0.698245
+
+> <Overlay Similarity/ZINC78778176>
+0.56003
+
+> <Overlay Similarity/ZINC78778180>
+0.640104
+
+> <Overlay Similarity/ZINC78778183>
+0.645678
+
+> <Overlay Similarity/ZINC78778188>
+0.632631
+
+> <Overlay Similarity/ZINC12778748>
+0.409232
+
+> <Overlay Similarity/ZINC67946083>
+0.491731
+
+> <Overlay Similarity/ZINC67946084>
+0.69761
+
+> <Overlay Similarity/ZINC12778744>
+0.511355
+
+> <Overlay Similarity/ZINC12680197>
+0.47039
+
+> <Overlay Similarity/ZINC78384964>
+0.592854
+
+> <Overlay Similarity/ZINC78384965>
+0.813537
+
+> <Overlay Similarity/ZINC12680206>
+0.392398
+
+> <Overlay Similarity/ZINC09580372>
+0.50615
+
+> <Overlay Similarity/ZINC09580374>
+0.45637
+
+> <Overlay Similarity/ZINC09580463>
+0.4683
+
+> <Overlay Similarity/ZINC09580464>
+0.395029
+
+> <Overlay Similarity/ZINC04948912>
+0.524897
+
+> <Overlay Similarity/ZINC36294079>
+1
+
+> <Overlay Similarity/ZINC78637034>
+0.51029
+
+> <Overlay Similarity/ZINC78637038>
+0.626507
+
+> <Overlay Similarity/ZINC12798308>
+0.36315
+
+> <Overlay Similarity/ZINC12798311>
+0.435647
+
+> <Overlay Similarity/ZINC12584969>
+0.34734
+
+> <Overlay Similarity/ZINC12584974>
+0.381147
+
+> <Overlay Similarity/ZINC09634536>
+0.551497
+
+> <Overlay Similarity/ZINC09634537>
+0.464324
+
+> <Overlay Similarity/ZINC13128612>
+0.49101
+
+> <Overlay Similarity/ZINC13128613>
+0.566444
+
+> <Overlay Similarity/ZINC72309088>
+0.48233
+
+> <Overlay Similarity/ZINC72309089>
+0.515249
+
+> <Overlay Similarity/ZINC72309094>
+0.530177
+
+> <Overlay Similarity/ZINC72309095>
+0.507526
+
+> <Overlay Similarity/ZINC09871162>
+0.49292
+
+> <Overlay Similarity/ZINC09871169>
+0.413376
+
+> <Overlay Similarity/ZINC21761901>
+0.479391
+
+> <Overlay Similarity/ZINC21761904>
+0.53134
+
+> <Overlay Similarity/ZINC74433878>
+0.496338
+
+> <Overlay Similarity/ZINC74433882>
+0.585496
+
+> <Overlay Similarity/ZINC09634852>
+0.448061
+
+> <Overlay Similarity/ZINC13063163>
+0.54765
+
+> <Overlay Similarity/ZINC21738925>
+0.499943
+
+> <Overlay Similarity/ZINC21738928>
+0.485658
+
+> <Overlay Similarity/ZINC24971729>
+0.482759
+
+> <Overlay Similarity/ZINC24971735>
+0.58131
+
+> <Overlay Similarity/ZINC12917397>
+0.508075
+
+> <Overlay Similarity/ZINC12917403>
+0.555578
+
+> <Overlay Similarity/ZINC70040689>
+0.49862
+
+> <Overlay Similarity/ZINC70040690>
+0.660729
+
+> <Overlay Similarity/ZINC12593237>
+0.354739
+
+> <Overlay Similarity/ZINC12593241>
+0.45117
+
+> <Overlay Similarity/ZINC10109519>
+0.508842
+
+> <Overlay Similarity/ZINC10109520>
+0.449429
+
+> <Overlay Similarity/ZINC12749206>
+0.403289
+
+> <Overlay Similarity/ZINC12749202>
+0.455614
+
+> <Overlay Similarity/ZINC09481125>
+0.648002
+
+> <Overlay Similarity/ZINC09481127>
+0.560187
+
+> <Overlay Similarity/ZINC12749194>
+0.398918
+
+> <Overlay Similarity/ZINC12749198>
+0.511452
+
+> <Overlay Similarity/ZINC12749221>
+0.426041
+
+> <Overlay Similarity/ZINC12749226>
+0.411972
+
+> <Overlay Similarity/ZINC12749313>
+0.395172
+
+> <Overlay Similarity/ZINC12749320>
+0.428544
+
+> <Overlay Similarity/ZINC12749327>
+0.322432
+
+> <Overlay Similarity/ZINC12749332>
+0.420353
+
+> <Overlay Similarity/ZINC12749347>
+0.534642
+
+> <Overlay Similarity/ZINC12749353>
+0.565902
+
+> <Overlay Similarity/ZINC09547328>
+0.577849
+
+> <Overlay Similarity/ZINC09547331>
+0.502561
+
+> <Overlay Similarity/ZINC35999642>
+0.801459
+
+> <Overlay Similarity/ZINC08312163>
+0.55083
+
+> <Overlay Similarity/ZINC08312165>
+0.426382
+
+> <Overlay Similarity/ZINC78077980>
+0.515996
+
+> <Overlay Similarity/ZINC78077982>
+0.639573
+
+> <Overlay Similarity/ZINC06509041>
+0.509867
+
+> <Overlay Similarity/ZINC07253715>
+0.522001
+
+> <Overlay Similarity/ZINC07253718>
+0.448124
+
+> <Overlay Similarity/ZINC07253739>
+0.559623
+
+> <Overlay Similarity/ZINC03229857>
+0.415227
+
+> <Overlay Similarity/ZINC21577516>
+0.449142
+
+> <Overlay Similarity/ZINC21577520>
+0.534768
+
+> <Overlay Similarity/ZINC74805895>
+0.528602
+
+> <Overlay Similarity/ZINC74805896>
+0.557901
+
+> <Overlay Similarity/ZINC21577603>
+0.492403
+
+> <Overlay Similarity/ZINC21577607>
+0.535941
+
+> <Overlay Similarity/ZINC21577611>
+0.457433
+
+> <Overlay Similarity/ZINC21577615>
+0.474526
+
+> <Overlay Similarity/ZINC21577734>
+0.391926
+
+> <Overlay Similarity/ZINC21577738>
+0.371799
+
+> <Overlay Similarity/ZINC21577750>
+0.43288
+
+> <Overlay Similarity/ZINC21577754>
+0.48603
+
+> <Overlay Similarity/ZINC12750193>
+0.43889
+
+> <Overlay Similarity/ZINC12750199>
+0.482947
+
+> <Overlay Similarity/ZINC12600205>
+0.44346
+
+> <Overlay Similarity/ZINC12792241>
+0.370504
+
+> <Overlay Similarity/ZINC12792244>
+0.429565
+
+> <Overlay Similarity/ZINC75560270>
+0.504704
+
+> <Overlay Similarity/ZINC75560273>
+0.626202
+
+> <Overlay Similarity/ZINC09440363>
+0.375881
+
+> <Overlay Similarity/ZINC75560317>
+0.58222
+
+> <Overlay Similarity/ZINC75560323>
+0.62724
+
+> <Overlay Similarity/ZINC03280133>
+0.581395
+
+> <Overlay Similarity/ZINC03280131>
+0.533811
+
+> <Overlay Similarity/ZINC03280143>
+0.676843
+
+> <Overlay Similarity/ZINC03280141>
+0.656911
+
+> <Overlay Similarity/ZINC06509042>
+0.60635
+
+> <Overlay Similarity/ZINC09499349>
+0.498797
+
+> <Overlay Similarity/ZINC09499353>
+0.396234
+
+> <Overlay Similarity/ZINC09949673>
+0.501038
+
+> <Overlay Similarity/ZINC09949677>
+0.417015
+
+> <Overlay Similarity/ZINC04948896>
+0.702757
+
+> <Overlay Similarity/ZINC04948899>
+0.677503
+
+> <Overlay Similarity/ZINC70769326>
+0.563268
+
+> <Overlay Similarity/ZINC70769329>
+0.438152
+
+> <Overlay Similarity/ZINC58120686>
+0.581914
+
+> <Overlay Similarity/ZINC04166636>
+0.484232
+
+> <Overlay Similarity/ZINC04166637>
+0.569805
+
+> <Overlay Similarity/ZINC10029289>
+0.515816
+
+> <Overlay Similarity/ZINC10029291>
+0.465025
+
+> <Overlay Similarity/ZINC21735174>
+0.513177
+
+> <Overlay Similarity/ZINC21735177>
+0.594594
+
+> <Overlay Similarity/ZINC64388462>
+0.459077
+
+> <Overlay Similarity/ZINC89310214>
+0.598356
+
+> <Overlay Similarity/ZINC12594804>
+0.379194
+
+> <Overlay Similarity/ZINC12594800>
+0.475184
+
+> <Overlay Similarity/ZINC03243400>
+0.616859
+
+> <Overlay Similarity/ZINC03243399>
+0.610247
+
+> <Overlay Similarity/ZINC74393475>
+0.592789
+
+> <Overlay Similarity/ZINC74393478>
+0.58766
+
+> <Overlay Similarity/ZINC74393480>
+0.585114
+
+> <Overlay Similarity/ZINC74393484>
+0.593829
+
+> <Overlay Similarity/ZINC12749343>
+0.426267
+
+> <Overlay Similarity/ZINC12750221>
+0.520881
+
+> <Overlay Similarity/ZINC12750265>
+0.523889
+
+> <Overlay Similarity/ZINC21735375>
+0.422521
+
+> <Overlay Similarity/ZINC21735379>
+0.467561
+
+> <Overlay Similarity/ZINC09512927>
+0.555311
+
+> <Overlay Similarity/ZINC09512928>
+0.525171
+
+> <Overlay Similarity/ZINC09512929>
+0.484892
+
+> <Overlay Similarity/ZINC09512931>
+0.452308
+
+> <Overlay Similarity/ZINC04948914>
+0.636083
+
+> <Overlay Similarity/ZINC32788417>
+0.320423
+
+> <Overlay Similarity/ZINC32788422>
+0.432209
+
+> <Overlay Similarity/ZINC32788427>
+0.403545
+
+> <Overlay Similarity/ZINC32788432>
+0.444436
+
+> <Overlay Similarity/ZINC32788436>
+0.447311
+
+> <Overlay Similarity/ZINC32788441>
+0.504733
+
+> <Overlay Similarity/ZINC06087125>
+0.124913
+
+> <Overlay Similarity/ZINC06087128>
+0.31657
+
+> <Overlay Similarity/ZINC12768937>
+0.481027
+
+> <Overlay Similarity/ZINC12768943>
+0.552539
+
+> <Overlay Similarity/ZINC03235907>
+0.55087
+
+> <Overlay Similarity/ZINC03235906>
+0.539514
+
+> <Overlay Similarity/ZINC12749337>
+0.493803
+
+> <Overlay Similarity/ZINC12750216>
+0.585766
+
+> <Overlay Similarity/ZINC12750270>
+0.470351
+
+> <Overlay Similarity/ZINC08263368>
+0.313239
+
+> <Overlay Similarity/ZINC08263372>
+0.0623534
+
+> <Overlay Similarity/ZINC12983868>
+0.37583
+
+> <Overlay Similarity/ZINC12983871>
+0.486586
+
+> <Overlay Similarity/ZINC03229856>
+0.385236
+
+> <Overlay Similarity/ZINC60860378>
+0.569037
+
+> <Overlay Similarity/ZINC04965927>
+0.674672
+
+> <Overlay Similarity/ZINC04965929>
+0.603114
+
+> <Overlay Similarity/ZINC03236260>
+0.614614
+
+> <Overlay Similarity/ZINC03236262>
+0.579036
+
+> <Overlay Similarity/ZINC03236261>
+0.511529
+
+> <Overlay Similarity/ZINC37123872>
+0.505613
+
+> <Overlay Similarity/ZINC37123873>
+0.492381
+
+> <Overlay Similarity/ZINC37123874>
+0.491279
+
+> <Overlay Similarity/ZINC37123875>
+0.502223
+
+> <Overlay Similarity/ZINC92309601>
+0.623712
+
+> <Overlay Similarity/ZINC92309602>
+0.532517
+
+> <Overlay Similarity/ZINC92309603>
+0.538354
+
+> <Overlay Similarity/ZINC92309604>
+0.570099
+
+> <Overlay Similarity/ZINC91848448>
+0.498573
+
+> <Overlay Similarity/ZINC91848449>
+0.503007
+
+> <Overlay Similarity/ZINC91848450>
+0.593238
+
+> <Overlay Similarity/ZINC21736106>
+0.380173
+
+> <Overlay Similarity/ZINC21736109>
+0.309137
+
+> <Overlay Similarity/ZINC09513705>
+0.493357
+
+> <Overlay Similarity/ZINC09513706>
+0.464357
+
+> <Overlay Similarity/ZINC03236259>
+0.494542
+
+> <Overlay Similarity/ZINC12810878>
+0.439712
+
+> <Overlay Similarity/ZINC12810884>
+0.395148
+
+> <Overlay Similarity/ZINC09378919>
+0.432587
+
+> <Overlay Similarity/ZINC09378920>
+0.33364
+
+> <Overlay Similarity/ZINC21736243>
+0.342617
+
+> <Overlay Similarity/ZINC21736246>
+0.39502
+
+> <Overlay Similarity/ZINC32811055>
+0.407045
+
+> <Overlay Similarity/ZINC32811057>
+0.34489
+
+> <Overlay Similarity/ZINC10021983>
+0.47366
+
+> <Overlay Similarity/ZINC10021990>
+0.382114
+
+> <Overlay Similarity/ZINC21736411>
+0.371554
+
+> <Overlay Similarity/ZINC21736415>
+0.399326
+
+> <Overlay Similarity/ZINC21736419>
+0.460226
+
+> <Overlay Similarity/ZINC21736423>
+0.544821
+
+> <Overlay Similarity/ZINC76788252>
+0.458511
+
+> <Overlay Similarity/ZINC76788256>
+0.612082
+
+> <Overlay Similarity/ZINC03241551>
+0.515675
+
+> <Overlay Similarity/ZINC03241550>
+0.602092
+
+> <Overlay Similarity/ZINC00002278>
+0.172386
+
+> <Overlay Similarity/ZINC58680102>
+0.527093
+
+> <Overlay Similarity/ZINC58680103>
+0.574386
+
+> <Overlay Similarity/ZINC58680132>
+0.48212
+
+> <Overlay Similarity/ZINC58680133>
+0.540261
+
+> <Overlay Similarity/ZINC58147051>
+0.447186
+
+> <Overlay Similarity/ZINC58147057>
+0.474991
+
+> <Overlay Similarity/ZINC09206744>
+0.519971
+
+> <Overlay Similarity/ZINC09206748>
+0.424771
+
+> <Overlay Similarity/ZINC09200220>
+0.549
+
+> <Overlay Similarity/ZINC09200225>
+0.500893
+
+> <Overlay Similarity/ZINC09594500>
+0.365047
+
+> <Overlay Similarity/ZINC09594501>
+0.404773
+
+> <Overlay Similarity/ZINC07253743>
+0.460651
+
+> <Overlay Similarity/ZINC39932869>
+0.388535
+
+> <Overlay Similarity/ZINC78826319>
+0.520442
+
+> <Overlay Similarity/ZINC78826329>
+0.564895
+
+> <Overlay Similarity/ZINC25427067>
+0.508985
+
+> <Overlay Similarity/ZINC25427070>
+0.586929
+
+> <Overlay Similarity/ZINC78826356>
+0.546676
+
+> <Overlay Similarity/ZINC78826362>
+0.572067
+
+> <Overlay Similarity/ZINC78826369>
+0.579484
+
+> <Overlay Similarity/ZINC78826379>
+0.626207
+
+> <Overlay Similarity/ZINC67970113>
+0.525902
+
+> <Overlay Similarity/ZINC67970114>
+0.576704
+
+> <Overlay Similarity/ZINC00000409>
+0.406518
+
+> <Overlay Similarity/ZINC09619820>
+0.487644
+
+> <Overlay Similarity/ZINC09594505>
+0.512288
+
+> <Overlay Similarity/ZINC09619824>
+0.472966
+
+> <Overlay Similarity/ZINC09594508>
+0.421777
+
+> <Overlay Similarity/ZINC79812663>
+0.45365
+
+> <Overlay Similarity/ZINC79812665>
+0.639153
+
+> <Overlay Similarity/ZINC12750265_1>
+0.287942
+
+> <Overlay Similarity/ZINC12750270_1>
+0.29958
+
+> <Overlay Similarity/ZINC78637034_1>
+0.32704
+
+> <Overlay Similarity/ZINC78637038_1>
+0.329976
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0581243
+
+> <Overlay Similarity/ZINC09200225_1>
+0.307565
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+ZINC36294079
+  SciTegic02151913103D
+
+ 32 33  0  0  0  0            999 V2000
+    2.1080   -0.1441    1.4251 C   0  0
+    0.8190    0.3662    0.9394 N   0  0
+   -0.1728   -0.7134    0.8452 C   0  0  1  0  0  0
+   -1.4395   -0.1902    0.1600 C   0  0
+   -1.1162    0.1856   -1.2871 C   0  0
+   -0.6893   -1.0611   -2.0636 C   0  0
+    0.6056   -1.6171   -1.4620 C   0  0
+    0.3883   -1.8480    0.0171 C   0  0
+    0.6563   -2.9109    0.5238 O   0  0
+   -0.5096   -1.2133    2.2265 C   0  0
+    0.0074   -0.5743    3.3380 C   0  0
+   -0.3013   -1.0326    4.6049 C   0  0
+   -1.1273   -2.1303    4.7613 C   0  0
+   -1.6448   -2.7699    3.6509 C   0  0
+   -1.3406   -2.3080    2.3825 C   0  0
+   -1.9955   -3.1068    0.9873 Cl  0  0
+    2.4401   -0.9609    0.7843 H   0  0
+    2.8468    0.6570    1.4049 H   0  0
+    1.9936   -0.5070    2.4465 H   0  0
+    0.4829    1.1159    1.5253 H   0  0
+   -2.2058   -0.9653    0.1717 H   0  0
+   -1.8036    0.6893    0.6913 H   0  0
+   -2.0000    0.6190   -1.7551 H   0  0
+   -0.3064    0.9151   -1.2996 H   0  0
+   -1.4733   -1.8156   -1.9993 H   0  0
+   -0.5216   -0.7990   -3.1083 H   0  0
+    0.8590   -2.5600   -1.9465 H   0  0
+    1.4136   -0.8997   -1.6057 H   0  0
+    0.6529    0.2830    3.2164 H   0  0
+    0.1031   -0.5333    5.4730 H   0  0
+   -1.3679   -2.4882    5.7515 H   0  0
+   -2.2897   -3.6275    3.7732 H   0  0
+  1  2  1  0
+  1 17  1  0
+  1 18  1  0
+  1 19  1  0
+  2  3  1  0
+  2 20  1  0
+  3  8  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 21  1  0
+  4 22  1  0
+  5  6  1  0
+  5 23  1  0
+  5 24  1  0
+  6  7  1  0
+  6 25  1  0
+  6 26  1  0
+  7  8  1  0
+  7 27  1  0
+  7 28  1  0
+  8  9  2  0
+ 10 15  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 29  1  0
+ 12 13  1  0
+ 12 30  1  0
+ 13 14  2  0
+ 13 31  1  0
+ 14 15  1  0
+ 14 32  1  0
+ 15 16  1  0
+M  END
+> <Name>
+ZINC36294079
+
+> <CNC1(c2ccccc2Cl)CCCCC1=O>
+1
+
+> <Overlay Label>
+ZINC36294079
+
+> <Overlay Similarity/ZINC72309067>
+0.5137
+
+> <Overlay Similarity/ZINC72309068>
+0.569437
+
+> <Overlay Similarity/ZINC78778138>
+0.559616
+
+> <Overlay Similarity/ZINC78778141>
+0.591866
+
+> <Overlay Similarity/ZINC78778144>
+0.466179
+
+> <Overlay Similarity/ZINC78778147>
+0.538611
+
+> <Overlay Similarity/ZINC78778151>
+0.535041
+
+> <Overlay Similarity/ZINC78778155>
+0.576419
+
+> <Overlay Similarity/ZINC78778158>
+0.46573
+
+> <Overlay Similarity/ZINC78778163>
+0.620202
+
+> <Overlay Similarity/ZINC78778166>
+0.57233
+
+> <Overlay Similarity/ZINC78778173>
+0.698245
+
+> <Overlay Similarity/ZINC78778176>
+0.56003
+
+> <Overlay Similarity/ZINC78778180>
+0.640104
+
+> <Overlay Similarity/ZINC78778183>
+0.645678
+
+> <Overlay Similarity/ZINC78778188>
+0.632631
+
+> <Overlay Similarity/ZINC12778748>
+0.409232
+
+> <Overlay Similarity/ZINC67946083>
+0.491731
+
+> <Overlay Similarity/ZINC67946084>
+0.69761
+
+> <Overlay Similarity/ZINC12778744>
+0.511355
+
+> <Overlay Similarity/ZINC12680197>
+0.47039
+
+> <Overlay Similarity/ZINC78384964>
+0.592854
+
+> <Overlay Similarity/ZINC78384965>
+0.813537
+
+> <Overlay Similarity/ZINC12680206>
+0.392398
+
+> <Overlay Similarity/ZINC09580372>
+0.50615
+
+> <Overlay Similarity/ZINC09580374>
+0.45637
+
+> <Overlay Similarity/ZINC09580463>
+0.4683
+
+> <Overlay Similarity/ZINC09580464>
+0.395029
+
+> <Overlay Similarity/ZINC04948912>
+0.524897
+
+> <Overlay Similarity/ZINC36294079>
+1
+
+> <Overlay Similarity/ZINC78637034>
+0.51029
+
+> <Overlay Similarity/ZINC78637038>
+0.626507
+
+> <Overlay Similarity/ZINC12798308>
+0.36315
+
+> <Overlay Similarity/ZINC12798311>
+0.435647
+
+> <Overlay Similarity/ZINC12584969>
+0.34734
+
+> <Overlay Similarity/ZINC12584974>
+0.381147
+
+> <Overlay Similarity/ZINC09634536>
+0.551497
+
+> <Overlay Similarity/ZINC09634537>
+0.464324
+
+> <Overlay Similarity/ZINC13128612>
+0.49101
+
+> <Overlay Similarity/ZINC13128613>
+0.566444
+
+> <Overlay Similarity/ZINC72309088>
+0.48233
+
+> <Overlay Similarity/ZINC72309089>
+0.515249
+
+> <Overlay Similarity/ZINC72309094>
+0.530177
+
+> <Overlay Similarity/ZINC72309095>
+0.507526
+
+> <Overlay Similarity/ZINC09871162>
+0.49292
+
+> <Overlay Similarity/ZINC09871169>
+0.413376
+
+> <Overlay Similarity/ZINC21761901>
+0.479391
+
+> <Overlay Similarity/ZINC21761904>
+0.53134
+
+> <Overlay Similarity/ZINC74433878>
+0.496338
+
+> <Overlay Similarity/ZINC74433882>
+0.585496
+
+> <Overlay Similarity/ZINC09634852>
+0.448061
+
+> <Overlay Similarity/ZINC13063163>
+0.54765
+
+> <Overlay Similarity/ZINC21738925>
+0.499943
+
+> <Overlay Similarity/ZINC21738928>
+0.485658
+
+> <Overlay Similarity/ZINC24971729>
+0.482759
+
+> <Overlay Similarity/ZINC24971735>
+0.58131
+
+> <Overlay Similarity/ZINC12917397>
+0.508075
+
+> <Overlay Similarity/ZINC12917403>
+0.555578
+
+> <Overlay Similarity/ZINC70040689>
+0.49862
+
+> <Overlay Similarity/ZINC70040690>
+0.660729
+
+> <Overlay Similarity/ZINC12593237>
+0.354739
+
+> <Overlay Similarity/ZINC12593241>
+0.45117
+
+> <Overlay Similarity/ZINC10109519>
+0.508842
+
+> <Overlay Similarity/ZINC10109520>
+0.449429
+
+> <Overlay Similarity/ZINC12749206>
+0.403289
+
+> <Overlay Similarity/ZINC12749202>
+0.455614
+
+> <Overlay Similarity/ZINC09481125>
+0.648002
+
+> <Overlay Similarity/ZINC09481127>
+0.560187
+
+> <Overlay Similarity/ZINC12749194>
+0.398918
+
+> <Overlay Similarity/ZINC12749198>
+0.511452
+
+> <Overlay Similarity/ZINC12749221>
+0.426041
+
+> <Overlay Similarity/ZINC12749226>
+0.411972
+
+> <Overlay Similarity/ZINC12749313>
+0.395172
+
+> <Overlay Similarity/ZINC12749320>
+0.428544
+
+> <Overlay Similarity/ZINC12749327>
+0.322432
+
+> <Overlay Similarity/ZINC12749332>
+0.420353
+
+> <Overlay Similarity/ZINC12749347>
+0.534642
+
+> <Overlay Similarity/ZINC12749353>
+0.565902
+
+> <Overlay Similarity/ZINC09547328>
+0.577849
+
+> <Overlay Similarity/ZINC09547331>
+0.502561
+
+> <Overlay Similarity/ZINC35999642>
+0.801459
+
+> <Overlay Similarity/ZINC08312163>
+0.55083
+
+> <Overlay Similarity/ZINC08312165>
+0.426382
+
+> <Overlay Similarity/ZINC78077980>
+0.515996
+
+> <Overlay Similarity/ZINC78077982>
+0.639573
+
+> <Overlay Similarity/ZINC06509041>
+0.509867
+
+> <Overlay Similarity/ZINC07253715>
+0.522001
+
+> <Overlay Similarity/ZINC07253718>
+0.448124
+
+> <Overlay Similarity/ZINC07253739>
+0.559623
+
+> <Overlay Similarity/ZINC03229857>
+0.415227
+
+> <Overlay Similarity/ZINC21577516>
+0.449142
+
+> <Overlay Similarity/ZINC21577520>
+0.534768
+
+> <Overlay Similarity/ZINC74805895>
+0.528602
+
+> <Overlay Similarity/ZINC74805896>
+0.557901
+
+> <Overlay Similarity/ZINC21577603>
+0.492403
+
+> <Overlay Similarity/ZINC21577607>
+0.535941
+
+> <Overlay Similarity/ZINC21577611>
+0.457433
+
+> <Overlay Similarity/ZINC21577615>
+0.474526
+
+> <Overlay Similarity/ZINC21577734>
+0.391926
+
+> <Overlay Similarity/ZINC21577738>
+0.371799
+
+> <Overlay Similarity/ZINC21577750>
+0.43288
+
+> <Overlay Similarity/ZINC21577754>
+0.48603
+
+> <Overlay Similarity/ZINC12750193>
+0.43889
+
+> <Overlay Similarity/ZINC12750199>
+0.482947
+
+> <Overlay Similarity/ZINC12600205>
+0.44346
+
+> <Overlay Similarity/ZINC12792241>
+0.370504
+
+> <Overlay Similarity/ZINC12792244>
+0.429565
+
+> <Overlay Similarity/ZINC75560270>
+0.504704
+
+> <Overlay Similarity/ZINC75560273>
+0.626202
+
+> <Overlay Similarity/ZINC09440363>
+0.375881
+
+> <Overlay Similarity/ZINC75560317>
+0.58222
+
+> <Overlay Similarity/ZINC75560323>
+0.62724
+
+> <Overlay Similarity/ZINC03280133>
+0.581395
+
+> <Overlay Similarity/ZINC03280131>
+0.533811
+
+> <Overlay Similarity/ZINC03280143>
+0.676843
+
+> <Overlay Similarity/ZINC03280141>
+0.656911
+
+> <Overlay Similarity/ZINC06509042>
+0.60635
+
+> <Overlay Similarity/ZINC09499349>
+0.498797
+
+> <Overlay Similarity/ZINC09499353>
+0.396234
+
+> <Overlay Similarity/ZINC09949673>
+0.501038
+
+> <Overlay Similarity/ZINC09949677>
+0.417015
+
+> <Overlay Similarity/ZINC04948896>
+0.702757
+
+> <Overlay Similarity/ZINC04948899>
+0.677503
+
+> <Overlay Similarity/ZINC70769326>
+0.563268
+
+> <Overlay Similarity/ZINC70769329>
+0.438152
+
+> <Overlay Similarity/ZINC58120686>
+0.581914
+
+> <Overlay Similarity/ZINC04166636>
+0.484232
+
+> <Overlay Similarity/ZINC04166637>
+0.569805
+
+> <Overlay Similarity/ZINC10029289>
+0.515816
+
+> <Overlay Similarity/ZINC10029291>
+0.465025
+
+> <Overlay Similarity/ZINC21735174>
+0.513177
+
+> <Overlay Similarity/ZINC21735177>
+0.594594
+
+> <Overlay Similarity/ZINC64388462>
+0.459077
+
+> <Overlay Similarity/ZINC89310214>
+0.598356
+
+> <Overlay Similarity/ZINC12594804>
+0.379194
+
+> <Overlay Similarity/ZINC12594800>
+0.475184
+
+> <Overlay Similarity/ZINC03243400>
+0.616859
+
+> <Overlay Similarity/ZINC03243399>
+0.610247
+
+> <Overlay Similarity/ZINC74393475>
+0.592789
+
+> <Overlay Similarity/ZINC74393478>
+0.58766
+
+> <Overlay Similarity/ZINC74393480>
+0.585114
+
+> <Overlay Similarity/ZINC74393484>
+0.593829
+
+> <Overlay Similarity/ZINC12749343>
+0.426267
+
+> <Overlay Similarity/ZINC12750221>
+0.520881
+
+> <Overlay Similarity/ZINC12750265>
+0.523889
+
+> <Overlay Similarity/ZINC21735375>
+0.422521
+
+> <Overlay Similarity/ZINC21735379>
+0.467561
+
+> <Overlay Similarity/ZINC09512927>
+0.555311
+
+> <Overlay Similarity/ZINC09512928>
+0.525171
+
+> <Overlay Similarity/ZINC09512929>
+0.484892
+
+> <Overlay Similarity/ZINC09512931>
+0.452308
+
+> <Overlay Similarity/ZINC04948914>
+0.636083
+
+> <Overlay Similarity/ZINC32788417>
+0.320423
+
+> <Overlay Similarity/ZINC32788422>
+0.432209
+
+> <Overlay Similarity/ZINC32788427>
+0.403545
+
+> <Overlay Similarity/ZINC32788432>
+0.444436
+
+> <Overlay Similarity/ZINC32788436>
+0.447311
+
+> <Overlay Similarity/ZINC32788441>
+0.504733
+
+> <Overlay Similarity/ZINC06087125>
+0.124913
+
+> <Overlay Similarity/ZINC06087128>
+0.31657
+
+> <Overlay Similarity/ZINC12768937>
+0.481027
+
+> <Overlay Similarity/ZINC12768943>
+0.552539
+
+> <Overlay Similarity/ZINC03235907>
+0.55087
+
+> <Overlay Similarity/ZINC03235906>
+0.539514
+
+> <Overlay Similarity/ZINC12749337>
+0.493803
+
+> <Overlay Similarity/ZINC12750216>
+0.585766
+
+> <Overlay Similarity/ZINC12750270>
+0.470351
+
+> <Overlay Similarity/ZINC08263368>
+0.313239
+
+> <Overlay Similarity/ZINC08263372>
+0.0623534
+
+> <Overlay Similarity/ZINC12983868>
+0.37583
+
+> <Overlay Similarity/ZINC12983871>
+0.486586
+
+> <Overlay Similarity/ZINC03229856>
+0.385236
+
+> <Overlay Similarity/ZINC60860378>
+0.569037
+
+> <Overlay Similarity/ZINC04965927>
+0.674672
+
+> <Overlay Similarity/ZINC04965929>
+0.603114
+
+> <Overlay Similarity/ZINC03236260>
+0.614614
+
+> <Overlay Similarity/ZINC03236262>
+0.579036
+
+> <Overlay Similarity/ZINC03236261>
+0.511529
+
+> <Overlay Similarity/ZINC37123872>
+0.505613
+
+> <Overlay Similarity/ZINC37123873>
+0.492381
+
+> <Overlay Similarity/ZINC37123874>
+0.491279
+
+> <Overlay Similarity/ZINC37123875>
+0.502223
+
+> <Overlay Similarity/ZINC92309601>
+0.623712
+
+> <Overlay Similarity/ZINC92309602>
+0.532517
+
+> <Overlay Similarity/ZINC92309603>
+0.538354
+
+> <Overlay Similarity/ZINC92309604>
+0.570099
+
+> <Overlay Similarity/ZINC91848448>
+0.498573
+
+> <Overlay Similarity/ZINC91848449>
+0.503007
+
+> <Overlay Similarity/ZINC91848450>
+0.593238
+
+> <Overlay Similarity/ZINC21736106>
+0.380173
+
+> <Overlay Similarity/ZINC21736109>
+0.309137
+
+> <Overlay Similarity/ZINC09513705>
+0.493357
+
+> <Overlay Similarity/ZINC09513706>
+0.464357
+
+> <Overlay Similarity/ZINC03236259>
+0.494542
+
+> <Overlay Similarity/ZINC12810878>
+0.439712
+
+> <Overlay Similarity/ZINC12810884>
+0.395148
+
+> <Overlay Similarity/ZINC09378919>
+0.432587
+
+> <Overlay Similarity/ZINC09378920>
+0.33364
+
+> <Overlay Similarity/ZINC21736243>
+0.342617
+
+> <Overlay Similarity/ZINC21736246>
+0.39502
+
+> <Overlay Similarity/ZINC32811055>
+0.407045
+
+> <Overlay Similarity/ZINC32811057>
+0.34489
+
+> <Overlay Similarity/ZINC10021983>
+0.47366
+
+> <Overlay Similarity/ZINC10021990>
+0.382114
+
+> <Overlay Similarity/ZINC21736411>
+0.371554
+
+> <Overlay Similarity/ZINC21736415>
+0.399326
+
+> <Overlay Similarity/ZINC21736419>
+0.460226
+
+> <Overlay Similarity/ZINC21736423>
+0.544821
+
+> <Overlay Similarity/ZINC76788252>
+0.458511
+
+> <Overlay Similarity/ZINC76788256>
+0.612082
+
+> <Overlay Similarity/ZINC03241551>
+0.515675
+
+> <Overlay Similarity/ZINC03241550>
+0.602092
+
+> <Overlay Similarity/ZINC00002278>
+0.172386
+
+> <Overlay Similarity/ZINC58680102>
+0.527093
+
+> <Overlay Similarity/ZINC58680103>
+0.574386
+
+> <Overlay Similarity/ZINC58680132>
+0.48212
+
+> <Overlay Similarity/ZINC58680133>
+0.540261
+
+> <Overlay Similarity/ZINC58147051>
+0.447186
+
+> <Overlay Similarity/ZINC58147057>
+0.474991
+
+> <Overlay Similarity/ZINC09206744>
+0.519971
+
+> <Overlay Similarity/ZINC09206748>
+0.424771
+
+> <Overlay Similarity/ZINC09200220>
+0.549
+
+> <Overlay Similarity/ZINC09200225>
+0.500893
+
+> <Overlay Similarity/ZINC09594500>
+0.365047
+
+> <Overlay Similarity/ZINC09594501>
+0.404773
+
+> <Overlay Similarity/ZINC07253743>
+0.460651
+
+> <Overlay Similarity/ZINC39932869>
+0.388535
+
+> <Overlay Similarity/ZINC78826319>
+0.520442
+
+> <Overlay Similarity/ZINC78826329>
+0.564895
+
+> <Overlay Similarity/ZINC25427067>
+0.508985
+
+> <Overlay Similarity/ZINC25427070>
+0.586929
+
+> <Overlay Similarity/ZINC78826356>
+0.546676
+
+> <Overlay Similarity/ZINC78826362>
+0.572067
+
+> <Overlay Similarity/ZINC78826369>
+0.579484
+
+> <Overlay Similarity/ZINC78826379>
+0.626207
+
+> <Overlay Similarity/ZINC67970113>
+0.525902
+
+> <Overlay Similarity/ZINC67970114>
+0.576704
+
+> <Overlay Similarity/ZINC00000409>
+0.406518
+
+> <Overlay Similarity/ZINC09619820>
+0.487644
+
+> <Overlay Similarity/ZINC09594505>
+0.512288
+
+> <Overlay Similarity/ZINC09619824>
+0.472966
+
+> <Overlay Similarity/ZINC09594508>
+0.421777
+
+> <Overlay Similarity/ZINC79812663>
+0.45365
+
+> <Overlay Similarity/ZINC79812665>
+0.639153
+
+> <Overlay Similarity/ZINC12750265_1>
+0.287942
+
+> <Overlay Similarity/ZINC12750270_1>
+0.29958
+
+> <Overlay Similarity/ZINC78637034_1>
+0.32704
+
+> <Overlay Similarity/ZINC78637038_1>
+0.329976
+
+> <Overlay Similarity/ZINC09200220_1>
+0.0581243
+
+> <Overlay Similarity/ZINC09200225_1>
+0.307565
+
+> <ADMET_Solubility>
+-3.914
+
+> <ADMET_Solubility_Level>
+3
+
+> <ADMET_Unknown_AlogP98>
+0
+
+> <ADMET_BBB>
+0.26
+
+> <ADMET_BBB_Level>
+1
+
+> <ADMET_EXT_CYP2D6>
+3.95407
+
+> <ADMET_EXT_CYP2D6#Prediction>
+true
+
+> <ADMET_EXT_CYP2D6_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_CYP2D6_Applicability#MD>
+9.49776
+
+> <ADMET_EXT_CYP2D6_Applicability#MDpvalue>
+0.228403
+
+> <ADMET_EXT_Hepatotoxic>
+-8.4272
+
+> <ADMET_EXT_Hepatotoxic#Prediction>
+false
+
+> <ADMET_EXT_Hepatotoxic_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MD>
+16.0115
+
+> <ADMET_EXT_Hepatotoxic_Applicability#MDpvalue>
+4.98149e-14
+
+> <ADMET_Absorption_Level>
+0
+
+> <ADMET_EXT_PPB>
+-2.85003
+
+> <ADMET_EXT_PPB#Prediction>
+false
+
+> <ADMET_EXT_PPB_Applicability>
+All properties and OPS components are within expected ranges.
+
+> <ADMET_EXT_PPB_Applicability#MD>
+10.1906
+
+> <ADMET_EXT_PPB_Applicability#MDpvalue>
+0.852574
+
+> <ADMET_AlogP98>
+2.88
+
+> <ADMET_PSA_2D>
+30.111
+
+$$$$
+

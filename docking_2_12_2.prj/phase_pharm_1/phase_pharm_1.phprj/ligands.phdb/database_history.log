@@ -1,0 +1,8 @@
+Wed Jul 21 13:11:58 2021
+phase_database /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb import phase_pharm_1_import -NOJOBID -fd phase_pharm_1.def -fmt xyz -i phase_pharm_1-out.maegz -multi -new -stereo -verbose
+
+Wed Jul 21 13:12:00 2021
+phase_database /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb revise phase_pharm_1_sites -NOJOBID -role parent -setup -sites
+
+Wed Jul 21 13:12:01 2021
+phase_database /home/dreano/scratch/dreano/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb revise phase_pharm_1_sites -cleanup -role parent

@@ -1,0 +1,5297 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    7.7713 
+    0.0000 
+    7.7713 
+   16.8287 
+  16.828686243376
+  0
+  0
+   16.8287 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 16 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"  <> <>
+  3 16 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"  <> <>
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"   -2.864    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 16 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"  <> <>
+  8 16 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"  <> <>
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -38.591056 -30.560559 31.255561 806 A 21 "2PN " " HO1" 1 FFFFFF  <> <> <> <> 42410 <> <>   1.304    2.220 
+  11 42 -36.082516 -30.528561 32.531943 806 A 21 "2PN " " HO2" 1 FFFFFF  <> <> <> <> 42411 <> <>   1.304    2.220 
+  12 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  13 42 -36.439753 -36.687502 32.509573 806 A 21 "2PN " " HO4" 1 FFFFFF  <> <> <> <> 42413 <> <>   1.304    2.220 
+  14 42 -34.999358 -34.605820 33.758122 806 A 21 "2PN " " HO5" 1 FFFFFF  <> <> <> <> 42414 <> <>   1.304    2.220 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 3 11 1
+  7 5 6 1
+  8 5 12 1
+  9 6 7 1
+  10 6 8 1
+  11 6 9 2
+  12 7 13 1
+  13 8 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6343 
+  1.63434371577257
+  -2
+  2
+    1.6343 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    2.259    1.474 
+  3 16 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 0 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"  <> <>
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    2.836    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 16 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 0 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"  <> <>
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    2.259    1.474 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -36.082516 -30.528561 32.531943 806 A 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42411 <> <>   6.651    1.474 
+  11 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  12 42 -36.439753 -36.687502 32.509573 806 A 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42413 <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6343 
+  1.63434371577257
+  -2
+  2
+    1.6343 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 16 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 0 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"  <> <>
+  3 18 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 -1 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"    2.259    1.474 
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    2.836    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    2.259    1.474 
+  8 16 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 0 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"  <> <>
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -38.591056 -30.560559 31.255561 806 A 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42410 <> <>   6.651    1.474 
+  11 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  12 42 -34.999358 -34.605820 33.758122 806 A 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42414 <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 8 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6343 
+  1.63434371577257
+  -2
+  2
+    1.6343 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 16 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 0 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"  <> <>
+  3 18 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 -1 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"    2.259    1.474 
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    2.836    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 16 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 0 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"  <> <>
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    2.259    1.474 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -38.591056 -30.560559 31.255561 806 A 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42410 <> <>   6.651    1.474 
+  11 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  12 42 -36.439753 -36.687502 32.509573 806 A 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42413 <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1268 
+  1.34622617042629
+  -3
+  3
+    1.1268 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    6.651    2.220 
+  3 18 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 -1 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"    6.651    2.220 
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    5.746    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    2.311    1.474 
+  8 16 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 0 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"  <> <>
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  11 42 -34.999358 -34.605820 33.758122 806 A 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42414 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1268 
+  1.34622617042629
+  -3
+  3
+    1.1268 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    2.311    1.474 
+  3 16 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 0 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"  <> <>
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    5.746    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    6.651    2.220 
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    6.651    2.220 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -36.082516 -30.528561 32.531943 806 A 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42411 <> <>   7.773    1.474 
+  11 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1268 
+  1.34622617042629
+  -3
+  3
+    1.1268 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    6.651    2.220 
+  3 18 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 -1 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"    6.651    2.220 
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    5.746    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 16 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 0 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"  <> <>
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    2.311    1.474 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  11 42 -36.439753 -36.687502 32.509573 806 A 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42413 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1268 
+  1.34622617042629
+  -3
+  3
+    1.1268 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 16 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 0 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"  <> <>
+  3 18 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 -1 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"    2.311    1.474 
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    5.746    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    6.651    2.220 
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    6.651    2.220 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 42 -38.591056 -30.560559 31.255561 806 A 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42410 <> <>   7.773    1.474 
+  11 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6343 
+  1.63434371577257
+  -2
+  2
+    1.6343 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    2.259    1.474 
+  3 16 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 0 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"  <> <>
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    2.836    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    2.259    1.474 
+  8 16 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 0 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"  <> <>
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  11 42 -34.999358 -34.605820 33.758122 806 A 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42414 <> <>   6.651    1.474 
+  12 42 -36.082516 -30.528561 32.531943 806 A 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 12 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  6
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1268 
+  1.34622617042629
+  -3
+  3
+    1.1268 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -37.596000 -32.220000 32.444000 806 A 101 "2PN " " P1 " 15 0 CC0066  1 101.12 4 20905 20901 6 "CCD match"  <> <>
+  2 18 -38.408000 -31.644000 31.307000 806 A 70 "2PN " " O1 " 8 -1 FF2E2E  1 100.01 4 20906 20902 6 "CCD match"    2.311    1.474 
+  3 16 -36.210000 -31.616000 32.426000 806 A 70 "2PN " " O2 " 8 0 FF2E2E  1 81.4 4 20907 20903 6 "CCD match"  <> <>
+  4 15 -38.271000 -31.901000 33.757000 806 A 70 "2PN " " O3 " 8 0 FF2E2E  1 91.61 4 20908 20904 6 "CCD match"  <> <>
+  5 25 -37.480000 -33.910000 32.261000 806 A 38 "2PN " " N1 " 7 0 2E2EFF  1 87.16 4 20909 20905 6 "CCD match"    5.746    2.220 
+  6 107 -37.248000 -34.889000 33.635000 806 A 101 "2PN " " P2 " 15 0 CC0066  1 90.39 4 20910 20906 6 "CCD match"  <> <>
+  7 18 -37.208000 -36.340000 33.216000 806 A 70 "2PN " " O4 " 8 -1 FF2E2E  1 95.14 4 20911 20907 6 "CCD match"    6.651    2.220 
+  8 18 -35.948000 -34.518000 34.308000 806 A 70 "2PN " " O5 " 8 -1 FF2E2E  1 89.65 4 20912 20908 6 "CCD match"    6.651    2.220 
+  9 15 -38.388000 -34.678000 34.602000 806 A 70 "2PN " " O6 " 8 0 FF2E2E  1 88.01 4 20913 20909 6 "CCD match"  <> <>
+  10 43 -38.406008 -34.294189 31.808333 806 A 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42412 <> <> <> <>
+  11 42 -36.082516 -30.528561 32.531943 806 A 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 11 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  9
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    3.7615 
+    3.7518 
+    0.0097 
+    4.0030 
+  7.75481003328369
+  1
+  1
+    4.0041 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -57.524000 9.732000 -7.470000 809 A 10 "GQB " " C21" 6 0 1EE11E  1 92.05 4 20916 20912 9 "CCD match"  <> <> <>
+  2 2 -53.858000 10.453000 -0.400000 809 A 10 "GQB " " C10" 6 0 1EE11E  1 105.96 4 20917 20913 9 "CCD match"  <> <> <>
+  3 2 -55.488000 12.269000 -3.327000 809 A 10 "GQB " " C02" 6 0 1EE11E  1 105.04 4 20918 20914 9 "CCD match"  <> <> <>
+  4 2 -54.843000 11.853000 -1.994000 809 A 10 "GQB " " C03" 6 0 1EE11E  1 103.85 4 20919 20915 9 "CCD match"  <> <> <>
+  5 2 -54.593000 12.620000 -0.831000 809 A 10 "GQB " " C04" 6 0 1EE11E  1 105.88 4 20920 20916 9 "CCD match"  <> <> <>
+  6 2 -53.968000 11.727000 0.170000 809 A 10 "GQB " " C05" 6 0 1EE11E  1 113.5 4 20921 20917 9 "CCD match"  <> <> <>
+  7 2 -53.505000 11.965000 1.509000 809 A 10 "GQB " " C06" 6 0 1EE11E  1 116.03 4 20922 20918 9 "CCD match"  <> <> <>
+  8 2 -52.943000 10.896000 2.223000 809 A 10 "GQB " " C07" 6 0 1EE11E  1 108.76 4 20923 20919 9 "CCD match"  <> <> <>
+  9 2 -52.838000 9.618000 1.649000 809 A 10 "GQB " " C08" 6 0 1EE11E  1 104.2 4 20924 20920 9 "CCD match"  <> <> <>
+  10 2 -53.276000 9.367000 0.362000 809 A 10 "GQB " " C09" 6 0 1EE11E  1 104.02 4 20925 20921 9 "CCD match"  <> <> <>
+  11 3 -55.893000 13.486000 -5.595000 809 A 10 "GQB " " C13" 6 0 1EE11E  1 68.51 4 20926 20922 9 "CCD match"  <> <> <>
+  12 2 -56.388000 12.137000 -6.304000 809 A 10 "GQB " " C14" 6 0 1EE11E  1 88.66 4 20927 20923 9 "CCD match"  <> <> <>
+  13 2 -55.573000 11.167000 -6.928000 809 A 10 "GQB " " C15" 6 0 1EE11E  1 92.92 4 20928 20924 9 "CCD match"  <> <> <>
+  14 2 -56.149000 10.003000 -7.500000 809 A 10 "GQB " " C16" 6 0 1EE11E  1 95.57 4 20929 20925 9 "CCD match"  <> <> <>
+  15 2 -57.000000 7.809000 -8.609000 809 A 10 "GQB " " C18" 6 0 1EE11E  1 102.5 4 20930 20926 9 "CCD match"  <> <> <>
+  16 2 -58.342000 10.696000 -6.825000 809 A 10 "GQB " " C22" 6 0 1EE11E  1 85.66 4 20931 20927 9 "CCD match"  <> <> <>
+  17 2 -57.763000 11.851000 -6.259000 809 A 10 "GQB " " C23" 6 0 1EE11E  1 92.46 4 20932 20928 9 "CCD match"  <> <> <>
+  18 25 -54.380000 10.528000 -1.679000 809 A 38 "GQB " " N11" 7 0 2E2EFF  1 95.3 4 20933 20929 9 "CCD match"  <> <> <>
+  19 25 -55.127000 13.274000 -4.310000 809 A 38 "GQB " " N12" 7 0 2E2EFF  1 82.64 4 20934 20930 9 "CCD match"  <> <> <>
+  20 25 -57.060000 6.601000 -9.270000 809 A 38 "GQB " " N19" 7 0 2E2EFF  1 106.55 4 20935 20931 9 "CCD match"   -0.831    1.500  <>
+  21 31 -57.989000 8.501000 -8.093000 809 A 38 "GQB " " N20" 7 1 2E2EFF  1 101.37 4 20936 20932 9 "CCD match"    0.406    2.000  <>
+  22 15 -56.500000 11.595000 -3.632000 809 A 70 "GQB " " O01" 8 0 FF2E2E  1 108.36 4 20937 20933 9 "CCD match"   -2.579    0.900  <>
+  23 49 -55.376000 8.657000 -8.352000 809 A 143 "GQB " " S17" 16 0 FFFF6B  1 102.37 4 20938 20934 9 "CCD match"  <> <> <>
+  24 41 -54.804000 13.523000 -0.759000 809 A 21 "GQB " "H041" 1 0 FFFFFF  1 127.06 4 20939 20935 <> "CCD match"  <> <> <>
+  25 41 -53.572000 12.806000 1.901000 809 A 21 "GQB " "H061" 1 0 FFFFFF  1 139.24 4 20940 20936 <> "CCD match"  <> <> <>
+  26 41 -52.636000 11.036000 3.089000 809 A 21 "GQB " "H071" 1 0 FFFFFF  1 130.51 4 20941 20937 <> "CCD match"  <> <> <>
+  27 41 -52.463000 8.936000 2.159000 809 A 21 "GQB " "H081" 1 0 FFFFFF  1 125.04 4 20942 20938 <> "CCD match"  <> <> <>
+  28 41 -53.195000 8.514000 0.001000 809 A 21 "GQB " "H091" 1 0 FFFFFF  1 124.83 4 20943 20939 <> "CCD match"  <> <> <>
+  29 41 -55.227597 14.035742 -6.276926 809 A 21 "GQB " "H131" 1 0 FFFFFF  1 82.21 4 20944 20940 <> "CCD match"  <> <> <>
+  30 41 -56.763625 14.111605 -5.348765 809 A 21 "GQB " "H132" 1 0 FFFFFF  1 82.21 4 20945 20941 <> "CCD match"  <> <> <>
+  31 41 -54.654000 11.309000 -6.955000 809 A 21 "GQB " "H151" 1 0 FFFFFF  1 111.51 4 20946 20942 <> "CCD match"  <> <> <>
+  32 41 -59.262000 10.574000 -6.771000 809 A 21 "GQB " "H221" 1 0 FFFFFF  1 102.79 4 20947 20943 <> "CCD match"  <> <> <>
+  33 41 -58.336000 12.448000 -5.836000 809 A 21 "GQB " "H231" 1 0 FFFFFF  1 110.95 4 20948 20944 <> "CCD match"  <> <> <>
+  34 43 -54.401808 9.632562 -2.317526 809 A 21 "GQB " "H111" 1 0 FFFFFF  1 114.36 4 20949 20945 <> "CCD match"   15.490    1.060    4.0041 
+  35 43 -54.249504 13.897464 -4.083520 809 A 21 "GQB " "H121" 1 0 FFFFFF  1 99.17 4 20950 20946 <> "CCD match"   13.756    2.000    4.0042 
+  36 43 -58.029479 6.103046 -9.418839 809 A 21 "GQB " "H191" 1 0 FFFFFF  1 127.86 4 20951 20947 <> "CCD match"    8.781    2.220  <>
+  37 43 -56.138406 6.134887 -9.648685 809 A 21 "GQB " "H192" 1 0 FFFFFF  1 127.86 4 20952 20948 <> "CCD match"    8.781    2.220  <>
+  38 44 -59.060712 8.253180 -8.088739 809 A 21 "GQB " "H201" 1 0 FFFFFF  1 121.64 4 20953 20949 <> "CCD match"    4.251    2.000    8.0958 
+  :::
+ } 
+ m_bond[41] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  41 21 38 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  9
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.0011 
+    0.0000 
+    0.0011 
+    0.0007 
+  0.000689760926499051
+  0
+  0
+    0.0007 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[37] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -57.524000 9.732000 -7.470000 809 A 10 "GQB " " C21" 6 1EE11E  1 92.05 4 20916 20912 9 "CCD match"  <> <> <>
+  2 2 -53.858000 10.453000 -0.400000 809 A 10 "GQB " " C10" 6 1EE11E  1 105.96 4 20917 20913 9 "CCD match"  <> <> <>
+  3 2 -55.488000 12.269000 -3.327000 809 A 10 "GQB " " C02" 6 1EE11E  1 105.04 4 20918 20914 9 "CCD match"  <> <> <>
+  4 2 -54.843000 11.853000 -1.994000 809 A 10 "GQB " " C03" 6 1EE11E  1 103.85 4 20919 20915 9 "CCD match"  <> <> <>
+  5 2 -54.593000 12.620000 -0.831000 809 A 10 "GQB " " C04" 6 1EE11E  1 105.88 4 20920 20916 9 "CCD match"  <> <> <>
+  6 2 -53.968000 11.727000 0.170000 809 A 10 "GQB " " C05" 6 1EE11E  1 113.5 4 20921 20917 9 "CCD match"  <> <> <>
+  7 2 -53.505000 11.965000 1.509000 809 A 10 "GQB " " C06" 6 1EE11E  1 116.03 4 20922 20918 9 "CCD match"  <> <> <>
+  8 2 -52.943000 10.896000 2.223000 809 A 10 "GQB " " C07" 6 1EE11E  1 108.76 4 20923 20919 9 "CCD match"  <> <> <>
+  9 2 -52.838000 9.618000 1.649000 809 A 10 "GQB " " C08" 6 1EE11E  1 104.2 4 20924 20920 9 "CCD match"  <> <> <>
+  10 2 -53.276000 9.367000 0.362000 809 A 10 "GQB " " C09" 6 1EE11E  1 104.02 4 20925 20921 9 "CCD match"  <> <> <>
+  11 3 -55.893000 13.486000 -5.595000 809 A 10 "GQB " " C13" 6 1EE11E  1 68.51 4 20926 20922 9 "CCD match"  <> <> <>
+  12 2 -56.388000 12.137000 -6.304000 809 A 10 "GQB " " C14" 6 1EE11E  1 88.66 4 20927 20923 9 "CCD match"  <> <> <>
+  13 2 -55.573000 11.167000 -6.928000 809 A 10 "GQB " " C15" 6 1EE11E  1 92.92 4 20928 20924 9 "CCD match"  <> <> <>
+  14 2 -56.149000 10.003000 -7.500000 809 A 10 "GQB " " C16" 6 1EE11E  1 95.57 4 20929 20925 9 "CCD match"  <> <> <>
+  15 2 -57.000000 7.809000 -8.609000 809 A 10 "GQB " " C18" 6 1EE11E  1 102.5 4 20930 20926 9 "CCD match"  <> <> <>
+  16 2 -58.342000 10.696000 -6.825000 809 A 10 "GQB " " C22" 6 1EE11E  1 85.66 4 20931 20927 9 "CCD match"  <> <> <>
+  17 2 -57.763000 11.851000 -6.259000 809 A 10 "GQB " " C23" 6 1EE11E  1 92.46 4 20932 20928 9 "CCD match"  <> <> <>
+  18 25 -54.380000 10.528000 -1.679000 809 A 38 "GQB " " N11" 7 2E2EFF  1 95.3 4 20933 20929 9 "CCD match"  <> <> <>
+  19 25 -55.127000 13.274000 -4.310000 809 A 38 "GQB " " N12" 7 2E2EFF  1 82.64 4 20934 20930 9 "CCD match"  <> <> <>
+  20 25 -57.060000 6.601000 -9.270000 809 A 38 "GQB " " N19" 7 2E2EFF  1 106.55 4 20935 20931 9 "CCD match"    1.365    2.220  <>
+  21 25 -57.989000 8.501000 -8.093000 809 A 38 "GQB " " N20" 7 2E2EFF  1 101.37 4 20936 20932 9 "CCD match"    4.251    2.000    0.0007 
+  22 15 -56.500000 11.595000 -3.632000 809 A 70 "GQB " " O01" 8 FF2E2E  1 108.36 4 20937 20933 9 "CCD match"   -2.579    0.900  <>
+  23 49 -55.376000 8.657000 -8.352000 809 A 143 "GQB " " S17" 16 FFFF6B  1 102.37 4 20938 20934 9 "CCD match"  <> <> <>
+  24 41 -54.804000 13.523000 -0.759000 809 A 21 "GQB " "H041" 1 FFFFFF  1 127.06 4 20939 20935 <> "CCD match"  <> <> <>
+  25 41 -53.572000 12.806000 1.901000 809 A 21 "GQB " "H061" 1 FFFFFF  1 139.24 4 20940 20936 <> "CCD match"  <> <> <>
+  26 41 -52.636000 11.036000 3.089000 809 A 21 "GQB " "H071" 1 FFFFFF  1 130.51 4 20941 20937 <> "CCD match"  <> <> <>
+  27 41 -52.463000 8.936000 2.159000 809 A 21 "GQB " "H081" 1 FFFFFF  1 125.04 4 20942 20938 <> "CCD match"  <> <> <>
+  28 41 -53.195000 8.514000 0.001000 809 A 21 "GQB " "H091" 1 FFFFFF  1 124.83 4 20943 20939 <> "CCD match"  <> <> <>
+  29 41 -55.227597 14.035742 -6.276926 809 A 21 "GQB " "H131" 1 FFFFFF  1 82.21 4 20944 20940 <> "CCD match"  <> <> <>
+  30 41 -56.763625 14.111605 -5.348765 809 A 21 "GQB " "H132" 1 FFFFFF  1 82.21 4 20945 20941 <> "CCD match"  <> <> <>
+  31 41 -54.654000 11.309000 -6.955000 809 A 21 "GQB " "H151" 1 FFFFFF  1 111.51 4 20946 20942 <> "CCD match"  <> <> <>
+  32 41 -59.262000 10.574000 -6.771000 809 A 21 "GQB " "H221" 1 FFFFFF  1 102.79 4 20947 20943 <> "CCD match"  <> <> <>
+  33 41 -58.336000 12.448000 -5.836000 809 A 21 "GQB " "H231" 1 FFFFFF  1 110.95 4 20948 20944 <> "CCD match"  <> <> <>
+  34 43 -54.401808 9.632562 -2.317526 809 A 21 "GQB " "H111" 1 FFFFFF  1 114.36 4 20949 20945 <> "CCD match"   15.490    1.060    0.0017 
+  35 43 -54.249504 13.897464 -4.083520 809 A 21 "GQB " "H121" 1 FFFFFF  1 99.17 4 20950 20946 <> "CCD match"   13.756    2.000    0.0018 
+  36 43 -58.029479 6.103046 -9.418839 809 A 21 "GQB " "H191" 1 FFFFFF  1 127.86 4 20951 20947 <> "CCD match"  <> <> <>
+  37 43 -56.138406 6.134887 -9.648685 809 A 21 "GQB " "H192" 1 FFFFFF  1 127.86 4 20952 20948 <> "CCD match"  <> <> <>
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  10
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    3.7615 
+    3.7518 
+    0.0097 
+    4.0030 
+  7.75481003328369
+  1
+  1
+    4.0041 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -59.036000 0.908000 -6.401000 810 A 10 "GQB " " C21" 6 0 1EE11E  1 98.06 4 20954 20950 10 "CCD match"  <> <> <>
+  2 2 -53.647000 8.470000 -5.460000 810 A 10 "GQB " " C10" 6 0 1EE11E  1 106.37 4 20955 20951 10 "CCD match"  <> <> <>
+  3 2 -56.035000 5.474000 -5.160000 810 A 10 "GQB " " C02" 6 0 1EE11E  1 92.56 4 20956 20952 10 "CCD match"  <> <> <>
+  4 2 -54.923000 6.503000 -5.470000 810 A 10 "GQB " " C03" 6 0 1EE11E  1 93.9 4 20957 20953 10 "CCD match"  <> <> <>
+  5 2 -53.767000 6.301000 -6.271000 810 A 10 "GQB " " C04" 6 0 1EE11E  1 101.83 4 20958 20954 10 "CCD match"  <> <> <>
+  6 2 -52.971000 7.548000 -6.266000 810 A 10 "GQB " " C05" 6 0 1EE11E  1 110.21 4 20959 20955 10 "CCD match"  <> <> <>
+  7 2 -51.732000 7.898000 -6.910000 810 A 10 "GQB " " C06" 6 0 1EE11E  1 110.11 4 20960 20956 10 "CCD match"  <> <> <>
+  8 2 -51.214000 9.188000 -6.712000 810 A 10 "GQB " " C07" 6 0 1EE11E  1 107.57 4 20961 20957 10 "CCD match"  <> <> <>
+  9 2 -51.893000 10.114000 -5.901000 810 A 10 "GQB " " C08" 6 0 1EE11E  1 99.33 4 20962 20958 10 "CCD match"  <> <> <>
+  10 2 -53.086000 9.795000 -5.273000 810 A 10 "GQB " " C09" 6 0 1EE11E  1 101.28 4 20963 20959 10 "CCD match"  <> <> <>
+  11 3 -58.404000 4.718000 -4.125000 810 A 10 "GQB " " C13" 6 0 1EE11E  1 102.63 4 20964 20960 10 "CCD match"  <> <> <>
+  12 2 -58.620000 3.386000 -4.971000 810 A 10 "GQB " " C14" 6 0 1EE11E  1 97.83 4 20965 20961 10 "CCD match"  <> <> <>
+  13 2 -58.483000 3.319000 -6.369000 810 A 10 "GQB " " C15" 6 0 1EE11E  1 93.92 4 20966 20962 10 "CCD match"  <> <> <>
+  14 2 -58.691000 2.101000 -7.050000 810 A 10 "GQB " " C16" 6 0 1EE11E  1 97.3 4 20967 20963 10 "CCD match"  <> <> <>
+  15 2 -59.026000 -0.025000 -8.497000 810 A 10 "GQB " " C18" 6 0 1EE11E  1 113.2 4 20968 20964 10 "CCD match"  <> <> <>
+  16 2 -59.175000 0.970000 -4.987000 810 A 10 "GQB " " C22" 6 0 1EE11E  1 97.24 4 20969 20965 10 "CCD match"  <> <> <>
+  17 2 -58.966000 2.191000 -4.311000 810 A 10 "GQB " " C23" 6 0 1EE11E  1 99.19 4 20970 20966 10 "CCD match"  <> <> <>
+  18 25 -54.796000 7.850000 -4.984000 810 A 38 "GQB " " N11" 7 0 2E2EFF  1 96.12 4 20971 20967 10 "CCD match"  <> <> <>
+  19 25 -57.299000 5.700000 -4.472000 810 A 38 "GQB " " N12" 7 0 2E2EFF  1 106.76 4 20972 20968 10 "CCD match"  <> <> <>
+  20 25 -59.113000 -0.902000 -9.556000 810 A 38 "GQB " " N19" 7 0 2E2EFF  1 113.55 4 20973 20969 10 "CCD match"   -0.831    1.500  <>
+  21 31 -59.221000 -0.278000 -7.223000 810 A 38 "GQB " " N20" 7 1 2E2EFF  1 104.07 4 20974 20970 10 "CCD match"    0.406    2.000  <>
+  22 15 -55.819000 4.295000 -5.532000 810 A 70 "GQB " " O01" 8 0 FF2E2E  1 94.36 4 20975 20971 10 "CCD match"   -2.579    0.900  <>
+  23 49 -58.586000 1.752000 -8.782000 810 A 143 "GQB " " S17" 16 0 FFFF6B  1 117.73 4 20976 20972 10 "CCD match"  <> <> <>
+  24 41 -53.586000 5.499000 -6.706000 810 A 21 "GQB " "H041" 1 0 FFFFFF  1 122.19 4 20977 20973 <> "CCD match"  <> <> <>
+  25 41 -51.278000 7.290000 -7.447000 810 A 21 "GQB " "H061" 1 0 FFFFFF  1 132.13 4 20978 20974 <> "CCD match"  <> <> <>
+  26 41 -50.415000 9.431000 -7.120000 810 A 21 "GQB " "H071" 1 0 FFFFFF  1 129.09 4 20979 20975 <> "CCD match"  <> <> <>
+  27 41 -51.520000 10.959000 -5.793000 810 A 21 "GQB " "H081" 1 0 FFFFFF  1 119.2 4 20980 20976 <> "CCD match"  <> <> <>
+  28 41 -53.515000 10.427000 -4.742000 810 A 21 "GQB " "H091" 1 0 FFFFFF  1 121.53 4 20981 20977 <> "CCD match"  <> <> <>
+  29 41 -59.314304 5.333754 -4.171826 810 A 21 "GQB " "H131" 1 0 FFFFFF  1 123.15 4 20982 20978 <> "CCD match"  <> <> <>
+  30 41 -58.191457 4.456867 -3.077797 810 A 21 "GQB " "H132" 1 0 FFFFFF  1 123.15 4 20983 20979 <> "CCD match"  <> <> <>
+  31 41 -58.255000 4.093000 -6.832000 810 A 21 "GQB " "H151" 1 0 FFFFFF  1 112.71 4 20984 20980 <> "CCD match"  <> <> <>
+  32 41 -59.403000 0.210000 -4.501000 810 A 21 "GQB " "H221" 1 0 FFFFFF  1 116.69 4 20985 20981 <> "CCD match"  <> <> <>
+  33 41 -59.065000 2.192000 -3.386000 810 A 21 "GQB " "H231" 1 0 FFFFFF  1 119.03 4 20986 20982 <> "CCD match"  <> <> <>
+  34 43 -55.478849 8.395507 -4.316063 810 A 21 "GQB " "H111" 1 0 FFFFFF  1 115.35 4 20987 20983 <> "CCD match"   15.490    1.060    4.0041 
+  35 43 -57.397460 6.759628 -4.193624 810 A 21 "GQB " "H121" 1 0 FFFFFF  1 128.12 4 20988 20984 <> "CCD match"   13.756    2.000    4.0042 
+  36 43 -59.374846 -1.955393 -9.377674 810 A 21 "GQB " "H191" 1 0 FFFFFF  1 136.26 4 20989 20985 <> "CCD match"    8.781    2.220  <>
+  37 43 -58.920615 -0.548810 -10.579838 810 A 21 "GQB " "H192" 1 0 FFFFFF  1 136.26 4 20990 20986 <> "CCD match"    8.781    2.220  <>
+  38 44 -59.491887 -1.235441 -6.754037 810 A 21 "GQB " "H201" 1 0 FFFFFF  1 124.88 4 20991 20987 <> "CCD match"    4.251    2.000    8.0958 
+  :::
+ } 
+ m_bond[41] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  41 21 38 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  10
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.0011 
+    0.0000 
+    0.0011 
+    0.0007 
+  0.000689760926499051
+  0
+  0
+    0.0007 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[37] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -59.036000 0.908000 -6.401000 810 A 10 "GQB " " C21" 6 1EE11E  1 98.06 4 20954 20950 10 "CCD match"  <> <> <>
+  2 2 -53.647000 8.470000 -5.460000 810 A 10 "GQB " " C10" 6 1EE11E  1 106.37 4 20955 20951 10 "CCD match"  <> <> <>
+  3 2 -56.035000 5.474000 -5.160000 810 A 10 "GQB " " C02" 6 1EE11E  1 92.56 4 20956 20952 10 "CCD match"  <> <> <>
+  4 2 -54.923000 6.503000 -5.470000 810 A 10 "GQB " " C03" 6 1EE11E  1 93.9 4 20957 20953 10 "CCD match"  <> <> <>
+  5 2 -53.767000 6.301000 -6.271000 810 A 10 "GQB " " C04" 6 1EE11E  1 101.83 4 20958 20954 10 "CCD match"  <> <> <>
+  6 2 -52.971000 7.548000 -6.266000 810 A 10 "GQB " " C05" 6 1EE11E  1 110.21 4 20959 20955 10 "CCD match"  <> <> <>
+  7 2 -51.732000 7.898000 -6.910000 810 A 10 "GQB " " C06" 6 1EE11E  1 110.11 4 20960 20956 10 "CCD match"  <> <> <>
+  8 2 -51.214000 9.188000 -6.712000 810 A 10 "GQB " " C07" 6 1EE11E  1 107.57 4 20961 20957 10 "CCD match"  <> <> <>
+  9 2 -51.893000 10.114000 -5.901000 810 A 10 "GQB " " C08" 6 1EE11E  1 99.33 4 20962 20958 10 "CCD match"  <> <> <>
+  10 2 -53.086000 9.795000 -5.273000 810 A 10 "GQB " " C09" 6 1EE11E  1 101.28 4 20963 20959 10 "CCD match"  <> <> <>
+  11 3 -58.404000 4.718000 -4.125000 810 A 10 "GQB " " C13" 6 1EE11E  1 102.63 4 20964 20960 10 "CCD match"  <> <> <>
+  12 2 -58.620000 3.386000 -4.971000 810 A 10 "GQB " " C14" 6 1EE11E  1 97.83 4 20965 20961 10 "CCD match"  <> <> <>
+  13 2 -58.483000 3.319000 -6.369000 810 A 10 "GQB " " C15" 6 1EE11E  1 93.92 4 20966 20962 10 "CCD match"  <> <> <>
+  14 2 -58.691000 2.101000 -7.050000 810 A 10 "GQB " " C16" 6 1EE11E  1 97.3 4 20967 20963 10 "CCD match"  <> <> <>
+  15 2 -59.026000 -0.025000 -8.497000 810 A 10 "GQB " " C18" 6 1EE11E  1 113.2 4 20968 20964 10 "CCD match"  <> <> <>
+  16 2 -59.175000 0.970000 -4.987000 810 A 10 "GQB " " C22" 6 1EE11E  1 97.24 4 20969 20965 10 "CCD match"  <> <> <>
+  17 2 -58.966000 2.191000 -4.311000 810 A 10 "GQB " " C23" 6 1EE11E  1 99.19 4 20970 20966 10 "CCD match"  <> <> <>
+  18 25 -54.796000 7.850000 -4.984000 810 A 38 "GQB " " N11" 7 2E2EFF  1 96.12 4 20971 20967 10 "CCD match"  <> <> <>
+  19 25 -57.299000 5.700000 -4.472000 810 A 38 "GQB " " N12" 7 2E2EFF  1 106.76 4 20972 20968 10 "CCD match"  <> <> <>
+  20 25 -59.113000 -0.902000 -9.556000 810 A 38 "GQB " " N19" 7 2E2EFF  1 113.55 4 20973 20969 10 "CCD match"    1.365    2.220  <>
+  21 25 -59.221000 -0.278000 -7.223000 810 A 38 "GQB " " N20" 7 2E2EFF  1 104.07 4 20974 20970 10 "CCD match"    4.251    2.000    0.0007 
+  22 15 -55.819000 4.295000 -5.532000 810 A 70 "GQB " " O01" 8 FF2E2E  1 94.36 4 20975 20971 10 "CCD match"   -2.579    0.900  <>
+  23 49 -58.586000 1.752000 -8.782000 810 A 143 "GQB " " S17" 16 FFFF6B  1 117.73 4 20976 20972 10 "CCD match"  <> <> <>
+  24 41 -53.586000 5.499000 -6.706000 810 A 21 "GQB " "H041" 1 FFFFFF  1 122.19 4 20977 20973 <> "CCD match"  <> <> <>
+  25 41 -51.278000 7.290000 -7.447000 810 A 21 "GQB " "H061" 1 FFFFFF  1 132.13 4 20978 20974 <> "CCD match"  <> <> <>
+  26 41 -50.415000 9.431000 -7.120000 810 A 21 "GQB " "H071" 1 FFFFFF  1 129.09 4 20979 20975 <> "CCD match"  <> <> <>
+  27 41 -51.520000 10.959000 -5.793000 810 A 21 "GQB " "H081" 1 FFFFFF  1 119.2 4 20980 20976 <> "CCD match"  <> <> <>
+  28 41 -53.515000 10.427000 -4.742000 810 A 21 "GQB " "H091" 1 FFFFFF  1 121.53 4 20981 20977 <> "CCD match"  <> <> <>
+  29 41 -59.314304 5.333754 -4.171826 810 A 21 "GQB " "H131" 1 FFFFFF  1 123.15 4 20982 20978 <> "CCD match"  <> <> <>
+  30 41 -58.191457 4.456867 -3.077797 810 A 21 "GQB " "H132" 1 FFFFFF  1 123.15 4 20983 20979 <> "CCD match"  <> <> <>
+  31 41 -58.255000 4.093000 -6.832000 810 A 21 "GQB " "H151" 1 FFFFFF  1 112.71 4 20984 20980 <> "CCD match"  <> <> <>
+  32 41 -59.403000 0.210000 -4.501000 810 A 21 "GQB " "H221" 1 FFFFFF  1 116.69 4 20985 20981 <> "CCD match"  <> <> <>
+  33 41 -59.065000 2.192000 -3.386000 810 A 21 "GQB " "H231" 1 FFFFFF  1 119.03 4 20986 20982 <> "CCD match"  <> <> <>
+  34 43 -55.478849 8.395507 -4.316063 810 A 21 "GQB " "H111" 1 FFFFFF  1 115.35 4 20987 20983 <> "CCD match"   15.490    1.060    0.0017 
+  35 43 -57.397460 6.759628 -4.193624 810 A 21 "GQB " "H121" 1 FFFFFF  1 128.12 4 20988 20984 <> "CCD match"   13.756    2.000    0.0018 
+  36 43 -59.374846 -1.955393 -9.377674 810 A 21 "GQB " "H191" 1 FFFFFF  1 136.26 4 20989 20985 <> "CCD match"  <> <> <>
+  37 43 -58.920615 -0.548810 -10.579838 810 A 21 "GQB " "H192" 1 FFFFFF  1 136.26 4 20990 20986 <> "CCD match"  <> <> <>
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    7.7713 
+    0.0000 
+    7.7713 
+   16.8775 
+  16.8775104566132
+  0
+  0
+   16.8775 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 16 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"  <> <>
+  3 16 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"  <> <>
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"   -2.864    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 16 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"  <> <>
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 42 -7.403568 -17.023359 30.881287 806 B 21 "2PN " " HO1" 1 FFFFFF  <> <> <> <> 42415 <> <>   1.304    2.220 
+  11 42 -9.696307 -17.144166 32.505521 806 B 21 "2PN " " HO2" 1 FFFFFF  <> <> <> <> 42416 <> <>   1.304    2.220 
+  12 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  13 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " " HO4" 1 FFFFFF  <> <> <> <> 42418 <> <>   1.304    2.220 
+  14 42 -8.383128 -19.557838 34.296009 806 B 21 "2PN " " HO5" 1 FFFFFF  <> <> <> <> 42419 <> <>   1.304    2.220 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 3 11 1
+  7 5 6 1
+  8 5 12 1
+  9 6 7 1
+  10 6 8 1
+  11 6 9 2
+  12 7 13 1
+  13 8 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    6.651    2.220 
+  3 18 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 -1 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"    6.651    2.220 
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 18 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 -1 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"    2.311    1.474 
+  8 16 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 0 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"  <> <>
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  11 42 -8.383128 -19.557838 34.296009 806 B 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42419 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    2.311    1.474 
+  3 16 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 0 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"  <> <>
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 18 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 -1 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"    6.651    2.220 
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    6.651    2.220 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 42 -9.696307 -17.144166 32.505521 806 B 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42416 <> <>   7.773    1.474 
+  11 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    6.651    2.220 
+  3 18 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 -1 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"    6.651    2.220 
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 0 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    2.311    1.474 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  11 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42418 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 16 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 0 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"  <> <>
+  3 18 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 -1 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"    2.311    1.474 
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 18 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 -1 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"    6.651    2.220 
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    6.651    2.220 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 42 -7.403568 -17.023359 30.881287 806 B 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42415 <> <>   7.773    1.474 
+  11 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    2.259    1.474 
+  3 16 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 0 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"  <> <>
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    2.836    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 0 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    2.259    1.474 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 42 -9.696307 -17.144166 32.505521 806 B 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42416 <> <>   6.651    1.474 
+  11 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  12 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    2.259    1.474 
+  3 16 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 0 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"  <> <>
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    2.836    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 0 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    2.259    1.474 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  11 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42418 <> <>   6.651    1.474 
+  12 42 -9.696307 -17.144166 32.505521 806 B 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 12 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 16 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 0 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"  <> <>
+  3 18 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 -1 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"    2.259    1.474 
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    2.836    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 0 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    2.259    1.474 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 42 -7.403568 -17.023359 30.881287 806 B 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42415 <> <>   6.651    1.474 
+  11 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  12 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    2.311    1.474 
+  3 16 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 0 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"  <> <>
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 18 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 -1 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"    6.651    2.220 
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    6.651    2.220 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  11 42 -9.696307 -17.144166 32.505521 806 B 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 11 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  16
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.552000 -16.731000 33.128000 806 B 101 "2PN " " P1 " 15 0 CC0066  1 119.84 4 20997 20993 16 "CCD match"  <> <>
+  2 18 -6.919000 -17.225000 31.848000 806 B 70 "2PN " " O1 " 8 -1 FF2E2E  1 106.91 4 20998 20994 16 "CCD match"    6.651    2.220 
+  3 18 -8.931000 -17.332000 33.273000 806 B 70 "2PN " " O2 " 8 -1 FF2E2E  1 101.15 4 20999 20995 16 "CCD match"    6.651    2.220 
+  4 15 -7.665000 -15.224000 33.087000 806 B 70 "2PN " " O3 " 8 0 FF2E2E  1 108.26 4 21000 20996 16 "CCD match"  <> <>
+  5 25 -6.585000 -17.188000 34.455000 806 B 38 "2PN " " N1 " 7 0 2E2EFF  1 98.33 4 21001 20997 16 "CCD match"    5.746    2.220 
+  6 107 -6.287000 -18.834000 34.776000 806 B 101 "2PN " " P2 " 15 0 CC0066  1 93.29 4 21002 20998 16 "CCD match"  <> <>
+  7 16 -5.620000 -19.471000 33.580000 806 B 70 "2PN " " O4 " 8 0 FF2E2E  1 102.65 4 21003 20999 16 "CCD match"  <> <>
+  8 18 -7.592000 -19.537000 35.060000 806 B 70 "2PN " " O5 " 8 -1 FF2E2E  1 86.06 4 21004 21000 16 "CCD match"    2.311    1.474 
+  9 15 -5.379000 -18.950000 35.976000 806 B 70 "2PN " " O6 " 8 0 FF2E2E  1 102.71 4 21005 21001 16 "CCD match"  <> <>
+  10 43 -5.579491 -16.756575 34.341760 806 B 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42417 <> <> <> <>
+  11 42 -6.132395 -19.484187 32.606718 806 B 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    7.7713 
+    0.0000 
+    7.7713 
+   16.8775 
+  16.8775104566132
+  0
+  0
+   16.8775 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 16 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"  <> <>
+  3 16 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"  <> <>
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"   -2.864    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 16 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"  <> <>
+  8 16 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"  <> <>
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 42 -39.243870 36.118965 52.614056 806 C 21 "2PN " " HO1" 1 FFFFFF  <> <> <> <> 42420 <> <>   1.304    2.220 
+  11 42 -37.528463 37.080934 54.631850 806 C 21 "2PN " " HO2" 1 FFFFFF  <> <> <> <> 42421 <> <>   1.304    2.220 
+  12 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  13 42 -35.984409 31.210652 55.490725 806 C 21 "2PN " " HO4" 1 FFFFFF  <> <> <> <> 42423 <> <>   1.304    2.220 
+  14 42 -35.224623 33.856622 56.087405 806 C 21 "2PN " " HO5" 1 FFFFFF  <> <> <> <> 42424 <> <>   1.304    2.220 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 3 11 1
+  7 5 6 1
+  8 5 12 1
+  9 6 7 1
+  10 6 8 1
+  11 6 9 2
+  12 7 13 1
+  13 8 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    6.651    2.220 
+  3 18 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 -1 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"    6.651    2.220 
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    2.311    1.474 
+  8 16 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 0 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"  <> <>
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -35.224623 33.856622 56.087405 806 C 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42424 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    2.311    1.474 
+  3 16 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 0 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"  <> <>
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    6.651    2.220 
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    6.651    2.220 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 42 -37.528463 37.080934 54.631850 806 C 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42421 <> <>   7.773    1.474 
+  11 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    6.651    2.220 
+  3 18 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 -1 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"    6.651    2.220 
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 16 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 0 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"  <> <>
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    2.311    1.474 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -35.984409 31.210652 55.490725 806 C 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42423 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 16 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 0 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"  <> <>
+  3 18 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 -1 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"    2.311    1.474 
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    6.651    2.220 
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    6.651    2.220 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 42 -39.243870 36.118965 52.614056 806 C 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42420 <> <>   7.773    1.474 
+  11 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    2.259    1.474 
+  3 16 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 0 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"  <> <>
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    2.836    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    2.259    1.474 
+  8 16 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 0 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"  <> <>
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -35.224623 33.856622 56.087405 806 C 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42424 <> <>   6.651    1.474 
+  12 42 -37.528463 37.080934 54.631850 806 C 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 12 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 16 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 0 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"  <> <>
+  3 18 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 -1 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"    2.259    1.474 
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    2.836    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 16 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 0 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"  <> <>
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    2.259    1.474 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -35.984409 31.210652 55.490725 806 C 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42423 <> <>   6.651    1.474 
+  12 42 -39.243870 36.118965 52.614056 806 C 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 12 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    2.259    1.474 
+  3 16 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 0 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"  <> <>
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    2.836    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 16 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 0 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"  <> <>
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    2.259    1.474 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -35.984409 31.210652 55.490725 806 C 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42423 <> <>   6.651    1.474 
+  12 42 -37.528463 37.080934 54.631850 806 C 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 12 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 16 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 0 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"  <> <>
+  3 18 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 -1 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"    2.311    1.474 
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    6.651    2.220 
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    6.651    2.220 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -39.243870 36.118965 52.614056 806 C 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 11 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  24
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -38.394000 34.995000 54.395000 806 C 101 "2PN " " P1 " 15 0 CC0066  1 94.19 4 21013 21009 24 "CCD match"  <> <>
+  2 18 -38.822000 35.162000 52.955000 806 C 70 "2PN " " O1 " 8 -1 FF2E2E  1 85.63 4 21014 21010 24 "CCD match"    2.311    1.474 
+  3 16 -37.319000 36.005000 54.724000 806 C 70 "2PN " " O2 " 8 0 FF2E2E  1 78.03 4 21015 21011 24 "CCD match"  <> <>
+  4 15 -39.584000 35.211000 55.301000 806 C 70 "2PN " " O3 " 8 0 FF2E2E  1 92.08 4 21016 21012 24 "CCD match"  <> <>
+  5 25 -37.784000 33.421000 54.629000 806 C 38 "2PN " " N1 " 7 0 2E2EFF  1 81.88 4 21017 21013 24 "CCD match"    5.746    2.220 
+  6 107 -37.294000 32.930000 56.184000 806 C 101 "2PN " " P2 " 15 0 CC0066  1 80.95 4 21018 21014 24 "CCD match"  <> <>
+  7 18 -36.829000 31.494000 56.136000 806 C 70 "2PN " " O4 " 8 -1 FF2E2E  1 85.28 4 21019 21015 24 "CCD match"    6.651    2.220 
+  8 18 -36.164000 33.812000 56.658000 806 C 70 "2PN " " O5 " 8 -1 FF2E2E  1 78.93 4 21020 21016 24 "CCD match"    6.651    2.220 
+  9 15 -38.458000 33.051000 57.138000 806 C 70 "2PN " " O6 " 8 0 FF2E2E  1 77.81 4 21021 21017 24 "CCD match"  <> <>
+  10 43 -38.549621 32.684787 54.342968 806 C 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42422 <> <> <> <>
+  11 42 -37.528463 37.080934 54.631850 806 C 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 11 1
+  6 5 6 1
+  7 5 10 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  25
+  W09IXVtDQEBIXTFbQ0gyXVNTW0NIMl1bQ0BIXTFbT0hd 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+   -0.0000 
+  0
+  0
+  0
+   -0.0000 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[16] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 49 -49.012000 38.694000 72.498000 807 C 143 "D1D " " S1 " 16 FFFF6B  1 123.24 4 21022 21018 25 "CCD match"  <> <>
+  2 3 -48.221000 39.089000 74.069000 807 C 10 "D1D " " C1 " 6 1EE11E  1 105.83 4 21023 21019 25 "CCD match"  <> <>
+  3 3 -49.186000 39.711000 75.067000 807 C 10 "D1D " " C2 " 6 1EE11E  1 100.9 4 21024 21020 25 "CCD match"  <> <>
+  4 16 -48.484000 39.796000 76.235000 807 C 70 "D1D " " O2 " 8 FF2E2E  1 90 4 21025 21021 25 "CCD match"   -0.763    0.950 
+  5 3 -49.579000 41.153000 74.571000 807 C 10 "D1D " " C3 " 6 1EE11E  1 109.48 4 21026 21022 25 "CCD match"  <> <>
+  6 16 -50.353000 41.630000 75.601000 807 C 70 "D1D " " O3 " 8 FF2E2E  1 113.15 4 21027 21023 25 "CCD match"   -0.763    0.950 
+  7 3 -50.399000 41.075000 73.219000 807 C 10 "D1D " " C4 " 6 1EE11E  1 113.32 4 21028 21024 25 "CCD match"  <> <>
+  8 49 -49.313000 40.605000 71.853000 807 C 143 "D1D " " S4 " 16 FFFF6B  1 116.71 4 21029 21025 25 "CCD match"  <> <>
+  9 41 -47.816381 38.169533 74.517178 807 C 21 "D1D " "H1C1" 1 FFFFFF  1 126.99 4 21030 21026 <> "CCD match"  <> <>
+  10 41 -47.402986 39.804283 73.898055 807 C 21 "D1D " "H1C2" 1 FFFFFF  1 126.99 4 21031 21027 <> "CCD match"  <> <>
+  11 41 -50.063870 39.087395 75.291636 807 C 21 "D1D " " H2 " 1 FFFFFF  1 121.07 4 21032 21028 <> "CCD match"  <> <>
+  12 42 -48.125862 38.880895 76.729288 807 C 21 "D1D " " HA " 1 FFFFFF  1 108 4 21033 21029 <> "CCD match"   13.322    0.730 
+  13 41 -48.753397 41.869989 74.451387 807 C 21 "D1D " " H3 " 1 FFFFFF  1 131.38 4 21034 21030 <> "CCD match"  <> <>
+  14 42 -49.921980 41.741488 76.606879 807 C 21 "D1D " " HB " 1 FFFFFF  1 135.78 4 21035 21031 <> "CCD match"   13.322    0.730 
+  15 41 -51.197566 40.324911 73.317280 807 C 21 "D1D " "H4C1" 1 FFFFFF  1 135.98 4 21036 21032 <> "CCD match"  <> <>
+  16 41 -50.843556 42.057609 73.002555 807 C 21 "D1D " "H4C2" 1 FFFFFF  1 135.98 4 21037 21033 <> "CCD match"  <> <>
+  :::
+ } 
+ m_bond[16] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 8 1
+  3 2 3 1
+  4 2 9 1
+  5 2 10 1
+  6 3 4 1
+  7 3 5 1
+  8 3 11 1
+  9 4 12 1
+  10 5 6 1
+  11 5 7 1
+  12 5 13 1
+  13 6 14 1
+  14 7 8 1
+  15 7 15 1
+  16 7 16 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  26
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    3.7615 
+    3.7518 
+    0.0097 
+    4.0030 
+  7.75481003328369
+  1
+  1
+    4.0041 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[38] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -57.551000 68.444000 9.856000 808 C 10 "GQB " " C21" 6 0 1EE11E  1 145.54 4 21038 21034 26 "CCD match"  <> <> <>
+  2 2 -53.166000 73.306000 15.099000 808 C 10 "GQB " " C10" 6 0 1EE11E  1 124.39 4 21039 21035 26 "CCD match"  <> <> <>
+  3 2 -54.890000 72.693000 11.726000 808 C 10 "GQB " " C02" 6 0 1EE11E  1 132.91 4 21040 21036 26 "CCD match"  <> <> <>
+  4 2 -54.232000 73.229000 13.015000 808 C 10 "GQB " " C03" 6 0 1EE11E  1 129.69 4 21041 21037 26 "CCD match"  <> <> <>
+  5 2 -54.137000 74.583000 13.425000 808 C 10 "GQB " " C04" 6 0 1EE11E  1 123.76 4 21042 21038 26 "CCD match"  <> <> <>
+  6 2 -53.457000 74.626000 14.737000 808 C 10 "GQB " " C05" 6 0 1EE11E  1 125.61 4 21043 21039 26 "CCD match"  <> <> <>
+  7 2 -53.092000 75.720000 15.598000 808 C 10 "GQB " " C06" 6 0 1EE11E  1 124 4 21044 21040 26 "CCD match"  <> <> <>
+  8 2 -52.438000 75.433000 16.808000 808 C 10 "GQB " " C07" 6 0 1EE11E  1 115.74 4 21045 21041 26 "CCD match"  <> <> <>
+  9 2 -52.147000 74.106000 17.168000 808 C 10 "GQB " " C08" 6 0 1EE11E  1 112.33 4 21046 21042 26 "CCD match"  <> <> <>
+  10 2 -52.490000 73.041000 16.353000 808 C 10 "GQB " " C09" 6 0 1EE11E  1 117.07 4 21047 21043 26 "CCD match"  <> <> <>
+  11 3 -55.293000 72.258000 9.153000 808 C 10 "GQB " " C13" 6 0 1EE11E  1 119.56 4 21048 21044 26 "CCD match"  <> <> <>
+  12 2 -56.051000 70.875000 9.398000 808 C 10 "GQB " " C14" 6 0 1EE11E  1 125.99 4 21049 21045 26 "CCD match"  <> <> <>
+  13 2 -55.405000 69.677000 9.754000 808 C 10 "GQB " " C15" 6 0 1EE11E  1 135.02 4 21050 21046 26 "CCD match"  <> <> <>
+  14 2 -56.154000 68.497000 9.967000 808 C 10 "GQB " " C16" 6 0 1EE11E  1 147.26 4 21051 21047 26 "CCD match"  <> <> <>
+  15 2 -57.327000 66.224000 10.402000 808 C 10 "GQB " " C18" 6 0 1EE11E  1 152.97 4 21052 21048 26 "CCD match"  <> <> <>
+  16 2 -58.208000 69.658000 9.510000 808 C 10 "GQB " " C22" 6 0 1EE11E  1 127.67 4 21053 21049 26 "CCD match"  <> <> <>
+  17 2 -57.455000 70.832000 9.298000 808 C 10 "GQB " " C23" 6 0 1EE11E  1 115.95 4 21054 21050 26 "CCD match"  <> <> <>
+  18 25 -53.630000 72.478000 14.086000 808 C 38 "GQB " " N11" 7 0 2E2EFF  1 126.68 4 21055 21051 26 "CCD match"  <> <> <>
+  19 25 -54.535000 72.852000 10.325000 808 C 38 "GQB " " N12" 7 0 2E2EFF  1 126.45 4 21056 21052 26 "CCD match"  <> <> <>
+  20 25 -57.570000 64.900000 10.698000 808 C 38 "GQB " " N19" 7 0 2E2EFF  1 154.51 4 21057 21053 26 "CCD match"   -0.831    1.500  <>
+  21 31 -58.198000 67.162000 10.103000 808 C 38 "GQB " " N20" 7 1 2E2EFF  1 152.23 4 21058 21054 26 "CCD match"    0.406    2.000  <>
+  22 15 -55.919000 72.003000 11.919000 808 C 70 "GQB " " O01" 8 0 FF2E2E  1 136.16 4 21059 21055 26 "CCD match"   -2.579    0.900  <>
+  23 49 -55.594000 66.875000 10.402000 808 C 143 "GQB " " S17" 16 0 FFFF6B  1 148.33 4 21060 21056 26 "CCD match"  <> <> <>
+  24 41 -54.464000 75.290000 12.916000 808 C 21 "GQB " "H041" 1 0 FFFFFF  1 148.52 4 21061 21057 <> "CCD match"  <> <> <>
+  25 41 -53.282000 76.601000 15.367000 808 C 21 "GQB " "H061" 1 0 FFFFFF  1 148.8 4 21062 21058 <> "CCD match"  <> <> <>
+  26 41 -52.196000 76.129000 17.376000 808 C 21 "GQB " "H071" 1 0 FFFFFF  1 138.89 4 21063 21059 <> "CCD match"  <> <> <>
+  27 41 -51.713000 73.955000 17.976000 808 C 21 "GQB " "H081" 1 0 FFFFFF  1 134.79 4 21064 21060 <> "CCD match"  <> <> <>
+  28 41 -52.286000 72.172000 16.614000 808 C 21 "GQB " "H091" 1 0 FFFFFF  1 140.48 4 21065 21061 <> "CCD match"  <> <> <>
+  29 41 -54.546278 72.130556 8.355401 808 C 21 "GQB " "H131" 1 0 FFFFFF  1 143.47 4 21066 21062 <> "CCD match"  <> <> <>
+  30 41 -56.020617 73.027095 8.854560 808 C 21 "GQB " "H132" 1 0 FFFFFF  1 143.47 4 21067 21063 <> "CCD match"  <> <> <>
+  31 41 -54.480000 69.679000 9.845000 808 C 21 "GQB " "H151" 1 0 FFFFFF  1 162.03 4 21068 21064 <> "CCD match"  <> <> <>
+  32 41 -59.133000 69.686000 9.422000 808 C 21 "GQB " "H221" 1 0 FFFFFF  1 153.2 4 21069 21065 <> "CCD match"  <> <> <>
+  33 41 -57.921000 71.608000 9.083000 808 C 21 "GQB " "H231" 1 0 FFFFFF  1 139.14 4 21070 21066 <> "CCD match"  <> <> <>
+  34 43 -53.512263 71.387526 14.169694 808 C 21 "GQB " "H111" 1 0 FFFFFF  1 152.02 4 21071 21067 <> "CCD match"   15.490    1.060    4.0041 
+  35 43 -53.636120 73.460566 10.147061 808 C 21 "GQB " "H121" 1 0 FFFFFF  1 151.74 4 21072 21068 <> "CCD match"   13.756    2.000    4.0042 
+  36 43 -58.600973 64.516472 10.697098 808 C 21 "GQB " "H191" 1 0 FFFFFF  1 185.41 4 21073 21069 <> "CCD match"    8.781    2.220  <>
+  37 43 -56.732965 64.226845 10.935139 808 C 21 "GQB " "H192" 1 0 FFFFFF  1 185.41 4 21074 21070 <> "CCD match"    8.781    2.220  <>
+  38 44 -59.291907 67.074410 10.027524 808 C 21 "GQB " "H201" 1 0 FFFFFF  1 182.67 4 21075 21071 <> "CCD match"    4.251    2.000    8.0958 
+  :::
+ } 
+ m_bond[41] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  41 21 38 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  26
+  W05IMl1jKFtuSF0xKVtzSF1jKGMxMilbY0hdYyhbY0hdW2NIXTIpW0NIMl1bTkhdQyg9TyljKFtuSF0zKVtjSF1jKGMzNClbY0hdW2NIXVtjSF1bY0hdNA== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.0011 
+    0.0000 
+    0.0011 
+    0.0007 
+  0.000689760926499051
+  0
+  0
+    0.0007 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[37] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  r_epik_Metal_State_Penalty
+  :::
+  1 2 -57.551000 68.444000 9.856000 808 C 10 "GQB " " C21" 6 1EE11E  1 145.54 4 21038 21034 26 "CCD match"  <> <> <>
+  2 2 -53.166000 73.306000 15.099000 808 C 10 "GQB " " C10" 6 1EE11E  1 124.39 4 21039 21035 26 "CCD match"  <> <> <>
+  3 2 -54.890000 72.693000 11.726000 808 C 10 "GQB " " C02" 6 1EE11E  1 132.91 4 21040 21036 26 "CCD match"  <> <> <>
+  4 2 -54.232000 73.229000 13.015000 808 C 10 "GQB " " C03" 6 1EE11E  1 129.69 4 21041 21037 26 "CCD match"  <> <> <>
+  5 2 -54.137000 74.583000 13.425000 808 C 10 "GQB " " C04" 6 1EE11E  1 123.76 4 21042 21038 26 "CCD match"  <> <> <>
+  6 2 -53.457000 74.626000 14.737000 808 C 10 "GQB " " C05" 6 1EE11E  1 125.61 4 21043 21039 26 "CCD match"  <> <> <>
+  7 2 -53.092000 75.720000 15.598000 808 C 10 "GQB " " C06" 6 1EE11E  1 124 4 21044 21040 26 "CCD match"  <> <> <>
+  8 2 -52.438000 75.433000 16.808000 808 C 10 "GQB " " C07" 6 1EE11E  1 115.74 4 21045 21041 26 "CCD match"  <> <> <>
+  9 2 -52.147000 74.106000 17.168000 808 C 10 "GQB " " C08" 6 1EE11E  1 112.33 4 21046 21042 26 "CCD match"  <> <> <>
+  10 2 -52.490000 73.041000 16.353000 808 C 10 "GQB " " C09" 6 1EE11E  1 117.07 4 21047 21043 26 "CCD match"  <> <> <>
+  11 3 -55.293000 72.258000 9.153000 808 C 10 "GQB " " C13" 6 1EE11E  1 119.56 4 21048 21044 26 "CCD match"  <> <> <>
+  12 2 -56.051000 70.875000 9.398000 808 C 10 "GQB " " C14" 6 1EE11E  1 125.99 4 21049 21045 26 "CCD match"  <> <> <>
+  13 2 -55.405000 69.677000 9.754000 808 C 10 "GQB " " C15" 6 1EE11E  1 135.02 4 21050 21046 26 "CCD match"  <> <> <>
+  14 2 -56.154000 68.497000 9.967000 808 C 10 "GQB " " C16" 6 1EE11E  1 147.26 4 21051 21047 26 "CCD match"  <> <> <>
+  15 2 -57.327000 66.224000 10.402000 808 C 10 "GQB " " C18" 6 1EE11E  1 152.97 4 21052 21048 26 "CCD match"  <> <> <>
+  16 2 -58.208000 69.658000 9.510000 808 C 10 "GQB " " C22" 6 1EE11E  1 127.67 4 21053 21049 26 "CCD match"  <> <> <>
+  17 2 -57.455000 70.832000 9.298000 808 C 10 "GQB " " C23" 6 1EE11E  1 115.95 4 21054 21050 26 "CCD match"  <> <> <>
+  18 25 -53.630000 72.478000 14.086000 808 C 38 "GQB " " N11" 7 2E2EFF  1 126.68 4 21055 21051 26 "CCD match"  <> <> <>
+  19 25 -54.535000 72.852000 10.325000 808 C 38 "GQB " " N12" 7 2E2EFF  1 126.45 4 21056 21052 26 "CCD match"  <> <> <>
+  20 25 -57.570000 64.900000 10.698000 808 C 38 "GQB " " N19" 7 2E2EFF  1 154.51 4 21057 21053 26 "CCD match"    1.365    2.220  <>
+  21 25 -58.198000 67.162000 10.103000 808 C 38 "GQB " " N20" 7 2E2EFF  1 152.23 4 21058 21054 26 "CCD match"    4.251    2.000    0.0007 
+  22 15 -55.919000 72.003000 11.919000 808 C 70 "GQB " " O01" 8 FF2E2E  1 136.16 4 21059 21055 26 "CCD match"   -2.579    0.900  <>
+  23 49 -55.594000 66.875000 10.402000 808 C 143 "GQB " " S17" 16 FFFF6B  1 148.33 4 21060 21056 26 "CCD match"  <> <> <>
+  24 41 -54.464000 75.290000 12.916000 808 C 21 "GQB " "H041" 1 FFFFFF  1 148.52 4 21061 21057 <> "CCD match"  <> <> <>
+  25 41 -53.282000 76.601000 15.367000 808 C 21 "GQB " "H061" 1 FFFFFF  1 148.8 4 21062 21058 <> "CCD match"  <> <> <>
+  26 41 -52.196000 76.129000 17.376000 808 C 21 "GQB " "H071" 1 FFFFFF  1 138.89 4 21063 21059 <> "CCD match"  <> <> <>
+  27 41 -51.713000 73.955000 17.976000 808 C 21 "GQB " "H081" 1 FFFFFF  1 134.79 4 21064 21060 <> "CCD match"  <> <> <>
+  28 41 -52.286000 72.172000 16.614000 808 C 21 "GQB " "H091" 1 FFFFFF  1 140.48 4 21065 21061 <> "CCD match"  <> <> <>
+  29 41 -54.546278 72.130556 8.355401 808 C 21 "GQB " "H131" 1 FFFFFF  1 143.47 4 21066 21062 <> "CCD match"  <> <> <>
+  30 41 -56.020617 73.027095 8.854560 808 C 21 "GQB " "H132" 1 FFFFFF  1 143.47 4 21067 21063 <> "CCD match"  <> <> <>
+  31 41 -54.480000 69.679000 9.845000 808 C 21 "GQB " "H151" 1 FFFFFF  1 162.03 4 21068 21064 <> "CCD match"  <> <> <>
+  32 41 -59.133000 69.686000 9.422000 808 C 21 "GQB " "H221" 1 FFFFFF  1 153.2 4 21069 21065 <> "CCD match"  <> <> <>
+  33 41 -57.921000 71.608000 9.083000 808 C 21 "GQB " "H231" 1 FFFFFF  1 139.14 4 21070 21066 <> "CCD match"  <> <> <>
+  34 43 -53.512263 71.387526 14.169694 808 C 21 "GQB " "H111" 1 FFFFFF  1 152.02 4 21071 21067 <> "CCD match"   15.490    1.060    0.0017 
+  35 43 -53.636120 73.460566 10.147061 808 C 21 "GQB " "H121" 1 FFFFFF  1 151.74 4 21072 21068 <> "CCD match"   13.756    2.000    0.0018 
+  36 43 -58.600973 64.516472 10.697098 808 C 21 "GQB " "H191" 1 FFFFFF  1 185.41 4 21073 21069 <> "CCD match"  <> <> <>
+  37 43 -56.732965 64.226845 10.935139 808 C 21 "GQB " "H192" 1 FFFFFF  1 185.41 4 21074 21070 <> "CCD match"  <> <> <>
+  :::
+ } 
+ m_bond[40] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 14 2
+  2 1 16 1
+  3 1 21 1
+  4 2 6 2
+  5 2 10 1
+  6 2 18 1
+  7 3 4 1
+  8 3 19 1
+  9 3 22 2
+  10 4 5 2
+  11 4 18 1
+  12 5 6 1
+  13 5 24 1
+  14 6 7 1
+  15 7 8 2
+  16 7 25 1
+  17 8 9 1
+  18 8 26 1
+  19 9 10 2
+  20 9 27 1
+  21 10 28 1
+  22 11 12 1
+  23 11 19 1
+  24 11 29 1
+  25 11 30 1
+  26 12 13 2
+  27 12 17 1
+  28 13 14 1
+  29 13 31 1
+  30 14 23 1
+  31 15 20 1
+  32 15 21 2
+  33 15 23 1
+  34 16 17 2
+  35 16 32 1
+  36 17 33 1
+  37 18 34 1
+  38 19 35 1
+  39 20 36 1
+  40 20 37 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  2
+    7.7713 
+    0.0000 
+    7.7713 
+   16.8775 
+  16.8775104566132
+  0
+  0
+   16.8775 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[14] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 16 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"  <> <>
+  3 16 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"  <> <>
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"   -2.864    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 16 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"  <> <>
+  8 16 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"  <> <>
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -7.193658 47.868275 51.034580 806 D 21 "2PN " " HO1" 1 FFFFFF  <> <> <> <> 42425 <> <>   1.304    2.220 
+  11 42 -9.313159 47.353804 52.829342 806 D 21 "2PN " " HO2" 1 FFFFFF  <> <> <> <> 42426 <> <>   1.304    2.220 
+  12 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  13 42 -5.234575 46.411940 53.097080 806 D 21 "2PN " " HO4" 1 FFFFFF  <> <> <> <> 42428 <> <>   1.304    2.220 
+  14 42 -7.319936 45.992270 54.935480 806 D 21 "2PN " " HO5" 1 FFFFFF  <> <> <> <> 42429 <> <>   1.304    2.220 
+  :::
+ } 
+ m_bond[13] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 3 11 1
+  7 5 6 1
+  8 5 12 1
+  9 6 7 1
+  10 6 8 1
+  11 6 9 2
+  12 7 13 1
+  13 8 14 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    6.651    2.220 
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    6.651    2.220 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    2.311    1.474 
+  8 16 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 0 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"  <> <>
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  11 42 -7.319936 45.992270 54.935480 806 D 21 "2PN " " HO5" 1 0 FFFFFF  <> <> <> <> 42429 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 8 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    2.311    1.474 
+  3 16 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 0 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"  <> <>
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    6.651    2.220 
+  8 18 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 -1 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"    6.651    2.220 
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -9.313159 47.353804 52.829342 806 D 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42426 <> <>   7.773    1.474 
+  11 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    6.651    2.220 
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    6.651    2.220 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 16 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 0 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"  <> <>
+  8 18 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 -1 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"    2.311    1.474 
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  11 42 -5.234575 46.411940 53.097080 806 D 21 "2PN " " HO4" 1 0 FFFFFF  <> <> <> <> 42428 <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 16 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 0 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"  <> <>
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    2.311    1.474 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    6.651    2.220 
+  8 18 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 -1 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"    6.651    2.220 
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -7.193658 47.868275 51.034580 806 D 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42425 <> <>   7.773    1.474 
+  11 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    2.259    1.474 
+  3 16 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 0 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"  <> <>
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    2.836    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    2.259    1.474 
+  8 16 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 0 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"  <> <>
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -9.313159 47.353804 52.829342 806 D 21 "2PN " " HO2" 1 0 FFFFFF  <> <> <> <> 42426 <> <>   6.651    1.474 
+  11 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  12 42 -7.319936 45.992270 54.935480 806 D 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 3 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 8 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 16 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 0 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"  <> <>
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    2.259    1.474 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    2.836    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 16 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 0 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"  <> <>
+  8 18 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 -1 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"    2.259    1.474 
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -7.193658 47.868275 51.034580 806 D 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42425 <> <>   6.651    1.474 
+  11 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  12 42 -5.234575 46.411940 53.097080 806 D 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 7 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.6950 
+    0.0000 
+    0.6950 
+    1.6832 
+  1.68316792900974
+  -2
+  2
+    1.6832 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[12] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 16 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 0 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"  <> <>
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    2.259    1.474 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    2.836    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    2.259    1.474 
+  8 16 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 0 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"  <> <>
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 42 -7.193658 47.868275 51.034580 806 D 21 "2PN " " HO1" 1 0 FFFFFF  <> <> <> <> 42425 <> <>   6.651    1.474 
+  11 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  12 42 -7.319936 45.992270 54.935480 806 D 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   6.651    1.474 
+  :::
+ } 
+ m_bond[11] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 2 10 1
+  6 5 6 1
+  7 5 11 1
+  8 6 7 1
+  9 6 8 1
+  10 6 9 2
+  11 8 12 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    6.651    2.220 
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    6.651    2.220 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 16 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 0 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"  <> <>
+  8 18 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 -1 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"    2.311    1.474 
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  11 42 -5.234575 46.411940 53.097080 806 D 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 7 11 1
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  32
+  W09IXVAoPU8pKFtPSF0pW05IXVAoPU8pKFtPSF0pW09IXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL2RyZWFuby8uc2Nocm9kaW5nZXIvdG1wL3Rwcm9qNTAzNTJhOTE3NjM0L3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWtfMi5tYWUnLCAnLW9tYWUnLCAncHJlcHdpemFyZC1lcGlrXzItb3V0Lm1hZScsICctbXMnLCAnMTAnLCAnLXBoJywgJzcuMCcsICctcGh0JywgJzIuMCcsICctY2cnLCAnMC4zJywgJzAuMycsICctcmV0YWluX2knLCAnLW1ldGFsX2JpbmRpbmcn 
+  3
+    0.3438 
+    0.2194 
+    0.1244 
+    1.1757 
+  1.39505038366345
+  -3
+  3
+    1.1757 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[11] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  s_m_color_rgb
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 107 -7.439000 48.587000 53.173000 806 D 101 "2PN " " P1 " 15 0 CC0066  1 98.53 4 21081 21077 32 "CCD match"  <> <>
+  2 18 -6.673000 48.057000 51.985000 806 D 70 "2PN " " O1 " 8 -1 FF2E2E  1 94.23 4 21082 21078 32 "CCD match"    6.651    2.220 
+  3 18 -8.525000 47.609000 53.553000 806 D 70 "2PN " " O2 " 8 -1 FF2E2E  1 91.33 4 21083 21079 32 "CCD match"    6.651    2.220 
+  4 15 -8.057000 49.920000 52.822000 806 D 70 "2PN " " O3 " 8 0 FF2E2E  1 96.56 4 21084 21080 32 "CCD match"  <> <>
+  5 25 -6.376000 48.777000 54.488000 806 D 38 "2PN " " N1 " 7 0 2E2EFF  1 90.64 4 21085 21081 32 "CCD match"    5.746    2.220 
+  6 107 -5.561000 47.416000 55.106000 806 D 101 "2PN " " P2 " 15 0 CC0066  1 94.21 4 21086 21082 32 "CCD match"  <> <>
+  7 18 -4.741000 46.784000 54.007000 806 D 70 "2PN " " O4 " 8 -1 FF2E2E  1 93.8 4 21087 21083 32 "CCD match"    2.311    1.474 
+  8 16 -6.570000 46.417000 55.619000 806 D 70 "2PN " " O5 " 8 0 FF2E2E  1 90.09 4 21088 21084 32 "CCD match"  <> <>
+  9 15 -4.653000 47.840000 56.236000 806 D 70 "2PN " " O6 " 8 0 FF2E2E  1 102.62 4 21089 21085 32 "CCD match"  <> <>
+  10 43 -5.571073 49.473713 54.211083 806 D 21 "2PN " " HN1" 1 0 FFFFFF  <> <> <> <> 42427 <> <> <> <>
+  11 42 -7.319936 45.992270 54.935480 806 D 21 "2PN " "    " 1 0 <> <> <> <> <> <> <> <>   7.773    1.474 
+  :::
+ } 
+ m_bond[10] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 1
+  2 1 3 1
+  3 1 4 2
+  4 1 5 1
+  5 5 6 1
+  6 5 10 1
+  7 6 7 1
+  8 6 8 1
+  9 6 9 2
+  10 8 11 1
+  :::
+ } 
+} 
+

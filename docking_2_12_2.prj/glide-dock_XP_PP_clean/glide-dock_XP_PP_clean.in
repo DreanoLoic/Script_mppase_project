@@ -1,0 +1,7 @@
+GRIDFILE   /home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-grid_PP_clean/glide-grid_PP_clean.zip
+LIGANDFILE   glide-dock_XP_PP_clean.maegz
+POSES_PER_LIG   20
+POSTDOCK_NPOSE   30
+POSTDOCK_XP_DELE   0.5
+PRECISION   XP
+WRITE_XP_DESC   False

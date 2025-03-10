@@ -1,0 +1,82 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f6f344
+Name           : glide-dock_XP_PP_sites
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/Desktop/mppase/docking_2_12.prj/glide-dock_XP_PP_sites
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_sites
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide glide-dock_XP_PP_sites.in -OVERWRITE -adjust -HOST localhost:4 -PROJ /home/dreano/Desktop/mppase/docking_2_12.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2021-07-20-19:01:08
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_XP_PP_sites.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 41
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       7
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 6 | launched  dreanos-0-60f6f348 glide-dock_XP_PP_sites-0001 localhost [dreanos]
+0 2 5 | launched  dreanos-0-60f6f349 glide-dock_XP_PP_sites-0002 localhost [dreanos]
+0 3 4 | launched  dreanos-0-60f6f34b glide-dock_XP_PP_sites-0003 localhost [dreanos]
+0 4 3 | launched  dreanos-0-60f6f34d glide-dock_XP_PP_sites-0004 localhost [dreanos]
+1 3 3 | finished  dreanos-0-60f6f348 glide-dock_XP_PP_sites-0001 localhost [dreanos]
+1 4 2 | launched  dreanos-0-60f6f36a glide-dock_XP_PP_sites-0005 localhost [dreanos]
+2 3 2 | finished  dreanos-0-60f6f349 glide-dock_XP_PP_sites-0002 localhost [dreanos]
+2 4 1 | launched  dreanos-0-60f6f370 glide-dock_XP_PP_sites-0006 localhost [dreanos]
+3 3 1 | finished  dreanos-0-60f6f34b glide-dock_XP_PP_sites-0003 localhost [dreanos]
+3 4 0 | launched  dreanos-0-60f6f372 glide-dock_XP_PP_sites-0007 localhost [dreanos]
+4 3 0 | finished  dreanos-0-60f6f34d glide-dock_XP_PP_sites-0004 localhost [dreanos]
+5 2 0 | finished  dreanos-0-60f6f36a glide-dock_XP_PP_sites-0005 localhost [dreanos]
+6 1 0 | finished  dreanos-0-60f6f372 glide-dock_XP_PP_sites-0007 localhost [dreanos]
+7 0 0 | finished  dreanos-0-60f6f370 glide-dock_XP_PP_sites-0006 localhost [dreanos]
+
+All jobs have completed.
+
+7 of 7 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 41 ligands done.
+Docking job produced no poses; not writing glide-dock_XP_PP_sites_pv.maegz
+Combining log files to glide-dock_XP_PP_sites_subjobs.log
+Archiving subjob input and log files in glide-dock_XP_PP_sites_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.5 s
+- running subjobs: 74.5 s
+- postprocessing: 0.0 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 199 seconds (3 min 19 s)
+
+Finished at: Tue Jul 20 19:02:24 2021
+Total elapsed time for Glide script = 75 seconds (1 min 15 s)
+[running at reduced cpu priority]

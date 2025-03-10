@@ -28,14 +28,14 @@ parse_cmpd <- function(x) {
 # Function to parse the name of the compound from ambinter
 substramb <- function(x, n = 4) {
   paste(substr(x, 0, 3),
-        substr(x, nchar(x) - n + 1, nchar(x)), sep = '')
+        substr(x, nchar(x) - n + 1, nchar(x)), sep = '') 
 }
 
 # Function to create a dataframe with the names of all compounds registered in the project
 gx.cmpd.name <- function(synth.name,
                          df.list.cmpd = data.frame(
-                          read_excel("/home/dreano/Desktop/mppase/Shared/20200220_mPPaseCompoundRegister_updated.xlsx", 2))) {
-  # src_path = "/home/dreano/Desktop/mppase/Shared/mPPaseCompoundRegister_updated 23022018.xlsx"
+                          read_excel("./mppase/Shared/20200220_mPPaseCompoundRegister_updated.xlsx", 2))) {
+  # src_path = "./Shared/mPPaseCompoundRegister_updated 23022018.xlsx"
   # df.list.cmpd = data.frame(read_excel(src_path,2))
   parse.synth.name <- gsubfn(".", list(" " = "", "-" = "", "+" = ""), synth.name)
   l.gx.names <- apply(df.list.cmpd['Synthetic'], 2, parse_cmpd)
@@ -69,7 +69,7 @@ gx.cmpd.name <- function(synth.name,
 
 # Function to read the IC50s from the excel file
 parsing_IC50 <- function(src_path = "~/Desktop/mppase/preliminary_IC50s-2018.xlsx") {
-  src_path_1 <- "/home/dreano/Desktop/mppase/Shared/20200220_mPPaseCompoundRegister_updated.xlsx"
+  src_path_1 <- "./Shared/20200220_mPPaseCompoundRegister_updated.xlsx"
   df.list.cmpd <- data.frame(read_excel(src_path_1, 2))
   l_sheets <- excel_sheets(src_path)
   estimate.IC50 <- lapply(l_sheets, read_excel,
@@ -150,7 +150,7 @@ parsing_IC50 <- function(src_path = "~/Desktop/mppase/preliminary_IC50s-2018.xls
 plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = F,
                       showInfl = F, showPoints = T, showCI = T, plot_curve = F,
                       showGOF = F, showEstim = F, save_pic = F, up.lim = 5e3, n = 5,
-                      target = 'mPPase') {
+                      target = 'mPPase',folder_out = './Picture_260521/') {
   set.seed(123) # for reproducibility
   setwd('~/Desktop/mppase/') # set working directory
   df.return <- data.frame()
@@ -160,11 +160,12 @@ plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = 
     df.cmpd <- l.result[[i]]
     df.cmpd$x <- df.cmpd$x * 10^-9
     np.cmpd <- nplr(df.cmpd$x, df.cmpd$y / 100) # Y axis scale from 0 to 1
-    name.cmpd <- df.cmpd$gx.name[1]
-    paper.name <- df.cmpd$paper.name[1]
-    synt.name <- df.cmpd$synth.name[1]
-    smiles.cmpd <- df.cmpd$SMILES[1]
-    id.cmpd <- df.cmpd$id
+    # get the name of the compound its the same for all the replicates in df.cmpd$gx.name
+    name.cmpd <- unique(df.cmpd$gx.name)
+    paper.name <- unique(df.cmpd$paper.name)
+    synt.name <- unique(df.cmpd$synth.name)
+    smiles.cmpd <- unique(df.cmpd$SMILES)
+    id.cmpd <- unique(df.cmpd$id)
     # plot the IC50 curve
     if (!grepl('SI-', paper.name)) { # Color the curve for compound in the paper
       linecol <- 'skyblue1'
@@ -176,15 +177,17 @@ plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = 
     if (is.na(paper.name)) {
       p.title <- paste(target, "response to", name.cmpd)
       x.title <- paste('[', name.cmpd, '] (M)', sep = '')
-      r.path <- "./Picture_260521/"
-      curve_name <- paste(r.path, "curve/", 'Curve_IC50_', name.cmpd, '_', synt.name, '_', id.cmpd, '.png', sep = '')
+      r.path <- folder_out
+      #add current date to the name of the curve
+      curve_name <- paste(r.path, "curve/", 'Curve_IC50_', name.cmpd, '_', synt.name, '_', id.cmpd, '_', format(Sys.Date(), "%d%m%y"), '.png', sep = '')
+      
     }else {
       # p.title = paste("mPPase response to §",paper.name," ( ",name.cmpd, " )",
       p.title <- paste(target, "response to", paper.name)
       # x.title = paste('[ §',paper.name,' ] (M)',sep='')
       x.title <- paste('[', paper.name, '] (M)', sep = '')
-      r.path <- "./Picture_260521/Paper/"
-      curve_name <- paste(r.path, "curve/", paper.name, '_Curve_IC50_', name.cmpd, '_', synt.name, '_', id.cmpd, '.png', sep = '')
+      r.path <- paste(folder_out + "/Paper/",sep = '')
+      curve_name <- paste(r.path, "curve/", paper.name, '_Curve_IC50_', name.cmpd, '_', synt.name, '_', id.cmpd,'_',format(Sys.Date(), "%d%m%y"), '.png', sep = '')
     }
     IC.50 <- getEstimates(np.cmpd, targets = 0.5, conf.level = conf.level) * 10^6
     if (IC.50$y != 5e+05 |
@@ -236,6 +239,7 @@ plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = 
       text(labels = lgd.ic, x = -9, y = 0.15, font = 2, col = legcol, cex = 1.5)
       title(xlab = bquote(Log[10] * .(x.title)))
       if (save_pic) {
+        print(curve_name)
         png(curve_name,
             width = 595.3684 * n, height = 400 * n, res = 100 * n, family = "serif")
         plot(np.cmpd, pcol = "grey40", lcol = linecol,
@@ -263,7 +267,7 @@ plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = 
 read.cmpd.test <- function(src_path = "~/Desktop/mppase/New compounds_170119.xlsx",
                            nb_replic = 4, nb_id = 0, start_sheet = 1, end_sheet = 0,
                            skip_col = 1, skip_row = 8) {
-  src_path_1 <- "/home/dreano/Desktop/mppase/Shared/20200220_mPPaseCompoundRegister_updated.xlsx"
+  src_path_1 <- "./Shared/20200220_mPPaseCompoundRegister_updated.xlsx"
   df.list.cmpd <- data.frame(read_excel(src_path_1, 2))
   l_sheets <- excel_sheets(src_path)
   cmpd.data <- lapply(l_sheets, read_excel,
@@ -401,149 +405,183 @@ update_IC50_csv <- function(ic50_tab, write_csv = F, csv_out = '') {
 # Parameters for the run (show/saving pictures, saving dataframes)
 pics <- T
 save_p <- T
-df.out <- read.cmpd.test(nb_id = 215)
+run_old <- F
 
-# Read of experimental data
-df.ki <- parsing_IC50()
-df.out <- read.cmpd.test('IC50_determination_of_compounds.xlsx', nb_replic = 3, nb_id = 240)
-df.cmpd2205 <- read.cmpd.test('KV_inhibition assay (Sep-Nov2017).xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd1701 <- read.cmpd.test('New compounds_170119.xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd0601.1 <- read.cmpd.test('Aaron_Inhibition test and IC50_310118.xlsx', nb_replic = 4, nb_id = 0, end_sheet = 1)
-df.cmpd0601.2 <- read.cmpd.test('Aaron_Inhibition test and IC50_310118.xlsx', nb_replic = 3, nb_id = 0, start_sheet = 2)
-df.cmpd250418 <- read.cmpd.test('Inhibition_250418_result.xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd1701_ <- read.cmpd.test('New compounds_170119_.xlsx', nb_replic = 4, nb_id = 0, start_sheet = 5)
-df.cmpd130619 <- read.cmpd.test('AKI samples mPPase Spring 2019.xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd180120 <- read.cmpd.test('Testing_130220.xlsx', nb_replic = 4, nb_id = 0, skip_col = 1, skip_row = c(3, 3, 3, 6), start_sheet = 2)
-df.cmpd181119 <- read.cmpd.test('Loic_testing_181119.xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd010716 <- read.cmpd.test('Retest_July_2016_J&K.xlsx', nb_replic = 4, nb_id = 0)
-df.cmpd011020.1 <- read.cmpd.test('IC50 Alex cpds 2020.xlsx', nb_replic = 3, nb_id = 0)
-df.cmpd011020.2 <- read.cmpd.test('New compounds_Oct2020.xlsx', nb_replic = 4, nb_id = 0)
-df.BLZ.mppase <- read.cmpd.test('IC50_TmPPase_format.xlsx', nb_replic = 3, nb_id = 0)
-df.BLZ.Pfppase <- read.cmpd.test('IC50_PfPPase_format.xlsx', nb_replic = 3, nb_id = 0)
-df.UR8.mppase <- read.cmpd.test('UR-8_IC50_TmPPase_format.xlsx', nb_replic = 3, nb_id = 0)
-df.UR8.Pfppase <- read.cmpd.test('UR-8_IC50_PfPPase_format.xlsx', nb_replic = 3, nb_id = 0)
-df.cmpd021221 <- read.cmpd.test('Cpds_021221.xlsx', nb_replic = 4, nb_id = 0)
+if (run_old){
+  # First original batch of data
+  df.out <- read.cmpd.test(nb_id = 215)
+  
+  # Read of experimental data
+  df.ki <- parsing_IC50()
+  df.out <- read.cmpd.test('IC50_determination_of_compounds.xlsx', nb_replic = 3, nb_id = 240)
+  df.cmpd2205 <- read.cmpd.test('KV_inhibition assay (Sep-Nov2017).xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd1701 <- read.cmpd.test('New compounds_170119.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd0601.1 <- read.cmpd.test('Aaron_Inhibition test and IC50_310118.xlsx', nb_replic = 4, nb_id = 0, end_sheet = 1)
+  df.cmpd0601.2 <- read.cmpd.test('Aaron_Inhibition test and IC50_310118.xlsx', nb_replic = 3, nb_id = 0, start_sheet = 2)
+  df.cmpd250418 <- read.cmpd.test('Inhibition_250418_result.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd1701_ <- read.cmpd.test('New compounds_170119_.xlsx', nb_replic = 4, nb_id = 0, start_sheet = 5)
+  df.cmpd130619 <- read.cmpd.test('AKI samples mPPase Spring 2019.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd180120 <- read.cmpd.test('Testing_130220.xlsx', nb_replic = 4, nb_id = 0, skip_col = 1, skip_row = c(3, 3, 3, 6), start_sheet = 2)
+  df.cmpd181119 <- read.cmpd.test('Loic_testing_181119.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd010716 <- read.cmpd.test('Retest_July_2016_J&K.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd011020.1 <- read.cmpd.test('IC50 Alex cpds 2020.xlsx', nb_replic = 3, nb_id = 0)
+  df.cmpd011020.2 <- read.cmpd.test('New compounds_Oct2020.xlsx', nb_replic = 4, nb_id = 0)
+  df.BLZ.mppase <- read.cmpd.test('IC50_TmPPase_format.xlsx', nb_replic = 3, nb_id = 0)
+  df.BLZ.Pfppase <- read.cmpd.test('IC50_PfPPase_format.xlsx', nb_replic = 3, nb_id = 0)
+  df.UR8.mppase <- read.cmpd.test('UR-8_IC50_TmPPase_format.xlsx', nb_replic = 3, nb_id = 0)
+  df.UR8.Pfppase <- read.cmpd.test('UR-8_IC50_PfPPase_format.xlsx', nb_replic = 3, nb_id = 0)
+  df.cmpd021221 <- read.cmpd.test('Cpds_021221.xlsx', nb_replic = 4, nb_id = 0)
+  df.cmpd170524 <- read.cmpd.test('Jianing_parsed.xlsx',nb_replic = 3,nb_id = 0)
+  df.cmpd.Jia.1 <- read.cmpd.test('Jianing_batch_1.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.6 <- read.cmpd.test('Jianing_batch_6.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.5 <- read.cmpd.test('Jianing_batch_5.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.4 <- read.cmpd.test('Jianing_batch_4.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.3 <- read.cmpd.test('Jianing_batch_3.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.2 <- read.cmpd.test('Jianing_batch_2.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.Jia.7 <- read.cmpd.test('Jianing_batch_7.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  df.cmpd.IDP.RD2 <- read.cmpd.test('Ic50_calculation_IDP_RD2.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+  
+  
+  # # Plot of the IC50 curves
+  IC50.new.cmpd <- plot.IC50(df.out, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.2 <- plot.IC50(df.cmpd2205, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.3 <- plot.IC50(df.cmpd1701, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.4 <- plot.IC50(df.cmpd0601.1, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.5 <- plot.IC50(df.cmpd0601.2, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.6 <- plot.IC50(df.cmpd250418, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.7 <- plot.IC50(df.cmpd1701_, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.8 <- plot.IC50(df.cmpd130619, plot_curve = pics, save_pic = save_p)
+  res.IC50 <- plot.IC50(df.ki, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.180120 <- plot.IC50(df.cmpd180120, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.181119 <- plot.IC50(df.cmpd181119, plot_curve = pics, save_pic = save_p)
+  IC50.new.cmpd.010716 <- plot.IC50(df.cmpd010716, plot_curve = pics, save_pic = save_p)
+  cmpd011020.1 <- plot.IC50(df.cmpd011020.1, plot_curve = pics, save_pic = save_p)
+  cmpd011020.2 <- plot.IC50(df.cmpd011020.2, plot_curve = pics, save_pic = save_p)
+  BLZ.mppase <- plot.IC50(df.BLZ.mppase, plot_curve = pics, save_pic = save_p)
+  BLZ.Pfppase <- plot.IC50(df.BLZ.Pfppase, plot_curve = pics, save_pic = save_p, target = 'fPPase')
+  UR8.mppase <- plot.IC50(df.UR8.mppase, plot_curve = pics, save_pic = save_p)
+  UR8.Pfppase <- plot.IC50(df.UR8.Pfppase, plot_curve = pics, save_pic = save_p, target = 'fPPase')
+  cmpd021221 <- plot.IC50(df.cmpd021221, plot_curve = pics, save_pic = save_p)
+  cmpd170524 <- plot.IC50(df.cmpd170524, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.6 <- plot.IC50(df.cmpd.Jia.6, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.5 <- plot.IC50(df.cmpd.Jia.5, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.4 <- plot.IC50(df.cmpd.Jia.4, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.3 <- plot.IC50(df.cmpd.Jia.3, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.2 <- plot.IC50(df.cmpd.Jia.2, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.1 <- plot.IC50(df.cmpd.Jia.1, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.Jia.7 <- plot.IC50(df.cmpd.Jia.7, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  cmpd.IDP.RD2 <- plot.IC50(df.cmpd.IDP.RD2, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+  
+  # writing the IC50 in a csv file
+  IC50.new.cmpd.csv <- update_IC50_csv(IC50.new.cmpd, F)
+  IC50.new.cmpd.2.csv <- update_IC50_csv(IC50.new.cmpd.2, F)
+  IC50.new.cmpd.3.csv <- update_IC50_csv(IC50.new.cmpd.3, F)
+  IC50.new.cmpd.4.csv <- update_IC50_csv(IC50.new.cmpd.4, F)
+  IC50.new.cmpd.5.csv <- update_IC50_csv(IC50.new.cmpd.5, F)
+  IC50.new.cmpd.6.csv <- update_IC50_csv(IC50.new.cmpd.6, F)
+  IC50.new.cmpd.7.csv <- update_IC50_csv(IC50.new.cmpd.7, F)
+  IC50.new.cmpd.8.csv <- update_IC50_csv(IC50.new.cmpd.8, T, 'IC50.new.cmpd.8.csv')
+  res.IC50.csv <- update_IC50_csv(res.IC50, F)
+  IC50.new.cmpd.180120.csv <- update_IC50_csv(IC50.new.cmpd.180120, T, 'IC50.new.cmpd.180120.csv')
+  IC50.new.cmpd.181119.csv <- update_IC50_csv(IC50.new.cmpd.181119, F)
+  IC50.new.cmpd.010716.csv <- update_IC50_csv(IC50.new.cmpd.010716, T, 'IC50.new.cmpd.010716.csv')
+  cmpd011020.1.csv <- update_IC50_csv(cmpd011020.1, T, 'cmpd011020.1.csv')
+  cmpd011020.2.csv <- update_IC50_csv(cmpd011020.2, T, 'cmpd011020.2.csv')
+  cmpd.IDP.RD2.csv <- update_IC50_csv(cmpd.IDP.RD2, T, 'cmpd.IDP.RD2.csv')
+}
 
-# Plot of the IC50 curves
-IC50.new.cmpd <- plot.IC50(df.out, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.2 <- plot.IC50(df.cmpd2205, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.3 <- plot.IC50(df.cmpd1701, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.4 <- plot.IC50(df.cmpd0601.1, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.5 <- plot.IC50(df.cmpd0601.2, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.6 <- plot.IC50(df.cmpd250418, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.7 <- plot.IC50(df.cmpd1701_, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.8 <- plot.IC50(df.cmpd130619, plot_curve = pics, save_pic = save_p)
-res.IC50 <- plot.IC50(df.ki, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.180120 <- plot.IC50(df.cmpd180120, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.181119 <- plot.IC50(df.cmpd181119, plot_curve = pics, save_pic = save_p)
-IC50.new.cmpd.010716 <- plot.IC50(df.cmpd010716, plot_curve = pics, save_pic = save_p)
-cmpd011020.1 <- plot.IC50(df.cmpd011020.1, plot_curve = pics, save_pic = save_p)
-cmpd011020.2 <- plot.IC50(df.cmpd011020.2, plot_curve = pics, save_pic = save_p)
-BLZ.mppase <- plot.IC50(df.BLZ.mppase, plot_curve = pics, save_pic = save_p)
-BLZ.Pfppase <- plot.IC50(df.BLZ.Pfppase, plot_curve = pics, save_pic = save_p, target = 'fPPase')
-UR8.mppase <- plot.IC50(df.UR8.mppase, plot_curve = pics, save_pic = save_p)
-UR8.Pfppase <- plot.IC50(df.UR8.Pfppase, plot_curve = pics, save_pic = save_p, target = 'fPPase')
-cmpd021221 <- plot.IC50(df.cmpd021221, plot_curve = pics, save_pic = save_p)
-
-# writing the IC50 in a csv file
-IC50.new.cmpd.csv <- update_IC50_csv(IC50.new.cmpd, F)
-IC50.new.cmpd.2.csv <- update_IC50_csv(IC50.new.cmpd.2, F)
-IC50.new.cmpd.3.csv <- update_IC50_csv(IC50.new.cmpd.3, F)
-IC50.new.cmpd.4.csv <- update_IC50_csv(IC50.new.cmpd.4, F)
-IC50.new.cmpd.5.csv <- update_IC50_csv(IC50.new.cmpd.5, F)
-IC50.new.cmpd.6.csv <- update_IC50_csv(IC50.new.cmpd.6, F)
-IC50.new.cmpd.7.csv <- update_IC50_csv(IC50.new.cmpd.7, F)
-IC50.new.cmpd.8.csv <- update_IC50_csv(IC50.new.cmpd.8, T, 'IC50.new.cmpd.8.csv')
-res.IC50.csv <- update_IC50_csv(res.IC50, F)
-IC50.new.cmpd.180120.csv <- update_IC50_csv(IC50.new.cmpd.180120, T, 'IC50.new.cmpd.180120.csv')
-IC50.new.cmpd.181119.csv <- update_IC50_csv(IC50.new.cmpd.181119, F)
-IC50.new.cmpd.010716.csv <- update_IC50_csv(IC50.new.cmpd.010716, T, 'IC50.new.cmpd.010716.csv')
-cmpd011020.1.csv <- update_IC50_csv(cmpd011020.1, T, 'cmpd011020.1.csv')
-cmpd011020.2.csv <- update_IC50_csv(cmpd011020.2, T, 'cmpd011020.2.csv')
-
-# Plots for analysis/report/meeting to comment if not needed
-all <- rbind(IC50.new.cmpd, IC50.new.cmpd.2, IC50.new.cmpd.3, IC50.new.cmpd.4,
-             IC50.new.cmpd.5, IC50.new.cmpd.6, IC50.new.cmpd.7, IC50.new.cmpd.8,
-             res.IC50, IC50.new.cmpd.180120, IC50.new.cmpd.181119, IC50.new.cmpd.010716)
-
-which(all$synth.name == 'AKI-A157')
-
-
-tmp_ <- read_excel('/home/dreano/Desktop/mppase/Shared/mPPaseCompoundRegister_updated_25102019.xlsx', sheet = 2)
-write.table(all, file = 'ALL_dataframe.txt')
-all <- read.table('ALL_dataframe.txt')
-all[which(substr(all$name.cmpd, 1, 3) != 'mPP'),]
-azu_code <- c('mPP-0350', 'mPP-0351', 'mPP-0352', 'mPP-0078', 'mPP-0086', 'mPP-0118',
-              'mPP-0267', 'mPP-0079', 'mPP-0117', 'mPP-0091', 'mPP-0080', 'mPP-0268',
-              'mPP-0085', 'mPP-0096', 'mPP-0130', 'mPP-076', 'mPP-0178', 'mPP-0177',
-              'mPP-0120', 'mPP-0114', 'mPP-0087', 'mPP-0181', 'mPP-0182', 'mPP-0180',
-              'mPP-0134', 'mPP-0129', 'mPP-0179', 'mPP-0133', 'mPP-0225', 'mPP-0093',
-              'mPP-0090', 'mPP-0135', 'mPP-0089', 'mPP-0095', 'mPP-0226', 'mPP-0269',
-              'mPP-0270', 'mPP-0084', 'mPP-0092', 'mPP-0132', 'mPP-0185', 'mPP-0184',
-              'mPP-0187', 'mPP-0186', 'mPP-0131', 'mPP-0183', 'mPP-0088', 'mPP-0103',
-              'mPP-0119', 'mPP-0112', 'mPP-0137', 'mPP-0138', 'mPP-0115', 'mPP-0102',
-              'mPP-0100', 'mPP-0104', 'mPP-0097', 'mPP-0094', 'mPP-0082', 'mPP-081',
-              'mPP-083', 'mPP-0249', 'mPP-0250', 'mPP-0251', 'mPP-0279', 'mPP-0280',
-              'mPP-0281', 'mPP-0282', 'mPP-0283', 'mPP-0284', 'mPP-0285', 'mPP-0253',
-              'mPP-0254', 'mPP-0255', 'mPP-0078', 'mPP-0086', 'mPP-0118', 'mPP-0267',
-              'mPP-0079', 'mPP-0117', 'mPP-0091', 'mPP-0080', 'mPP-0268', 'mPP-0085',
-              'mPP-0096', 'mPP-0130', 'mPP-0076', 'mPP-0178', 'mPP-0177', 'mPP-0120',
-              'mPP-0114', 'mPP-0087', 'mPP-0181', 'mPP-0182', 'mPP-0182', 'mPP-0180',
-              'mPP-0134', 'mPP-0129', 'mPP-0179', 'mPP-0133', 'mPP-0225', 'mPP-0093',
-              'mPP-0090', 'mPP-0135', 'mPP-0089', 'mPP-0095', 'mPP-0226', 'mPP-0269',
-              'mPP-0270', 'mPP-0084', 'mPP-0098', 'mPP-0092', 'mPP-0132', 'mPP-0185',
-              'mPP-0184', 'mPP-0187', 'mPP-0186', 'mPP-0131', 'mPP-0183', 'mPP-0088',
-              'mPP-0103', 'mPP-0112', 'mPP-0137', 'mPP-0138')
-
-azu_all <- all[match(all$name.cmpd, azu_code, nomatch = 0), 'IC50']
-Azu_ic1 <- replace(azu_all, is.na(azu_all), as.numeric(5000))
-Azu_ic2 <- azu_all[!is.na(azu_all)]
-oth_all <- all[-match(all$name.cmpd, azu_code, nomatch = 0), 'IC50']
-oth_ic1 <- replace(oth_all, is.na(oth_all), as.numeric(5000))
-oth_ic2 <- oth_all[!is.na(oth_all)]
-df_oth2 <- data.frame(cbind(x = as.numeric(oth_ic2), y = 'oth'))
-df_azu2 <- data.frame(cbind(x = as.numeric(Azu_ic2), y = 'azu'))
-df2 <- (rbind(df_oth2, df_azu2))
+df.cmpd.IDP.RD2 <- read.cmpd.test('Ic50_calculation_IDP_RD2.xlsx',nb_replic = 3,nb_id = 0,skip_row = 0)
+cmpd.IDP.RD2 <- plot.IC50(df.cmpd.IDP.RD2, plot_curve = pics, save_pic = save_p,target = 'fPPase')
+cmpd.IDP.RD2.csv <- update_IC50_csv(cmpd.IDP.RD2, T, 'cmpd.IDP.RD2.csv')
 
 
-ggplot(df3, aes(x = lx, colour = y, fill = y)) +
-  # geom_histogram(binwidth=10)+
-  geom_histogram(aes(y = ..density..), binwidth = 0.05, position = 'dodge2', alpha = 0.11) +
-  geom_density(alpha = 0.1) +
-  theme_bw()
-ylim(0, 0.032) +
-  # scale_x_continuous(trans = 'log2')+
-  xlim(-10, 500)
-
-df2.1 <- df2[df2$y == 'oth',]
-ggplot(df2.1, aes(x = as.numeric(as.character(x)), colour = y, fill = y)) +
-  # geom_histogram(binwidth=10)+
-  geom_histogram(aes(y = ..density..), alpha = 0.01) +
-  geom_density(alpha = 0.3) +
-  theme_bw() +
-  # scale_x_continuous(trans = 'log2')+
-  xlim(-10, 700)
-df2.2 <- df2[df2$y != 'oth',]
-ggplot(df2.2, aes(x = as.numeric(as.character(x)), colour = y, fill = y)) +
-  # geom_histogram(binwidth=10)+
-  geom_histogram(position = "identity", aes(y = ..density..), alpha = 0.01) +
-  geom_density(alpha = 0.3) +
-  theme_bw() +
-  # scale_x_continuous(trans = 'log2')+
-  xlim(-10, 700)
 
 
-df_oth1 <- data.frame(cbind(x = as.numeric(oth_ic1), y = 'oth'))
-df_azu1 <- data.frame(cbind(x = as.numeric(Azu_ic1), y = 'azu'))
-df1 <- (rbind(df_oth1, df_azu1))
-ggplot(df1, aes(x = as.numeric(as.character(x)), colour = y)) +
-  geom_density() +
-  theme_bw()
-xlim(-30, 200)
 
 
+# # Plots for analysis/report/meeting to comment if not needed
+# all <- rbind(IC50.new.cmpd, IC50.new.cmpd.2, IC50.new.cmpd.3, IC50.new.cmpd.4,
+#              IC50.new.cmpd.5, IC50.new.cmpd.6, IC50.new.cmpd.7, IC50.new.cmpd.8,
+#              res.IC50, IC50.new.cmpd.180120, IC50.new.cmpd.181119, IC50.new.cmpd.010716)
+# 
+# which(all$synth.name == 'AKI-A157')
 # #
-#
+# 
+# tmp_ <- read_excel('./Shared/mPPaseCompoundRegister_updated_25102019.xlsx', sheet = 2)
+# write.table(all, file = 'ALL_dataframe.txt')
+# all <- read.table('ALL_dataframe.txt')
+# all[which(substr(all$name.cmpd, 1, 3) != 'mPP'),]
+# azu_code <- c('mPP-0350', 'mPP-0351', 'mPP-0352', 'mPP-0078', 'mPP-0086', 'mPP-0118',
+#               'mPP-0267', 'mPP-0079', 'mPP-0117', 'mPP-0091', 'mPP-0080', 'mPP-0268',
+#               'mPP-0085', 'mPP-0096', 'mPP-0130', 'mPP-076', 'mPP-0178', 'mPP-0177',
+#               'mPP-0120', 'mPP-0114', 'mPP-0087', 'mPP-0181', 'mPP-0182', 'mPP-0180',
+#               'mPP-0134', 'mPP-0129', 'mPP-0179', 'mPP-0133', 'mPP-0225', 'mPP-0093',
+#               'mPP-0090', 'mPP-0135', 'mPP-0089', 'mPP-0095', 'mPP-0226', 'mPP-0269',
+#               'mPP-0270', 'mPP-0084', 'mPP-0092', 'mPP-0132', 'mPP-0185', 'mPP-0184',
+#               'mPP-0187', 'mPP-0186', 'mPP-0131', 'mPP-0183', 'mPP-0088', 'mPP-0103',
+#               'mPP-0119', 'mPP-0112', 'mPP-0137', 'mPP-0138', 'mPP-0115', 'mPP-0102',
+#               'mPP-0100', 'mPP-0104', 'mPP-0097', 'mPP-0094', 'mPP-0082', 'mPP-081',
+#               'mPP-083', 'mPP-0249', 'mPP-0250', 'mPP-0251', 'mPP-0279', 'mPP-0280',
+#               'mPP-0281', 'mPP-0282', 'mPP-0283', 'mPP-0284', 'mPP-0285', 'mPP-0253',
+#               'mPP-0254', 'mPP-0255', 'mPP-0078', 'mPP-0086', 'mPP-0118', 'mPP-0267',
+#               'mPP-0079', 'mPP-0117', 'mPP-0091', 'mPP-0080', 'mPP-0268', 'mPP-0085',
+#               'mPP-0096', 'mPP-0130', 'mPP-0076', 'mPP-0178', 'mPP-0177', 'mPP-0120',
+#               'mPP-0114', 'mPP-0087', 'mPP-0181', 'mPP-0182', 'mPP-0182', 'mPP-0180',
+#               'mPP-0134', 'mPP-0129', 'mPP-0179', 'mPP-0133', 'mPP-0225', 'mPP-0093',
+#               'mPP-0090', 'mPP-0135', 'mPP-0089', 'mPP-0095', 'mPP-0226', 'mPP-0269',
+#               'mPP-0270', 'mPP-0084', 'mPP-0098', 'mPP-0092', 'mPP-0132', 'mPP-0185',
+#               'mPP-0184', 'mPP-0187', 'mPP-0186', 'mPP-0131', 'mPP-0183', 'mPP-0088',
+#               'mPP-0103', 'mPP-0112', 'mPP-0137', 'mPP-0138')
+# 
+# azu_all <- all[match(all$name.cmpd, azu_code, nomatch = 0), 'IC50']
+# Azu_ic1 <- replace(azu_all, is.na(azu_all), as.numeric(5000))
+# Azu_ic2 <- azu_all[!is.na(azu_all)]
+# oth_all <- all[-match(all$name.cmpd, azu_code, nomatch = 0), 'IC50']
+# oth_ic1 <- replace(oth_all, is.na(oth_all), as.numeric(5000))
+# oth_ic2 <- oth_all[!is.na(oth_all)]
+# df_oth2 <- data.frame(cbind(x = as.numeric(oth_ic2), y = 'oth'))
+# df_azu2 <- data.frame(cbind(x = as.numeric(Azu_ic2), y = 'azu'))
+# df2 <- (rbind(df_oth2, df_azu2))
+# 
+# 
+# ggplot(df3, aes(x = lx, colour = y, fill = y)) +
+#   # geom_histogram(binwidth=10)+
+#   geom_histogram(aes(y = ..density..), binwidth = 0.05, position = 'dodge2', alpha = 0.11) +
+#   geom_density(alpha = 0.1) +
+#   theme_bw()
+# ylim(0, 0.032) +
+#   # scale_x_continuous(trans = 'log2')+
+#   xlim(-10, 500)
+# 
+# df2.1 <- df2[df2$y == 'oth',]
+# ggplot(df2.1, aes(x = as.numeric(as.character(x)), colour = y, fill = y)) +
+#   # geom_histogram(binwidth=10)+
+#   geom_histogram(aes(y = ..density..), alpha = 0.01) +
+#   geom_density(alpha = 0.3) +
+#   theme_bw() +
+#   # scale_x_continuous(trans = 'log2')+
+#   xlim(-10, 700)
+# df2.2 <- df2[df2$y != 'oth',]
+# ggplot(df2.2, aes(x = as.numeric(as.character(x)), colour = y, fill = y)) +
+#   # geom_histogram(binwidth=10)+
+#   geom_histogram(position = "identity", aes(y = ..density..), alpha = 0.01) +
+#   geom_density(alpha = 0.3) +
+#   theme_bw() +
+#   # scale_x_continuous(trans = 'log2')+
+#   xlim(-10, 700)
+# 
+# 
+# df_oth1 <- data.frame(cbind(x = as.numeric(oth_ic1), y = 'oth'))
+# df_azu1 <- data.frame(cbind(x = as.numeric(Azu_ic1), y = 'azu'))
+# df1 <- (rbind(df_oth1, df_azu1))
+# ggplot(df1, aes(x = as.numeric(as.character(x)), colour = y)) +
+#   geom_density() +
+#   theme_bw()
+# xlim(-30, 200)
+# 
+# 
+# # #
+# #
 # res.IC50.clust = clust.df.out(res.IC50)
 # write.xlsx(res.IC50.clust,"Summary_IC50_030719.xlsx",row.names = F)
 # update.summary.IC50("Summary_IC50_030719.xlsx",'Summary_IC50_030719.xlsx',IC50.new.cmpd.7)
@@ -556,39 +594,39 @@ xlim(-30, 200)
 # tmp = update.summary.IC50("Summary_IC50_030719.xlsx",'Summary_IC50_030719.xlsx',IC50.new.cmpd)
 
 ## Excel to csv for maestro
-setwd('Downloads/')
-cmpd.tab <- read.csv('mPPaseCompoundRegister_to_Schrodinger(1).csv')
-cmpd.tab <- cmpd.tab[0:405,]
-colnames(cmpd.tab) <- c("Formula", 'SMILES', 'Generic code', 'Synthetic code', 'Isoxasole ms code', 'M (g/mol)',
-                        'Exact mass (g/mol)', 'clogP', 'Mol. Top. PSA', 'Tested', 'Paper 1 code', 'm (mg)', 'Notes',
-                        'Screening data exist', 'Screening 50 uM', 'Screening 20 uM', 'Screening 5 uM', 'Screening 1 uM',
-                        'Toxicity', 'old IC50 (uM)', 'Supplier', 'Purity (% + method)', 'Identity (method)',
-                        'Aggregation 50 uM', 'Aggregation 20 uM', "Aggregation 5 uM", "Aggregation 1 uM",
-                        "new IC50 [CI95%] (uM)")
-new_ic50 <- str_replace(cmpd.tab$`new IC50 [CI95%] (uM)`, '#N/A', '')
-new_ic50 <- str_replace(new_ic50, 'NA  \\[ NA - NA ]', '')
-new_ic50 <- str_replace(new_ic50, '.\nNA  \\[ NA - NA ]', '')
-
-for (i in seq(1, length(new_ic50))) {
-
-  if (str_detect(new_ic50[i], '\\[')) {
-    new_ic50[i] <- (str_split(new_ic50[i], '  \\[')[[1]][1])
-
-  }
-}
-
-cmpd.tab$`new IC50 [CI95%] (uM)` <- str_replace(cmpd.tab$`new IC50 [CI95%] (uM)`, '.\n', ' / ')
-cmpd.tab$`Purity (% + method)` <- str_replace(cmpd.tab$`Purity (% + method)`, '�', ' >=')
-cmpd.tab$`Purity (% + method)` <- str_replace(cmpd.tab$`Purity (% + method)`, '\n', ' / ')
-cmpd.tab$`Identity (method)` <- str_replace(cmpd.tab$`Identity (method)`, '\n', ' / ')
-# str_replace(cmpd.tab$new.IC50..CI95....uM.[2],'NA','')
-# cmpd.tab$new.IC50..CI95....uM.[2]
-
-cmpd.out <- cbind(cmpd.tab[, 1:27], 'IC50' = new_ic50, "new IC50 [CI95%] (uM)" = cmpd.tab[, 28])
-write.csv(cmpd.out, '20200220_mPPaseCompoundRegister_clean.csv', quote = F, row.names = F, na = '', sep = '')
-
-cmpd.tab$new.IC50..CI95....uM.[23]
-str_replace(cmpd.tab, '.\n', ' / ')
+# setwd('Downloads/')
+# cmpd.tab <- read.csv('mPPaseCompoundRegister_to_Schrodinger(1).csv')
+# cmpd.tab <- cmpd.tab[0:405,]
+# colnames(cmpd.tab) <- c("Formula", 'SMILES', 'Generic code', 'Synthetic code', 'Isoxasole ms code', 'M (g/mol)',
+#                         'Exact mass (g/mol)', 'clogP', 'Mol. Top. PSA', 'Tested', 'Paper 1 code', 'm (mg)', 'Notes',
+#                         'Screening data exist', 'Screening 50 uM', 'Screening 20 uM', 'Screening 5 uM', 'Screening 1 uM',
+#                         'Toxicity', 'old IC50 (uM)', 'Supplier', 'Purity (% + method)', 'Identity (method)',
+#                         'Aggregation 50 uM', 'Aggregation 20 uM', "Aggregation 5 uM", "Aggregation 1 uM",
+#                         "new IC50 [CI95%] (uM)")
+# new_ic50 <- str_replace(cmpd.tab$`new IC50 [CI95%] (uM)`, '#N/A', '')
+# new_ic50 <- str_replace(new_ic50, 'NA  \\[ NA - NA ]', '')
+# new_ic50 <- str_replace(new_ic50, '.\nNA  \\[ NA - NA ]', '')
+#
+# for (i in seq(1, length(new_ic50))) {
+#
+#   if (str_detect(new_ic50[i], '\\[')) {
+#     new_ic50[i] <- (str_split(new_ic50[i], '  \\[')[[1]][1])
+#
+#   }
+# }
+#
+# cmpd.tab$`new IC50 [CI95%] (uM)` <- str_replace(cmpd.tab$`new IC50 [CI95%] (uM)`, '.\n', ' / ')
+# cmpd.tab$`Purity (% + method)` <- str_replace(cmpd.tab$`Purity (% + method)`, '�', ' >=')
+# cmpd.tab$`Purity (% + method)` <- str_replace(cmpd.tab$`Purity (% + method)`, '\n', ' / ')
+# cmpd.tab$`Identity (method)` <- str_replace(cmpd.tab$`Identity (method)`, '\n', ' / ')
+# # str_replace(cmpd.tab$new.IC50..CI95....uM.[2],'NA','')
+# # cmpd.tab$new.IC50..CI95....uM.[2]
+#
+# cmpd.out <- cbind(cmpd.tab[, 1:27], 'IC50' = new_ic50, "new IC50 [CI95%] (uM)" = cmpd.tab[, 28])
+# write.csv(cmpd.out, '20200220_mPPaseCompoundRegister_clean.csv', quote = F, row.names = F, na = '', sep = '')
+#
+# cmpd.tab$new.IC50..CI95....uM.[23]
+# str_replace(cmpd.tab, '.\n', ' / ')
 
 
 # t4 = update.cmpd.register('Summary_IC50_260619.xlsx','Shared/mPPaseCompoundRegister_updated_14052019.xlsx','Shared/mPPaseCompoundRegister_updated_28062019.xlsx')
@@ -735,7 +773,7 @@ str_replace(cmpd.tab, '.\n', ' / ')
 # data[rowSums(is.na(data)) != ncol(data),]
 #
 #
-# src_path_2 = "/home/dreano/Desktop/mppase/Shared/mPPaseCompoundRegister_updated 23022018.xlsx"
+# src_path_2 = "./Shared/mPPaseCompoundRegister_updated 23022018.xlsx"
 #
 # l_cmpd_name= data.frame(read_excel(src_path_2,2))
 # test = apply(l_cmpd_name['Synthetic'],2, parse_cpd)
@@ -747,7 +785,7 @@ str_replace(cmpd.tab, '.\n', ' / ')
 # np = plot.IC50(df.cmpd2205,plot_curve = T, save_pic = T)
 #
 # n=5
-# png('/home/dreano/Desktop/mppase/Picture_230519/curve/Test_4.png',
+# png('./Picture_230519/curve/Test_4.png',
 #     width=678*n, height=400*n, res=100*n, family="serif")
 # plot(np, pcol="grey40", lcol="skyblue1",
 #      showEstim = F, showInfl = F,
@@ -760,7 +798,7 @@ str_replace(cmpd.tab, '.\n', ' / ')
 #      xlab = bquote(Log[10]~.('x.title')),
 #      ylab = 'mPPase activity',ylim=c(0,1.2),xlim=c(-10,-4), cex.lab=1.25)
 # text(labels = lgd.ic ,x=-9,y=0.1, font=2, col='skyblue4')
-# 
+#
 # dev.off()
 
 

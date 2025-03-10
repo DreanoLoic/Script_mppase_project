@@ -1,0 +1,71 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f7d40c
+Name           : glide-dock_XP_17a
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-dock_XP_17a
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_17a
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide glide-dock_XP_17a.in -OVERWRITE -adjust -HOST localhost:4 -PROJ /home/dreano/Desktop/mppase/docking_2_12_2.prj -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2021-07-21-11:00:13
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_XP_17a.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 1
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       1
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  dreanos-0-60f7d410 glide-dock_XP_17a-0001 localhost [dreanos]
+1 0 0 | finished  dreanos-0-60f7d410 glide-dock_XP_17a-0001 localhost [dreanos]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 1 ligands done.
+Writing poses to glide-dock_XP_17a_pv.maegz
+Combining log files to glide-dock_XP_17a_subjobs.log
+Archiving subjob pose files in glide-dock_XP_17a_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_XP_17a_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.0 s
+- running subjobs: 45.0 s
+- postprocessing: 1.6 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 38 seconds
+
+Finished at: Wed Jul 21 11:01:01 2021
+Total elapsed time for Glide script = 47 seconds
+[running at reduced cpu priority]

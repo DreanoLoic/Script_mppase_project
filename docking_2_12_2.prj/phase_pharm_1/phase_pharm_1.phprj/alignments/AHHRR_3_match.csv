@@ -1,0 +1,3 @@
+Ligand_Name,Conf_Index,Num_Sites_Matched,Matched_Ligand_Sites,Site_Score,Vector_Score,Volume_Score,Fitness,Ref_Ligand
+mol_1,44,5,"A(3) H(10) H(11) R(13) R(16)",1.0000,1.0000,1.0000,3.0000,yes
+mol_2,23,5,"A(4) H(6) H(7) R(10) R(12)",0.4966,0.9812,0.4831,1.9608,no

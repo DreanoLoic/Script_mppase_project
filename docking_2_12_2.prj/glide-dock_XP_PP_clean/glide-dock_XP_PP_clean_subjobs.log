@@ -1,0 +1,433 @@
+######## begin of glide-dock_XP_PP_clean-0001.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab501
+Name           : glide-dock_XP_PP_clean-0001
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0001
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0001.inp -HOST localhost
+StartTime      : 2021-07-23-15:24:33
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ res reso default   16.0000000000000        16.0000000000000     
+ res reso fin   16.0000000000000        16.0000000000000     
+ Use grow mode-t
+  
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ REPORT POSE ANCH_2           1           0           1
+ REPORT POSE ANCH_2           2           0          27
+ REPORT POSE ANCH_2           3           0           2
+ REPORT POSE ANCH_2           4           0          78
+ REPORT POSE ANCH_2           5           0         122
+ REPORT POSE ANCH_2           6           0          47
+ REPORT POSE ANCH_2           7           0          58
+Full force-field refinement in receptor field for up to   30 poses
+    7 poses will be postminimized for this ligand
+ iancorig for REPORT pose           1           0
+ iancorig for REPORT pose           2           0
+ iancorig for REPORT pose           3           0
+ iancorig for REPORT pose           4           0
+ iancorig for REPORT pose           5           0
+ iancorig for REPORT pose           6           0
+ iancorig for REPORT pose           7           0
+ Number of poses to report:           7
+Reporting postminimized pose   2 GlideScore =      6.440
+GlideScore(    6.44)+Epik State Penalty(    0.00) =     6.44 kcal/mol
+Reporting original pose   3 GlideScore =      9.370
+GlideScore(    9.37)+Epik State Penalty(    0.00) =     9.37 kcal/mol
+Reporting postminimized pose   1 GlideScore =      9.859
+GlideScore(    9.86)+Epik State Penalty(    0.00) =     9.86 kcal/mol
+Reporting postminimized pose   6 GlideScore =     10.370
+GlideScore(   10.37)+Epik State Penalty(    0.00) =    10.37 kcal/mol
+Reporting postminimized pose   7 GlideScore =     10.639
+GlideScore(   10.64)+Epik State Penalty(    0.00) =    10.64 kcal/mol
+Reporting postminimized pose   5 GlideScore =     10.775
+GlideScore(   10.78)+Epik State Penalty(    0.00) =    10.78 kcal/mol
+Reporting postminimized pose   4 GlideScore =     10.866
+GlideScore(   10.87)+Epik State Penalty(    0.00) =    10.87 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (mPP-0224)
+Best XP pose:    27;  GlideScore =      6.44 Emodel =    -29.39 E =    -34.13 Eint =     1.01
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_PP_clean-0001_raw.maegz
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:25:55 EEST
+CPU time (s): 71.9 user, 0.4 system, 79.7 real
+Total elapsed time = 80 seconds (1 minutes, 20 seconds)
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0001.log #########
+######## begin of glide-dock_XP_PP_clean-0002.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab503
+Name           : glide-dock_XP_PP_clean-0002
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0002
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0002.inp -HOST localhost
+StartTime      : 2021-07-23-15:24:35
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 1
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #      2(mPP-0293)
+SKIP LIG        2 (mPP-0293): GRID-ENERGY MIN FAILED
+GLIDE WARNING: Skipping ligand, refinement found nothing
+GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:24:56 EEST
+CPU time (s): 14.8 user, 0.2 system, 18.5 real
+Total elapsed time = 19 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0002.log #########
+######## begin of glide-dock_XP_PP_clean-0003.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab505
+Name           : glide-dock_XP_PP_clean-0003
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0003
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0003.inp -HOST localhost
+StartTime      : 2021-07-23-15:24:37
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 2
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #      3(mPP-0293)
+SKIP LIG        3 (mPP-0293): GRID-ENERGY MIN FAILED
+GLIDE WARNING: Skipping ligand, refinement found nothing
+GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:25:01 EEST
+CPU time (s): 15.3 user, 0.2 system, 20.9 real
+Total elapsed time = 21 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0003.log #########
+######## begin of glide-dock_XP_PP_clean-0004.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab508
+Name           : glide-dock_XP_PP_clean-0004
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0004
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0004.inp -HOST localhost
+StartTime      : 2021-07-23-15:24:40
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 3
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #      4(mPP-0293)
+SKIP LIG        4 (mPP-0293): GRID-ENERGY MIN FAILED
+GLIDE WARNING: Skipping ligand, refinement found nothing
+GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:25:02 EEST
+CPU time (s): 15.0 user, 0.2 system, 19.8 real
+Total elapsed time = 20 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0004.log #########
+######## begin of glide-dock_XP_PP_clean-0005.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab51b
+Name           : glide-dock_XP_PP_clean-0005
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0005
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0005.inp -HOST localhost
+StartTime      : 2021-07-23-15:24:59
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 4
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+NO VALID POSES AFTER MINIMIZATION: SKIPPING.
+Ligand #      5(mPP-0293)
+SKIP LIG        5 (mPP-0293): GRID-ENERGY MIN FAILED
+GLIDE WARNING: Skipping ligand, refinement found nothing
+GLIDE WARNING: No report data collected; cannot write PoseViewer, etc.
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:25:19 EEST
+CPU time (s): 15.3 user, 0.2 system, 16.9 real
+Total elapsed time = 17 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0005.log #########
+######## begin of glide-dock_XP_PP_clean-0006.log #########
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60fab520
+Name           : glide-dock_XP_PP_clean-0006
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-dock_XP_PP_clean-0006
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide -RESTART -serial glide-dock_XP_PP_clean-0006.inp -HOST localhost
+StartTime      : 2021-07-23-15:25:05
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 5
+ VdW radii of ligand atoms scaled by   0.800000000000000     
+ Charge cutoff for polarity   0.150000000000000     
+ After readscreen, (nx, ny, nz) = (          19 ,           19 ,           19 ).
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           19 , 
+          19 ,           19 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          56 ,           56 , 
+          56 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+
+Reading torsion control file '/home/dreano/schrodinger2019-4/glide-v8.5/bin/Linux-x86_64/../../data/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ res reso default   16.0000000000000        16.0000000000000     
+ res reso fin   16.0000000000000        16.0000000000000     
+ Use grow mode-t
+  
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ res reso default   4.00000000000000        4.00000000000000     
+ res reso fin   4.00000000000000        4.00000000000000     
+ REPORT POSE ANCH_2           1           0           3
+Full force-field refinement in receptor field for up to   30 poses
+    1 poses will be postminimized for this ligand
+ iancorig for REPORT pose           1           0
+NO POSES STORED FOR LIGAND        6 (mPP-0398)
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+GLIDE WARNING: No Ligand Poses were written to external file glide-dock_XP_PP_clean-0006_raw.maegz).  Cannot write sorted structure file(_pv.maegz or _lib.maegz), or report file (.rept).
+
+Exiting Glide
+Date: Friday, July 23 2021, at 15:25:39 EEST
+CPU time (s): 30.9 user, 0.3 system, 32.1 real
+Total elapsed time = 32 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_PP_clean-0006.log #########

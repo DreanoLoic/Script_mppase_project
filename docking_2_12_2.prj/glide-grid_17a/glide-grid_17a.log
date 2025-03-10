@@ -1,0 +1,36 @@
+Glide version 85012 (mmshare version 48012)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : dreanos-0-60f74790
+Name           : glide-grid_17a
+Program        : Glide
+Host           : dreanos
+Dir            : /home/dreano/Desktop/mppase/docking_2_12_2.prj/glide-grid_17a
+HostEntry      : localhost
+JobHost        : dreanos
+JobDir         : /home/dreano/scratch/dreano/glide-grid_17a
+JobSchrodinger : /home/dreano/schrodinger2019-4
+Commandline    : /home/dreano/schrodinger2019-4/glide glide-grid_17a.in -OVERWRITE -HOST localhost -PROJ /home/dreano/Desktop/mppase/docking_2_12_2.prj -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2021-07-21-01:00:48
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS3e atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           26 , 
+          26 ,           26 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          72 ,           72 , 
+          72 ).
+Creating output grid archive 'glide-grid_17a.zip'
+
+Exiting Glide
+Date: Wednesday, July 21 2021, at 01:13:24 EEST
+CPU time (s): 749.8 user, 1.5 system, 754.9 real
+Total elapsed time = 755 seconds (12 minutes, 35 seconds)
+[running at reduced cpu priority]

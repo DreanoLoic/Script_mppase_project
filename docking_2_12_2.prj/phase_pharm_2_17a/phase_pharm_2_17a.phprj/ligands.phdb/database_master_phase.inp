@@ -1,0 +1,3 @@
+LIGAND_DIR = database_ligands
+LIGAND_NAME = block_1/mol_1
+LIGAND_NAME = block_1/mol_2

@@ -1,0 +1,9 @@
+CALC_INPUT_RMS   True
+GRIDFILE   /home/dreano/Desktop/mppase/docking_2_12.prj/glide-grid_GCB_A_3/glide-grid_GCB_A_3.zip
+LIGANDFILE   xp_docking_6QXA_cmpd_2_13_GCB_A_3.maegz
+POSES_PER_LIG   30
+POSTDOCK_NPOSE   30
+POSTDOCK_XP_DELE   0.5
+PRECISION   XP
+WRITE_RES_INTERACTION   True
+WRITE_XP_DESC   True

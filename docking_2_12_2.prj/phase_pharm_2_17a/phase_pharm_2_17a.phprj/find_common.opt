@@ -1,0 +1,16 @@
+-JOB phase_pharm_2_17a_find_common
+-JOBHOST localhost:1
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-proj /home/dreano/scratch/dreano/phase_pharm_2_17a/phase_pharm_2_17a.phzip
+-redun 0.5
+-select 1.0
+-site 1.0
+-sites 4:5
+-vect 1.0
+-vol 1.0
