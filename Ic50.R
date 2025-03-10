@@ -152,7 +152,7 @@ plot.IC50 <- function(df.result = parsing_IC50(), conf.level = 0.9, showSDerr = 
                       showGOF = F, showEstim = F, save_pic = F, up.lim = 5e3, n = 5,
                       target = 'mPPase',folder_out = './Picture_260521/') {
   set.seed(123) # for reproducibility
-  setwd('~/Desktop/mppase/') # set working directory
+  # setwd('~/Desktop/mppase/') # set working directory
   df.return <- data.frame()
   l.result <- split(df.result, df.result$id) # split by id
   # loop over the different compounds
@@ -368,7 +368,7 @@ update.cmpd.register <- function(ic50_sum, cpd_reg, file_out) {
   return(df.3)
 }
 
-setwd('~/Desktop/mppase/')
+# setwd('~/Desktop/mppase/')
 
 # crop the curve image for the paper
 crop_folder <- function(folder_name = 'Picture_050719/Paper/curve/') {
@@ -404,7 +404,7 @@ update_IC50_csv <- function(ic50_tab, write_csv = F, csv_out = '') {
 
 # Parameters for the run (show/saving pictures, saving dataframes)
 pics <- T
-save_p <- T
+save_p <- F
 run_old <- F
 
 if (run_old){
